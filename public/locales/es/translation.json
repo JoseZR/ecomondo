@@ -1,0 +1,39 @@
+{
+    "menu": {
+        "about_us": "Quiénes somos",
+        "about_1": "Acerca de Ecomondo",
+        "about_2": "Acerca de IGECo",
+        "exhibitors": "Expositores",
+        "exhibitors_1": "Contacto",
+        "exhibitors_2": "Factsheet 2024",
+        "exhibitors_3": "Plano Ecomondo 2024",
+        "exhibitors_4": "Contrato Ecomondo 2024",
+        "exhibitors_5": "Contrato Patrocinios",
+        "exhibitors_6": "¡Participa en Ecomondo!",
+        "exhibitors_7": "Toolkit 2023",
+        "visitors": "Visitantes",
+        "visitors_1": "Perfil del visitante",
+        "past_events": "Ediciones Ecomondo",
+        "ecomondo2023" : " Ecomondo 2023",
+        "ecomondo2023_1" : "Directorio de Expositores 2023",
+        "ecomondo2023_2" : "Reporte de Resultados 2023",
+        "ecomondo2023_3" : "Programa de Conferencias 2023",
+        "ecomondo2023_4" : "Galeria 2023",
+        "ecomondo2022" : "Ecomondo 2022",
+        "ecomondo2022_1" : "Directorio de Expositores 2022",
+        "ecomondo2022_2" : "Reporte de Resultados 2023",
+        "ecomondo2022_3" : "Galeria 2022",
+        "media_hub": "Media hub",
+        "media_hub_1": "Galeria"
+    },
+    "home" :{
+        "factsheet" : "Factsheet 2024",
+        "floorplan" : "Plano 2024",
+        "results" : "Resultados 2023",
+        "exhibitor_directory" : "Directorio de Expositores",
+        "sponsor_1" : "Patrocinador Plata",
+        "text_1" : "Con el objetivo de reunir tecnologías y soluciones de sectores que promueven la transición ecológica y la economía circular, ECOMONDO MEXICO 2024 facilita y acelera oportunidades de negocio y networking con compradores profesionales e inversionistas nacionales e internacionales.",
+        "text_2" : "Desde el tratamiento de agua y la gestión de desperdicios, hasta la bioenergía y ciudades sostenibles, ECOMONDO MEXICO 2024 es el lugar ideal para acceder a las últimas tecnologías ecológicas, y a los conocimientos más especializados en economía circular, que le permitirán participar en los negocios verdes del presente y del futuro."
+    }
+
+}

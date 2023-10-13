@@ -1,0 +1,38 @@
+{
+    "menu": {
+        "about_us": "About us",
+        "about_1": "About Ecomondo",
+        "about_2": "About IGECo",
+        "exhibitors": "Exhibitors",
+        "exhibitors_1": "Contact",
+        "exhibitors_2": "Factsheet 2024",
+        "exhibitors_3": "Ecomondo Plan 2024",
+        "exhibitors_4": "Ecomondo Contract 2024",
+        "exhibitors_5": "Sponsorship Contract",
+        "exhibitors_6": "¡Participate in Ecomondo!",
+        "exhibitors_7": "Toolkit 2023",
+        "visitors": "Visitors",
+        "visitors_1": "Visitor profile",
+        "past_events": "PAST EVENTS",
+        "ecomondo2023" : " Ecomondo 2023",
+        "ecomondo2023_1" : "Exhibitor Directory 2023",
+        "ecomondo2023_2" : "Results Report 2023",
+        "ecomondo2023_3" : "Conference Program 2023",
+        "ecomondo2023_4" : "Gallery 2023",
+        "ecomondo2022" : "Ecomondo 2022",
+        "ecomondo2022_1" : "Exhibitor Directory 2022",
+        "ecomondo2022_2" : "Results Report 2023",
+        "ecomondo2022_3" : "Gallery 2022",
+        "media_hub": "Media hub",
+        "media_hub_1": "Gallery"
+    },
+    "home" :{
+        "factsheet" : "Factsheet 2024",
+        "floorplan" : "Floor Plan 2024",
+        "results" : "Results Report 2023",
+        "exhibitor_directory" : "Exhibitor Directory",
+        "sponsor_1" : "Silver Sponsor",
+        "text_1" : "With the aim of bringing together technologies and solutions from sectors that promote the ecological transition and a circular economy, ECOMONDO MEXICO 2024 facilitates and accelerates business opportunities while providing networking opportunities with professional buyers and national and international investors.",
+        "text_2" : "From water treatment and waste management to bioenergy and sustainable cities, ECOMONDO MEXICO 2024 is the ideal place to engage with the latest ecological technologies of the circular economy, enabling you to engage in the green businesses of the present and the future. "
+    }
+}
