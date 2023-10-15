@@ -33,6 +33,75 @@
         "exhibitor_directory" : "Exhibitor Directory",
         "sponsor_1" : "Silver Sponsor",
         "text_1" : "With the aim of bringing together technologies and solutions from sectors that promote the ecological transition and a circular economy, ECOMONDO MEXICO 2024 facilitates and accelerates business opportunities while providing networking opportunities with professional buyers and national and international investors.",
-        "text_2" : "From water treatment and waste management to bioenergy and sustainable cities, ECOMONDO MEXICO 2024 is the ideal place to engage with the latest ecological technologies of the circular economy, enabling you to engage in the green businesses of the present and the future. "
-    }
+        "text_2" : "From water treatment and waste management to bioenergy and sustainable cities, ECOMONDO MEXICO 2024 is the ideal place to engage with the latest ecological technologies of the circular economy, enabling you to engage in the green businesses of the present and the future.",
+        "zone" : "ZONES",
+        "zone_1" : {
+            "title" : "WASTE AND RESOURCES",
+            "item_1" : "Waste management and handling.",
+            "item_2" : "Hazardous, textile, plastics, organic waste management",
+            "item_3" : "Recycling of industrial materials Electronic waste management",
+            "item_4" : "Materials handling",
+            "item_5" : "Machinery for collection and loading of material",
+            "item_6" : "Waste collection and transport",
+            "item_7" : "Machineries for waste treatment",
+            "item_8" : "Recycling plants"
+         },
+         "zone_2" : {
+            "title" : "BIOENERGY",
+            "item_1" : "Bioenergy and waste management",
+            "item_2" : "Residual biomass",
+            "item_3" : "Energy crops",
+            "item_4" : "Production technologies and plants",
+            "item_5" : "Biofuels",
+            "item_6" : "Biotechnological processes",
+            "item_7" : "Compost for soil",
+            "item_8" : "Consulting"
+         },
+         "zone_3" : {
+            "title" : "WATER AND MONITORING",
+            "item_1" : "Wastewater management and treatment",
+            "item_2" : "Water valorization, instruments and monitoring",
+            "item_3" : "Treatment systems and plants",
+            "item_4" : "Infrastructure and plant projects",
+            "item_5" : "Water sustainability systems",
+            "item_6" : "Circularity of treated water",
+            "item_7" : "Energy sustainability"
+         },
+         "zone_4" : {
+            "title" : "SUSTAINABLE CITES",
+            "item_1" : "Sustainable Governance",
+            "item_2" : "Digital economy and inclusion",
+            "item_3" : "Carbon footprint strategies",
+            "item_4" : "Innovation and industrial competitiveness",
+            "item_5" : "Sustainable cities projects",
+            "item_6" : "Efficient lighting",
+            "item_7" : "Air quality and solutions for urban pollution",
+            "item_8" : "Green urban infrastructure",
+            "item_9" : "Urban furniture",
+            "item_10" : "Climate change resilient city",
+            "item_11" : "Electric mobility",
+            "item_12" : "Sustainable buildings"
+         },
+         "why_exhibit": {
+            "title" : "Why Should You Exhibit?",
+            "item_1": "Take advantage of the great renewable energy potential of Mexico and Latin America with access to leading national and international buyers with high purchasing power.",
+            "item_2": "Develop your business and become an innovator in the emerging market of zero carbon production, green business and environmentally friendly products.",
+            "item_3": "Discover the business opportunities presented by the circular economy and its value chain with leading national and international companies in the sector."
+         },
+         "why_exhibit_select": "Select and compare",
+            "why_exhibit_select_desc": "Among suppliers from three different continents: America, Europe and Asia",
+            "why_exhibit_visit": "Visit",
+            "why_exhibit_visit_desc": "The first exhibition focused on the circular economy industry in Mexico",
+            "why_exhibit_general": "Get a general market overview",
+            "why_exhibit_general_desc": "On an exhibition area of 5.000 sqms",
+         "strategies_allies" : "Strategies Allies",
+         "broadcasting_media_partners" : "Broadcasting Media Partners",
+         "platinum_media_partners" : "Platinum Media Partners",
+         "gold_media_partners" : "Gold Media Partners",
+         "silverm_media_partners" : "Silver Media Partners",
+         "mexican_market" : "The Mexican Market is Booming",
+         "mexican_market_desc" : "The market is supported by strict renewable energy policies and low prices, and is full of opportunities as the sector expands. Ecomondo will help you analyze market opportunities, and address ways in which an increasingly complex environment can be managed.",
+         "become_sponsor" : "Become a Sponsor",
+         "become_sponsor_desc" : "Ecomondo is endorsed by technologies and solutions in segments that drive sustainable development and the preservation of natural resources. If you are looking to initiate new business opportunities or grow your business in Latin America, a sponsorship can increase positive impressions in front of a paid target audience. Learn more about market opportunities."
+   }
 }

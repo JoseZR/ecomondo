@@ -11,7 +11,7 @@
         "exhibitors_5": "Contrato Patrocinios",
         "exhibitors_6": "¡Participa en Ecomondo!",
         "exhibitors_7": "Toolkit 2023",
-        "visitors": "Visitantes",
+                        "visitors": "Visitantes",
         "visitors_1": "Perfil del visitante",
         "past_events": "Ediciones Ecomondo",
         "ecomondo2023" : " Ecomondo 2023",
@@ -33,7 +33,72 @@
         "exhibitor_directory" : "Directorio de Expositores",
         "sponsor_1" : "Patrocinador Plata",
         "text_1" : "Con el objetivo de reunir tecnologías y soluciones de sectores que promueven la transición ecológica y la economía circular, ECOMONDO MEXICO 2024 facilita y acelera oportunidades de negocio y networking con compradores profesionales e inversionistas nacionales e internacionales.",
-        "text_2" : "Desde el tratamiento de agua y la gestión de desperdicios, hasta la bioenergía y ciudades sostenibles, ECOMONDO MEXICO 2024 es el lugar ideal para acceder a las últimas tecnologías ecológicas, y a los conocimientos más especializados en economía circular, que le permitirán participar en los negocios verdes del presente y del futuro."
+        "text_2" : "Desde el tratamiento de agua y la gestión de desperdicios, hasta la bioenergía y ciudades sostenibles, ECOMONDO MEXICO 2024 es el lugar ideal para acceder a las últimas tecnologías ecológicas, y a los conocimientos más especializados en economía circular, que le permitirán participar en los negocios verdes del presente y del futuro.",
+        "zone" : "EJES DEL EVENTO",
+         "zone_1" : {
+            "title" : "MANEJO DE RESIDUOS Y ECONOMÍA CIRCULAR",
+            "item_1" : "Gestión y manejo de residuos",
+            "item_2" : "Manejo de residuos peligrosos",
+            "item_3" : "Reciclaje de materiales industriales",
+            "item_4" : "Manejo de residuos electrónicos",
+            "item_5" : "Manejo de Materiales",
+            "item_6" : "Maquinaria de recolección y carga de materia",
+            "item_7" : "Recolección y transporte de residuos"
+         },
+         "zone_2" : {
+            "title" : "BIOENERGÍA",
+            "item_1" : "Bioenergía y gestión de residuos",
+            "item_2" : "Biomasa residual",
+            "item_3" : "Cultivos energéticos",
+            "item_4" : "Tecnologías y plantas de producción",
+            "item_5" : "Biocombustibles",
+            "item_6" : "Procesos Biotecnológicos",
+            "item_7" : "Consultoría"
+         },
+         "zone_3" : {
+            "title" : "CUIDADO Y MANEJO DEL AGUA",
+            "item_1" : "Manejo y tratamiento de aguas residuales",
+            "item_2" : "Valorización, instrumentos y monitoreo de aguas",
+            "item_3" : "Sistemas y plantas de tratamiento",
+            "item_4" : "Infraestructura y proyectos de plantas",
+            "item_5" : "Sistemas de sostenibilidad hídrica",
+            "item_6" : "Circularidad del agua tratada",
+            "item_7" : "Sustentabilidad Energética"
+         },
+         "zone_4" : {
+            "title" : "CIUDADES SOSTENIBLES",
+            "item_1" : "Gobernanza Sostenible",
+            "item_2" : "Economía e inclusión digital",
+            "item_3" : "Estrategias de Huella de carbono",
+            "item_4" : "Innovación y competitividad industrial",
+            "item_5" : "Proyectos de ciudades circulares",
+            "item_6" : "Luminarias inteligentes",
+            "item_7" : "Calidad del aire y solución a la contaminación urbana",
+            "item_8" : "Infraestructura Verde",
+            "item_9" : "Ciudad resiliente al cambio climático",
+            "item_10" : "Movilidad eléctrica"
+         },
+         "why_exhibit": {
+            "title" : "¿Por qué exponer?",
+            "item_1": "Aprovecha el gran potencial energético renovable de México y América Latina con el acceso a compradores líderes, nacionales e internacionales, de alto poder adquisitivo.",
+            "item_2": "Desarrolla tu negocio y conviértete en un innovador en el mercado naciente de la producción de carbono cero, negocios verdes y productos amigables con el medioambiente.",
+            "item_3": "Descubre las oportunidades de negocios que presenta la economía circular y su cadena de valor de la mano de las empresas líderes nacionales e internacionales del sector."
+         },
+         "why_exhibit_select": "Seleccione y compare",
+            "why_exhibit_select_desc": "entre proveedores de tres continentes diferentes: América, Europa y Asia",
+            "why_exhibit_visit": "Visite",
+            "why_exhibit_visit_desc": "la primera exposición enfocada en la industria de la energía solar en México",
+            "why_exhibit_general": "Obtenga una visión general",
+            "why_exhibit_general_desc": "del mercado en un área de exposición de 5.000 m²",
+            "strategies_allies" : "Aliados estratégicos",
+            "broadcasting_media_partners" : "Socios de medios de radiodifusión",
+            "platinum_media_partners" : "Socios de medios platino",
+            "gold_media_partners" : "Socios de medios de oro",
+            "silverm_media_partners" : "Socios de medios plateados",
+            "mexican_market" : "El Mercado Mexicano está en auge",
+            "mexican_market_desc" : "El mercado está respaldado por estrictas políticas sobre energía renovable y sus precios bajos, además, está lleno de oportunidades conforme se expande el sector. Ecomondo le será útil para analizar las  oportunidades de mercado, y abordará las maneras en las cuales se puede administrar un entorno cada vez más complejo.",
+            "become_sponsor" : "Conviértase en Patrocinador",
+            "become_sponsor_desc" : "Ecomondo cuenta con el respaldo de todas las tecnologías y soluciones de los segmentos que impulsan el desarrollo sostenible y el cuidado de los recursos naturales. Si usted está buscando iniciar nuevas oportunidades de negocio o hacer crecer su negocio en América Latina, un patrocinio le puede aumentar impresiones positivas frente a un público objetivo pagado. Conozca más sobre las oportunidades de mercado."
     }
 
 }
