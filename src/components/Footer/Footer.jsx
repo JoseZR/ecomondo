@@ -10,7 +10,7 @@ export function Footer() {
                 <div className='' style={{ width: '200px' }}><img src='/igeco_bn.webp' alt='igeco' className='w-100' loading='lazy' /></div>
                 <div className='' style={{ width: '200px' }}><img src='/deutsche_messe_bn.webp' alt='igeco' className='w-100' loading='lazy' /></div>
             </div>
-            <footer className=''>
+            <footer className='container-footer-padre'>
                 <Container>
                     <div className='footer-socialmedia mt-5'>
                         <a href='https://www.facebook.com/solar.storage.mexico' target='_blank' rel='noreferrer'>
