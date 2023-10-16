@@ -83,7 +83,7 @@
             "item_12" : "Sustainable buildings"
          },
          "why_exhibit": {
-            "title" : "Why Should You Exhibit?",
+            "title" : "WHY SHOULD YOU EXHIBIT?",
             "item_1": "Take advantage of the great renewable energy potential of Mexico and Latin America with access to leading national and international buyers with high purchasing power.",
             "item_2": "Develop your business and become an innovator in the emerging market of zero carbon production, green business and environmentally friendly products.",
             "item_3": "Discover the business opportunities presented by the circular economy and its value chain with leading national and international companies in the sector."
@@ -94,7 +94,7 @@
             "why_exhibit_visit_desc": "The first exhibition focused on the circular economy industry in Mexico",
             "why_exhibit_general": "Get a general market overview",
             "why_exhibit_general_desc": "On an exhibition area of 5.000 sqms",
-         "strategies_allies" : "Strategies Allies",
+         "strategies_allies" : "STRATEGIES ALLIES",
          "broadcasting_media_partners" : "Broadcasting Media Partners",
          "platinum_media_partners" : "Platinum Media Partners",
          "gold_media_partners" : "Gold Media Partners",
@@ -103,5 +103,12 @@
          "mexican_market_desc" : "The market is supported by strict renewable energy policies and low prices, and is full of opportunities as the sector expands. Ecomondo will help you analyze market opportunities, and address ways in which an increasingly complex environment can be managed.",
          "become_sponsor" : "Become a Sponsor",
          "become_sponsor_desc" : "Ecomondo is endorsed by technologies and solutions in segments that drive sustainable development and the preservation of natural resources. If you are looking to initiate new business opportunities or grow your business in Latin America, a sponsorship can increase positive impressions in front of a paid target audience. Learn more about market opportunities."
-   }
+   },
+   "footer": {
+      "privacy_policy": "Privacy Policy",
+      "contact": "Contact Us",
+      "name": "Name",
+      "email": "Email",
+      "subscription": "Suscribe"
+  }
 }

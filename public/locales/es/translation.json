@@ -90,15 +90,22 @@
             "why_exhibit_visit_desc": "la primera exposición enfocada en la industria de la energía solar en México",
             "why_exhibit_general": "Obtenga una visión general",
             "why_exhibit_general_desc": "del mercado en un área de exposición de 5.000 m²",
-            "strategies_allies" : "Aliados estratégicos",
+            "strategies_allies" : "ALIADOS ESTRATÉGICOS",
             "broadcasting_media_partners" : "Socios de medios de radiodifusión",
             "platinum_media_partners" : "Socios de medios platino",
             "gold_media_partners" : "Socios de medios de oro",
             "silverm_media_partners" : "Socios de medios plateados",
-            "mexican_market" : "El Mercado Mexicano está en auge",
+            "mexican_market" : "El mercado mexicano está en auge",
             "mexican_market_desc" : "El mercado está respaldado por estrictas políticas sobre energía renovable y sus precios bajos, además, está lleno de oportunidades conforme se expande el sector. Ecomondo le será útil para analizar las  oportunidades de mercado, y abordará las maneras en las cuales se puede administrar un entorno cada vez más complejo.",
-            "become_sponsor" : "Conviértase en Patrocinador",
+            "become_sponsor" : "Conviértase en patrocinador",
             "become_sponsor_desc" : "Ecomondo cuenta con el respaldo de todas las tecnologías y soluciones de los segmentos que impulsan el desarrollo sostenible y el cuidado de los recursos naturales. Si usted está buscando iniciar nuevas oportunidades de negocio o hacer crecer su negocio en América Latina, un patrocinio le puede aumentar impresiones positivas frente a un público objetivo pagado. Conozca más sobre las oportunidades de mercado."
-    }
+    },
+    "footer": {
+      "privacy_policy": "Aviso de privacidad",
+      "contact": "Contacto",
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "subscription": "Suscribirse al boletín"
+  }
 
 }

@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 import { useTranslation } from 'react-i18next'
 import { Home } from './components/Home/Home'
+import { Footer } from './components/Footer/Footer'
 
 function App() {
   const { t } = useTranslation()
@@ -24,6 +25,7 @@ function App() {
           }
         />
       </Routes>
+      <Footer />
     </>
   )
 }
