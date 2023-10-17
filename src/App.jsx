@@ -6,6 +6,7 @@ import { Helmet } from 'react-helmet'
 import { useTranslation } from 'react-i18next'
 import { Home } from './components/Home/Home'
 import { Footer } from './components/Footer/Footer'
+import { AboutUs } from './components/AboutUs/AboutUs'
 
 function App() {
   const { t } = useTranslation()
@@ -13,8 +14,7 @@ function App() {
     <>
       <Menu />
       <Routes>
-        <Route path='/'
-          element={
+        <Route path='/' element={
             <>
               <Helmet>  
                 <title>ECOMONDO</title>
@@ -23,6 +23,10 @@ function App() {
               <Home />
             </>
           }
+        />
+        <Route 
+          path='about-us'
+          element={<AboutUs />}
         />
       </Routes>
       <Footer />
