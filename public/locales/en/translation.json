@@ -26,7 +26,7 @@
         "media_hub": "Media hub",
         "media_hub_1": "Gallery"
     },
-    "home" :{
+    "home" :{    
         "factsheet" : "Factsheet 2024",
         "floorplan" : "Floor Plan 2024",
         "results" : "Results Report 2023",
@@ -104,6 +104,9 @@
          "become_sponsor" : "Become a Sponsor",
          "become_sponsor_desc" : "Ecomondo is endorsed by technologies and solutions in segments that drive sustainable development and the preservation of natural resources. If you are looking to initiate new business opportunities or grow your business in Latin America, a sponsorship can increase positive impressions in front of a paid target audience. Learn more about market opportunities."
    },
+    "aboutUs" :{
+      "description": "Is a platform for innovative environmental technologies designed for the Latin American market. The event brings together technologies and solutions in segments that drive sustainable development and the preservation of natural resources, like Water, Waste, Recycling, Renewable Energies, Energy Efficiency, Smary Mobility, Sustainable Cities and the Circular Economy, while facilitating networking among investors and potential national and international business partners in these sectors."
+    },
    "footer": {
       "privacy_policy": "Privacy Policy",
       "contact": "Contact Us",

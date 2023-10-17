@@ -11,7 +11,7 @@
         "exhibitors_5": "Contrato Patrocinios",
         "exhibitors_6": "¡Participa en Ecomondo!",
         "exhibitors_7": "Toolkit 2023",
-                        "visitors": "Visitantes",
+         "visitors": "Visitantes",
         "visitors_1": "Perfil del visitante",
         "past_events": "Ediciones Ecomondo",
         "ecomondo2023" : " Ecomondo 2023",
@@ -99,6 +99,9 @@
             "mexican_market_desc" : "El mercado está respaldado por estrictas políticas sobre energía renovable y sus precios bajos, además, está lleno de oportunidades conforme se expande el sector. Ecomondo le será útil para analizar las  oportunidades de mercado, y abordará las maneras en las cuales se puede administrar un entorno cada vez más complejo.",
             "become_sponsor" : "Conviértase en patrocinador",
             "become_sponsor_desc" : "Ecomondo cuenta con el respaldo de todas las tecnologías y soluciones de los segmentos que impulsan el desarrollo sostenible y el cuidado de los recursos naturales. Si usted está buscando iniciar nuevas oportunidades de negocio o hacer crecer su negocio en América Latina, un patrocinio le puede aumentar impresiones positivas frente a un público objetivo pagado. Conozca más sobre las oportunidades de mercado."
+    },
+    "aboutUs" :{
+      "description": "Es una plataforma de tecnología ambiental innovadora diseñada para el mercado latinoamericano, la cual tiene como objetivo reunir a todas las tecnologías y soluciones de los segmentos que impulsan el desarrollo sostenible y el cuidado de los recursos naturales como agua, residuos, reciclaje, energías renovables, eficiencia energética, movilidad inteligente, ciudades sostenibles y economía circular, que al mismo tiempo facilite el contacto entre inversionistas de estos sectores con potenciales socios comerciales nacionales e internacionales."
     },
     "footer": {
       "privacy_policy": "Aviso de privacidad",

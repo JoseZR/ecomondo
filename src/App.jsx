@@ -7,6 +7,10 @@ import { useTranslation } from 'react-i18next'
 import { Home } from './components/Home/Home'
 import { Footer } from './components/Footer/Footer'
 import { AboutUs } from './components/AboutUs/AboutUs'
+import { Participate } from './components/Participate/Participate'
+import { Toolkit } from './components/Toolkit/Toolkit'
+import { VisitorProfile } from './components/VisitorProfile/VisitorProfile'
+
 
 function App() {
   const { t } = useTranslation()
@@ -27,6 +31,18 @@ function App() {
         <Route 
           path='about-us'
           element={<AboutUs />}
+        />
+        <Route 
+          path='participate'
+          element={<Participate />}
+        />
+        <Route 
+          path='toolkit'
+          element={<Toolkit />}
+        />
+        <Route 
+          path='visitor-profile'
+          element={<VisitorProfile />}
         />
       </Routes>
       <Footer />
