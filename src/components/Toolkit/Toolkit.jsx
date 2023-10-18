@@ -10,12 +10,12 @@ import { useTranslation } from 'react-i18next'
 
 
 export function Toolkit () {
-    const { i18n } = useTranslation()
+    const { t, i18n } = useTranslation()
     return (
         <>
         <section className='bg-secondary-text mt-5 mb-5 '>
           <Container>
-            <i>SOLAR + STORAGE MEXICO</i>
+            <i>ECOMONDO MÉXICO</i>
             <p className='fw-bold fs-1'>Toolkit</p>
           </Container>
         </section>
@@ -30,7 +30,7 @@ export function Toolkit () {
               : '/toolkit/Exhibitor_ECOMONDO2024_EN.webp'}
               className='img-gallery'
             >
-              <p className='text-center'>Linkedin</p>
+              <p className='text-center title-toolk'>{t('toolkit.item01')}</p>
               <img
                 src={i18n.language === 'es'
                 ? '/toolkit/ExpositorConfirmado_ECOMONDO2024.webp'
@@ -45,7 +45,7 @@ export function Toolkit () {
               : '/toolkit/CourtesyAccess_ECOMONDO2024_EN.webp'}
               className='img-gallery'
             >
-              <p className='text-center'>Twitter</p>
+              <p className='text-center title-toolk'>{t('toolkit.item02')}</p>
               <img
                 src={i18n.language === 'es'
                 ? '/toolkit/AccesoCortesia_ECOMONDO2024-scaled.webp'
@@ -60,7 +60,7 @@ export function Toolkit () {
               : '/toolkit/FollowECOMONDO2024_EN.webp'}
               className='img-gallery'
             >
-              <p className='text-center'>Facebook</p>
+              <p className='text-center title-toolk'>{t('toolkit.item03')}</p>
               <img
                 src={i18n.language === 'es'
                 ? '/toolkit/SigueECOMONDO2023.webp'
@@ -75,7 +75,7 @@ export function Toolkit () {
               : '/toolkit/Facebook_ECOMONDO2024_EN.webp'}
               className='img-gallery'
             >
-              <p className='text-center'>Síguenos</p>
+              <p className='text-center title-toolk'>Facebook</p>
               <img
                 src={i18n.language === 'es'
                 ? '/toolkit/Facebook_ECOMONDO2024_ESP-scaled.webp'
@@ -90,7 +90,7 @@ export function Toolkit () {
               : '/toolkit/Twitter_ECOMONDO2024_EN-scaled.webp'}
               className='img-gallery'
             >
-              <p className='text-center'>Expositor Confirmado</p>
+              <p className='text-center title-toolk'>Twitter</p>
               <img
                 src={i18n.language === 'es'
                 ? '/toolkit/Twitter_ECOMONDO2024_ESP-scaled.webp'
@@ -105,7 +105,7 @@ export function Toolkit () {
               : '/toolkit/LinkedIn_ECOMONDO2024_EN.webp'}
               className='img-gallery'
             >
-              <p className='text-center'>Acceso de Cortesía</p>
+              <p className='text-center title-toolk'>Linkedin</p>
               <img
                 src={i18n.language === 'es'
                 ? '/toolkit/LinkedIn_ECOMONDO2024_ESP-scaled.webp'

@@ -4,6 +4,16 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
+.title-toolk{
+    font-size: 25px;
+    font-weight: 700;
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+  }
+
 /* Media Query para dispositivos móviles */
 @media (max-width: 767px) {
 
