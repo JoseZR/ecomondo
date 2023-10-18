@@ -3,3 +3,12 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+/* Media Query para dispositivos móviles */
+@media (max-width: 767px) {
+
+    .toollkit .lg-react-element{   
+        columns: inherit !important;
+        display: inline-block;
+    }
+}
