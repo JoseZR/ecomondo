@@ -107,6 +107,11 @@
     "aboutUs" :{
       "description": "Is a platform for innovative environmental technologies designed for the Latin American market. The event brings together technologies and solutions in segments that drive sustainable development and the preservation of natural resources, like Water, Waste, Recycling, Renewable Energies, Energy Efficiency, Smary Mobility, Sustainable Cities and the Circular Economy, while facilitating networking among investors and potential national and international business partners in these sectors."
     },
+    "visitorProfile":{
+      "title": "Visitor profile",
+      "description": "<ul><li>Directors of companies and industries</li><li>Government authorities and agencies</li><li>Environmental managers</li><li>Waste managers</li><li>Refineries and mining companies</li><li>Transportation Industry</li><li>Recycling Industry</li><li>Chemical Industry</li></ul>",
+      "description2": "<ul><li>Engineers</li><li>Occupational safety technicians</li><li>Consultants</li><li>Rescue Teams and emergency Operators working with dangerous products</li><li>Chemical product carriers</li><li>Press</li></ul>"
+  },
    "footer": {
       "privacy_policy": "Privacy Policy",
       "contact": "Contact Us",

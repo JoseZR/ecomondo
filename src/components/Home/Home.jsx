@@ -10,24 +10,24 @@ export function Home () {
                 <header>
                     <nav className='my-5 py-3 home-eco-submenu'>
                         <a  className='sub-menu-doc'
-                            href={i18n.language === 'en'
-                                ? '/files/SOLAR-STORAGE-MEXICO-FACTSHEET-INGLÉS.pdf'
-                                : '/files/SOLAR-STORAGE-MEXICO-FACTSHEET-ESPAÑOL.pdf'}
+                            href={i18n.language === 'es'
+                                ? '/files/Factsheet-Ecomondo-Mexico-2024_ES-1.pdf'
+                                : '/files/Factsheet-Ecomondo-Mexico-2024_EN-1.pdf'}
                             target='_blank' rel='noreferrer'
                         >
                             <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' width={30}>
                                 <path strokeLinecap='round' strokeLinejoin='round' d='M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25M9 16.5v.75m3-3v3M15 12v5.25m-4.5-15H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z' />
                             </svg>{t('home.factsheet')}
                         </a>
-                        <a href='https://spmx24.mapyourshow.com/8_0/floorplan/index.cfm' target='_blank' rel='noreferrer'  className='sub-menu-doc'>
+                        <a href='/files/ECO-Y-SSM-2024-V5-100523-Floor.pdf' target='_blank' rel='noreferrer'  className='sub-menu-doc'>
                             <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' width={30}>
                                 <path strokeLinecap='round' strokeLinejoin='round' d='M2.25 7.125C2.25 6.504 2.754 6 3.375 6h6c.621 0 1.125.504 1.125 1.125v3.75c0 .621-.504 1.125-1.125 1.125h-6a1.125 1.125 0 01-1.125-1.125v-3.75zM14.25 8.625c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v8.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-8.25zM3.75 16.125c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-2.25z' />
                             </svg> {t('home.floorplan')}
                         </a>
                         <a className='sub-menu-doc'
-                            href={i18n.language === 'en'
-                                ? '/files/RESULTS-REPORT-SSM-2023-ENG.pdf'
-                                : '/files/REPORTE-DE-RESULTADOS-SSM-2023-ESP.pdf'}
+                            href={i18n.language === 'es'
+                                ? '/files/REPORTE-DE-RESULTADOS-ECO-ESP.pdf'
+                                : '/files/AFTERSHOW-REPORT-ECO-ENG.pdf'}
                             target='_blank' rel='noreferrer'
                         >
                             <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' width={30}>
@@ -35,7 +35,7 @@ export function Home () {
                             </svg>
                             {t('home.results')}
                         </a>
-                        <a href='/files/Directorio-SSM-2023.pdf' target='_blank' rel='noreferrer' className='sub-menu-doc'>
+                        <a href='/files/Directorio_ECOMONDO_2023.pdf' target='_blank' rel='noreferrer' className='sub-menu-doc'>
                             <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' width={30} >
                                 <path strokeLinecap='round' strokeLinejoin='round' d='M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25' />
                             </svg>{t('home.exhibitor_directory')}

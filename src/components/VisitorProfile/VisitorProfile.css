@@ -1,0 +1,60 @@
+.container-visitor-padre{
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-visitorProfile{
+    background-image: url('/background-eco01.webp');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 400px;
+    height: 400px;
+    margin: 0px auto;
+
+}
+
+.bg-visitorProfile2{
+    background-image: url('/background-eco02.webp');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 400px;
+    height: 400px;
+    margin: 0px auto;
+}
+
+.visitor1{
+    text-align: right;
+}
+.visitor2{
+    text-align: start;
+}
+
+.visitor-profile ul{
+    list-style-image: url("/cog.svg");
+}
+.visitor-profile li::marker {
+    font-size: 2em;        
+}
+.visitor-profile ul li:hover  {
+    list-style-image: url("/flag.svg");     
+}
+
+/* Media Query para dispositivos móviles */
+@media (max-width: 767px) {
+
+    .bg-visitorProfile, .bg-visitorProfile2{
+        width: 300px;
+        height: 300px;
+    }
+    .elemento1{
+        order: 2;
+    }
+    .elemento2{
+        order: 1;
+    }
+  
+}
