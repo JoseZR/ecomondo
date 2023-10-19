@@ -344,104 +344,96 @@ export function Home () {
                             </Col>
                         </Row>
                         <p className='fw-bold fs-2 text-center pt-5' style={{ color: '#288705' }}>{t('home.gold_media_partners')}</p>
-                        <Row className='text-center pt-4'>
-                            <Col md={3} className='mx-auto my-auto'>
-                                <a href='https://www.cosmos.com.mx/' target='_blank' rel='noreferrer'>
-                                    <img src='/logos/cosmos.webp' width={200} height={90} loading='lazy' alt='cosmos' />
-                                </a>
-                            </Col>
-                            <Col md={3} className='mx-auto my-auto'>
-                                <a href='https://energyandcommerce.com.mx/' target='_blank' rel='noreferrer'>
-                                    <img src='/logos/energy-commerce.webp' width={150} height={60} loading='lazy' alt='energy-&-commerce' />
-                                </a>
-                            </Col>
-                            <Col md={3} className='mx-auto my-auto'>
-                                <a href='https://energiahoy.com/' target='_blank' rel='noreferrer'>
-                                    <img src='/logos/energia-hoy.webp' width={200} height={50} loading='lazy' alt='energia-hoy' />
-                                </a>
-                            </Col>
-                            <Col md={3} className='mx-auto my-auto'>
-                                <a href='https://energy21.com.mx/' target='_blank' rel='noreferrer'>
-                                    <img src='/logos/energy-21.webp' width={200} height={40} loading='lazy' alt='energy-21' />
-                                </a>
-                            </Col>
-                        </Row>
-                        <Row className='text-center pt-4'>
-                            <Col md={3} className='mx-auto my-auto'>
-                                <a href='https://dplnews.com/' target='_blank' rel='noreferrer'>
-                                    <img src='/logos/dpl.webp' width={180} height={70} loading='lazy' alt='dpl-news' />
-                                </a>
-                            </Col>
-                            <Col md={3} className='mx-auto my-auto'>
-                                <a href='https://energiaadebate.com/' target='_blank' rel='noreferrer'>
-                                    <img src='/logos/energiadebate.webp' width={180} height={90} loading='lazy' alt='energia-debate' />
-                                </a>
-                            </Col>
-                            <Col md={3} className='mx-auto my-auto'>
-                                <a href='' target='_blank' rel='noreferrer'>
-                                    <img src='/logos/global-industries.webp' width={200} height={70} loading='lazy' alt='' />
-                                </a>
-                            </Col>
-                            <Col md={3} className='mx-auto my-auto'>
-                                <a href='https://greentology.life/' target='_blank' rel='noreferrer'>
-                                    <img src='/logos/greentology.webp' width={250} height={70} loading='lazy' alt='greentology' />
-                                </a>
-                            </Col>
-                        </Row>
-                        <Row className='text-center pt-4'>
-                            <Col md={3} className='mx-auto my-auto'>
-                                <a href='https://revistaconsultoria.com.mx/' target='_blank' rel='noreferrer'>
-                                    <img src='/logos/consultoria.webp' width={250} height={50} loading='lazy' alt='consultoria-revista' />
-                                </a>
-                            </Col>
-                            <Col md={3} className='mx-auto my-auto'>
-                                <a href='https://www.vanguardia-industrial.net/' target='_blank' rel='noreferrer'>
-                                    <img src='/logos/vanguardia-industrial.webp' width={200} height={100} loading='lazy' alt='vanguardia-industrial' />
-                                </a>
-                            </Col>
-                            <Col md={3} className='mx-auto my-auto'>
-                                <a href='https://worldconstruccion.mx/' target='_blank' rel='noreferrer'>
-                                    <img src='/logos/construccion.webp' width={200} height={40} loading='lazy' alt='world-construccion' />
-                                </a>
-                            </Col>
-                        </Row>
-                        <p className='fw-bold fs-2 text-center mt-5 pt-5' style={{ color: '#288705' }}>{t('home.silverm_media_partners')}</p>
-                            <Row className='text-center pt-4'>
-                                <Col md={3} className='mx-auto my-auto'>
+                            <Marquee gradient className='mt-3'>
+                                <div className='exibitorSlider text-center h-100'>
+                                    <a href='https://www.cosmos.com.mx/' target='_blank' rel='noreferrer'>
+                                        <img src='/logos/cosmos.webp' width={200} height={90} loading='lazy' alt='cosmos' />
+                                    </a>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
+                                    <a href='https://energyandcommerce.com.mx/' target='_blank' rel='noreferrer'>
+                                        <img src='/logos/energy-commerce.webp' width={150} height={60} loading='lazy' alt='energy-&-commerce' />
+                                    </a>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
+                                    <a href='https://energiahoy.com/' target='_blank' rel='noreferrer'>
+                                        <img src='/logos/energia-hoy.webp' width={200} height={50} loading='lazy' alt='energia-hoy' />
+                                    </a>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
+                                    <a href='https://energy21.com.mx/' target='_blank' rel='noreferrer'>
+                                        <img src='/logos/energy-21.webp' width={200} height={40} loading='lazy' alt='energy-21' />
+                                    </a>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
                                     <a href='https://dplnews.com/' target='_blank' rel='noreferrer'>
+                                        <img src='/logos/dpl.webp' width={180} height={70} loading='lazy' alt='dpl-news' />
+                                    </a>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
+                                    <a href='https://energiaadebate.com/' target='_blank' rel='noreferrer'>
+                                        <img src='/logos/energiadebate.webp' width={180} height={90} loading='lazy' alt='energia-debate' />
+                                    </a>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
+                                    <a href='' target='_blank' rel='noreferrer'>
+                                        <img src='/logos/global-industries.webp' width={200} height={70} loading='lazy' alt='' />
+                                    </a>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
+                                    <a href='https://greentology.life/' target='_blank' rel='noreferrer'>
+                                        <img src='/logos/greentology.webp' width={250} height={70} loading='lazy' alt='greentology' />
+                                    </a>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
+                                    <a href='https://revistaconsultoria.com.mx/' target='_blank' rel='noreferrer'>
+                                        <img src='/logos/consultoria.webp' width={250} height={50} loading='lazy' alt='consultoria-revista' />
+                                    </a>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
+                                    <a href='https://www.vanguardia-industrial.net/' target='_blank' rel='noreferrer'>
+                                        <img src='/logos/vanguardia-industrial.webp' width={200} height={100} loading='lazy' alt='vanguardia-industrial' />
+                                    </a>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
+                                    <a href='https://worldconstruccion.mx/' target='_blank' rel='noreferrer'>
+                                        <img src='/logos/construccion.webp' width={200} height={40} loading='lazy' alt='world-construccion' />
+                                    </a>
+                                </div>
+                            </Marquee>
+                        <p className='fw-bold fs-2 text-center mt-5 pt-5' style={{ color: '#288705' }}>{t('home.silverm_media_partners')}</p>
+                            <Marquee gradient className='mt-3' direction='letf'>
+                                <div className='exibitorSlider text-center h-100'>
+                                <a href='https://dplnews.com/' target='_blank' rel='noreferrer'>
                                         <img src='/logos/gap.webp' width={180} height={70} loading='lazy' alt='dpl-news' />
                                     </a>
-                                </Col>
-                                <Col md={3} className='mx-auto my-auto'>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
                                     <a href='https://energiaadebate.com/' target='_blank' rel='noreferrer'>
                                         <img src='/logos/biosfera.webp' width={180} height={90} loading='lazy' alt='energia-debate' />
                                     </a>
-                                </Col>
-                                <Col md={3} className='mx-auto my-auto'>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
                                     <a href='' target='_blank' rel='noreferrer'>
                                         <img src='/logos/clean-tech.webp' width={200} height={50} loading='lazy' alt='' />
                                     </a>
-                                </Col>
-                                <Col md={3} className='mx-auto my-auto'>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
                                     <a href='https://greentology.life/' target='_blank' rel='noreferrer'>
-                                        <img src='/logos/preferencia.webp' width={200} height={60} loading='lazy' alt='greentology' />
+                                            <img src='/logos/preferencia.webp' width={200} height={60} loading='lazy' alt='greentology' />
                                     </a>
-                                </Col>
-                            </Row>
-                            <Row className='text-center pt-4'>
-                            <Col md={2} className='mx-auto my-auto'></Col>
-                                <Col md={4} className='mx-auto my-auto'>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
                                     <a href='https://dplnews.com/' target='_blank' rel='noreferrer'>
                                         <img src='/logos/metropoli-min.webp' width={180} height={50} loading='lazy' alt='dpl-news' />
                                     </a>
-                                </Col>
-                                <Col md={4} className='mx-auto my-auto'>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
                                     <a href='https://greentology.life/' target='_blank' rel='noreferrer'>
                                         <img src='/logos/petroleo-energia.webp' width={190} height={110} loading='lazy' alt='greentology' />
                                     </a>
-                                </Col>
-                                <Col md={2} className='mx-auto my-auto'></Col>
-                            </Row>
+                                </div>
+                            </Marquee>
                     </Container>
             </section>
             <div className='container-market'>

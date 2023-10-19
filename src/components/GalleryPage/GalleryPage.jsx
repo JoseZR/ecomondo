@@ -10,9 +10,9 @@ export function GalleryPage (){
     return (
         <>
         <Container className='galleryPage mt-5'>
-          <h1 className='gallery-title'>{t('menu.media_hub_1')} Ecomondo 2023</h1>
+          <h1 className='gallery-title'>{t('menu.media_hub_1')} - Ecomondo 2023</h1>
           <GalleryYear year={gallery2023} />
-          <h1 className='gallery-title'>{t('menu.media_hub_1')} Ecomondo 2022</h1>
+          <h1 className='gallery-title'>{t('menu.media_hub_1')} - Ecomondo 2022</h1>
           <GalleryYear year={gallery2022} />
         </Container>
       </> 
