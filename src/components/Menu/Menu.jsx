@@ -65,7 +65,7 @@ export function Menu() {
                     : '/files/Resultados_ECO_2022_EN.pdf'} target='_blank' onClick={handleClose}>{t('menu.ecomondo2022_2')}</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title={t('menu.media_hub')} renderMenuOnMount disabled>
-                <NavDropdown.Item as={Link} to='/about-us' onClick={handleClose}>{t('menu.media_hub_1')}</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to='/gallery' onClick={handleClose}>{t('menu.media_hub_1')}</NavDropdown.Item>
             </NavDropdown>
               <NavDropdown
                     className='language-dropdown'

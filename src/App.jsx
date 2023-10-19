@@ -10,6 +10,7 @@ import { AboutUs } from './components/AboutUs/AboutUs'
 import { Participate } from './components/Participate/Participate'
 import { Toolkit } from './components/Toolkit/Toolkit'
 import { VisitorProfile } from './components/VisitorProfile/VisitorProfile'
+import { GalleryPage } from './components/GalleryPage/GalleryPage'
 
 
 function App() {
@@ -43,6 +44,10 @@ function App() {
         <Route 
           path='visitor-profile'
           element={<VisitorProfile />}
+        />
+         <Route 
+          path='gallery'
+          element={<GalleryPage />}
         />
       </Routes>
       <Footer />
