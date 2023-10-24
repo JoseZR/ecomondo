@@ -108,6 +108,25 @@
       "item02" : "Acceso de Cortesía",
       "item03" : "Redes Sociales"
     },
+    "participate":{
+            "title" : "ENCUENTRA EL PLAN ADECUADO",
+            "free" : "SUPERFICIE LIBRE",
+            "equipped" :  "STAND EQUIPADO",
+            "sustainable" : "SUSTENTABLE HUB",
+            "item01" : "mínimo",
+            "item02" : "Gafetes para expositor",
+            "item03" : "Mención en el directorio",
+            "item04" : "NO incluye alfombra, construcción, mobiliario ni servicios.",
+            "item05" : "Alfombra estándar",
+            "item06" : "Mamparas divisorias",
+            "item07" : "Antepecho con rótulo en vinil",
+            "item08" : "Iluminación",
+            "item09" : "Mobiliario estándar",
+            "item10" : "Contacto eléctrico de 110v",
+            "item11" : "Rótulo en vinil",
+            "item12" : "2 gafetes para el personal",
+            "rate_button" : "ME INTERESA"
+    },
     "visitorProfile":{
       "title": "Perfil de visitantes",
       "description": "<ul><li>Directores de empresas e industrias</li><li>Autoridades y dependencias de gobierno</li><li>Gestores medioambientales</li><li>Gestores de residuos</li><li>Refinerías y compañías mineras</li><li>Industria del transporte</li><li>Industria del reciclaje</li><li>Industria química</li></ul>",

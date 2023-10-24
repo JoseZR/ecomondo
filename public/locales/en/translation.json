@@ -25,6 +25,7 @@
         "ecomondo2022_3" : "Gallery 2022",
         "media_hub": "Media hub",
         "media_hub_1": "Gallery"
+
     },
     "home" :{    
         "factsheet" : "Factsheet 2024",
@@ -112,6 +113,25 @@
       "item02" : "Courtesy Access",
       "item03" : "Social Network"
     },
+    "participate":{
+      "title" : "FIND THE RIGHT PLAN",
+      "free" : "FREE SURFACE",
+      "equipped" :  "EQUIPPED STAND",
+      "sustainable" : "SUSTAINABLE HUB",
+      "item01" : "minimum",
+      "item02" : "Exhibitor badges",
+      "item03" : "Mention in the directory",
+      "item04" : "Does NOT include carpet, construction, furniture or services",
+      "item05" : "Standard carpet",
+      "item06" : "Dividing screens",
+      "item07" : "Windowsill with vinyl label",
+      "item08" : "Lightning",
+      "item09" : "Standard furniture",
+      "item10" : "110v Electrical contact",
+      "item11" : "Vinyl sign",
+      "item12" : "2 Badges for staff",
+      "rate_button" : "I'M INTERESTED"
+},
     "visitorProfile":{
       "title": "Visitor profile",
       "description": "<ul><li>Directors of companies and industries</li><li>Government authorities and agencies</li><li>Environmental managers</li><li>Waste managers</li><li>Refineries and mining companies</li><li>Transportation Industry</li><li>Recycling Industry</li><li>Chemical Industry</li></ul>",

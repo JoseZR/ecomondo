@@ -26,18 +26,27 @@
     margin: 0px auto;
 }
 
-.visitor1{
-    text-align: right;
+.visitor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.visitor2{
-    text-align: start;
-}
+
+.visitor1{text-align: right;}
+.visitor2{text-align: start;}
+
+ .visitor li{ padding: 5px 0px;}
 
 .visitor-profile ul{
     list-style-image: url("/cog.svg");
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 700;
+    list-style-type: none;
 }
+
 .visitor-profile li::marker {
-    font-size: 2em;        
+    font-size: 2em;     
 }
 .visitor-profile ul li:hover  {
     list-style-image: url("/flag.svg");     
