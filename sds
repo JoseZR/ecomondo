@@ -1,0 +1,125 @@
+[33mcommit 9e45b6d2003dd9c81254bf79eba312dd0be73364[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: JoseZR <josezerrod@hotmail.com>
+Date:   Tue Oct 24 00:40:44 2023 -0600
+
+    se agrega seccion de precios
+
+[33mcommit 59e373796f473d85081733e42955e63f9ae91fa1[m
+Author: JoseZR <josezerrod@hotmail.com>
+Date:   Mon Oct 23 23:55:33 2023 -0600
+
+    se eliminan video
+
+[33mcommit ef2210ef2bd259295953e779d7daf2ef9fa742f6[m
+Author: JoseZR <josezerrod@hotmail.com>
+Date:   Mon Oct 23 17:01:20 2023 -0600
+
+    se agrega seccion de paquetes
+
+[33mcommit 953e7ba0a15e3e1e3022518c0afce913aef880a5[m
+Author: JoseZR <josezerrod@hotmail.com>
+Date:   Mon Oct 23 16:21:45 2023 -0600
+
+    se agrega seccion de planes
+
+[33mcommit 8c8ce83d903dd780d07826209f59b6d5c03a4330[m
+Author: JoseZR <josezerrod@hotmail.com>
+Date:   Mon Oct 23 01:56:55 2023 -0600
+
+    se agrega tarjetas
+
+[33mcommit 7033f1e26b557dad0e0bebdf6862922ac8880abd[m
+Author: JoseZR <josezerrod@hotmail.com>
+Date:   Sat Oct 21 09:40:41 2023 -0600
+
+    se agrega formulario
+
+[33mcommit 95c41557880d490765a7b2819e3d78430b371225[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: JoseZR <josezerrod@hotmail.com>
+Date:   Thu Oct 19 11:51:56 2023 -0600
+
+    se agrega media partners
+
+[33mcommit 1bce04c4dbe8036a7990d19092d941412dee825a[m
+Author: JoseZR <josezerrod@hotmail.com>
+Date:   Thu Oct 19 10:39:44 2023 -0600
+
+    se agrega galeria ecomondo 2022
+
+[33mcommit df889f899559e56e1d912d78dd65f6d711bbee48[m
+Author: JoseZR <josezerrod@hotmail.com>
+Date:   Thu Oct 19 00:53:25 2023 -0600
+
+    se agrega seccion de galeria
+
+[33mcommit 8361c98a6672c993e30a61ca1f242b4954e77dab[m
+Author: JoseZR <josezerrod@hotmail.com>
+Date:   Wed Oct 18 11:31:01 2023 -0600
+
+    se agrega reporte de resultados
+
+[33mcommit d68413b6ddab292cd029e77a33a14df11d545aa0[m
+Author: JoseZR <josezerrod@hotmail.com>
+Date:   Wed Oct 18 10:23:26 2023 -0600
+
+    cambio en imagenes de toolkit
+
+[33mcommit 8f62b1f37dc086a3bdd6e04cc12f3540b45649b2[m
+Author: JoseZR <josezerrod@hotmail.com>
+Date:   Wed Oct 18 01:25:31 2023 -0600
+
+    se agrega diseno en bloque para toolkit
+
+[33mcommit c27ee371c7f6f4e75f1dd4b941af2824abc4caee[m
+Author: JoseZR <josezerrod@hotmail.com>
+Date:   Wed Oct 18 01:21:18 2023 -0600
+
+    se agrega seccion de toolkit
+
+[33mcommit 8f5d9a14e95c24e0404e52cea672ed0d73494121[m
+Author: JoseZR <josezerrod@hotmail.com>
+Date:   Tue Oct 17 10:33:14 2023 -0600
+
+    se agrega pdf's
+
+[33mcommit b5416fa7c216e400d7ca4fcfdeaa1852bed0f717[m
+Author: JoseZR <josezerrod@hotmail.com>
+Date:   Mon Oct 16 18:05:30 2023 -0600
+
+    se crea seccion de About Us
+
+[33mcommit 7e3f92cf1dc71e6b5772be922bb9cacf5d1dab97[m
+Author: JoseZR <josezerrod@hotmail.com>
+Date:   Mon Oct 16 17:23:35 2023 -0600
+
+    se agregan logos de patrocinadores
+
+[33mcommit 5724f4e38c630a9c4e13a405a390cd8f3a1b977b[m
+Author: JoseZR <josezerrod@hotmail.com>
+Date:   Mon Oct 16 01:31:04 2023 -0600
+
+    se cambia alineación de texto
+
+[33mcommit 48898112fd9112f8aa36e5bad2b330738a79668f[m
+Author: JoseZR <josezerrod@hotmail.com>
+Date:   Mon Oct 16 01:26:33 2023 -0600
+
+    se agrega seccion de footer
+
+[33mcommit f819db33e913daf09da9eff21ce1965b5232815a[m
+Author: JoseZR <josezerrod@hotmail.com>
+Date:   Sun Oct 15 12:40:19 2023 -0600
+
+    se agrega seccion de Por qué exponer
+
+[33mcommit 4f7670268adc0678c115f0a106555f478ac4cf58[m
+Author: JoseZR <josezerrod@hotmail.com>
+Date:   Fri Oct 13 01:34:07 2023 -0600
+
+    se crea seccion de home
+
+[33mcommit b781cc7319f9074a87a61ef7d0ed071e6b3c62ce[m
+Author: JoseZR <josezerrod@hotmail.com>
+Date:   Mon Oct 9 00:25:22 2023 -0600
+
+    first commit
