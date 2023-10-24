@@ -237,7 +237,7 @@ export function Home() {
                     </Col>
                 </Row>
             </Container>
-            <section className='py-5'>
+            <section className='pb-5'>
                 <Container className='pt-5'>
                     <p className='fw-bold fs-2 text-center' style={{ color: '#288705' }}>{t('home.strategies_allies')}</p>
                     <Marquee gradient direction='letf'>
