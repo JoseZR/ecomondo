@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Container, Nav, Tab, Tabs } from 'react-bootstrap'
+import { Accordion, Container, Nav, Tab, Tabs } from 'react-bootstrap'
 import './Program.css'
 
 export function Schedule () {
@@ -15,293 +15,90 @@ export function Schedule () {
         <Container className='pt-5 py-5'>
           <center>
             <h1 className='text-light fw-font title-conferencias'>
-              <strong>CRONOGRAMA DE ACTIVIDADES</strong>
+              {/* <strong>CRONOGRAMA DE ACTIVIDADES</strong> */}
             </h1>
           </center>
           <div className='program-dates mt-5'>
             <Nav className='menu-cronograma' variant='tabs' activeKey={activeTab}>
               <Nav.Item>
-                <Nav.Link eventKey='day1' onClick={() => handleTabSelect('day1')}>
+                <Nav.Link eventKey='item01' onClick={() => handleTabSelect('item01')}>
                   <h4 className='text-light'>
-                    <strong>SILAO</strong>
+                    <strong>ECO EXPERIENCES</strong>
                   </h4>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey='day2' onClick={() => handleTabSelect('day2')}>
+                <Nav.Link eventKey='item02' onClick={() => handleTabSelect('item02')}>
                   <h4 className='text-light'>
-                    <strong>CORTAZAR</strong>
+                    <strong>SPONSOR</strong>
                   </h4>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey='day3' onClick={() => handleTabSelect('day3')}>
+                <Nav.Link eventKey='item03' onClick={() => handleTabSelect('item03')}>
                   <h4 className='text-light'>
-                    <strong>DOLORES HIDALGO</strong>
-                  </h4>
-                </Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link eventKey='day4' onClick={() => handleTabSelect('day4')}>
-                  <h4 className='text-light'>
-                    <strong>LEÓN</strong>
+                    <strong>BRANDING </strong>
                   </h4>
                 </Nav.Link>
               </Nav.Item>
             </Nav>
           </div>
           <Tabs
-            defaultActiveKey='day1'
+            defaultActiveKey='item01'
             activeKey={activeTab}
             id='fill-tab-example'
             className='mb-3'
             onSelect={(key) => handleTabSelect(key)}
           >
-            <Tab eventKey='day1'>
-              <Container>
+            <Tab eventKey='item01'>
+              <Container style={{ color: '#ffff' }}>
                 <div className='container mt-3'>
-                  <div className='table-responsive custom-table-container'>
-                    <table className='custom-table'>
-                      <thead>
-                        <tr>
-                          <th />
-                          <th colSpan='3' className='text-center'>Categoría</th>
-                        </tr>
-                        <tr>
-                          <th>Actividades</th>
-                          <th>Sumo Autónomo</th>
-                          <th>M-Tech Innovations</th>
-                          <th>Rally de Roboinsectos</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Inicio Registro</td>
-                          <td>08:30 a.m - 08:45 a.m</td>
-                          <td>09:00 a.m - 09:15 a.m</td>
-                          <td>10:30 a.m - 10:45 a.m</td>
-                        </tr>
-                        <tr>
-                          <td>Inicio Zona Técnica</td>
-                          <td>08:45 a.m - 09:10 a.m</td>
-                          <td>09:15 a.m - 09:40 a.m</td>
-                          <td>10:45 a.m - 11:10 a.m</td>
-                        </tr>
-                        <tr>
-                          <td>Inicio Zona Homologación</td>
-                          <td>09:10 a.m - 09:35 a.m</td>
-                          <td />
-                          <td>11:10 a.m - 11:35 a.m</td>
-                        </tr>
-                        <tr>
-                          <td>Inauguración M-Tech</td>
-                          <td colSpan='3' className='text-center'>10:00 a.m - 10:30 a.m</td>
-                        </tr>
-                        <tr>
-                          <td>Inicio de Competencias</td>
-                          <td>10:30 a.m - 12:00 p.m</td>
-                          <td>10:30 a.m - 12:00 p.m</td>
-                          <td>12:00 p.m - 13:30 p.m</td>
-                        </tr>
-                        <tr>
-                          <td>Pase a la Final</td>
-                          <td>13:30 p.m - 13:55 p.m</td>
-                          <td>14:00 p.m - 14:25 p.m</td>
-                          <td>14:30 p.m - 14:55 p.m</td>
-                        </tr>
-                        <tr>
-                          <td>Premiación y Cierre</td>
-                          <td colSpan='3' className='text-center'>15:00 p.m - 15:30 p.m</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+                  <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, sit.</h3>
                 </div>
               </Container>
             </Tab>
-            <Tab eventKey='day2'>
-              <Container style={{ color: '#ffff' }}>
+            <Tab eventKey='item02'>
+            <Container style={{ color: '#ffff' }}>
                 <div className='container mt-3'>
-                  <div className='table-responsive custom-table-container'>
-                    <table className='custom-table'>
-                      <thead>
-                        <tr>
-                          <th />
-                          <th colSpan='3' className='text-center'>Categoría</th>
-                        </tr>
-                        <tr>
-                          <th>Actividades</th>
-                          <th>Sumo Autónomo</th>
-                          <th>M-Tech Innovations</th>
-                          <th>Rally de Roboinsectos</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Inicio Registro</td>
-                          <td>09:00 a.m - 09:10 a.m</td>
-                          <td>09:00 a.m - 09:10 a.m</td>
-                          <td>09:20 a.m - 09:35 a.m</td>
-                        </tr>
-                        <tr>
-                          <td>Inicio Zona Técnica</td>
-                          <td>09:10 a.m - 09:35 a.m</td>
-                          <td>09:10 a.m - 09:35 a.m</td>
-                          <td>09:35 a.m - 10:00 a.m</td>
-                        </tr>
-                        <tr>
-                          <td>Inicio Zona Homologación</td>
-                          <td>09:35 a.m - 09:55 a.m</td>
-                          <td />
-                          <td>10:00 a.m - 10:20 a.m</td>
-                        </tr>
-                        <tr>
-                          <td>Inauguración M-Tech</td>
-                          <td colSpan='3' className='text-center'>10:30 a.m - 11:00 a.m</td>
-                        </tr>
-                        <tr>
-                          <td>Inicio de Competencias</td>
-                          <td>11:00 a.m - 12:30 a.m</td>
-                          <td>11:00 a.m - 12:30p.m</td>
-                          <td>11:00 a.m – 12:30 p.m</td>
-                        </tr>
-                        <tr>
-                          <td>Pase a la Final</td>
-                          <td>12:40 a.m - 13:05 a.m</td>
-                          <td>13:10 p.m - 13:35 p.m</td>
-                          <td>13:40 p.m - 14:05 p.m</td>
-                        </tr>
-                        <tr>
-                          <td>Premiación y Cierre</td>
-                          <td colSpan='3' className='text-center'>14:05 p.m - 14:30 p.m</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+                  <h3>Lorem ipsum dolor sit amet..</h3>
                 </div>
               </Container>
             </Tab>
-            <Tab eventKey='day3'>
+            <Tab eventKey='item03'>
               <Container style={{ color: '#ffff' }}>
                 <div className='container mt-3'>
-                  <div className='table-responsive custom-table-container'>
-                    <table className='custom-table'>
-                      <thead>
-                        <tr>
-                          <th />
-                          <th colSpan='3' className='text-center'>Categoría</th>
-                        </tr>
-                        <tr>
-                          <th>Actividades</th>
-                          <th>Sumo Autónomo</th>
-                          <th>M-Tech Innovations</th>
-                          <th>Rally de Roboinsectos</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Inicio Registro</td>
-                          <td>09:00 a.m - 09:10 a.m</td>
-                          <td>09:00 a.m - 09:10 a.m</td>
-                          <td>09:20 a.m - 09:35 a.m</td>
-                        </tr>
-                        <tr>
-                          <td>Inicio Zona Técnica</td>
-                          <td>09:10 a.m - 09:35 a.m</td>
-                          <td>09:10 a.m - 09:35 a.m</td>
-                          <td>09:35 a.m - 10:00 a.m</td>
-                        </tr>
-                        <tr>
-                          <td>Inicio Zona Homologación</td>
-                          <td>09:35 a.m - 09:55 a.m</td>
-                          <td />
-                          <td>10:00 a.m - 10:20 a.m</td>
-                        </tr>
-                        <tr>
-                          <td>Inauguración M-Tech</td>
-                          <td colSpan='3' className='text-center'>10:30 a.m - 11:00 a.m</td>
-                        </tr>
-                        <tr>
-                          <td>Inicio de Competencias</td>
-                          <td>11:00 a.m - 12:30 a.m</td>
-                          <td>11:00 a.m - 12:30p.m</td>
-                          <td>11:00 a.m – 12:30 p.m</td>
-                        </tr>
-                        <tr>
-                          <td>Pase a la Final</td>
-                          <td>12:40 a.m - 13:05 a.m</td>
-                          <td>13:10 p.m - 13:35 p.m</td>
-                          <td>13:40 p.m - 14:05 p.m</td>
-                        </tr>
-                        <tr>
-                          <td>Premiación y Cierre</td>
-                          <td colSpan='3' className='text-center'>14:05 p.m - 14:30 p.m</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </Container>
-            </Tab>
-            <Tab eventKey='day4'>
-              <Container style={{ color: '#ffff' }}>
-                <div className='container mt-3'>
-                  <div className='table-responsive custom-table-container'>
-                    <table className='custom-table'>
-                      <thead>
-                        <tr>
-                          <th />
-                          <th colSpan='3' className='text-center'>Categoría</th>
-                        </tr>
-                        <tr>
-                          <th>Actividades</th>
-                          <th>Sumo Autónomo</th>
-                          <th>M-Tech Innovations</th>
-                          <th>Rally de Roboinsectos</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>Inicio Registro</td>
-                          <td>09:00 a.m - 09:10 a.m</td>
-                          <td>09:10 a.m - 09:20 a.m</td>
-                          <td>09:20 a.m - 09:30 a.m</td>
-                        </tr>
-                        <tr>
-                          <td>Inicio Zona Técnica</td>
-                          <td>09:10 a.m - 09:30 a.m</td>
-                          <td>09:20 a.m - 09:50 a.m</td>
-                          <td>09:30 a.m - 09:50 a.m</td>
-                        </tr>
-                        <tr>
-                          <td>Inicio Zona Homologación</td>
-                          <td>09:30 a.m - 09:45 a.m</td>
-                          <td />
-                          <td>09:50 a.m - 10:05 a.m</td>
-                        </tr>
-                        <tr>
-                          <td>Inauguración M-Tech</td>
-                          <td colSpan='3' className='text-center'>10:15 a.m - 10:45 a.m</td>
-                        </tr>
-                        <tr>
-                          <td>Inicio de Competencias</td>
-                          <td>10:50 a.m - 11:50 a.m</td>
-                          <td>10:50 a.m - 11:50 a.m</td>
-                          <td>11:55 a.m – 13:00 p.m</td>
-                        </tr>
-                        <tr>
-                          <td>Pase a la Final</td>
-                          <td>13:00 a.m - 13:30 a.m</td>
-                          <td>13:30 p.m - 14:00 p.m</td>
-                          <td>14:00 p.m - 14:30 p.m</td>
-                        </tr>
-                        <tr>
-                          <td>Premiación y Cierre</td>
-                          <td colSpan='3' className='text-center'>14:30 p.m - 15:00 p.m</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+                  
+                  <Accordion>
+                    <Accordion.Item eventKey="0">
+                      <Accordion.Header>Accordion Item #1</Accordion.Header>
+                      <Accordion.Body>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                        culpa qui officia deserunt mollit anim id est laborum.
+                      </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="1">
+                      <Accordion.Header>Accordion Item #2</Accordion.Header>
+                      <Accordion.Body>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                        culpa qui officia deserunt mollit anim id est laborum.
+                      </Accordion.Body>
+                    </Accordion.Item>
+                  </Accordion>
+
+
+
+
+
                 </div>
               </Container>
             </Tab>
