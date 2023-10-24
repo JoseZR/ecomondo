@@ -445,6 +445,214 @@ export function Home() {
                         </a>
                     </div>
                 </Marquee>
+                    <Marquee gradient direction='letf'>
+                        <div className='exibitorSlider text-center h-100'>
+                            <a href='https://aeej.jalisco.gob.mx/' target='_blank' rel='noreferrer'>
+                                <img src='/logos/aeej.webp' width={250} height={108} loading='lazy' alt='aeej' />
+                            </a>
+                        </div>
+                        <div className='exibitorSlider text-center h-100'>
+                            <a href='https://sedeco.jalisco.gob.mx/inicio' target='_blank' rel='noreferrer'>
+                                <img src='/logos/sedeco_jalisco.webp' width={160} height={50} loading='lazy' alt='desarrollo-economico-jalisco' />
+                            </a>
+                        </div>
+                        <div className='exibitorSlider text-center h-100'>
+                            <a href='https://alianzaempresarial.jalisco.gob.mx/deinteres.html' target='_blank' rel='noreferrer'>
+                                <img src='/logos/alianza_empresarial.webp' width={180} height={160} loading='lazy' alt='alianza-empresarial' />
+                            </a>
+                        </div>
+                        <div className='exibitorSlider text-center h-100'>
+                            <a href='https://www.jalisco.gob.mx/' target='_blank' rel='noreferrer'>
+                                <img src='/logos/gob_jalisco.webp' width={160} height={160} loading='lazy' alt='jalisco-gob-estado' />
+                            </a>
+                        </div>
+                        <div className='exibitorSlider text-center h-100'>
+                            <a href='https://alinvest-verde.eu/es_es/' target='_blank' rel='noreferrer'>
+                                <img src='/logos/ai_invest.webp' width={200} height={50} loading='lazy' alt='al-invest' />
+                            </a>
+                        </div>
+                        <div className='exibitorSlider text-center h-100'>
+                            <a href='https://mexiko.ahk.de/ueber-uns/' target='_blank' rel='noreferrer'>
+                                <img src='/logos/ahk.webp' width={250} height={50} loading='lazy' alt='ahk-mexico' />
+                            </a>
+                        </div>
+                        <div className='exibitorSlider text-center h-100'>
+                            <a href='https://www.canchammx.com/' target='_blank' rel='noreferrer'>
+                                <img src='/logos/cancham.webp' width={200} height={80} loading='lazy' alt='cancham-mx' />
+                            </a>
+                        </div>
+                        <div className='exibitorSlider text-center h-100'>
+                            <a href='https://www.giz.de/en/worldwide/33041.html' target='_blank' rel='noreferrer'>
+                                <img src='/logos/giz.webp'width={250} height={108} loading='lazy' alt='giz' />
+                            </a>
+                        </div>
+                    </Marquee>
+                    <Marquee gradient className='mt-3'>
+                        <div className='exibitorSlider text-center h-100'>
+                            <a href='https://ambcittadelmessico.esteri.it/it/' target='_blank' rel='noreferrer'>
+                                <img src='/logos/maeci_italia.webp' width={200} height={130} loading='lazy' alt='ambasciata-d-italia-messico' />
+                            </a>
+                        </div>
+                        <div className='exibitorSlider text-center h-100'>
+                            <a href='https://amh.org.mx/' target='_blank' rel='noreferrer'>
+                                <img src='/logos/amh.webp' width={120} height={120} loading='lazy' alt='asociacion-mexicana-de-hidraulica' />
+                            </a>
+                        </div>
+                        <div className='exibitorSlider text-center h-100'>
+                            <a href='https://rivieramayasostenible.org/' target='_blank' rel='noreferrer'>
+                                <img src='/logos/rm_sostenible.webp' width={120} height={120} loading='lazy' alt='rivera-maya-sostenible' />
+                            </a>
+                        </div>
+                        <div className='exibitorSlider text-center h-100'>
+                            <a href='https://www.greendestinations.org/' target='_blank' rel='noreferrer'>
+                                <img src='/logos/green.webp' width={200} height={120} loading='lazy' alt='green-destinations' />
+                            </a>
+                        </div>
+                        <div className='exibitorSlider text-center h-100'>
+                            <a href='' target='_blank' rel='noreferrer'>
+                                <img src='/logos/pmrj.webp' width={120} height={120} loading='lazy' alt='pmrj-manejo-residuos-jalisco' />
+                            </a>
+                        </div>
+                        <div className='exibitorSlider text-center h-100'>
+                            <a href='https://amrre.org.mx/' target='_blank' rel='noreferrer'>
+                                <img src='/logos/amrre.webp' width={120} height={120} loading='lazy' alt='recicladores-residuos-electronicos' />
+                            </a>
+                        </div>
+                        <div className='exibitorSlider text-center h-100'>
+                            <a href='' target='_blank' rel='noreferrer'>
+                                <img src='/logos/sello_rms.webp' width={200} height={60} loading='lazy' alt='sello-rms' />
+                            </a>
+                        </div>
+                        <div className='exibitorSlider text-center h-100'>
+                            <a href='https://eventossustentables.com/' target='_blank' rel='noreferrer'>
+                                <img src='/logos/es_eventos.webp' width={190} height={80} loading='lazy' alt='es-eventos-sustentables' />
+                            </a>
+                        </div>
+                    </Marquee>
+                    <Container className='pt-5'>
+                        <p className='fw-bold fs-2 text-center pt-5' style={{ color: '#288705' }}>{t('home.broadcasting_media_partners')}</p>
+                        <Row className='text-center py-5'>
+                            <Col md={3} className='mx-auto my-auto'>
+                                <a href='https://heraldodemexico.com.mx/' target='_blank' rel='noreferrer'>
+                                    <img src='/logos/el_heraldo_mexico.webp' width={250} height={40} loading='lazy' alt='el_heraldo_mexico' />
+                                </a>
+                            </Col>
+                        </Row>
+                        <p className='fw-bold fs-2 text-center pt-5' style={{ color: '#288705' }}>{t('home.platinum_media_partners')}</p>
+                        <Row className='text-center py-5'>
+                            <Col md={3} className='mx-auto my-auto'>
+                                <a href='https://heraldodemexico.com.mx/' target='_blank' rel='noreferrer'>
+                                    <img src='/logos/economista.webp' width={250} height={20} loading='lazy' alt='el_heraldo_mexico' />
+                                </a>
+                            </Col>
+                            <Col md={3} className='mx-auto my-auto'>
+                                <a href='https://heraldodemexico.com.mx/' target='_blank' rel='noreferrer'>
+                                    <img src='/logos/global-energy.webp' width={200} height={80} loading='lazy' alt='el_heraldo_mexico' />
+                                </a>
+                            </Col>
+                            <Col md={3} className='mx-auto my-auto'>
+                                <a href='https://heraldodemexico.com.mx/' target='_blank' rel='noreferrer'>
+                                    <img src='/logos/mexico-industry.webp' width={200} height={70} loading='lazy' alt='el_heraldo_mexico' />
+                                </a>
+                            </Col>
+                            <Col md={3} className='mx-auto my-auto'>
+                                <a href='https://heraldodemexico.com.mx/' target='_blank' rel='noreferrer'>
+                                    <img src='/logos/pv-magazine-group.webp' width={250} height={70} loading='lazy' alt='el_heraldo_mexico' />
+                                </a>
+                            </Col>
+                        </Row>
+                        <p className='fw-bold fs-2 text-center pt-5' style={{ color: '#288705' }}>{t('home.gold_media_partners')}</p>
+                            <Marquee gradient className='mt-3'>
+                                <div className='exibitorSlider text-center h-100'>
+                                    <a href='https://www.cosmos.com.mx/' target='_blank' rel='noreferrer'>
+                                        <img src='/logos/cosmos.webp' width={200} height={90} loading='lazy' alt='cosmos' />
+                                    </a>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
+                                    <a href='https://energyandcommerce.com.mx/' target='_blank' rel='noreferrer'>
+                                        <img src='/logos/energy-commerce.webp' width={150} height={60} loading='lazy' alt='energy-&-commerce' />
+                                    </a>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
+                                    <a href='https://energiahoy.com/' target='_blank' rel='noreferrer'>
+                                        <img src='/logos/energia-hoy.webp' width={200} height={50} loading='lazy' alt='energia-hoy' />
+                                    </a>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
+                                    <a href='https://energy21.com.mx/' target='_blank' rel='noreferrer'>
+                                        <img src='/logos/energy-21.webp' width={200} height={40} loading='lazy' alt='energy-21' />
+                                    </a>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
+                                    <a href='https://dplnews.com/' target='_blank' rel='noreferrer'>
+                                        <img src='/logos/dpl.webp' width={180} height={70} loading='lazy' alt='dpl-news' />
+                                    </a>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
+                                    <a href='https://energiaadebate.com/' target='_blank' rel='noreferrer'>
+                                        <img src='/logos/energiadebate.webp' width={180} height={90} loading='lazy' alt='energia-debate' />
+                                    </a>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
+                                    <a href='' target='_blank' rel='noreferrer'>
+                                        <img src='/logos/global-industries.webp' width={200} height={70} loading='lazy' alt='' />
+                                    </a>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
+                                    <a href='https://greentology.life/' target='_blank' rel='noreferrer'>
+                                        <img src='/logos/greentology.webp' width={250} height={70} loading='lazy' alt='greentology' />
+                                    </a>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
+                                    <a href='https://revistaconsultoria.com.mx/' target='_blank' rel='noreferrer'>
+                                        <img src='/logos/consultoria.webp' width={250} height={50} loading='lazy' alt='consultoria-revista' />
+                                    </a>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
+                                    <a href='https://www.vanguardia-industrial.net/' target='_blank' rel='noreferrer'>
+                                        <img src='/logos/vanguardia-industrial.webp' width={200} height={100} loading='lazy' alt='vanguardia-industrial' />
+                                    </a>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
+                                    <a href='https://worldconstruccion.mx/' target='_blank' rel='noreferrer'>
+                                        <img src='/logos/construccion.webp' width={200} height={40} loading='lazy' alt='world-construccion' />
+                                    </a>
+                                </div>
+                            </Marquee>
+                        <p className='fw-bold fs-2 text-center mt-5 pt-5' style={{ color: '#288705' }}>{t('home.silverm_media_partners')}</p>
+                            <Marquee gradient className='mt-3' direction='letf'>
+                                <div className='exibitorSlider text-center h-100'>
+                                <a href='https://dplnews.com/' target='_blank' rel='noreferrer'>
+                                        <img src='/logos/gap.webp' width={180} height={70} loading='lazy' alt='dpl-news' />
+                                    </a>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
+                                    <a href='https://energiaadebate.com/' target='_blank' rel='noreferrer'>
+                                        <img src='/logos/biosfera.webp' width={180} height={90} loading='lazy' alt='energia-debate' />
+                                    </a>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
+                                    <a href='' target='_blank' rel='noreferrer'>
+                                        <img src='/logos/clean-tech.webp' width={200} height={50} loading='lazy' alt='' />
+                                    </a>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
+                                    <a href='https://greentology.life/' target='_blank' rel='noreferrer'>
+                                            <img src='/logos/preferencia.webp' width={200} height={60} loading='lazy' alt='greentology' />
+                                    </a>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
+                                    <a href='https://dplnews.com/' target='_blank' rel='noreferrer'>
+                                        <img src='/logos/metropoli-min.webp' width={180} height={50} loading='lazy' alt='dpl-news' />
+                                    </a>
+                                </div>
+                                <div className='exibitorSlider text-center h-100'>
+                                    <a href='https://greentology.life/' target='_blank' rel='noreferrer'>
+                                        <img src='/logos/petroleo-energia.webp' width={190} height={110} loading='lazy' alt='greentology' />
+                                    </a>
+                                </div>
+                            </Marquee>
+                    </Container>
             </section>
             <div className='container-market'>
                 <div className='content-market text-start'>
