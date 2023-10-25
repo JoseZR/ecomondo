@@ -211,7 +211,7 @@ export function Home() {
                     </Row>
                 </Container>
             </section>
-            <Container className='mt-5 mb-5 py-5'>
+            <Container className='mt-5 py-5'>
                 <Row>
                     <Col md className='text-center'>
                         <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' width={60}>
@@ -238,7 +238,7 @@ export function Home() {
                 </Row>
             </Container>
             <section className='pb-5'>
-                <Container className='pt-5'>
+                <Container className=''>
                     <p className='fw-bold fs-2 text-center' style={{ color: '#288705' }}>{t('home.strategies_allies')}</p>
                     <Marquee gradient direction='letf'>
                         <div className='exibitorSlider text-center h-100'>
