@@ -7,6 +7,7 @@ export function Schedule() {
   const { t } = useTranslation()
   const [activeTab, setActiveTab] = useState('item1');
   const [subMenuActiveTab, setSubMenuActiveTab] = useState('subItem1'); 
+  const [subMenuActiveTabAct, setSubMenuActiveTabAct] = useState('subItem1'); 
 
   const handleTabSelect = (key) => {
     setActiveTab(key);
@@ -14,6 +15,10 @@ export function Schedule() {
 
   const handleSubMenuSelect = (key) => {
     setSubMenuActiveTab(key);
+  }
+
+  const handleSubMenuSelectAct = (key) => {
+    setSubMenuActiveTabAct(key);
   }
 
   return (
@@ -49,7 +54,7 @@ export function Schedule() {
             activeKey={activeTab}
             id="fill-tab-example"
             className="mb-3"
-            onSelect={(key) => handleTabSelect(key)}
+            onSelect={(key) => handleSubMenuSelectAct(key)}
           >
             <Tab eventKey="item1">
               <Container style={{ color: '#ffff' }}>
@@ -127,6 +132,11 @@ export function Schedule() {
                         </Tab>
                       </Tabs>
                     </div>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col className='date-limit mx-5'>
+                    <strong><p className='mx-3 mt-2 fs-5 text'>{t('participate.branding_sitio.close')}</p></strong>
                   </Col>
                 </Row>
               </Container>
@@ -250,6 +260,11 @@ export function Schedule() {
                     </div>
                   </Col>
                 </Row>
+                <Row>
+                  <Col className='date-limit mx-5'>
+                    <strong><p className='mx-3 mt-2 fs-5 text'>{t('participate.branding_sitio.close')}</p></strong>
+                  </Col>
+                </Row>
               </Container>
             </Tab>
             <Tab eventKey="item3">
@@ -257,7 +272,7 @@ export function Schedule() {
               <Row>
                   <Col lg={4} >
                     <div className='menu-hijo'>
-                      <Nav className='menu-item-hijo w-100' variant="tabs" activeKey={subMenuActiveTab} onSelect={(key) => handleSubMenuSelect(key)}>
+                      <Nav className='menu-item-hijo w-100' variant="tabs" activeKey={subMenuActiveTabAct} onSelect={(key) => handleSubMenuSelectAct(key)}>
                         <Nav.Item className="btn-option">
                           <Nav.Link eventKey="subItem1">
                             <h4 className=""><strong>CÓRDON DE GAFETE</strong></h4>
@@ -285,10 +300,10 @@ export function Schedule() {
                     <div>
                       <Tabs
                         defaultActiveKey="subItem1"
-                        activeKey={subMenuActiveTab}
+                        activeKey={subMenuActiveTabAct}
                         id="sub-menu-tab"
                         className="mt-3"
-                        onSelect={(key) => handleSubMenuSelect(key)}
+                        onSelect={(key) => handleSubMenuSelectAct(key)}
                       >
                         <Tab eventKey="subItem1">
                           <Container className='text-start px-5 py-3' style={{ color: '#ffff' }}>
@@ -332,9 +347,11 @@ export function Schedule() {
                       </Tabs>
                     </div>
                   </Col>
-
-
-                  
+              </Row>
+              <Row className='mt-5'>
+                  <Col className='date-limit mx-5'>
+                    <strong><p className='mx-3 mt-2 fs-5 text'>{t('participate.branding_sitio.close')}</p></strong>
+                  </Col>
                 </Row>
                 <div className='branding-padre mt-3'>
                   <h2 className='mt-5 py-3'><strong>{t('participate.branding_sitio.title')}</strong></h2>
@@ -392,7 +409,6 @@ export function Schedule() {
                       </Accordion.Item>
                     </Accordion>
                   </div>
-                  
                 </div>
               </Container>
             </Tab>
