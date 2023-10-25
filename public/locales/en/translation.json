@@ -219,26 +219,21 @@
          }
       },
       "branding" : {
-         "title" : "BRANDING",
          "topic01" : {
-            "title" : "CÓRDON DE GAFETE",
             "item01": "1 Patrocinio disponible",
             "item02": "3 mil cordones impresos",
             "item03": "Deben ser entregados un mes antes del evento al comité organizador"
          },
          "topic02" : {
-            "title" : "LOGOTIPO EN GAFETE",
             "item01": "1 Patrocinio disponible",
             "item02": "Gafete físico y digital en correo de confirmación de registro"
          },
          "topic03" : {
-            "title" : " GIVE AWAY",
             "item01": "2 Patrocinio disponibles.",
             "item02": "1,500 souvenirs con logotipo del patrocinador impreso",
             "item03": "Deben ser entregados un mes antes del evento al comité organizador"
          },
          "topic04" : {
-            "title" : "REGISTRO",
             "item01": "1 Patrocinio disponible.",
             "item02": "Logotipo en pre-registro virtual.",
             "item03": "Logotipo impreso en módulos de registro en sitio."
