@@ -11,7 +11,10 @@
   align-items: center;
 }
 
-.menu-item-hijo{display: inline-block;}
+.menu-item-hijo{
+  display: inline-block;
+  text-align: left;
+}
 
 /* Estilo para el menú-hijo */
 .menu-hijo {
