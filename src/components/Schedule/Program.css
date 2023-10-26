@@ -15,7 +15,7 @@
 
 /* Estilo para el menú-hijo */
 .menu-hijo {
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   padding: 10px; 
   border-radius: 5px; 
 }
@@ -59,6 +59,7 @@
   border: 2px solid #ffffff; 
   border-radius: 10px; 
 }
+
 
 @media (max-width: 767px) {
   .program-date-item {

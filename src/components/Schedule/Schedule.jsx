@@ -86,7 +86,7 @@ export function Schedule() {
                         defaultActiveKey="subItem1"
                         activeKey={subMenuActiveTab}
                         id="sub-menu-tab"
-                        className="mt-3"
+                        className="" style={{ border: 'none'}}
                         onSelect={(key) => handleSubMenuSelect(key)}
                       >
                         <Tab eventKey="subItem1">
@@ -171,8 +171,8 @@ export function Schedule() {
                         defaultActiveKey="subItem1"
                         activeKey={subMenuActiveTab}
                         id="sub-menu-tab"
-                        className="mt-3"
-                        onSelect={(key) => handleSubMenuSelect(key)}
+                        className="" style={{ border: 'none'}}
+                        onSelect={(key) => handleSubMenuSelect(key)} 
                       >
                         <Tab eventKey="subItem1">
                           <Container className='text-start px-5 py-3' style={{ color: '#ffff' }}>
@@ -302,8 +302,8 @@ export function Schedule() {
                         defaultActiveKey="subItem1"
                         activeKey={subMenuActiveTabAct}
                         id="sub-menu-tab"
-                        className="mt-3"
-                        onSelect={(key) => handleSubMenuSelectAct(key)}
+                        className=""
+                        onSelect={(key) => handleSubMenuSelectAct(key)} style={{ border: 'none'}}
                       >
                         <Tab eventKey="subItem1">
                           <Container className='text-start px-5 py-3' style={{ color: '#ffff' }}>
@@ -352,12 +352,12 @@ export function Schedule() {
                   <Col className='date-limit mx-5'>
                     <strong><p className='mx-3 mt-2 fs-5 text'>{t('participate.branding_sitio.close')}</p></strong>
                   </Col>
-                </Row>
+              </Row>
                 <div className='branding-padre mt-3'>
                   <h2 className='mt-5 py-3'><strong>{t('participate.branding_sitio.title')}</strong></h2>
                   <div className=''>
                     <Accordion>
-                      <Accordion.Item eventKey="0">
+                      <Accordion.Item eventKey="0" className='mb-2'>
                         <Accordion.Header><strong>{t('participate.branding_sitio.ladder.title')}</strong></Accordion.Header>
                         <Accordion.Body className='container-branding'>
                           <h2><strong>$4,000 USD+ IVA</strong></h2>
@@ -367,7 +367,7 @@ export function Schedule() {
                           <p>{t('participate.branding_sitio.description02')}</p>
                         </Accordion.Body>
                       </Accordion.Item>
-                      <Accordion.Item eventKey="1">
+                      <Accordion.Item eventKey="1" className='mb-2'>
                         <Accordion.Header><strong>{t('participate.branding_sitio.pillars.title')}</strong></Accordion.Header>
                         <Accordion.Body className='container-branding'>
                           <h2><strong>$2,500 USD + IVA</strong></h2>
@@ -377,7 +377,7 @@ export function Schedule() {
                           <p>{t('participate.branding_sitio.description02')}</p>
                         </Accordion.Body>
                       </Accordion.Item>
-                      <Accordion.Item eventKey="2">
+                      <Accordion.Item eventKey="2" className='mb-2'>
                         <Accordion.Header><strong>{t('participate.branding_sitio.stained_glass.title')}</strong></Accordion.Header>
                         <Accordion.Body className='container-branding'>
                           <h2><strong>$2,000 USD + IVA</strong></h2>
@@ -387,7 +387,7 @@ export function Schedule() {
                           <p>{t('participate.branding_sitio.description02')}</p>
                         </Accordion.Body>
                       </Accordion.Item>
-                      <Accordion.Item eventKey="3">
+                      <Accordion.Item eventKey="3" className='mb-2'>
                         <Accordion.Header><strong>{t('participate.branding_sitio.lobby_class.title')}</strong></Accordion.Header>
                         <Accordion.Body className='container-branding'>
                           <h2><strong>$2,000 USD + IVA</strong></h2>
@@ -397,7 +397,7 @@ export function Schedule() {
                           <p>{t('participate.branding_sitio.description02')}</p>
                         </Accordion.Body>
                       </Accordion.Item>
-                      <Accordion.Item eventKey="4">
+                      <Accordion.Item eventKey="4" className='mb-2'>
                         <Accordion.Header><strong>{t('participate.branding_sitio.ramp.title')}</strong></Accordion.Header>
                         <Accordion.Body className='container-branding'>
                           <h2><strong>$2,000 USD + IVA</strong></h2>
