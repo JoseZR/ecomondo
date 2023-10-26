@@ -1,5 +1,5 @@
 {
-    "menu": {
+   "menu": {
         "about_us": "About us",
         "about_1": "About Ecomondo",
         "about_2": "About IGECo",
@@ -26,8 +26,8 @@
         "media_hub": "Media hub",
         "media_hub_1": "Gallery"
 
-    },
-    "home" :{    
+   },
+   "home" :{    
         "factsheet" : "Factsheet 2024",
         "floorplan" : "Floor Plan 2024",
         "results" : "Results Report 2023",
@@ -105,15 +105,15 @@
          "become_sponsor" : "Become a Sponsor",
          "become_sponsor_desc" : "Ecomondo is endorsed by technologies and solutions in segments that drive sustainable development and the preservation of natural resources. If you are looking to initiate new business opportunities or grow your business in Latin America, a sponsorship can increase positive impressions in front of a paid target audience. Learn more about market opportunities."
    },
-    "aboutUs" :{
+   "aboutUs" :{
       "description": "Is a platform for innovative environmental technologies designed for the Latin American market. The event brings together technologies and solutions in segments that drive sustainable development and the preservation of natural resources, like Water, Waste, Recycling, Renewable Energies, Energy Efficiency, Smary Mobility, Sustainable Cities and the Circular Economy, while facilitating networking among investors and potential national and international business partners in these sectors."
-    }, 
-    "toolkit":{
+   }, 
+   "toolkit":{
       "item01" : "Official Exhibitor",
       "item02" : "Courtesy Access",
       "item03" : "Social Network"
-    },
-    "participate":{
+   },
+   "participate":{
       "title" : "FIND THE RIGHT PLAN",
       "free" : "FREE SURFACE",
       "equipped" :  "EQUIPPED STAND",
@@ -134,153 +134,153 @@
       "eco_experiences" : {
          "title" : "ECO EXPERIENCES",
          "topic01" : {
-            "item1": "3 disponibles",
-            "item02": "Espacio para activación de marca (lugar asignado por comité organizador)",
-            "item03": "Espacio para “Photobooth” (lugar asignado por comité organizador)",
-            "item04": "Logotipo en arco de entrada en piso de exposición",
-            "item05": "Logotipo en imagen oficial del evento, antes, durante y después de la exposición",
-            "item06": "Logotipo en pantallas durante clausura",
-            "item07": "Conceptualización del evento",
-            "item08": "Ambientación del espacio físico",
-            "item09": "Show de música en vivo",
-            "item10": "Servicio de Alimentos y Bebidas"
+            "item1": "3 available",
+            "item02": "Space for brand activation (place assigned by organizing committee)",
+            "item03": "Space for “Photobooth” (place assigned by organizing committee)",
+            "item04": "Entrance arch logo on exhibition floor",
+            "item05": "Logo in official image of the event, before, during and after the exhibition",
+            "item06": "Logo on screens during closing",
+            "item07": "Conceptualization of the event",
+            "item08": "Atmosphere of the physical space",
+            "item09": "Live music show",
+            "item10": "Food and beverage service"
          },
          "topic02" : {
-            "item1": "1 disponibles",
-            "item02": "Espacio para activación de marca (lugar asignado por comité organizador)",
-            "item03": "Espacio para “Photobooth” (lugar asignado por comité organizador)",
-            "item04": "Logotipo en arco de entrada en piso de exposición",
-            "item05": "Logotipo en imagen oficial del evento, antes, durante y después de la exposición",
-            "item06": "Show de música en vivo"
+            "item1": "1 available",
+            "item02": "Space for brand activation (place assigned by organizing committee)",
+            "item03": "Space for Photobooth (place assigned by organizing committee)",
+            "item04": "Entrance arch logo on exhibition floor",
+            "item05": "Logo in official image of the event, before, during and after the exhibition",
+            "item06": "Live music show"
          },
          "topic03" :{
-            "title" : "CLAUSURA",
-            "item1": "2 disponibles",
-            "item02": "Logotipo en arco de entrada en piso de exposición",
-            "item03": "Logotipo en imagen oficial del evento, antes, durante y después de la exposición",
-            "item04": "Logotipo en pantallas durante clausura"
+            "title" : "CLOSING",
+            "item1": "2 available",
+            "item02": "Entrance arch logo on exhibition floor",
+            "item03": "Logo in official image of the event, before, during and after the exhibition",
+            "item04": "Logo on screens during closure"
          }
       },
       "sponsor" : {
          "title" : "SPONSOR",
          "topic01" : {
-            "item1": "2 disponibles",
-            "title02" : "Programa Académico",
-               "item02": "Conferencia Educativa Eco Stage",
-               "item03": "Eco-Pitch (duración 30 min.)",
-               "item04": "Webinar Especializado (previo a la feria)",
-            "title03" : "Estrategia Digital",
-               "item05": "Colocación de logotipo en sitio web oficial",
-               "item06": "Logotipo en newsletters",
-               "item07": "Anuncio de patrocinio en redes sociales antes del evento (LinkedIn, Facebook, Instagram)",
-               "item08": "Reel con contenido de la empresa para IG",
-               "item09": "Logo en ruedas de prensa y eventos especiales antes del evento",
-               "item10": "Logotipo en página oficial del pre-registro y en los correos de confirmación",
-               "item11": "Anuncio de la marca en el directorio digital del expositor 1 pag.",
-            "title04" : "Eventos de Networking",
-               "item12": "Pases para zona VIP  4",
-               "item13": "Accesos para Experiencia “Field Trip”  4",
-               "item14": "Accesos para Experiencia “Discovery Night”  6",
-            "title05" : "Promoción en Sitio",
-               "item15": "Logotipo en back de inauguración y arco de entrada",
-               "item16": "Participación en “Tour de Medios” por el piso de exhibición durante la inauguración",
-               "item17": "Activación con mascota oficial de la marca en el piso de exhibición"
+            "item1": "2 available",
+            "title02" : "Academic Program",
+               "item02": "Eco Stage Educational Conference",
+               "item03": "Eco-Pitch (30 minutes.)",
+               "item04": "Specialized webinar (prior to the fair)",
+            "title03" : "Digital Strategy",
+               "item05": "Placing logo on official website",
+               "item06": "Logo in newsletters",
+               "item07": "Social media sponsorship announcement before the event (LinkedIn, Facebook, Instagram)",
+               "item08": "Reel with company content for IG",
+               "item09": "Logo at press conferences and special events before the event",
+               "item10": "Logo on the official pre-registration website and confirmation emails",
+               "item11": "Brand announcement in the digital directory of the exhibitor 1 pag.",
+            "title04" : "Networking events",
+               "item12": "Passes for VIP area 4",
+               "item13": "Access for “Field Trip”  Experience 4",
+               "item14": "Accesses to Experience “Discovery Night”   6",
+            "title05" : "Promotion on site",
+               "item15": "Opening logo and entrance arch",
+               "item16": "Participation in “Media Tour”  on the exhibition floor during the inauguration",
+               "item17": "Activation with official brand mascot on display floor"
          },
          "topic02" : {
             "title" :"GOLD",
-            "item1": "4 disponibles",
-            "title02" : "Programa Académico",
-               "item02": "Conferencia Educativa Eco Stage",
-               "item03": "Eco-Pitch (duración 30 min.)",
-            "title03" : "Estrategia Digital",
-               "item05": "Colocación de logotipo en sitio web oficial",
-               "item06": "Logotipo en newsletters",
-               "item07": "Anuncio de patrocinio en redes sociales antes del evento (LinkedIn, Facebook, Instagram)",
-               "item08": "Logo en ruedas de prensa y eventos especiales antes del evento",
-               "item09": "Logotipo en página oficial del pre-registro y en los correos de confirmación",
-               "item010": "Anuncio de la marca en el directorio digital del expositor 1/2 pag.",
-            "title04" : "Eventos de Networking",
-               "item012": "Pases para zona VIP  2",
-               "item013": "Accesos para Experiencia “Field Trip”  2",
-               "item014": "Accesos para Experiencia “Discovery Night”  4",
-            "title05" : "Promoción en Sitio",
-               "item015": "Logotipo en back de inauguración y arco de entrada"
+            "item1": "4 available",
+            "title02" : "Academic Program",
+               "item02": "Eco Stage Educational Conference",
+               "item03": "Eco-Pitch (30 minutes.)",
+            "title03" : "Digital Strategy",
+               "item05": "Placing logo on official website",
+               "item06": "Logo in newsletters",
+               "item07": "Social media sponsorship announcement before the event (LinkedIn, Facebook, Instagram)",
+               "item08": "Logo at press conferences and special events before the event",
+               "item09": "Logo on the official pre-registration website and confirmation emails",
+               "item010": "Brand announcement in the digital directory of the exhibitor 1/2 pag.",
+            "title04" : "Networking Events",
+               "item012": "Passes for VIP zone 2",
+               "item013": "Access for Experience “Field Trip”  2",
+               "item014": "Access for Experience “Discovery Night”  4",
+            "title05" : "Promotion on Site",
+               "item015": "Opening logo and entrance arch"
          },
          "topic03" : {
-            "item1": "8 disponibles",
-            "title02" : "Estrategia Digital",
-               "item02": "Colocación de logotipo en sitio web oficial",
-               "item03": "Logotipo en newsletters",
-               "item04": "Anuncio de la marca en el directorio digital del expositor 1/4 pag.",
-            "title03" : "Eventos de Networking",
-               "item05": "Pases para zona VIP  1",
-               "item06": "Accesos para Experiencia “Field Trip” 1",
-               "item07": "Accesos para Experiencia “Discovery Night” 2"
+            "item1": "8 available",
+            "title02" : "Digital Strategy",
+               "item02": "Placing logo on official website",
+               "item03": "Logo in newsletters",
+               "item04": "Brand announcement in the digital directory of the exhibitor 1/4 pag.",
+            "title03" : "Networking Events",
+               "item05": "Passes for VIP zone 1",
+               "item06": "Access for “Field Trip” Experience 1",
+               "item07": "Access for “Discovery Night” Experience 2"
          }
       },
       "branding" : {
          "topic01" : {
-            "item01": "1 Patrocinio disponible",
-            "item02": "3 mil cordones impresos",
-            "item03": "Deben ser entregados un mes antes del evento al comité organizador"
+            "item01": "1 Sponsorship available",
+            "item02": "3 thousand printed cords",
+            "item03": "Must be delivered one month before the event to the organizing committee"
          },
          "topic02" : {
-            "item01": "1 Patrocinio disponible",
-            "item02": "Gafete físico y digital en correo de confirmación de registro"
+            "item01": "1 Sponsorship available",
+            "item02": "Physical and digital badge in registration confirmation mail"
          },
          "topic03" : {
-            "item01": "2 Patrocinio disponibles.",
-            "item02": "1,500 souvenirs con logotipo del patrocinador impreso",
-            "item03": "Deben ser entregados un mes antes del evento al comité organizador"
+            "item01": "2 Sponsorship available.",
+            "item02": "1,500 souvenirs with printed sponsor logo",
+            "item03": "Must be delivered one month before the event to the organizing committee"
          },
          "topic04" : {
-            "item01": "1 Patrocinio disponible.",
-            "item02": "Logotipo en pre-registro virtual.",
-            "item03": "Logotipo impreso en módulos de registro en sitio."
+            "item01": "1 Sponsorship available.",
+            "item02": "Logo in virtual pre-registration.",
+            "item03": "Logo printed on-site registration modules."
          }
       },
       "branding_sitio" : {
          "title" : "BRANDING SITIO",
          "ladder" : {
-            "title" : "ESCALERA VESTÍBULO 6",
-            "item01" : "2 Patrocinios disponibles",
-            "title01" : "Material: Vinil antiderrapante floor graphic 3mts x 1.8 mts"
+            "title" : "STAIRCASE LOBBY 6",
+            "item01" : "2 Sponsorships available",
+            "title01" : "Material: Vinyl anti-scratch graphic floor 3 meters x 1.8 meters"
          },
          "pillars" : {
-            "title" : "PILARES VESTÍBULO SALÓN GUADALAJARA",
-            "item01" : "1 Patrocinio disponible – 2 columnas",
-            "title01" : "Material: lona front mate 90cm x 3.30 mts"
+            "title" : "PILLARS LOBBY HALL GUADALAJARA",
+            "item01" : "1 Sponsorship available - 2 columns",
+            "title01" : "Material: matte canvas front 90cm x 3.30 meters"
          },
          "stained_glass" : {
-            "title" : "VITRALES TERRAZA",
-            "item01" : "11 Patrocinios disponibles",
-            "title01" : "Material: vinil electroestático"
+            "title" : "STAINED GLASS - TERRACE",
+            "item01" : "11 Sponsorships available",
+            "title01" : "Material: Electrostatic vinyl"
          },
          "lobby_class" : {
-            "title" : "VESTÍBULO 7 (CRISTALES 1 PLANTA)",
-            "item01" : "1 Patrocinio disponible",
-            "title01" : "Material: vinil electroestático 8.13 Mts"
+            "title" : "HALL 7 (CRYSTALS 1 FLOOR)",
+            "item01" : "1 Sponsorship available",
+            "title01" : "Material: Electrostatic vinyl 8.13 meters"
          },
          "ramp" : {
-            "title" : "RAMPA VESTÍBULO 6",
-            "item01" : "1 patrocinio disponible",
-            "title01" : "Material: vinil electroestático 43.7 x 1.20 mts"
+            "title" : "RAMP LOBBY 6",
+            "item01" : "1 sponsorship available",
+            "title01" : "Material: Electrostatic vinyl 43.7 x 1.20 meters"
       },
-         "description01" : "El diseño deberá ser autorizado por Comité Organizador.",
-         "description02" : "El patrocinador deberá enviar su logotipo en formato editable, Photoshop o Ai.",
-         "close" : "Cierre: 15 de marzo 2024"
-   }
-},
-    "visitorProfile":{
+         "description01" : "The design must be authorized by the Organizing Committee.",
+         "description02" : "The sponsor must submit their logo in editable format, Photoshop or Ai.",
+         "close" : "Closing date: 15 March 2024"
+      }
+   },
+   "visitorProfile":{
       "title": "Visitor profile",
       "description": "<ul><li>Directors of companies and industries</li><li>Government authorities and agencies</li><li>Environmental managers</li><li>Waste managers</li><li>Refineries and mining companies</li><li>Transportation Industry</li><li>Recycling Industry</li><li>Chemical Industry</li></ul>",
       "description2": "<ul><li>Engineers</li><li>Occupational safety technicians</li><li>Consultants</li><li>Rescue Teams and emergency Operators working with dangerous products</li><li>Chemical product carriers</li><li>Press</li></ul>"
-  },
+   },
    "footer": {
       "privacy_policy": "Privacy Policy",
       "contact": "Contact Us",
       "name": "Name",
       "email": "Email",
       "subscription": "Suscribe"
-  }
+   }
 }
