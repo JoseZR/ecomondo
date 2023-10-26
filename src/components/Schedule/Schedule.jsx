@@ -48,7 +48,6 @@ export function Schedule() {
               </Nav.Item>
             </Nav>
           </div>
-
           <Tabs
             defaultActiveKey="item1"
             activeKey={activeTab}

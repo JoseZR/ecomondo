@@ -60,6 +60,18 @@
   border-radius: 10px; 
 }
 
+.accordion-item {
+  background-color: transparent; 
+  color: #fff;
+}
+
+.accordion-button:not(.collapsed) {
+  color:#0b3201;
+  background-color: #bcff95;
+}
+
+.accordion-button:focus {box-shadow: none;}
+
 
 @media (max-width: 767px) {
   .program-date-item {
