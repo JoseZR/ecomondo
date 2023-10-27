@@ -103,6 +103,12 @@
    "aboutUs" :{
       "description": "Es una plataforma de tecnología ambiental innovadora diseñada para el mercado latinoamericano, la cual tiene como objetivo reunir a todas las tecnologías y soluciones de los segmentos que impulsan el desarrollo sostenible y el cuidado de los recursos naturales como agua, residuos, reciclaje, energías renovables, eficiencia energética, movilidad inteligente, ciudades sostenibles y economía circular, que al mismo tiempo facilite el contacto entre inversionistas de estos sectores con potenciales socios comerciales nacionales e internacionales."
    },
+   "contactForm": {
+      "title": "Déjenos un comentario",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "send": "Enviar"
+  }, 
    "toolkit":{
       "item01" : "Expositor Confirmado",
       "item02" : "Acceso de Cortesía",

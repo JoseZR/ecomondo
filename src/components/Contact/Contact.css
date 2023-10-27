@@ -1,0 +1,13 @@
+
+.container-form {
+    margin: 0 auto;
+    text-align: left;
+  }
+
+.div-con-fondo {
+    background-image: url('/galleryECO2023-26.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 70px;
+  }

@@ -11,6 +11,7 @@ import { Participate } from './components/Participate/Participate'
 import { Toolkit } from './components/Toolkit/Toolkit'
 import { VisitorProfile } from './components/VisitorProfile/VisitorProfile'
 import { GalleryPage } from './components/GalleryPage/GalleryPage'
+import { Contact } from './components/Contact/Contact'
 
 
 function App() {
@@ -36,6 +37,10 @@ function App() {
         <Route 
           path='participate'
           element={<Participate />}
+        />
+        <Route 
+          path='contact'
+          element={<Contact />}
         />
         <Route 
           path='toolkit'

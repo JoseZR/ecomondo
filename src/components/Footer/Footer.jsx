@@ -43,7 +43,7 @@ export function Footer() {
                     </div>
                     <Row className='mt-5'>
                         <Col md>
-                            <p><strong>SOLAR + STORAGE MEXICO 2024</strong></p>
+                            <p><strong>ECOMONDO 2024</strong></p>
                             <p>17 – 19 de Abril, 2024<br />
                                 Expo Guadalajara,<br />
                                 Guadalajara, Jalisco, México
@@ -51,23 +51,19 @@ export function Footer() {
                         </Col>
                         <Col md>
                             <p>
-                                <strong>Directora de Proyecto Solar<br />
-                                    + Storage México
-                                </strong><br />
-                                Sandra Elías<br />
-                                Tel. +52 55 7028 3335 ext. 806<br />
+                                <strong>Directora de Proyecto</strong><br /><br /> 
+                                <strong>Sandra Elías</strong>
+                                <br />Directora de Proyecto<br />
                                 <a href='mailto:sandra.elias@hfmexico.mx'>sandra.elias@hfmexico.mx</a>
                             </p>
                             <p>
-                                <strong>Patrocinios y Experiencias</strong><br />
-                                Samuel Ramírez<br />
-                                Tel. +52 (55) 70 28 33 35 ext. 806<br />
+                                <strong>Samuel Ramírez</strong><br />
+                                Patrocinios y Experiencias<br />
                                 <a href='mailto:samuel.ramirez@hfmexico.mx'>samuel.ramirez@hfmexico.mx</a>
                             </p>
                             <p>
-                                <strong>Ejecutivo de Ventas</strong><br />
-                                Marissa Franco Zermeño<br />
-                                Tel. +52 55 7028 3335 ext. 806<br />
+                                <strong>Marissa Franco Zermeño</strong><br />
+                                Ejecutivo de Ventas<br />
                                 <a href='mailto:marissa.franco@hfmexico.mx'>marissa.franco@hfmexico.mx</a>
                             </p>
                         </Col>

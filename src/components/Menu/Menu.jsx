@@ -36,7 +36,7 @@ export function Menu() {
               <NavDropdown.Item as={Link} to='https://hfmexico.mx/about-igeco' target='_blank' onClick={handleClose}>{t('menu.about_2')}</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title={t('menu.exhibitors')} renderMenuOnMount disabled>
-              <NavDropdown.Item as={Link} to='/about-us' onClick={handleClose}>{t('menu.exhibitors_1')}</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to='/contact' onClick={handleClose}>{t('menu.exhibitors_1')}</NavDropdown.Item>
               <NavDropdown.Item href={i18n.language === 'es'
                     ? '/files/Factsheet-Ecomondo-Mexico-2024_ES-1.pdf'
                     : '/files/Factsheet-Ecomondo-Mexico-2024_EN-1.pdf'} target='_blank' onClick={handleClose}>{t('menu.exhibitors_2')}
