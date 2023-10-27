@@ -53,17 +53,17 @@ export function Footer() {
                             <p>
                                 <strong>Directora de Proyecto</strong><br /><br /> 
                                 <strong>Sandra Elías</strong>
-                                <br />Directora de Proyecto<br />
+                                <br />Directora de proyecto<br />
                                 <a href='mailto:sandra.elias@hfmexico.mx'>sandra.elias@hfmexico.mx</a>
                             </p>
                             <p>
-                                <strong>Samuel Ramírez</strong><br />
-                                Patrocinios y Experiencias<br />
-                                <a href='mailto:samuel.ramirez@hfmexico.mx'>samuel.ramirez@hfmexico.mx</a>
+                                <strong>Laura Padilla</strong><br />
+                                Gerente de ventas<br />
+                                <a href='mailto:laura.padilla@hfmexico.mx'>laura.padilla@hfmexico.mx</a>
                             </p>
                             <p>
                                 <strong>Marissa Franco Zermeño</strong><br />
-                                Ejecutivo de Ventas<br />
+                                Ejecutivo de vantas<br />
                                 <a href='mailto:marissa.franco@hfmexico.mx'>marissa.franco@hfmexico.mx</a>
                             </p>
                         </Col>
