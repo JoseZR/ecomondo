@@ -53,7 +53,7 @@ export function Home() {
                     </nav>
                 </header>
             </Container>
-            <img src={i18n.language === 'es' ? '/KEVISUAL_ECOMONDO2024_ES.webp' : '/KEVISUAL_ECOMONDO2024_EN.webp'} alt="keyvisual-ecomondo2024" className='w-100 mb-5' />
+            <img src={i18n.language === 'es' ? '/KEVISUAL_ECOMONDO2024_ES.webp' : '/KEVISUAL_ECOMONDO2024_EN.webp'} loading='lazy' alt="keyvisual-ecomondo2024" className='w-100 mb-5' />
             <section className='my-5'>
                 <Container fluid>
                     <p className='fw-bold fs-3 text-secondary text-center text-uppercase'>{t('home.sponsor_1')}</p>
@@ -197,15 +197,15 @@ export function Home() {
                 <Container>
                     <Row>
                         <Col xs={12} md={4} lg={4} className='p-5' data-aos="fade-down" data-aos-anchor-placement="top-bottom" data-aos-duration="2500" >
-                            <img src="/item01.webp" alt="ecomondo" />
+                            <img src="/item01.webp" alt="ecomondo" loading='lazy'/>
                             <p className='d-flex align-items-center gap-3 pt-4'>{t('home.why_exhibit.item_1')}</p>
                         </Col>
                         <Col xs={12} md={4} lg={4} className='p-5' data-aos="fade-down" data-aos-anchor-placement="top-bottom" data-aos-duration="2500">
-                            <img src="/item02.webp" alt="ecomondo" />
+                            <img src="/item02.webp" alt="ecomondo" loading='lazy'/>
                             <p className='d-flex align-items-center gap-3 pt-4'>{t('home.why_exhibit.item_2')}</p>
                         </Col>
                         <Col xs={12} md={4} lg={4} className='p-5' data-aos="fade-down" data-aos-anchor-placement="top-bottom" data-aos-duration="2500">
-                            <img src="/item03.webp" alt="ecomondo" />
+                            <img src="/item03.webp" alt="ecomondo" loading='lazy'/>
                             <p className='d-flex align-items-center gap-3 pt-4'>{t('home.why_exhibit.item_3')}</p>
                         </Col>
                     </Row>

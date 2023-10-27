@@ -9,7 +9,7 @@ export function Contact () {
         <>
             <Container>
                 <Row className='my-5'>
-                    <Col xs={12} lg={6}><div className='div-con-fondo h-100' /></Col>
+                    <Col xs={12} lg={6}><div className='div-con-fondo h-100' loading='lazy'/></Col>
                     <Col xs={12} lg={6}><ContactForm /></Col>
                 </Row>
                 <Row className='py-5'>
