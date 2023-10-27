@@ -1,7 +1,7 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Menu } from './components/Menu/Menu'
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, useLocation } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 import { useTranslation } from 'react-i18next'
 import { Home } from './components/Home/Home'
@@ -12,10 +12,15 @@ import { Toolkit } from './components/Toolkit/Toolkit'
 import { VisitorProfile } from './components/VisitorProfile/VisitorProfile'
 import { GalleryPage } from './components/GalleryPage/GalleryPage'
 import { Contact } from './components/Contact/Contact'
-
+import { trackPageView } from './google-analytics'
+import { useEffect } from 'react'
 
 function App() {
   const { t } = useTranslation()
+  const location = useLocation()
+  useEffect(() => {
+    trackPageView(location)
+  }, [location])
   return (
     <>
       <Menu />
