@@ -54,7 +54,7 @@ export function Footer() {
                                 <strong>Directora de Proyecto</strong><br /><br /> 
                                 <strong>Sandra Elías</strong>
                                 <br />Directora de proyecto<br />
-                                <a href='mailto:sandra.elias@hfmexico.mx'>sandra.elias@hfmexico.mx</a>
+                                laura.padilla@hfmexico.mx
                             </p>
                             <p>
                                 <strong>Laura Padilla</strong><br />

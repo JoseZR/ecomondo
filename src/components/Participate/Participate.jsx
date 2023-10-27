@@ -46,7 +46,7 @@ export function Participate() {
                                     <Col className='m-3'><img src="./badge.webp" alt="" className='icon-price'/><br />{t('participate.item02')}</Col>
                                     <Col className='m-3'><img src="./phone-book.webp" alt="" className='icon-price'/><br />{t('participate.item03')}</Col>
                                 </Row><br />
-                                <button className='btn-price'> <span>{t('participate.rate_button')}</span></button>
+                                <button className='btn-price'><a href='mailto:laura.padilla@hfmexico.mx'><span>{t('participate.rate_button')}</span></a></button>
                         </div>
                     </Col>
                     <Col xs={12} md={4} className='h-100 p-3'>
@@ -68,7 +68,7 @@ export function Participate() {
                                 <Row className="justify-content-md-center">
                                     <Col className='m-3'><img src="./phone-book.webp" alt="" className='icon-price'/><br />{t('participate.item03')}</Col>
                                 </Row><br />
-                            <button className='btn-price'> <span>{t('participate.rate_button')}</span></button>
+                            <button className='btn-price'> <a href='mailto:laura.padilla@hfmexico.mx'><span>{t('participate.rate_button')}</span></a></button>
                         </div>
                     </Col>
                 </Row>
