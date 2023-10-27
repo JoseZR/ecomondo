@@ -8,8 +8,8 @@ export function Footer() {
     return (
         <>
             <div className='d-flex justify-content-end pe-5 p-3' style={{ backgroundColor: '#393939' }}>
-                <div className='' style={{ width: '200px' }}><img src='/igeco_bn.webp' alt='igeco' className='w-100' loading='lazy' /></div>
-                <div className='' style={{ width: '200px' }}><img src='/deutsche_messe_bn.webp' alt='igeco' className='w-100' loading='lazy' /></div>
+                <div className='' style={{ width: '200px' }}><img src='/ecomondo/igeco_bn.webp' alt='igeco' className='w-100' loading='lazy' /></div>
+                <div className='' style={{ width: '200px' }}><img src='/ecomondo/deutsche_messe_bn.webp' alt='igeco' className='w-100' loading='lazy' /></div>
             </div>
             <footer className='container-footer-padre'>
                 <Container>

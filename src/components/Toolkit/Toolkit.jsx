@@ -26,90 +26,90 @@ export function Toolkit () {
           >
             <a
               data-src={i18n.language === 'es'
-              ? '/toolkit/ExpositorConfirmado_ECOMONDO2024.webp'
-              : '/toolkit/Exhibitor_ECOMONDO2024_EN.webp'}
+              ? '/ecomondo/toolkit/ExpositorConfirmado_ECOMONDO2024.webp'
+              : '/ecomondo/toolkit/Exhibitor_ECOMONDO2024_EN.webp'}
               className='img-gallery'
             >
               <p className='text-center title-toolk'>{t('toolkit.item01')}</p>
               <img
                 src={i18n.language === 'es'
-                ? '/toolkit/ExpositorConfirmado_ECOMONDO2024.webp'
-                : '/toolkit/Exhibitor_ECOMONDO2024_EN.webp'}
+                ? '/ecomondo/toolkit/ExpositorConfirmado_ECOMONDO2024.webp'
+                : '/ecomondo/toolkit/Exhibitor_ECOMONDO2024_EN.webp'}
                 className='w-100 p-2'
                 loading='lazy'
               />
             </a>
             <a
               data-src={i18n.language === 'es'
-              ? '/toolkit/AccesoCortesia_ECOMONDO2024-scaled.webp'
-              : '/toolkit/CourtesyAccess_ECOMONDO2024_EN.webp'}
+              ? '/ecomondo/toolkit/AccesoCortesia_ECOMONDO2024-scaled.webp'
+              : '/ecomondo/toolkit/CourtesyAccess_ECOMONDO2024_EN.webp'}
               className='img-gallery'
             >
               <p className='text-center title-toolk'>{t('toolkit.item02')}</p>
               <img
                 src={i18n.language === 'es'
-                ? '/toolkit/AccesoCortesia_ECOMONDO2024-scaled.webp'
-                : '/toolkit/CourtesyAccess_ECOMONDO2024_EN.webp'}
+                ? '/ecomondo/toolkit/AccesoCortesia_ECOMONDO2024-scaled.webp'
+                : '/ecomondo/toolkit/CourtesyAccess_ECOMONDO2024_EN.webp'}
                 className='w-100 p-2'
                 loading='lazy'
               />
             </a>
             <a
               data-src={i18n.language === 'es'
-              ? '/toolkit/SigueECOMONDO2023.webp'
-              : '/toolkit/FollowECOMONDO2024_EN.webp'}
+              ? '/ecomondo/toolkit/SigueECOMONDO2023.webp'
+              : '/ecomondo/toolkit/FollowECOMONDO2024_EN.webp'}
               className='img-gallery'
             >
               <p className='text-center title-toolk'>{t('toolkit.item03')}</p>
               <img
                 src={i18n.language === 'es'
-                ? '/toolkit/SigueECOMONDO2023.webp'
-                : '/toolkit/FollowECOMONDO2024_EN.webp'}
+                ? '/ecomondo/toolkit/SigueECOMONDO2023.webp'
+                : '/ecomondo/toolkit/FollowECOMONDO2024_EN.webp'}
                 className='w-100 p-2'
                 loading='lazy'
               />
             </a>
             <a
               data-src={i18n.language === 'es'
-              ? '/toolkit/Facebook_ECOMONDO2024_ESP-scaled.webp'
-              : '/toolkit/Facebook_ECOMONDO2024_EN.webp'}
+              ? '/ecomondo/toolkit/Facebook_ECOMONDO2024_ESP-scaled.webp'
+              : '/ecomondo/toolkit/Facebook_ECOMONDO2024_EN.webp'}
               className='img-gallery'
             >
               <p className='text-center title-toolk'>Facebook</p>
               <img
                 src={i18n.language === 'es'
-                ? '/toolkit/Facebook_ECOMONDO2024_ESP-scaled.webp'
-                : '/toolkit/Facebook_ECOMONDO2024_EN.webp'}
+                ? '/ecomondo/toolkit/Facebook_ECOMONDO2024_ESP-scaled.webp'
+                : '/ecomondo/toolkit/Facebook_ECOMONDO2024_EN.webp'}
                 className='w-100 p-2'
                 loading='lazy'
               />
             </a>
             <a
               data-src={i18n.language === 'es'
-              ? '/toolkit/Twitter_ECOMONDO2024_ESP-scaled.webp'
-              : '/toolkit/Twitter_ECOMONDO2024_EN-scaled.webp'}
+              ? '/ecomondo/toolkit/Twitter_ECOMONDO2024_ESP-scaled.webp'
+              : '/ecomondo/toolkit/Twitter_ECOMONDO2024_EN-scaled.webp'}
               className='img-gallery'
             >
               <p className='text-center title-toolk'>Twitter</p>
               <img
                 src={i18n.language === 'es'
-                ? '/toolkit/Twitter_ECOMONDO2024_ESP-scaled.webp'
-                : '/toolkit/Twitter_ECOMONDO2024_EN-scaled.webp'}
+                ? '/ecomondo/toolkit/Twitter_ECOMONDO2024_ESP-scaled.webp'
+                : '/ecomondo/toolkit/Twitter_ECOMONDO2024_EN-scaled.webp'}
                 className='w-100 p-2'
                 loading='lazy'
               />
             </a>
             <a
               data-src={i18n.language === 'es'
-              ? '/toolkit/LinkedIn_ECOMONDO2024_ESP-scaled.webp'
-              : '/toolkit/LinkedIn_ECOMONDO2024_EN.webp'}
+              ? '/ecomondo/toolkit/LinkedIn_ECOMONDO2024_ESP-scaled.webp'
+              : '/ecomondo/toolkit/LinkedIn_ECOMONDO2024_EN.webp'}
               className='img-gallery'
             >
               <p className='text-center title-toolk'>Linkedin</p>
               <img
                 src={i18n.language === 'es'
-                ? '/toolkit/LinkedIn_ECOMONDO2024_ESP-scaled.webp'
-                : '/toolkit/LinkedIn_ECOMONDO2024_EN.webp'}
+                ? '/ecomondo/toolkit/LinkedIn_ECOMONDO2024_ESP-scaled.webp'
+                : '/ecomondo/toolkit/LinkedIn_ECOMONDO2024_EN.webp'}
                 className='w-100 p-2'
                 loading='lazy'
               />

@@ -12,7 +12,7 @@ export function AboutUs () {
                             <p>{t('aboutUs.description')}</p>
                         </Col>
                         <Col md={4} className='mx-auto my-auto'>
-                            <img src={i18n.language === 'es' ? '/eco_2024_es.webp' : '/eco_2024_en.webp'} alt="keyvisual-ecomondo2024" className='w-100 mb-5' />
+                            <img src={i18n.language === 'es' ? '/ecomondo/eco_2024_es.webp' : '/ecomondo/eco_2024_en.webp'} alt="keyvisual-ecomondo2024" className='w-100 mb-5' />
                         </Col>
                     </Row>
                 </article>
