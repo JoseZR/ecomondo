@@ -5,15 +5,15 @@ import LanguageDetector from 'i18next-browser-languagedetector'
 
 i18n
   .use(Backend)
-  .use(LanguageDetector)//habilita el lenguaje deacuerdo al configurado en el navegador del usuario 
+  .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: 'en', //lenguaje predeterminado
+    fallbackLng: 'en',
     interpolation: {
-      escapeValue: false // React already escapes variables.
+      escapeValue: false
     },
     backend: {
-      loadPath: '/locales/{{lng}}/translation.json',
+      loadPath: '/ecomondo/locales/{{lng}}/translation.json',
       requestOptions: {
         cache: 'no-store'
       }

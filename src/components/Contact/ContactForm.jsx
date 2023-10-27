@@ -35,7 +35,7 @@ export function ContactForm () {
       }
       try {
         const res = await fetch(
-          'https://solarpowermexico.mx/newsletter/contact.php',
+          'https://hfmexico.mx/ecomondo/newsletter/contact.php',
           requestOptions
         )
         const data = await res.json()

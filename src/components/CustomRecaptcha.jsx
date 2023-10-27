@@ -1,9 +1,8 @@
-
-import { Suspense, lazy, useRef, forwardRef, useImperativeHandle } from 'react'
+import React, { Suspense, lazy, useRef, forwardRef, useImperativeHandle } from 'react'
 
 const ReCAPTCHA = lazy(() => import('react-google-recaptcha'))
 
-const CustomRecaptcha = forwardRef(( sitekey, onChange, language , ref) => {
+const CustomRecaptcha = forwardRef(({ sitekey, onChange, language }, ref) => {
   const captchaRef = useRef()
 
   // Expose methods to the parent through the forwarded ref
@@ -22,8 +21,5 @@ const CustomRecaptcha = forwardRef(( sitekey, onChange, language , ref) => {
     </Suspense>
   )
 })
-
-// Asigna un nombre al componente para resolver el error
-CustomRecaptcha.displayName = 'CustomRecaptcha'
 
 export { CustomRecaptcha }

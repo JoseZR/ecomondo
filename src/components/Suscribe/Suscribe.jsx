@@ -37,7 +37,7 @@ const Subscribe = () => {
         body: JSON.stringify({ token, formData })
       }
 
-      const res = await fetch('https://solarpowermexico.mx/newsletter/suscribe.php', requestOptions)
+      const res = await fetch('https://hfmexico.mx/ecomondo/newsletter/suscribe.php', requestOptions)
       const data = await res.json()
 
       if (data?.status === true || data === '23000') {
