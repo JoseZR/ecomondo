@@ -74,7 +74,7 @@ export function Home() {
                             <p>{t('home.text_1')}</p>
                             <p>{t('home.text_2')}</p>
                         </Col>
-                        <Col md={6} className='my-auto' data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1000" data-aos-offset="0">
+                        <Col md={6} className='my-auto'>
                             {
                                 i18n.language === 'es'
                                     ? <video className='w-100' controls src='/ecomondo/Ecomondo_2024_ESV1.mp4' poster='/ecomondo/posterVideoEco2023.webp' loading='lazy'/>
