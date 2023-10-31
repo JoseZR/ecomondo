@@ -77,8 +77,8 @@ export function Home() {
                         <Col md={6} className='my-auto' data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1000" data-aos-offset="0">
                             {
                                 i18n.language === 'es'
-                                    ? <video className='w-100' controls src='/ecomondo/Ecomondo_2024_ES.mp4' poster='/ecomondo/posterVideoEco2023.webp' loading='lazy'/>
-                                    : <video className='w-100' controls src='/ecomondo/Ecomondo_2024_EN.mp4' poster='/ecomondo/posterVideoEco2023.webp' loading='lazy'/>
+                                    ? <video className='w-100' controls src='/ecomondo/Ecomondo_2024_ESV1.mp4' poster='/ecomondo/posterVideoEco2023.webp' loading='lazy'/>
+                                    : <video className='w-100' controls src='/ecomondo/Ecomondo_2024_ENV1.mp4' poster='/ecomondo/posterVideoEco2023.webp' loading='lazy'/>
 
                             }
                         </Col>
