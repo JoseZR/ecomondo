@@ -416,12 +416,12 @@ export function Home() {
                     <p className='fw-bold fs-2 text-center mt-5 pt-5' style={{ color: '#288705' }}>{t('home.silverm_media_partners')}</p>
                     <Marquee gradient className='mt-3' direction='letf'>
                         <div className='exibitorSlider text-center h-100'>
-                            <a href='https://dplnews.com/' target='_blank' rel='noreferrer'>
+                            <a href='' target='_blank' rel='noreferrer'>
                                 <img src='/ecomondo/logos/gap.webp' width={180} height={70} loading='lazy' alt='dpl-news' />
                             </a>
                         </div>
                         <div className='exibitorSlider text-center h-100'>
-                            <a href='https://energiaadebate.com/' target='_blank' rel='noreferrer'>
+                            <a href='' target='_blank' rel='noreferrer'>
                                 <img src='/ecomondo/logos/biosfera.webp' width={180} height={90} loading='lazy' alt='energia-debate' />
                             </a>
                         </div>
@@ -431,17 +431,17 @@ export function Home() {
                             </a>
                         </div>
                         <div className='exibitorSlider text-center h-100'>
-                            <a href='https://greentology.life/' target='_blank' rel='noreferrer'>
+                            <a href='' target='_blank' rel='noreferrer'>
                                 <img src='/ecomondo/logos/preferencia.webp' width={200} height={60} loading='lazy' alt='greentology' />
                             </a>
                         </div>
                         <div className='exibitorSlider text-center h-100'>
-                            <a href='https://dplnews.com/' target='_blank' rel='noreferrer'>
+                            <a href='' target='_blank' rel='noreferrer'>
                                 <img src='/ecomondo/logos/metropoli-min.webp' width={180} height={50} loading='lazy' alt='dpl-news' />
                             </a>
                         </div>
                         <div className='exibitorSlider text-center h-100'>
-                            <a href='https://greentology.life/' target='_blank' rel='noreferrer'>
+                            <a href='' target='_blank' rel='noreferrer'>
                                 <img src='/ecomondo/logos/petroleo-energia.webp' width={190} height={110} loading='lazy' alt='greentology' />
                             </a>
                         </div>
