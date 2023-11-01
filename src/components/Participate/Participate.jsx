@@ -58,7 +58,7 @@ export function Participate() {
                                     <Col className='m-3'><img src="./rotulo.webp" alt="" className='icon-price'/><br />{t('participate.item11')}</Col>
                                 </Row>
                                 <Row className="justify-content-md-center">
-                                    <Col className='m-3'><img src="./rotulo.webp" alt="" className='icon-price'/><br />{t('participate.item11')}</Col>
+                                    <Col className='m-3'><img src="./mobiliarip_gris.webp" alt="" className='icon-price'/><br />{t('participate.item09')}</Col>
                                     <Col className='m-3'><img src="./contacto_gris.webp" alt="" className='icon-price'/><br />{t('participate.item10')}</Col>
                                 </Row>
                                 <Row className="justify-content-md-center">
