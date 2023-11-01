@@ -27,7 +27,7 @@
 }
 
 .home-eco-submenu a:hover{transform: scale(1.1);}
-
+/* .text-ecomondo¨{ text-align: justify;} */
 .info-ecomondo{
     display: flex;
     align-items: center;

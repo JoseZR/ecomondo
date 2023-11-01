@@ -69,10 +69,11 @@ export function Home() {
             <Container>
                 <article className='text-start my-5'>
                     <Row className='pt-5 px-3 fs-5'>
-                        <Col md={6}>
+                        <Col md={6} className='px-5' 
+                        >
                             <p className='fw-bold fs-1 home-text-color' style={{ color: '#288705' }}>ECOMONDO MÉXICO</p>
-                            <p>{t('home.text_1')}</p>
-                            <p>{t('home.text_2')}</p>
+                            <p style={{textAlign:'justify'}}>{t('home.text_1')}</p>
+                            <p style={{textAlign:'justify'}}>{t('home.text_2')}</p>
                         </Col>
                         <Col md={6} className='my-auto'>
                             {
@@ -452,9 +453,9 @@ export function Home() {
                 <div className='content-market text-start'>
                     <div className='content-market-hijo' data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="1500">
                         <p className='fw-bold fs-1'>{t('home.mexican_market')}</p>
-                        <p className='fs-5'>{t('home.mexican_market_desc')}</p><br /><br />
+                        <p className='fs-5' style={{textAlign:'justify'}}>{t('home.mexican_market_desc')}</p><br /><br />
                         <p className='fw-bold fs-1'>{t('home.become_sponsor')}</p>
-                        <p className='fs-5'>{t('home.become_sponsor_desc')}</p>
+                        <p className='fs-5' style={{textAlign:'justify'}}>{t('home.become_sponsor_desc')}</p>
                     </div>
                 </div>
             </div>
