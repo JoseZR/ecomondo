@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next'
 export function Schedule() {
   const { t } = useTranslation()
   const [activeTab, setActiveTab] = useState('item1');
-  const [subMenuActiveTab, setSubMenuActiveTab] = useState('subItem1'); 
+  const [subMenuActiveTab, setSubMenuActiveTab] = useState('subItem2'); 
   const [subMenuActiveTabAct, setSubMenuActiveTabAct] = useState('subItem1'); 
 
   const handleTabSelect = (key) => {
@@ -62,9 +62,9 @@ export function Schedule() {
                     <div className='menu-hijo'>
                       <Nav className='menu-item-hijo w-100' variant="tabs" activeKey={subMenuActiveTab} onSelect={(key) => handleSubMenuSelect(key)}>
                         <Nav.Item className="btn-option">
-                          <Nav.Link eventKey="subItem1">
+                          {/* <Nav.Link eventKey="subItem1">
                             <h4 className=""><strong>DISCOVERY NIGHT</strong></h4>
-                          </Nav.Link>
+                          </Nav.Link> */}
                         </Nav.Item>
                         <Nav.Item className="btn-option">
                           <Nav.Link eventKey="subItem2">
@@ -88,7 +88,7 @@ export function Schedule() {
                         className="" style={{ border: 'none'}}
                         onSelect={(key) => handleSubMenuSelect(key)}
                       >
-                        <Tab eventKey="subItem1">
+                        {/* <Tab eventKey="subItem1">
                           <Container className='text-start px-5 py-3' style={{ color: '#ffff' }}>
                             <br /><h2><strong>$5,000 USD + IVA</strong></h2>
                             <strong>{t('participate.eco_experiences.topic01.item1')}</strong><br /><br />
@@ -104,7 +104,7 @@ export function Schedule() {
                                                 {t('participate.eco_experiences.topic01.item10')}<br />
                             </p>
                           </Container>
-                        </Tab>
+                        </Tab> */}
                         <Tab eventKey="subItem2">
                           <Container className='text-start px-5 py-3' style={{ color: '#ffff' }}>
                               <br /><h2><strong>$7,500 USD + IVA</strong></h2>
