@@ -54,17 +54,17 @@ export function Footer() {
                                 <strong>{t('footer.contact_us')}</strong><br /><br /> 
                                 <strong>Sandra Elías</strong>
                                 <br />{t('footer.project_manager')}<br />
-                                <a href='mailto:sandra.elias@hfmexico.mx'>sandra.elias@hfmexico.mx</a>
+                                <a href='mailto:sandra.elias@igeco.mx'>sandra.elias@igeco.mx</a>
                             </p>
                             <p>
                                 <strong>Laura Padilla</strong><br />
                                 {t('footer.sales_manager')}<br />
-                                <a href='mailto:laura.padilla@hfmexico.mx'>laura.padilla@hfmexico.mx</a>
+                                <a href='mailto:laura.padilla@igeco.mx'>laura.padilla@igeco.mx</a>
                             </p>
                             <p>
                                 <strong>Marissa Franco Zermeño</strong><br />
                                 {t('footer.sales_executive')}<br />
-                                <a href='mailto:marissa.franco@hfmexico.mx'>marissa.franco@hfmexico.mx</a>
+                                <a href='mailto:marissa.franco@igeco.mx'>marissa.franco@igeco.mx</a>
                             </p>
                         </Col>
                         <Col md>
