@@ -23,7 +23,7 @@ export function Participate() {
                                     <Col className='m-3'><img src="./stall.webp" alt="" className='icon-price'/><br />Stand</Col>
                                 </Row><br />
                             <strong><p>{t('participate.item04')}</p></strong><br />
-                            <button className='btn-price'> <a href='mailto:laura.padilla@hfmexico.mx'><span className='text-white'>{t('participate.rate_button')}</span></a></button>
+                            <button className='btn-price'> <a href='mailto:laura.padilla@igeco.mx'><span className='text-white'>{t('participate.rate_button')}</span></a></button>
                         </div>
                     </Col>
                     <Col xs={12} md={4} className='h-100 p-3'>
@@ -46,7 +46,7 @@ export function Participate() {
                                     <Col className='m-3'><img src="./badge.webp" alt="" className='icon-price'/><br />{t('participate.item02')}</Col>
                                     <Col className='m-3'><img src="./phone-book.webp" alt="" className='icon-price'/><br />{t('participate.item03')}</Col>
                                 </Row><br />
-                                <button className='btn-price'><a href='mailto:laura.padilla@hfmexico.mx'><span className='text-white'>{t('participate.rate_button')}</span></a></button>
+                                <button className='btn-price'><a href='mailto:laura.padilla@igeco.mx'><span className='text-white'>{t('participate.rate_button')}</span></a></button>
                         </div>
                     </Col>
                     <Col xs={12} md={4} className='h-100 p-3'>
@@ -66,7 +66,7 @@ export function Participate() {
                                     <Col className='m-3'><img src="./phone-book.webp" alt="" className='icon-price'/><br />{t('participate.item03')}</Col>
                                 </Row>
                                 <br />
-                            <button className='btn-price'><a href='mailto:laura.padilla@hfmexico.mx'><span className='text-white'>{t('participate.rate_button')}</span></a></button>
+                            <button className='btn-price'><a href='mailto:laura.padilla@igeco.mx'><span className='text-white'>{t('participate.rate_button')}</span></a></button>
                         </div>
                     </Col>
                 </Row>
