@@ -38,10 +38,10 @@ export function Menu() {
             <NavDropdown title={t('menu.exhibitors')} renderMenuOnMount disabled>
               <NavDropdown.Item as={Link} to='/contact' onClick={handleClose}>{t('menu.exhibitors_1')}</NavDropdown.Item>
               <NavDropdown.Item href={i18n.language === 'es'
-                    ? '/ecomondo/files/Factsheet-Ecomondo-Mexico-2024_ES-1.pdf'
+                    ? '/ecomondo/files/Factsheet_Ecomondo_Mexico_2024_ES_v061123.pdf'
                     : '/ecomondo/files/Factsheet-Ecomondo-Mexico-2024_EN-1.pdf'} target='_blank' onClick={handleClose}>{t('menu.exhibitors_2')}
               </NavDropdown.Item>
-              <NavDropdown.Item  href={'/ecomondo/files/ECO-Y-SSM-2024-V5-100523-Floor.pdf'} target='_blank' onClick={handleClose}>{t('menu.exhibitors_3')}</NavDropdown.Item>
+              <NavDropdown.Item  href={'/ecomondo/files/ECO_Y_SSM_2024_V5_11012023_floor_v061123.pdf'} target='_blank' onClick={handleClose}>{t('menu.exhibitors_3')}</NavDropdown.Item>
               <NavDropdown.Item href={'/ecomondo/files/ASSpaceAgreement-Ecomondo-Mexico.pdf'} target='_blank'  onClick={handleClose}>{t('menu.exhibitors_4')}
               </NavDropdown.Item>
               <NavDropdown.Item href={'/ecomondo/files/Contrato-Patrocinios-ECO-1n.pdf'} target='_blank' onClick={handleClose}>{t('menu.exhibitors_5')}</NavDropdown.Item>
