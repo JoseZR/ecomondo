@@ -53,17 +53,17 @@ export function Footer() {
                             <p>
                                 <strong>Directora de Proyecto</strong><br /><br /> 
                                 <strong>Sandra Elías</strong>
-                                <br />(t{footer.project_manager})<br />
+                                <br />{t('footer.project_manager')}<br />
                                 <a href='mailto:sandra.elias@hfmexico.mx'>sandra.elias@hfmexico.mx</a>
                             </p>
                             <p>
                                 <strong>Laura Padilla</strong><br />
-                                (t{footer.sales_manager})<br />
+                                {t('footer.sales_manager')}<br />
                                 <a href='mailto:laura.padilla@hfmexico.mx'>laura.padilla@hfmexico.mx</a>
                             </p>
                             <p>
                                 <strong>Marissa Franco Zermeño</strong><br />
-                                (t{footer.sales_executive})<br /><br />
+                                {t('footer.sales_executive')}<br /><br />
                                 <a href='mailto:marissa.franco@hfmexico.mx'>marissa.franco@hfmexico.mx</a>
                             </p>
                         </Col>
