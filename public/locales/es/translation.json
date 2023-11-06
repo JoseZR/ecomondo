@@ -279,6 +279,9 @@
       "description2": "<ul><li>Ingenieros</li><li>Técnicos de seguridad laboral</li><li>Consultores</li><li>Equipos de rescate y operadores de emergencia que trabajan con productos peligrosos</li><li>Transportistas de productos químicos</li><li>Prensa</li></ul>"
    },
    "footer": {
+      "project_manager" : "Directora de proyecto",
+      "sales_manager" : "Gerente de ventas",
+      "sales_executive" : "Ejecutivo de ventas",
       "privacy_policy": "Aviso de privacidad",
       "contact": "Contacto",
       "name": "Nombre",

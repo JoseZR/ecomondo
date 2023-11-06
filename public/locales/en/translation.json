@@ -284,6 +284,9 @@
       "description2": "<ul><li>Engineers</li><li>Occupational safety technicians</li><li>Consultants</li><li>Rescue Teams and emergency Operators working with dangerous products</li><li>Chemical product carriers</li><li>Press</li></ul>"
    },
    "footer": {
+      "project_manager" : "Project manager",
+      "sales_manager" : "Sales manager",
+      "sales_executive" : "Sales executive",
       "privacy_policy": "Privacy Policy",
       "contact": "Contact Us",
       "name": "Name",
