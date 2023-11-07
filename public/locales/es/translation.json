@@ -275,8 +275,20 @@
    },
    "visitorProfile":{
       "title": "Perfil de visitantes",
-      "description": "<ul><li>Directores de empresas e industrias</li><li>Autoridades y dependencias de gobierno</li><li>Gestores medioambientales</li><li>Gestores de residuos</li><li>Refinerías y compañías mineras</li><li>Industria del transporte</li><li>Industria del reciclaje</li><li>Industria química</li></ul>",
-      "description2": "<ul><li>Ingenieros</li><li>Técnicos de seguridad laboral</li><li>Consultores</li><li>Equipos de rescate y operadores de emergencia que trabajan con productos peligrosos</li><li>Transportistas de productos químicos</li><li>Prensa</li></ul>"
+      "item_1" : "Directores de empresas e industrias",
+      "item_2" : "Autoridades y dependencias de gobierno",
+      "item_3" : "Gestores medioambientales",
+      "item_4" : "Gestores de residuos",
+      "item_5" : "Refinerías y compañías mineras",
+      "item_6" : "Industria del transporte",
+      "item_7" : "Industria del reciclaje",   
+      "item_8" : "Industria química",
+      "item_9" : "Ingenieros",
+      "item_10" : "Técnicos de seguridad laboral",
+      "item_11" : "Consultores",
+      "item_12" : "Equipos de rescate y operadores de emergencia que trabajan con productos peligrosos",
+      "item_13" : "Transportistas de productos químicos",
+      "item_14" : "Prensa"
    },
    "footer": {
       "contact_us" : "Contáctenos",

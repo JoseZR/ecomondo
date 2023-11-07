@@ -280,8 +280,20 @@
    },
    "visitorProfile":{
       "title": "Visitor profile",
-      "description": "<ul><li>Directors of companies and industries</li><li>Government authorities and agencies</li><li>Environmental managers</li><li>Waste managers</li><li>Refineries and mining companies</li><li>Transportation Industry</li><li>Recycling Industry</li><li>Chemical Industry</li></ul>",
-      "description2": "<ul><li>Engineers</li><li>Occupational safety technicians</li><li>Consultants</li><li>Rescue Teams and emergency Operators working with dangerous products</li><li>Chemical product carriers</li><li>Press</li></ul>"
+      "item_1" : "Directors of companies and industries",
+      "item_2" : "Government authorities and agencies",
+      "item_3" : "Environmental managers",
+      "item_4" : "Waste managers",
+      "item_5" : "Refineries and mining companies",
+      "item_6" : "Transportation Industry",
+      "item_7" : "Recycling Industry",   
+      "item_8" : "Chemical Industry",
+      "item_9" : "Engineers",
+      "item_10" : "Occupational safety technicians",
+      "item_11" : "Consultants",
+      "item_12" : "Rescue Teams and emergency Operators working with dangerous products",
+      "item_13" : "Chemical product carriers",
+      "item_14" : "Press"
    },
    "footer": {
       "contact_us" : "Contact Us",
