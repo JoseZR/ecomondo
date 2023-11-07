@@ -53,7 +53,7 @@ export function Home() {
                     </nav>
                 </header>
             </Container>
-            <img src={i18n.language === 'es' ? '/ecomondo/KEVISUAL_ECOMONDO_2024_ES.webp' : '/ecomondo/KEVISUAL_ECOMONDO_2024_EN.webp'} loading='lazy' alt="keyvisual-ecomondo2024" className='mb-5' style={{width: '100%'}}/>
+            <img src={i18n.language === 'es' ? '/ecomondo/KEVISUAL_ECOMONDO_2024_ES.webp' : '/ecomondo/KEVISUAL_ECOMONDO_2024_EN.webp'} loading='lazy' alt="keyvisual-ecomondo2024" className='w-100 mb-5'/>
             <section className='my-5'>
                 <Container fluid>
                     <p className='fw-bold fs-3 text-secondary text-center text-uppercase'>{t('home.sponsor_1')}</p>
@@ -417,33 +417,33 @@ export function Home() {
                     <p className='fw-bold fs-2 text-center mt-5 pt-5' style={{ color: '#288705' }}>{t('home.silverm_media_partners')}</p>
                     <Marquee gradient className='mt-3' direction='letf'>
                         <div className='exibitorSlider text-center h-100'>
-                            <a href='' target='_blank' rel='noreferrer'>
-                                <img src='/ecomondo/logos/gap.webp' width={180} height={70} loading='lazy' alt='dpl-news' />
+                            <a href='https://plastico.com.mx/' target='_blank' rel='noreferrer'>
+                                <img src='/ecomondo/logos/gap.webp' width={180} height={70} loading='lazy' alt='ap' />
                             </a>
                         </div>
                         <div className='exibitorSlider text-center h-100'>
                             <a href='' target='_blank' rel='noreferrer'>
-                                <img src='/ecomondo/logos/biosfera.webp' width={180} height={90} loading='lazy' alt='energia-debate' />
+                                <img src='/ecomondo/logos/biosfera.webp' width={180} height={90} loading='lazy' alt='biosfera' />
                             </a>
                         </div>
                         <div className='exibitorSlider text-center h-100'>
-                            <a href='' target='_blank' rel='noreferrer'>
+                            <a href='https://discovercleantech.com/' target='_blank' rel='noreferrer'>
                                 <img src='/ecomondo/logos/clean-tech.webp' width={200} height={50} loading='lazy' alt='' />
                             </a>
                         </div>
                         <div className='exibitorSlider text-center h-100'>
-                            <a href='' target='_blank' rel='noreferrer'>
-                                <img src='/ecomondo/logos/preferencia.webp' width={200} height={60} loading='lazy' alt='greentology' />
+                            <a href='http://www.revistadp.com/' target='_blank' rel='noreferrer'>
+                                <img src='/ecomondo/logos/preferencia.webp' width={200} height={60} loading='lazy' alt='de-preferencia' />
                             </a>
                         </div>
                         <div className='exibitorSlider text-center h-100'>
-                            <a href='' target='_blank' rel='noreferrer'>
-                                <img src='/ecomondo/logos/metropoli-min.webp' width={180} height={50} loading='lazy' alt='dpl-news' />
+                            <a href='https://metropolimid.com.mx/' target='_blank' rel='noreferrer'>
+                                <img src='/ecomondo/logos/metropoli-min.webp' width={180} height={50} loading='lazy' alt='metropoli-mind' />
                             </a>
                         </div>
                         <div className='exibitorSlider text-center h-100'>
-                            <a href='' target='_blank' rel='noreferrer'>
-                                <img src='/ecomondo/logos/petroleo-energia.webp' width={190} height={110} loading='lazy' alt='greentology' />
+                            <a href='https://petroleoenergia.com/' target='_blank' rel='noreferrer'>
+                                <img src='/ecomondo/logos/petroleo-energia.webp' width={190} height={110} loading='lazy' alt='petroleoenergia' />
                             </a>
                         </div>
                     </Marquee>
