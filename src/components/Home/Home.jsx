@@ -53,7 +53,7 @@ export function Home() {
                     </nav>
                 </header>
             </Container>
-            <img src={i18n.language === 'es' ? '/ecomondo/KEVISUAL_ECOMONDO2024_ES.webp' : '/ecomondo/KEVISUAL_ECOMONDO2024_EN.webp'} loading='lazy' alt="keyvisual-ecomondo2024" className='w-100 mb-5' />
+            <img src={i18n.language === 'es' ? '/ecomondo/KEVISUAL_ECOMONDO_2024_ES.webp' : '/ecomondo/KEVISUAL_ECOMONDO_2024_EN.webp'} loading='lazy' alt="keyvisual-ecomondo2024" className='w-100 mb-5' />
             <section className='my-5'>
                 <Container fluid>
                     <p className='fw-bold fs-3 text-secondary text-center text-uppercase'>{t('home.sponsor_1')}</p>
