@@ -14,8 +14,9 @@ import { GalleryPage } from './components/GalleryPage/GalleryPage'
 import { Contact } from './components/Contact/Contact'
 import { trackPageView } from './google-analytics'
 import { useEffect } from 'react'
+import { Program } from './components/Program/Program'
 
-function App() {
+function App () {
   const { t } = useTranslation()
   const location = useLocation()
   useEffect(() => {
@@ -25,9 +26,10 @@ function App() {
     <>
       <Menu />
       <Routes>
-        <Route path='/' element={
+        <Route
+          path='/' element={
             <>
-              <Helmet>  
+              <Helmet>
                 <title>ECOMONDO</title>
                 <meta name='description' content={t('seo.description')} />
               </Helmet>
@@ -35,29 +37,33 @@ function App() {
             </>
           }
         />
-        <Route 
+        <Route
           path='about-us'
           element={<AboutUs />}
         />
-        <Route 
+        <Route
           path='participate'
           element={<Participate />}
         />
-        <Route 
+        <Route
           path='contact'
           element={<Contact />}
         />
-        <Route 
+        <Route
           path='toolkit'
           element={<Toolkit />}
         />
-        <Route 
+        <Route
           path='visitor-profile'
           element={<VisitorProfile />}
         />
-         <Route 
+        <Route
           path='gallery'
           element={<GalleryPage />}
+        />
+        <Route
+          path='program'
+          element={<Program />}
         />
       </Routes>
       <Footer />

@@ -29,7 +29,7 @@
    "home" :{
         "factsheet" : "Factsheet 2024",
         "floorplan" : "Plano 2024",
-        "results" : "Resultados 2023",
+        "program" : "Programa 2024",
         "exhibitor_directory" : "Directorio de Expositores",
         "sponsor_1" : "Patrocinador Plata",
         "text_1" : "Con el objetivo de reunir tecnologías y soluciones de sectores que promueven la transición ecológica y la economía circular, ECOMONDO MEXICO 2024 facilita y acelera oportunidades de negocio y networking con compradores profesionales e inversionistas nacionales e internacionales.",
@@ -300,6 +300,11 @@
       "name": "Nombre",
       "email": "Correo electrónico",
       "subscription": "Suscribirse al boletín"
+   },
+   "program":{
+      "title": "PROGRAMA DE ACTIVIDADES",
+      "description": "Forma parte de la transición ecológica de México, descubre las últimas innovaciones para la sustentabilidad de las industrias.",
+      "comming_soon": "Próximamente..."
    }
 
 }

@@ -30,7 +30,7 @@
    "home" :{    
         "factsheet" : "Factsheet 2024",
         "floorplan" : "Floor Plan 2024",
-        "results" : "Results Report 2023",
+        "program" : "Program 2024",
         "exhibitor_directory" : "Exhibitor Directory",
         "sponsor_1" : "Silver Sponsor",
         "text_1" : "With the aim of bringing together technologies and solutions from sectors that promote the ecological transition and a circular economy, ECOMONDO MEXICO 2024 facilitates and accelerates business opportunities while providing networking opportunities with professional buyers and national and international investors.",
@@ -305,5 +305,10 @@
       "name": "Name",
       "email": "Email",
       "subscription": "Suscribe"
+   },
+   "program": {
+      "title": "PROGRAM",
+      "description": "Play a part in Mexico’s ecological transition, discover the latest innovations for industrial sustainability.",
+      "comming_soon": "Coming soon..."
    }
 }
