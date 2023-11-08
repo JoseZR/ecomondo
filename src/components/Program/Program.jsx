@@ -57,7 +57,7 @@ export function Program () {
                 eventKey='state_2'
                 title={<p className='fs-6 fw-bold'>{t('home.zone_2.title')}</p>}
               >
-                <p className='text-light fs-1 m-0 pb-5'>{t('program.comming_soon')}</p>
+                <p className='text-light fs-1 m-0 p-5'>{t('program.comming_soon')}</p>
               </Tab>
               <Tab
                 eventKey='state_3'
@@ -95,7 +95,7 @@ export function Program () {
                 eventKey='state_4'
                 title={<p className='fs-6 fw-bold'>{t('home.zone_4.title')}</p>}
               >
-                <p className='text-light fs-1 m-0 pb-5'>{t('program.comming_soon')}</p>
+                <p className='text-light fs-1 m-0 p-5'>{t('program.comming_soon')}</p>
               </Tab>
             </Tabs>
           </div>
