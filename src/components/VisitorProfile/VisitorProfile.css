@@ -1,69 +1,46 @@
-.container-visitor-padre{
-    display: flex;
-    margin: 0px auto;
+.exhibitor-back {
+    background-image: url('/exhibitor_background_dos.jpg') ; 
+    max-width: 100%;
+    height: auto; 
+    color: #ece4e4;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: center bottom;
+}
+
+.content-visitor {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.608); 
+    backdrop-filter: blur(1px);
+    height: auto;
+    margin: 12 auto;
+    align-items: center;
     justify-content: center;
+  }
+
+  .lista-visitor{
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+    text-align: start;
+  }
+
+  .item-res{
+    color: #ffffff;
+    border-radius: 600px 12 12 40px;
+    padding: 15px 30px !important;
+    display: flex;
     align-items: center;
 }
 
-.bg-visitorProfile{
-    background-image: url('/background-eco01.webp');
-    background-size: cover;
-    background-position: center; 
-    background-repeat: no-repeat; 
-    width: 400px;
-    height: 400px;
-    margin: 0px auto;
-
+.item-icon-visitor{
+    width: 90px;
+    height: 40px;
 }
 
-.bg-visitorProfile2{
-    background-image: url('/background-eco02.webp');
-    background-size: cover;
-    background-position: center; 
-    background-repeat: no-repeat; 
-    width: 400px;
-    height: 400px;
-    margin: 0px auto;
-}
-
-.visitor{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.visitor1{text-align: right;}
-.visitor2{text-align: start;}
-
- .visitor li{ padding: 5px 0px;}
-
-.visitor-profile ul{
-    list-style-image: url("/cog.svg");
-    font-family: 'Roboto';
+.item-text-visitor{
     font-size: 20px;
-    font-weight: 700;
-    list-style-type: none;
-}
-
-.visitor-profile li::marker {
-    font-size: 2em;     
-}
-.visitor-profile ul li:hover  {
-    list-style-image: url("/flag.svg");     
-}
-
-/* Media Query para dispositivos móviles */
-@media (max-width: 767px) {
-
-    .bg-visitorProfile, .bg-visitorProfile2{
-        width: 300px;
-        height: 300px;
-    }
-    .elemento1{
-        order: 2;
-    }
-    .elemento2{
-        order: 1;
-    }
-  
+    font-weight: 500;
+    margin: 0px 0px 0px 20px;
+    width: 300px;
 }
