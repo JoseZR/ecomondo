@@ -75,11 +75,10 @@ export function Home () {
             </Col>
             <Col md={6} className='my-auto'>
               {
-                                i18n.language === 'es'
-                                  ? <video className='w-100' controls src='/ecomondo/Ecomondo_2024_ESV1.mp4' poster='/ecomondo/posterVideoEco2023.webp' loading='lazy' />
-                                  : <video className='w-100' controls src='/ecomondo/Ecomondo_2024_ENV1.mp4' poster='/ecomondo/posterVideoEco2023.webp' loading='lazy' />
-
-                            }
+                i18n.language === 'es'
+                  ? <video className='w-100' controls src='/ecomondo/Ecomondo_2024_ESV1.mp4' poster='/ecomondo/posterVideoEco2023.webp' loading='lazy' />
+                  : <video className='w-100' controls src='/ecomondo/Ecomondo_2024_ENV1.mp4' poster='/ecomondo/posterVideoEco2023.webp' loading='lazy' />
+              }
             </Col>
           </Row>
         </article>
