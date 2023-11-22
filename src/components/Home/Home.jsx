@@ -15,8 +15,7 @@ export function Home () {
   return (
     <>
       <Container>
-        <heakey
-        r>
+        <header>
           <nav className='my-5 py-3 home-eco-submenu'>
             <a
               className='sub-menu-doc'
@@ -49,7 +48,7 @@ export function Home () {
               <img width={150} src={i18n.language === 'es' ? '/ecomondo/SSM-boton-ES.webp' : '/ecomondo/SSM-boton-EN.webp'} />
             </a>
           </nav>
-        </heakey>
+        </header>
       </Container>
       <img src={i18n.language === 'es' ? '/ecomondo/KEVISUAL_ECOMONDO_2024_ES.webp' : '/ecomondo/KEVISUAL_ECOMONDO_2024_EN.webp'} loading='lazy' alt='keyvisual-ecomondo2024' className='w-100 mb-5' />
       <section className='my-5'>
