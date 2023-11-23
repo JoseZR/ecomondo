@@ -21,7 +21,7 @@ export function Home () {
               className='sub-menu-doc'
               href={i18n.language === 'es'
                 ? '/ecomondo/files/Factsheet_Ecomondo_Mexico_2024_ES_v221123.pdf'
-                : '/ecomondo/files/Factsheet_Ecomondo_Mexico_2024_EN_v221123.pdf'}
+                : '/ecomondo/files/Factsheet_Ecomondo_Mexico_2024_EN_v2_221123.pdf'}
               target='_blank' rel='noreferrer'
             >
               <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' width={30}>

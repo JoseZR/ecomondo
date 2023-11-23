@@ -39,7 +39,7 @@ export function Menu () {
                   <NavDropdown.Item
                     href={i18n.language === 'es'
                       ? '/ecomondo/files/Factsheet_Ecomondo_Mexico_2024_ES_v221123.pdf'
-                      : '/ecomondo/files/Factsheet_Ecomondo_Mexico_2024_EN_v221123.pdf'} target='_blank' onClick={handleClose}
+                      : '/ecomondo/files/Factsheet_Ecomondo_Mexico_2024_EN_v2_221123.pdf'} target='_blank' onClick={handleClose}
                   >{t('menu.exhibitors_2')}
                   </NavDropdown.Item>
                   <NavDropdown.Item href='/ecomondo/files/ECO_Y_SSM_2024_V5_11012023_floor_v061123.pdf' target='_blank' onClick={handleClose}>{t('menu.exhibitors_3')}</NavDropdown.Item>
