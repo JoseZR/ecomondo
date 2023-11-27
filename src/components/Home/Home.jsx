@@ -86,7 +86,7 @@ export function Home () {
       <Container fluid>
         <p className='fw-bold fs-3 pb-4 home-text-color text-uppercase' style={{ color: '#288705' }}>{t('home.zone')}</p>
         <div className='section-evento'>
-          <Row>
+          <Row className='justify-content-md-center'>
             <Col xs={12} md={6} lg={3} className='text-center py-3'>
               <div className='card-container'>
                 <div className='card'>
@@ -155,7 +155,7 @@ export function Home () {
                 </div>
               </div>
             </Col>
-            <Col xs={12} md={6} lg={3} className='text-center py-3'>
+            {/* <Col xs={12} md={6} lg={3} className='text-center py-3'>
               <div className='card-container'>
                 <div className='card'>
                   <div className='front-content'>
@@ -181,7 +181,7 @@ export function Home () {
                   </div>
                 </div>
               </div>
-            </Col>
+            </Col> */}
           </Row>
         </div>
       </Container>
