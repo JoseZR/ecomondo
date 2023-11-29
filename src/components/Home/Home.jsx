@@ -20,8 +20,8 @@ export function Home () {
             <a
               className='sub-menu-doc'
               href={i18n.language === 'es'
-                ? '/ecomondo/files/Factsheet_Ecomondo_Mexico_2024_ES_v221123.pdf'
-                : '/ecomondo/files/Factsheet_Ecomondo_Mexico_2024_EN_v2_221123.pdf'}
+                ? '/ecomondo/files/Factsheet_Ecomondo_Mexico_2024_ESP_v291123.pdf'
+                : '/ecomondo/files/Factsheet_Ecomondo_Mexico_2024_ENG_v291123.pdf'}
               target='_blank' rel='noreferrer'
             >
               <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' width={30}>
@@ -86,7 +86,7 @@ export function Home () {
       <Container fluid>
         <p className='fw-bold fs-3 pb-4 home-text-color text-uppercase' style={{ color: '#288705' }}>{t('home.zone')}</p>
         <div className='section-evento'>
-          <Row className='justify-content-md-center'>
+          <Row className='justify-content-md-center  '>
             <Col xs={12} md={6} lg={3} className='text-center py-3'>
               <div className='card-container'>
                 <div className='card'>
