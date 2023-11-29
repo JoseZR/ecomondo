@@ -20,13 +20,8 @@ export function Home () {
             <a
               className='sub-menu-doc'
               href={i18n.language === 'es'
-<<<<<<< HEAD
                 ? '/ecomondo/files/Factsheet_Ecomondo_Mexico_2024_ESP_v291123.pdf'
                 : '/ecomondo/files/Factsheet_Ecomondo_Mexico_2024_ENG_v291123.pdf'}
-=======
-                ? '/ecomondo/files/Factsheet-Ecomondo-Mexico-2024-ESP-v2.pdf'
-                : '/ecomondo/files/Factsheet-Ecomondo-Mexico-2024-ENG-v2.pdf'}
->>>>>>> 31a3e4287773c0b1e5b4f21087de9bb89172bd48
               target='_blank' rel='noreferrer'
             >
               <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' width={30}>
