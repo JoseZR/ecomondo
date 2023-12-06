@@ -20,7 +20,7 @@ export function Home () {
             <a
               className='sub-menu-doc'
               href={i18n.language === 'es'
-                ? '/ecomondo/files/Factsheet-Ecomondo-Mexico-2024_ESP_v3_061223.pdf'
+                ? '/ecomondo/files//Factsheet_Ecomondo_Mexico_2024_ESP_v3_061223.pdf'
                 : '/ecomondo/files/Factsheet-Ecomondo-Mexico-2024_ENG_v3_061223.pdf'}
               target='_blank' rel='noreferrer'
             >
