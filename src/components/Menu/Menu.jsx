@@ -42,7 +42,7 @@ export function Menu () {
                       : '/ecomondo/files/Factsheet_Ecomondo_Mexico_2024_ENG_v291123_1.pdf'} target='_blank' onClick={handleClose}
                   >{t('menu.exhibitors_2')}
                   </NavDropdown.Item>
-                  <NavDropdown.Item href='/ecomondo/files/ECOMONDO-Y-SSM-PLANO-2024-v5.pdf' target='_blank' onClick={handleClose}>{t('menu.exhibitors_3')}</NavDropdown.Item>
+                  <NavDropdown.Item href='/ecomondo/files/ECOMONDO-Y-SSM-PLANO-2024-v5_061223.pdf' target='_blank' onClick={handleClose}>{t('menu.exhibitors_3')}</NavDropdown.Item>
                   <NavDropdown.Item href='/ecomondo/files/ASSpaceAgreement-Ecomondo-Mexico.pdf' target='_blank' onClick={handleClose}>{t('menu.exhibitors_4')}
                   </NavDropdown.Item>
                   <NavDropdown.Item href='/ecomondo/files/Contrato-Patrocinios-ECO-1n.pdf' target='_blank' onClick={handleClose}>{t('menu.exhibitors_5')}</NavDropdown.Item>
