@@ -98,7 +98,8 @@
             "mexican_market" : "El mercado mexicano está en auge",
             "mexican_market_desc" : "El mercado está respaldado por estrictas políticas sobre energía renovable y sus precios bajos, además, está lleno de oportunidades conforme se expande el sector. Ecomondo le será útil para analizar las  oportunidades de mercado, y abordará las maneras en las cuales se puede administrar un entorno cada vez más complejo.",
             "become_sponsor" : "Conviértase en patrocinador",
-            "become_sponsor_desc" : "Ecomondo cuenta con el respaldo de todas las tecnologías y soluciones de los segmentos que impulsan el desarrollo sostenible y el cuidado de los recursos naturales. Si usted está buscando iniciar nuevas oportunidades de negocio o hacer crecer su negocio en América Latina, un patrocinio le puede aumentar impresiones positivas frente a un público objetivo pagado. Conozca más sobre las oportunidades de mercado."
+            "become_sponsor_desc" : "Ecomondo cuenta con el respaldo de todas las tecnologías y soluciones de los segmentos que impulsan el desarrollo sostenible y el cuidado de los recursos naturales. Si usted está buscando iniciar nuevas oportunidades de negocio o hacer crecer su negocio en América Latina, un patrocinio le puede aumentar impresiones positivas frente a un público objetivo pagado. Conozca más sobre las oportunidades de mercado.",
+            "hotels": "Hoteles"
    },
    "aboutUs" :{
       "description": "Es una plataforma de tecnología ambiental innovadora diseñada para el mercado latinoamericano, la cual tiene como objetivo reunir a todas las tecnologías y soluciones de los segmentos que impulsan el desarrollo sostenible y el cuidado de los recursos naturales como agua, residuos, reciclaje, energías renovables, eficiencia energética, movilidad inteligente, ciudades sostenibles y economía circular, que al mismo tiempo facilite el contacto entre inversionistas de estos sectores con potenciales socios comerciales nacionales e internacionales."
@@ -305,6 +306,13 @@
       "title": "PROGRAMA DE ACTIVIDADES",
       "description": "Forma parte de la transición ecológica de México, descubre las últimas innovaciones para la sustentabilidad de las industrias.",
       "comming_soon": "Próximamente..."
-   }
+   },
+   "hotels":{
+      "description": "Nos complace anunciar que hemos asegurado tarifas preferenciales en hoteles de calidad para que tu experiencia sea aún más cómoda y accesible.<br /><br />Ubicados estratégicamente alrededor del lugar del evento, estos hoteles ofrecen no solo comodidad, sino también la oportunidad de sumergirte completamente en la atmósfera del evento. Hemos negociado tarifas especiales para nuestros asistentes, asegurándonos de que tu estancia sea tan inolvidable como el propio evento.",
+      "rate": "Tarifa desde: ",
+      "code": "codigo de reserva: ",
+      "book": "Reservar",
+      "taxes": "Impuestos"
+  }
 
 }
