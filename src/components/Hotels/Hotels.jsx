@@ -28,10 +28,10 @@ export function Hotels () {
                   <ListGroup.Item>{t('hotels.rate')}{hotel.rate} + {t('hotels.taxes')} </ListGroup.Item>
                   <ListGroup.Item>{hotel.email}</ListGroup.Item>
                   <ListGroup.Item>{t('hotels.code')} <strong>{hotel.code}</strong></ListGroup.Item>
-                  <ListGroup.Item><img src='/walk_icon.webp' width={20} /> {hotel.time_walk}</ListGroup.Item>
-                  <ListGroup.Item><img src='/car_icon.webp' width={20} /> {hotel.time_drive}</ListGroup.Item>
+                  <ListGroup.Item><img src='/ecomondo/walk_icon.webp' width={20} /> {hotel.time_walk}</ListGroup.Item>
+                  <ListGroup.Item><img src='/ecomondo/car_icon.webp' width={20} /> {hotel.time_drive}</ListGroup.Item>
                 </ListGroup>
-                 {hotel?.link &&
+                {hotel?.link &&
                   <Card.Body className='text-center d-grid' style={{ placeContent: 'center' }}>
                     <Button href={hotel.link} target='_blank'>{t('hotels.book')}</Button>
                   </Card.Body>}
