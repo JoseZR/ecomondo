@@ -51,6 +51,7 @@ export function Menu () {
                 </NavDropdown>
                 <NavDropdown title={t('menu.visitors')} renderMenuOnMount disabled>
                   <NavDropdown.Item as={Link} to='/visitor-profile' onClick={handleClose}>{t('menu.visitors_1')}</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to='/hotels' onClick={handleClose}>{t('home.hotels')}</NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title={t('menu.past_events')} renderMenuOnMount disabled>
                   <p className='mt-2 p-2 mb-0'>{t('menu.ecomondo2023')}</p>
