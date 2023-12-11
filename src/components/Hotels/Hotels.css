@@ -1,10 +1,22 @@
 .hotels{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     justify-content: center;
     justify-items: center;
 }
+
+.text-description{ text-align: left;}
+
+.btn-reserve{
+    width: 100%;
+    color: #fff;
+    font-weight: 500;
+    background-color: green;
+    border: none;
+}
+
+
 @media (max-width: 1280px) {
     .hotels {       
         grid-template-columns: repeat(3, 1fr);
