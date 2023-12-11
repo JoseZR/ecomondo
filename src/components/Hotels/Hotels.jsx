@@ -8,8 +8,8 @@ export function Hotels () {
   return (
     <>
       <div className='mt-5 mb-5 container'>
-        <h1>{t('home.hotels')}</h1>
-        <p dangerouslySetInnerHTML={{ __html: t('hotels.description') }} />
+        <h1 className='text-description'>{t('home.hotels')}</h1>
+        <p className='text-description' dangerouslySetInnerHTML={{ __html: t('hotels.description') }} />
         <div className='mt-5 hotels'>
           {hotels.map((hotel, index) => {
             return (
