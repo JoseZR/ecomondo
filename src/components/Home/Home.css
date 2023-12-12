@@ -71,6 +71,12 @@
     color: #f6ca08;
   }
   
+  .top-image {
+    width: 95%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
 .card-container {
     width: 300px;
     height: 420px;

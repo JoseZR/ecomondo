@@ -100,7 +100,7 @@ export function Home () {
               <div className='card-container'>
                 <div className='card'>
                   <div className='front-content'>
-                    <div className='circle circle-1' /><br />
+                    <img className='top-image' src='/ecomondo/residuos.webp' alt='Imagen superior' /><br /><br />
                     <p className='title fs-5 circle-1'>{t('home.zone_1.title')}</p>
                   </div>
                   <div className='content'>
@@ -123,7 +123,7 @@ export function Home () {
               <div className='card-container'>
                 <div className='card'>
                   <div className='front-content'>
-                    <div className='circle circle-2' /><br />
+                    <img className='top-image' src='/ecomondo/bioenergia.webp' alt='Imagen superior' /><br /><br />
                     <p className='title fs-5 circle-2'>{t('home.zone_2.title')}</p>
                   </div>
                   <div className='content'>
@@ -146,7 +146,7 @@ export function Home () {
               <div className='card-container'>
                 <div className='card'>
                   <div className='front-content'>
-                    <div className='circle circle-3' /><br />
+                    <img className='top-image' src='/ecomondo/planta-agua.webp' alt='Imagen superior' /><br /><br />
                     <p className='title fs-5 circle-3'>{t('home.zone_3.title')}</p>
                   </div>
                   <div className='content'>
