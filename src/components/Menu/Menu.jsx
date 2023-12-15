@@ -53,6 +53,10 @@ export function Menu () {
                   <NavDropdown.Item as={Link} to='/visitor-profile' onClick={handleClose}>{t('menu.visitors_1')}</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to='/hotels' onClick={handleClose}>{t('home.hotels')}</NavDropdown.Item>
                 </NavDropdown>
+                <NavDropdown title='NETWORK' renderMenuOnMount disabled>
+                  <NavDropdown.Item href='https://en.ecomondo.com/' target='_blank' onClick={handleClose}>Ecomondo Rimini Expo Centre, Italia</NavDropdown.Item>
+                  <NavDropdown.Item href='https://en.ecomondo.com/network/ecomondo-china' target='_blank' onClick={handleClose}>Ecomondo China - CDEPE</NavDropdown.Item>
+                </NavDropdown>
                 <NavDropdown title={t('menu.past_events')} renderMenuOnMount disabled>
                   <p className='mt-2 p-2 mb-0'>{t('menu.ecomondo2023')}</p>
                   <NavDropdown.Item href='/ecomondo/files/Directorio_ECOMONDO_2023.pdf' target='_blank' onClick={handleClose}>{t('menu.ecomondo2023_1')}</NavDropdown.Item>
@@ -72,9 +76,6 @@ export function Menu () {
                       : '/ecomondo/files/Resultados_ECO_2022_EN.pdf'} target='_blank' onClick={handleClose}
                   >{t('menu.ecomondo2022_2')}
                   </NavDropdown.Item>
-                </NavDropdown>
-                <NavDropdown title={t('menu.media_hub')} renderMenuOnMount disabled>
-                  <NavDropdown.Item as={Link} to='/gallery' onClick={handleClose}>{t('menu.media_hub_1')}</NavDropdown.Item>
                 </NavDropdown>
                 <LanguageButton />
               </Nav>

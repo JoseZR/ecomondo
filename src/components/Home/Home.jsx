@@ -44,9 +44,7 @@ export function Home () {
                 <path strokeLinecap='round' strokeLinejoin='round' d='M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25' />
               </svg>{t('home.exhibitor_directory')}
             </a>
-            <Link
-              to='/hotels'
-            >
+            <Link className='sub-menu-doc' to='/hotels'>
               <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' width={40}>
                 <path strokeLinecap='round' strokeLinejoin='round' d='M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z' />
               </svg>
@@ -100,7 +98,7 @@ export function Home () {
               <div className='card-container'>
                 <div className='card'>
                   <div className='front-content'>
-                    <img className='top-image' src='/ecomondo/residuos.webp' alt='Imagen superior' /><br /><br />
+                    <img className='top-image' src='/ecomondo/eco_control-residuos.webp' alt='' /><br /><br />
                     <p className='title fs-5 circle-1'>{t('home.zone_1.title')}</p>
                   </div>
                   <div className='content'>
@@ -123,7 +121,7 @@ export function Home () {
               <div className='card-container'>
                 <div className='card'>
                   <div className='front-content'>
-                    <img className='top-image' src='/ecomondo/bioenergia.webp' alt='Imagen superior' /><br /><br />
+                    <img className='top-image' src='/ecomondo/eco_bioenergia.webp' alt='Imagen superior' /><br /><br />
                     <p className='title fs-5 circle-2'>{t('home.zone_2.title')}</p>
                   </div>
                   <div className='content'>
@@ -146,7 +144,7 @@ export function Home () {
               <div className='card-container'>
                 <div className='card'>
                   <div className='front-content'>
-                    <img className='top-image' src='/ecomondo/planta-agua.webp' alt='Imagen superior' /><br /><br />
+                    <img className='top-image' src='/ecomondo/eco_tratado-agua.webp' alt='Imagen superior' /><br /><br />
                     <p className='title fs-5 circle-3'>{t('home.zone_3.title')}</p>
                   </div>
                   <div className='content'>
