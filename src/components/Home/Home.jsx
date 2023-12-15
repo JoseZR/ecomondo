@@ -144,7 +144,7 @@ export function Home () {
               <div className='card-container'>
                 <div className='card'>
                   <div className='front-content'>
-                    <img className='top-image' src='/ecomondo/eco_tratado-agua.webp' alt='Imagen superior' /><br /><br />
+                    <img className='top-image' src='/ecomondo/tratado-agua_eco.webp' alt='Imagen superior' /><br /><br />
                     <p className='title fs-5 circle-3'>{t('home.zone_3.title')}</p>
                   </div>
                   <div className='content'>
