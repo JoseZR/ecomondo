@@ -81,8 +81,8 @@ export function Home () {
             <Col md={8} className='my-auto'>
               {
                 i18n.language === 'es'
-                  ? <video className='w-100' controls src='/ecomondo/Ecomondo_2024_ESV1.mp4' poster='/ecomondo/posterVideoEco2023.webp' autoplay />
-                  : <video className='w-100' controls src='/ecomondo/Ecomondo_2024_ENV1.mp4' poster='/ecomondo/posterVideoEco2023.webp' autoplay />
+                  ? <video className='w-100' controls src='/ecomondo/Ecomondo_2024_ESV1.mp4' poster='/ecomondo/posterVideoEco2023.webp' loading='lazy' autoPlay muted playsInline loop />
+                  : <video className='w-100' controls src='/ecomondo/Ecomondo_2024_ENV1.mp4' poster='/ecomondo/posterVideoEco2023.webp' loading='lazy' autoPlay muted playsInline loop />
               }
             </Col>
           </Row>
