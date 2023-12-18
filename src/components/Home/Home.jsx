@@ -73,19 +73,23 @@ export function Home () {
       <Container>
         <article className='text-start my-5'>
           <Row className='pt-5 px-3 fs-5'>
-            <Col
-              md={6} className='px-5'
-            >
-              <p className='fw-bold fs-1 home-text-color' style={{ color: '#288705' }}>ECOMONDO MÉXICO</p>
-              <p style={{ textAlign: 'justify' }}>{t('home.text_1')}</p>
-              <p style={{ textAlign: 'justify' }}>{t('home.text_2')}</p>
+            <Col md={4} className='px-3'>
+              <p className='fw-bold fs-2 home-text-color' style={{ color: '#288705' }}>ECOMONDO MÉXICO</p>
+              <p className='fs-3'>{t('home.presentation')}</p><br />
+              <p className='fs-3'>{t('home.date')} <br /> Expo Guadalajara </p><br />
             </Col>
-            <Col md={6} className='my-auto'>
+            <Col md={8} className='my-auto'>
               {
                 i18n.language === 'es'
-                  ? <video className='w-100' controls src='/ecomondo/Ecomondo_2024_ESV1.mp4' poster='/ecomondo/posterVideoEco2023.webp' loading='lazy' />
-                  : <video className='w-100' controls src='/ecomondo/Ecomondo_2024_ENV1.mp4' poster='/ecomondo/posterVideoEco2023.webp' loading='lazy' />
+                  ? <video className='w-100' controls src='/ecomondo/Ecomondo_2024_ESV1.mp4' poster='/ecomondo/posterVideoEco2023.webp' loading='lazy' autoplay />
+                  : <video className='w-100' controls src='/ecomondo/Ecomondo_2024_ENV1.mp4' poster='/ecomondo/posterVideoEco2023.webp' loading='lazy' autoplay />
               }
+            </Col>
+          </Row>
+          <Row className='pt-5 px-3 fs-5'>
+            <Col>
+              <p style={{ textAlign: 'justify' }}>{t('home.text_1')}</p>
+              <p style={{ textAlign: 'justify' }}>{t('home.text_2')}</p>
             </Col>
           </Row>
         </article>
