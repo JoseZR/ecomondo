@@ -55,7 +55,7 @@ export function Menu () {
                 </NavDropdown>
                 <NavDropdown title='NETWORK' renderMenuOnMount disabled>
                   <NavDropdown.Item href='https://en.ecomondo.com/' target='_blank' onClick={handleClose}>Ecomondo Rimini Expo Centre, Italia</NavDropdown.Item>
-                  <NavDropdown.Item href='https://en.ecomondo.com/network/ecomondo-china' target='_blank' onClick={handleClose}>Ecomondo China - CDEPE</NavDropdown.Item>
+                  <NavDropdown.Item href='https://www.cdepe.com/eng/' target='_blank' onClick={handleClose}>Ecomondo China - CDEPE</NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title={t('menu.past_events')} renderMenuOnMount disabled>
                   <p className='mt-2 p-2 mb-0'>{t('menu.ecomondo2023')}</p>
