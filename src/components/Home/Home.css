@@ -185,6 +185,28 @@
   margin: 0 30px;
 }
 
+.whatssap-button {
+  cursor: pointer;
+  position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    background-color: #25D366;
+    z-index: 10;
+    transition: 0.3s ease-in-out;
+}
+
+.whatssap-button:hover {
+  background-color: #128c7e;
+  transform: scale(1.1);
+}
+
+.whatssap-button svg {
+  fill: white;
+  width: 60px;
+  padding: 12px;
+}
+
 
 /* Media Query para dispositivos móviles */
 @media (max-width: 900px) {
