@@ -33,6 +33,20 @@ export function Menu () {
                 <NavDropdown title={t('menu.about_us')} renderMenuOnMount disabled>
                   <NavDropdown.Item as={Link} to='/about-us' onClick={handleClose}>{t('menu.about_1')}</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to='https://hfmexico.mx/about-igeco' target='_blank' onClick={handleClose}>{t('menu.about_2')}</NavDropdown.Item>
+                  <NavDropdown.Item
+                    href='https://en.ecomondo.com/'
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    Ecomondo Rimini Expo Centre, Italia
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
+                    href='https://www.cdepe.com/eng/'
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    Ecomondo China - CDEPE
+                  </NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title={t('menu.exhibitors')} renderMenuOnMount disabled>
                   <NavDropdown.Item as={Link} to='/contact' onClick={handleClose}>{t('menu.exhibitors_1')}</NavDropdown.Item>
@@ -59,10 +73,6 @@ export function Menu () {
                   >
                     {t('menu.visitors_2')}
                   </NavDropdown.Item>
-                </NavDropdown>
-                <NavDropdown title='NETWORK' renderMenuOnMount disabled>
-                  <NavDropdown.Item href='https://en.ecomondo.com/' target='_blank' onClick={handleClose}>Ecomondo Rimini Expo Centre, Italia</NavDropdown.Item>
-                  <NavDropdown.Item href='https://www.cdepe.com/eng/' target='_blank' onClick={handleClose}>Ecomondo China - CDEPE</NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title={t('menu.past_events')} renderMenuOnMount disabled>
                   <p className='mt-2 p-2 mb-0'>{t('menu.ecomondo2023')}</p>
