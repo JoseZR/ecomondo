@@ -206,7 +206,7 @@ export function Home () {
         <Container>
           <Row>
             <Col xs={12} md={4} lg={4} className='p-5' data-aos='fade-down' data-aos-anchor-placement='top-bottom' data-aos-duration='2500'>
-              <img src='/ecomondo/item01.webp' alt='ecomondo' loading='lazy' />
+              <img src='/ecomondo/item01-1.webp' width={128} height={128} alt='ecomondo' loading='lazy' />
               <p className='d-flex align-items-center gap-3 pt-4'>{t('home.why_exhibit.item_1')}</p>
             </Col>
             <Col xs={12} md={4} lg={4} className='p-5' data-aos='fade-down' data-aos-anchor-placement='top-bottom' data-aos-duration='2500'>
