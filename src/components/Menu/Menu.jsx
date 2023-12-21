@@ -52,6 +52,13 @@ export function Menu () {
                 <NavDropdown title={t('menu.visitors')} renderMenuOnMount disabled>
                   <NavDropdown.Item as={Link} to='/visitor-profile' onClick={handleClose}>{t('menu.visitors_1')}</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to='/hotels' onClick={handleClose}>{t('home.hotels')}</NavDropdown.Item>
+                  <NavDropdown.Item
+                    href='/ecomondo/files/LETTER-TEMPLATE-2024-ECO.pdf'
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.visitors_2')}
+                  </NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title='NETWORK' renderMenuOnMount disabled>
                   <NavDropdown.Item href='https://en.ecomondo.com/' target='_blank' onClick={handleClose}>Ecomondo Rimini Expo Centre, Italia</NavDropdown.Item>
