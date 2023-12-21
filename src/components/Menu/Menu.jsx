@@ -38,8 +38,8 @@ export function Menu () {
                   <NavDropdown.Item as={Link} to='/contact' onClick={handleClose}>{t('menu.exhibitors_1')}</NavDropdown.Item>
                   <NavDropdown.Item
                     href={i18n.language === 'es'
-                      ? '/ecomondo/files/Factsheet_Ecomondo_Mexico_2024_ESP_v3_061223.pdf'
-                      : '/ecomondo/files/Factsheet-Ecomondo-Mexico-2024_ENG_v3_061223.pdf'} target='_blank' onClick={handleClose}
+                      ? '/ecomondo/files/Factsheet-Ecomondo-Mexico-2024-ESP-61223.pdf'
+                      : '/ecomondo/files/Factsheet-Ecomondo-Mexico-2024-EN-61223.pdf'} target='_blank' onClick={handleClose}
                   >{t('menu.exhibitors_2')}
                   </NavDropdown.Item>
                   <NavDropdown.Item href='/ecomondo/files/ECOMONDO-Y-SSM-PLANO-2024-v6_061223.pdf' target='_blank' onClick={handleClose}>{t('menu.exhibitors_3')}</NavDropdown.Item>
