@@ -94,6 +94,9 @@ export function Menu () {
                   >{t('menu.ecomondo2022_2')}
                   </NavDropdown.Item>
                 </NavDropdown>
+                <NavDropdown title={t('menu.media_hub')} renderMenuOnMount disabled>
+                  <NavDropdown.Item as={Link} to='/gallery' onClick={handleClose}>{t('menu.media_hub_1')}</NavDropdown.Item>
+                </NavDropdown>
                 <LanguageButton />
               </Nav>
             </Offcanvas.Body>
