@@ -403,7 +403,7 @@ export function Home () {
             </div>
             <div className='exibitorSlider text-center h-100'>
               <a href='https://greentology.life/' target='_blank' rel='noreferrer'>
-                <img src='/ecomondo/logos/greentology.webp' width={250} height={70} loading='lazy' alt='greentology' />
+                <img src='/ecomondo/logos/GreentologyV2.webp' width={250} height={70} loading='lazy' alt='greentology' />
               </a>
             </div>
             <div className='exibitorSlider text-center h-100'>
