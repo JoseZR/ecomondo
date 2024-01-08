@@ -300,6 +300,7 @@
    },
    "footer": {
       "contact_us" : "Contact Us",
+      "foreign_contact": "Foreign contacts",
       "project_manager" : "Project manager",
       "sales_manager" : "Sales manager",
       "sales_executive" : "Sales executive",
