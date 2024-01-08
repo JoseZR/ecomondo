@@ -57,11 +57,6 @@ export function Footer () {
                 <a href='mailto:sandra.elias@igeco.mx'>sandra.elias@igeco.mx</a>
               </p>
               <p>
-                <strong>Laura Padilla</strong><br />
-                {t('footer.sales_manager')}<br />
-                <a href='mailto:laura.padilla@igeco.mx'>laura.padilla@igeco.mx</a>
-              </p>
-              <p>
                 <strong>Sergio López</strong><br />
                 {t('footer.sales_manager')}<br />
                 <a href='mailto:sergio.lopez@igeco.mx'>sergio.lopez@igeco.mx</a>
