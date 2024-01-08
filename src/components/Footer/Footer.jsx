@@ -246,7 +246,7 @@ export function Footer() {
             >
               {t('footer.privacy_policy')}
             </a>{' '}
-            | <a href='/contact'>{t('footer.contact')}</a>
+            | <a href='/ecomondo/contact'>{t('footer.contact')}</a>
           </div>
         </Container>
       </footer>
