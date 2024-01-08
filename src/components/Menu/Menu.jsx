@@ -6,7 +6,7 @@ import './Menu.css'
 import { Container, Nav, NavDropdown, Navbar, Offcanvas } from 'react-bootstrap'
 import { LanguageButton } from './LanguageButton'
 
-export function Menu () {
+export function Menu() {
   const { t, i18n } = useTranslation()
   const [show, setShow] = useState()
 
@@ -30,9 +30,26 @@ export function Menu () {
             <Offcanvas.Header closeButton onClick={handleClose} />
             <Offcanvas.Body className='ms-auto'>
               <Nav className='align-items-center'>
-                <NavDropdown title={t('menu.about_us')} renderMenuOnMount disabled>
-                  <NavDropdown.Item as={Link} to='/about-us' onClick={handleClose}>{t('menu.about_1')}</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to='https://hfmexico.mx/about-igeco' target='_blank' onClick={handleClose}>{t('menu.about_2')}</NavDropdown.Item>
+                <NavDropdown
+                  title={t('menu.about_us')}
+                  renderMenuOnMount
+                  disabled
+                >
+                  <NavDropdown.Item
+                    as={Link}
+                    to='/about-us'
+                    onClick={handleClose}
+                  >
+                    {t('menu.about_1')}
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
+                    as={Link}
+                    to='https://hfmexico.mx/about-igeco'
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.about_2')}
+                  </NavDropdown.Item>
                   <NavDropdown.Item
                     href='https://en.ecomondo.com/'
                     target='_blank'
@@ -48,24 +65,95 @@ export function Menu () {
                     Ecomondo China - CDEPE
                   </NavDropdown.Item>
                 </NavDropdown>
-                <NavDropdown title={t('menu.exhibitors')} renderMenuOnMount disabled>
-                  <NavDropdown.Item as={Link} to='/contact' onClick={handleClose}>{t('menu.exhibitors_1')}</NavDropdown.Item>
+                <NavDropdown
+                  title={t('menu.exhibitors')}
+                  renderMenuOnMount
+                  disabled
+                >
                   <NavDropdown.Item
-                    href={i18n.language === 'es'
-                      ? '/ecomondo/files/Factsheet_Ecomondo_Mexico_2024_es_v80124.pdf'
-                      : '/ecomondo/files/Factsheet-Ecomondo-Mexico-2024-EN-61223.pdf'} target='_blank' onClick={handleClose}
-                  >{t('menu.exhibitors_2')}
+                    as={Link}
+                    to='/contact'
+                    onClick={handleClose}
+                  >
+                    {t('menu.exhibitors_1')}
                   </NavDropdown.Item>
-                  <NavDropdown.Item href='/ecomondo/files/ECOMONDO-Y-SSM-PLANO-2024-v6_061223.pdf' target='_blank' onClick={handleClose}>{t('menu.exhibitors_3')}</NavDropdown.Item>
-                  <NavDropdown.Item href='/ecomondo/files/ASSpaceAgreement-Ecomondo-Mexico.pdf' target='_blank' onClick={handleClose}>{t('menu.exhibitors_4')}
+                  <NavDropdown.Item
+                    href={
+                      i18n.language === 'es'
+                        ? '/ecomondo/files/Factsheet_Ecomondo_Mexico_2024_es_v80124.pdf'
+                        : '/ecomondo/files/Factsheet-Ecomondo-Mexico-2024-EN-61223.pdf'
+                    }
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.exhibitors_2')}
                   </NavDropdown.Item>
-                  <NavDropdown.Item href='/ecomondo/files/Contrato-Patrocinios-ECO-1n.pdf' target='_blank' onClick={handleClose}>{t('menu.exhibitors_5')}</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to='/participate' onClick={handleClose}>{t('menu.exhibitors_6')}</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to='/toolkit' onClick={handleClose}>{t('menu.exhibitors_7')}</NavDropdown.Item>
+                  <NavDropdown.Item
+                    href='/ecomondo/files/ECOMONDO-Y-SSM-PLANO-2024-v6_061223.pdf'
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.exhibitors_3')}
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
+                    href='/ecomondo/files/ASSpaceAgreement-Ecomondo-Mexico.pdf'
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.exhibitors_4')}
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
+                    href='/ecomondo/files/Contrato-Patrocinios-ECO-1n.pdf'
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.exhibitors_5')}
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
+                    as={Link}
+                    to='/participate'
+                    onClick={handleClose}
+                  >
+                    {t('menu.exhibitors_6')}
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
+                    as={Link}
+                    to='/toolkit'
+                    onClick={handleClose}
+                  >
+                    toolkit
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
+                    href={
+                      i18n.language === 'es'
+                        ? '/ecomondo/files/MANUAL-DEL-EXPOSITOR-ECO-030124.pdf'
+                        : '/ecomondo/files/MANUAL-DEL-EXPOSITOR-ENG-ECO-030124.pdf'
+                    }
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.exhibitors_8')}
+                  </NavDropdown.Item>
                 </NavDropdown>
-                <NavDropdown title={t('menu.visitors')} renderMenuOnMount disabled>
-                  <NavDropdown.Item as={Link} to='/visitor-profile' onClick={handleClose}>{t('menu.visitors_1')}</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to='/hotels' onClick={handleClose}>{t('home.hotels')}</NavDropdown.Item>
+                <NavDropdown
+                  title={t('menu.visitors')}
+                  renderMenuOnMount
+                  disabled
+                >
+                  <NavDropdown.Item
+                    as={Link}
+                    to='/visitor-profile'
+                    onClick={handleClose}
+                  >
+                    {t('menu.visitors_1')}
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
+                    as={Link}
+                    to='/hotels'
+                    onClick={handleClose}
+                  >
+                    {t('home.hotels')}
+                  </NavDropdown.Item>
                   <NavDropdown.Item
                     href='/ecomondo/files/LETTER-TEMPLATE-2024-ECO.pdf'
                     target='_blank'
@@ -74,28 +162,64 @@ export function Menu () {
                     {t('menu.visitors_2')}
                   </NavDropdown.Item>
                 </NavDropdown>
-                <NavDropdown title={t('menu.past_events')} renderMenuOnMount disabled>
+                <NavDropdown
+                  title={t('menu.past_events')}
+                  renderMenuOnMount
+                  disabled
+                >
                   <p className='mt-2 p-2 mb-0'>{t('menu.ecomondo2023')}</p>
-                  <NavDropdown.Item href='/ecomondo/files/Directorio_ECOMONDO_2023.pdf' target='_blank' onClick={handleClose}>{t('menu.ecomondo2023_1')}</NavDropdown.Item>
                   <NavDropdown.Item
-                    href={i18n.language === 'es'
-                      ? '/ecomondo/files/REPORTE-DE-RESULTADOS-ECO-ESP.pdf'
-                      : '/ecomondo/files/AFTERSHOW-REPORT-ECO-ENG.pdf'} target='_blank' onClick={handleClose}
-                  >{t('menu.ecomondo2023_2')}
+                    href='/ecomondo/files/Directorio_ECOMONDO_2023.pdf'
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.ecomondo2023_1')}
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
+                    href={
+                      i18n.language === 'es'
+                        ? '/ecomondo/files/REPORTE-DE-RESULTADOS-ECO-ESP.pdf'
+                        : '/ecomondo/files/AFTERSHOW-REPORT-ECO-ENG.pdf'
+                    }
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.ecomondo2023_2')}
                   </NavDropdown.Item>
                   {/* <NavDropdown.Item as={Link} to='/about-us' onClick={handleClose}>{t('menu.ecomondo2023_3')}</NavDropdown.Item> */}
                   <NavDropdown.Divider />
                   <p className='mt-2 p-2 mb-0'>{t('menu.ecomondo2022')}</p>
-                  <NavDropdown.Item href='/ecomondo/files/Directorio_ECOMONDO_2022-1.pdf' target='_blank' onClick={handleClose}>{t('menu.ecomondo2022_1')}</NavDropdown.Item>
                   <NavDropdown.Item
-                    href={i18n.language === 'es'
-                      ? '/ecomondo/files/Resultados_ECO_2022_ES.pdf'
-                      : '/ecomondo/files/Resultados_ECO_2022_EN.pdf'} target='_blank' onClick={handleClose}
-                  >{t('menu.ecomondo2022_2')}
+                    href='/ecomondo/files/Directorio_ECOMONDO_2022-1.pdf'
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.ecomondo2022_1')}
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
+                    href={
+                      i18n.language === 'es'
+                        ? '/ecomondo/files/Resultados_ECO_2022_ES.pdf'
+                        : '/ecomondo/files/Resultados_ECO_2022_EN.pdf'
+                    }
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.ecomondo2022_2')}
                   </NavDropdown.Item>
                 </NavDropdown>
-                <NavDropdown title={t('menu.media_hub')} renderMenuOnMount disabled>
-                  <NavDropdown.Item as={Link} to='/gallery' onClick={handleClose}>{t('menu.media_hub_1')}</NavDropdown.Item>
+                <NavDropdown
+                  title={t('menu.media_hub')}
+                  renderMenuOnMount
+                  disabled
+                >
+                  <NavDropdown.Item
+                    as={Link}
+                    to='/gallery'
+                    onClick={handleClose}
+                  >
+                    {t('menu.media_hub_1')}
+                  </NavDropdown.Item>
                 </NavDropdown>
                 <LanguageButton />
               </Nav>
