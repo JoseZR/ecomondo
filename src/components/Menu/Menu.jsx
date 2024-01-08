@@ -52,7 +52,7 @@ export function Menu () {
                   <NavDropdown.Item as={Link} to='/contact' onClick={handleClose}>{t('menu.exhibitors_1')}</NavDropdown.Item>
                   <NavDropdown.Item
                     href={i18n.language === 'es'
-                      ? '/ecomondo/files/Factsheet-Ecomondo-Mexico-2024-ESP-61223v1.pdf'
+                      ? '/ecomondo/files/Factsheet_Ecomondo_Mexico_2024_es_v80124.pdf'
                       : '/ecomondo/files/Factsheet-Ecomondo-Mexico-2024-EN-61223.pdf'} target='_blank' onClick={handleClose}
                   >{t('menu.exhibitors_2')}
                   </NavDropdown.Item>
