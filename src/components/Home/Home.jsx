@@ -964,7 +964,7 @@ export function Home() {
                 <img
                   src='/ecomondo/logos/factor-energetico.webp'
                   width={250}
-                  height={63}
+                  height={119}
                   loading='lazy'
                   alt='Factor-energetico'
                 />
