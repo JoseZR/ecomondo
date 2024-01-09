@@ -1052,27 +1052,6 @@ export function Home() {
           </Marquee>
         </Container>
       </section>
-      <div className='container-market'>
-        <div className='content-market text-start'>
-          <div
-            className='content-market-hijo'
-            data-aos='fade-right'
-            data-aos-easing='ease-in-sine'
-            data-aos-duration='1500'
-          >
-            <p className='fw-bold fs-1'>{t('home.mexican_market')}</p>
-            <p className='fs-5' style={{ textAlign: 'justify' }}>
-              {t('home.mexican_market_desc')}
-            </p>
-            <br />
-            <br />
-            <p className='fw-bold fs-1'>{t('home.become_sponsor')}</p>
-            <p className='fs-5' style={{ textAlign: 'justify' }}>
-              {t('home.become_sponsor_desc')}
-            </p>
-          </div>
-        </div>
-      </div>
     </>
   )
 }

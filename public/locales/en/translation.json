@@ -34,8 +34,8 @@
         "program" : "Program 2024",
         "exhibitor_directory" : "Exhibitor Directory",
         "sponsor_1" : "Silver Sponsor",
-        "text_1" : "With the aim of bringing together technologies and solutions from sectors that promote the ecological transition and a circular economy, ECOMONDO MEXICO 2024 facilitates and accelerates business opportunities while providing networking opportunities with professional buyers and national and international investors.",
-        "text_2" : "From water treatment and waste management to bioenergy and sustainable cities, ECOMONDO MEXICO 2024 is the ideal place to engage with the latest ecological technologies of the circular economy, enabling you to engage in the green businesses of the present and the future.",
+        "text_1" : "Under the pillars of Water Treatment, Waste Management, and Bioenergy, ECOMONDO MEXICO 2024 is the ideal place to access the latest ecological innovations and specialized knowledge in circular economy. This enables you to engage in present and future green businesses by bringing together technologies and solutions from sectors that promote the transition to a more sustainable future.",
+        "text_2" : "We are the only environmental technology exhibition in Latin America, supported by Italian Exhibition Group, a leading organizer of exhibitions and conferences, with offices in Rimini and Vicenza; and Deutsche Messe, one of the leading companies in the organization of specialized fairs in the capital goods, human resources and consumer goods sectors.",
         "zone" : "ZONES",
         "zone_1" : {
             "title" : "WASTE AND RESOURCES",
@@ -85,8 +85,8 @@
             "item_12" : "Sustainable buildings"
          },
          "why_exhibit": {
-            "title" : "WHY SHOULD YOU EXHIBIT?",
-            "description":"Take advantage of the opportunity to acquire a stand or be a sponsor in the third edition of ECOMONDO MEXICO. Be part of the country's ecological transition and discover the business opportunities presented by the circular economy and its value chain..",
+            "title" : "Why participate in ECOMONDO MEXICO?",
+            "description":"Participate by reserving a booth or becoming a sponsor at the third edition of ECOMONDO MEXICO. Take an active role in the country's ecological transition and explore the business opportunities presented by the circular economy and its value chain.",
             "item_1": "Lead your company to sustainable growth.",
             "item_2": "Become a pioneer of green business.",
             "item_3": "Learn about the latest trends and innovations in the industry.",
@@ -113,7 +113,14 @@
          "date" : "April 17 - 19, 2024"
    },
    "aboutUs" :{
-      "description": "Is a platform for innovative environmental technologies designed for the Latin American market. The event brings together technologies and solutions in segments that drive sustainable development and the preservation of natural resources, like Water, Waste, Recycling, Renewable Energies, Energy Efficiency, Smary Mobility, Sustainable Cities and the Circular Economy, while facilitating networking among investors and potential national and international business partners in these sectors."
+      "description": "To enhance sustainable development towards a greener future, the industry has shifted its focus towards promoting valorization and efficient resource management, guiding companies to enhance their productivity and profitability.<br /><br />The Fourth Industrial Revolution marks a significant shift, where sustainability and the circular economy cease to be mere economic models, transforming into essential parameters for productivity, efficiency, and profitability. In this scenario, the transition towards a sustainable future requires shared responsibility and collaboration among all actors in the business ecosystem.<br /><br />In response to the growing demand for companies to demonstrate a genuine commitment to sustainability and climate action, the Mexican and Latin American markets emerge as fertile ground, brimming with opportunities to progress towards a greener future..<br /><br />ECOMONDO MEXICO arrives from Rimini, Italy, as the ideal platform for analyzing business opportunities by providing a conducive space for collaboration between leading figures in environmental technological solutions and key industry players globally.<br /><br />Our exhibition is the sole event in the region dedicated to promoting sustainable development and the conservation of natural resources, backed by two leading companies in organizing exhibitions and conferences: Italian Exhibition Group and Deutsche Messe.<br /><br />Over three days of exhibition, we gather ecological technological innovations and specialized knowledge in <strong>Waste Management, Bioenergy, and Water Care and Management</strong>. This allows you to accelerate your business opportunities, take the lead in an increasingly complex environment, and expand strategic alliances, enabling your participation in present and future green businesses.",
+      "welcome": "We look forward to welcoming you to the third edition of ECOMONDO MEXICO, April 17 to 19, at Expo Guadalajara, Jalisco.",
+      "network":"Ecomondo global network:",      
+      "network_1_date":"28 - 30 March 2024, Chengdu, China",
+      "network_1_desc":"International B2B2G platform dedicated to the green economy and the ideal vantage point from which to identify Chinese policies and investments relating to decarbonisation.",            
+      "network_2_date":"5 - 8 November 2024, Rimini, Italia",
+      "network_2_desc":"It is the reference international event in Europe and the Mediterranean basin for technologies, services and industrial solutions in the green and circular economy sectors.",
+      "read_more":">> Read more"
    }, 
    "contactForm": {
       "title": "Leave us a message",
