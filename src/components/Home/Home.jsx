@@ -373,7 +373,11 @@ export function Home() {
               data-aos-anchor-placement='top-bottom'
               data-aos-duration='2500'
             >
-              <img src='/icon1.webp' width='70' alt='crecimiento sostenible' />
+              <img
+                src='/ecomondo/icon1.webp'
+                width='70'
+                alt='crecimiento sostenible'
+              />
               <p className='mt-3 text-center text-sm font-bold'>
                 {t('home.why_exhibit.item_1')}
               </p>
@@ -385,7 +389,11 @@ export function Home() {
               data-aos-anchor-placement='top-bottom'
               data-aos-duration='2500'
             >
-              <img src='/icon2.webp' width='70' alt='negocios sostenibles' />
+              <img
+                src='/ecomondo/icon2.webp'
+                width='70'
+                alt='negocios sostenibles'
+              />
               <p className='mt-3 text-center text-sm font-bold'>
                 {t('home.why_exhibit.item_2')}
               </p>
@@ -397,7 +405,11 @@ export function Home() {
               data-aos-anchor-placement='top-bottom'
               data-aos-duration='2500'
             >
-              <img src='/icon3.webp' width='80' alt='economía circular' />
+              <img
+                src='/ecomondo/icon3.webp'
+                width='80'
+                alt='economía circular'
+              />
               <p className='mt-3 text-center text-sm font-bold'>
                 {t('home.why_exhibit.item_3')}
               </p>
@@ -409,7 +421,11 @@ export function Home() {
               data-aos-anchor-placement='top-bottom'
               data-aos-duration='2500'
             >
-              <img src='/icon4.webp' width='90' alt='alianza estrategica' />
+              <img
+                src='/ecomondo/icon4.webp'
+                width='90'
+                alt='alianza estrategica'
+              />
               <p className='mt-3 text-center text-sm font-bold'>
                 {t('home.why_exhibit.item_4')}
               </p>
@@ -422,7 +438,7 @@ export function Home() {
               data-aos-duration='2500'
             >
               <img
-                src='/icon5.webp'
+                src='/ecomondo/icon5.webp'
                 width='60'
                 alt='conocimiento para la sostenibilidad de las industrias'
               />
