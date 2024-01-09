@@ -16,7 +16,11 @@ export function AboutUs() {
           style={{ textAlign: 'justify' }}
           dangerouslySetInnerHTML={{ __html: t('aboutUs.description') }}
         ></p>
-        <p className='text-center'>{t('aboutUs.welcome')}</p>
+        <p className='text-center'>
+          <i>
+            <strong>{t('aboutUs.welcome')}</strong>
+          </i>
+        </p>
         <hr></hr>
         <p className='mt-5 fw-bold fs-4'>{t('aboutUs.network')}</p>
         <Row className='mt-5'>
