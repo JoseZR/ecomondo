@@ -149,9 +149,8 @@
   .card:hover .front-content p {opacity: 0;}
 
 
-  .home-whyexhibit{
-    background-color: #288705;
-    color: white;
+  .home-whyexhibit{    
+    color: black;
     padding: 20px 0px 10px 0px;
 }
 

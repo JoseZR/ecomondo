@@ -86,9 +86,12 @@
          },
          "why_exhibit": {
             "title" : "WHY SHOULD YOU EXHIBIT?",
-            "item_1": "Take advantage of the great renewable energy potential of Mexico and Latin America with access to leading national and international buyers with high purchasing power.",
-            "item_2": "Develop your business and become an innovator in the emerging market of zero carbon production, green business and environmentally friendly products.",
-            "item_3": "Discover the business opportunities presented by the circular economy and its value chain with leading national and international companies in the sector."
+            "description":"Take advantage of the opportunity to acquire a stand or be a sponsor in the third edition of ECOMONDO MEXICO. Be part of the country's ecological transition and discover the business opportunities presented by the circular economy and its value chain..",
+            "item_1": "Lead your company to sustainable growth.",
+            "item_2": "Become a pioneer of green business.",
+            "item_3": "Learn about the latest trends and innovations in the industry.",
+            "item_4": "Generate strategic alliances and expand your network of contacts.",
+            "item_5": "Obtain the most specialized knowledge for the sustainability of industries."
          },
          "why_exhibit_select": "Select and compare",
             "why_exhibit_select_desc": "Among suppliers from three different continents: America, Europe and Asia",
