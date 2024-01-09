@@ -10,7 +10,7 @@ export function AboutUs() {
           className='fw-bold fs-1 home-text-color'
           style={{ color: '#288705' }}
         >
-          ECOMONDO MÉXICO
+          ECOMONDO MEXICO
         </p>
         <p
           style={{ textAlign: 'justify' }}
