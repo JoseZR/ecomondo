@@ -25,7 +25,11 @@ export function Program() {
             >
               <Tab
                 eventKey='state_1'
-                title={<p className='fs-6 fw-bold'>{t('home.zone_1.title')}</p>}
+                title={
+                  <p className='fs-6 fw-bold'>
+                    {t('home.zone_1.title')} | {t('home.zone_2.title')}
+                  </p>
+                }
                 style={{ backgroundColor: '#456e46' }}
               >
                 {programECO?.state_1?.map((program, index) => {
@@ -77,14 +81,6 @@ export function Program() {
                     </div>
                   )
                 })}
-              </Tab>
-              <Tab
-                eventKey='state_2'
-                title={<p className='fs-6 fw-bold'>{t('home.zone_2.title')}</p>}
-              >
-                <p className='text-light fs-1 m-0 p-5'>
-                  {t('program.comming_soon')}
-                </p>
               </Tab>
               <Tab
                 eventKey='state_3'
