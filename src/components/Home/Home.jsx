@@ -6,6 +6,8 @@ import Marquee from 'react-fast-marquee'
 import Aos from 'aos'
 import 'aos/dist/aos.css' // Importa los estilos CSS de AOS
 import { Link } from 'react-router-dom'
+import { GalleryYear } from '../GalleryPage/GalleryYear'
+import { gallery2023, gallery2022 } from '../GalleryPage/constans_gallery'
 
 export function Home() {
   const { t, i18n } = useTranslation()
@@ -495,6 +497,12 @@ export function Home() {
             <p className='px-5'>{t('home.why_exhibit_general_desc')}</p>
           </Col>
         </Row>
+      </Container>
+      <Container className='galleryPage mt-5'>
+        <h1 className='gallery-title pt-5'>
+          {t('menu.media_hub_1')} - Ecomondo 2023
+        </h1>
+        <GalleryYear year={gallery2023} />
       </Container>
       <section className='pb-5'>
         <Container className=''>
