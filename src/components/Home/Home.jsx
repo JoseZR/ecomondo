@@ -955,6 +955,21 @@ export function Home() {
                 />
               </a>
             </div>
+            <div className='exibitorSlider text-center h-100'>
+              <a
+                href='https://factorenergetico.mx/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img
+                  src='/ecomondo/logos/factor-energetico.webp'
+                  width={250}
+                  height={63}
+                  loading='lazy'
+                  alt='Factor-energetico'
+                />
+              </a>
+            </div>
           </Marquee>
           <p
             className='fw-bold fs-2 text-center mt-5 pt-5'
