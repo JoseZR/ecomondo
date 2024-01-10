@@ -20,6 +20,21 @@ export function Menu() {
           <Navbar.Brand as={Link} to='/'>
             <img src={logoEco} alt='ecomondo' width='200' className='ms-3' />
           </Navbar.Brand>
+          <a
+            href='https://www.hfmexico.mx/solarpowermexico/'
+            style={{ padding: 0, background: 'none' }}
+            target='_blank'
+            rel='noreferrer'
+          >
+            <img
+              width={120}
+              src={
+                i18n.language === 'es'
+                  ? '/ecomondo/SSM-boton-ES.webp'
+                  : '/ecomondo/SSM-boton-EN.webp'
+              }
+            />
+          </a>
           <Navbar.Toggle onClick={handleShow} />
           <Navbar.Offcanvas
             id='offcanvasMenuweb'
@@ -44,25 +59,10 @@ export function Menu() {
                   </NavDropdown.Item>
                   <NavDropdown.Item
                     as={Link}
-                    to='https://hfmexico.mx/about-igeco'
-                    target='_blank'
+                    to='/contact'
                     onClick={handleClose}
                   >
-                    {t('menu.about_2')}
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
-                    href='https://en.ecomondo.com/'
-                    target='_blank'
-                    onClick={handleClose}
-                  >
-                    Ecomondo Rimini Expo Centre, Italia
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
-                    href='https://www.cdepe.com/eng/'
-                    target='_blank'
-                    onClick={handleClose}
-                  >
-                    Ecomondo China - CDEPE
+                    {t('menu.exhibitors_1')}
                   </NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown
@@ -70,13 +70,6 @@ export function Menu() {
                   renderMenuOnMount
                   disabled
                 >
-                  <NavDropdown.Item
-                    as={Link}
-                    to='/contact'
-                    onClick={handleClose}
-                  >
-                    {t('menu.exhibitors_1')}
-                  </NavDropdown.Item>
                   <NavDropdown.Item
                     href={
                       i18n.language === 'es'
@@ -134,6 +127,13 @@ export function Menu() {
                   >
                     {t('menu.exhibitors_8')}
                   </NavDropdown.Item>
+                  <NavDropdown.Item
+                    as={Link}
+                    to='/hotels'
+                    onClick={handleClose}
+                  >
+                    {t('home.hotels')}
+                  </NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown
                   title={t('menu.visitors')}
@@ -160,6 +160,19 @@ export function Menu() {
                     onClick={handleClose}
                   >
                     {t('menu.visitors_2')}
+                  </NavDropdown.Item>
+                </NavDropdown>
+                <NavDropdown
+                  title={t('menu.conferences')}
+                  renderMenuOnMount
+                  disabled
+                >
+                  <NavDropdown.Item
+                    as={Link}
+                    to='/program'
+                    onClick={handleClose}
+                  >
+                    {t('menu.conferences_1')}
                   </NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown

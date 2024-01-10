@@ -16,7 +16,7 @@ export function Home() {
   }, [])
   return (
     <>
-      <Container>
+      {/*<Container>
         <header>
           <nav className='my-5 py-3 home-eco-submenu'>
             <a
@@ -141,36 +141,44 @@ export function Home() {
             </a>
           </nav>
         </header>
-      </Container>
-      <img
-        src={
-          i18n.language === 'es'
-            ? '/ecomondo/KEVISUAL_ECOMONDO_2024_ES.webp'
-            : '/ecomondo/KEVISUAL_ECOMONDO_2024_EN.webp'
-        }
-        loading='lazy'
-        alt='keyvisual-ecomondo2024'
-        className='w-100 mb-5'
-      />
-      <section className='my-5'>
-        <Container fluid>
-          <p className='fw-bold fs-3 text-secondary text-center text-uppercase'>
-            {t('home.sponsor_1')}
-          </p>
-          <Row className='text-center'>
-            <Col md={3} className='mx-auto my-auto'>
-              <a
-                href='https://www.aspiria.mx/'
-                target='_blank'
-                rel='noreferrer'
-              >
+              </Container>*/}
+
+      <section class='ecomondo-bloq-1 pt-5 pb-5'>
+        <Container>
+          <Row>
+            <Col md={6} className='text-start my-auto'>
+              <img
+                src='/ecomondo2024.webp'
+                width='270'
+                height='107'
+                alt='feria de sustentabilidad'
+              />
+              <p
+                class='text-white text-sm font-bold'
+                dangerouslySetInnerHTML={{ __html: t('home.slogan') }}
+              ></p>
+              <p class='fw-bold text-white'>
+                {t('home.date')} <br /> Expo Guadalajara
+              </p>
+              <p
+                class='mt-5 text-white fw-light fs-3 lh-1'
+                dangerouslySetInnerHTML={{ __html: t('home.slogan_2') }}
+              ></p>
+              <div class='mt-5 flex justify-end'>
                 <img
-                  src='/ecomondo/logos/aspiria.webp'
-                  width={250}
-                  loading='lazy'
-                  alt='aspiria'
+                  class='mt-20'
+                  src={
+                    i18n.language === 'es'
+                      ? '/logo-igeco-esp.webp'
+                      : '/logo-igeco.webp'
+                  }
+                  alt='Expo de Sustentabilidad en Mexico'
+                  width='350'
                 />
-              </a>
+              </div>
+            </Col>
+            <Col md={6}>
+              <img src='/world-ecomondo.webp' className='w-100' />
             </Col>
           </Row>
         </Container>
@@ -456,6 +464,29 @@ export function Home() {
         </h1>
         <GalleryYear year={gallery2023} />
       </Container>
+      <section className='my-5'>
+        <Container fluid>
+          <p className='fw-bold fs-3 text-secondary text-center text-uppercase'>
+            {t('home.sponsor_1')}
+          </p>
+          <Row className='text-center'>
+            <Col md={3} className='mx-auto my-auto'>
+              <a
+                href='https://www.aspiria.mx/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img
+                  src='/ecomondo/logos/aspiria.webp'
+                  width={250}
+                  loading='lazy'
+                  alt='aspiria'
+                />
+              </a>
+            </Col>
+          </Row>
+        </Container>
+      </section>
       <section className='pb-5'>
         <Container className=''>
           <p className='fw-bold fs-2 text-center' style={{ color: '#288705' }}>

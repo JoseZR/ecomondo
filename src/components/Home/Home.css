@@ -206,7 +206,9 @@
   padding: 12px;
 }
 
-
+.ecomondo-bloq-1 {
+  background-image: url('/bgecomondo.webp');
+}
 /* Media Query para dispositivos móviles */
 @media (max-width: 900px) {
   .container-market , .content-market { 

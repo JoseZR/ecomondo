@@ -32,24 +32,31 @@ const Subscribe = () => {
       const requestOptions = {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json'
+          'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ token, formData })
+        body: JSON.stringify({ token, formData }),
       }
 
-      const res = await fetch('https://hfmexico.mx/ecomondo/newsletter/suscribe.php', requestOptions)
+      const res = await fetch(
+        'https://hfmexico.mx/ecomondo/newsletter/suscribe.php',
+        requestOptions
+      )
       const data = await res.json()
 
       if (data?.status === true || data === '23000') {
         setMessage('You are subscribed now!')
       } else {
-        setMessage("Sorry, we couldn't verify that you are not a robot. Please try again.")
+        setMessage(
+          "Sorry, we couldn't verify that you are not a robot. Please try again."
+        )
       }
 
       document.getElementById('form-newsletter').reset()
     } catch (error) {
       console.error('Error:', error)
-      setMessage('An error occurred while processing your request. Please try again later.')
+      setMessage(
+        'An error occurred while processing your request. Please try again later.'
+      )
     }
   }
 
@@ -67,6 +74,7 @@ const Subscribe = () => {
   return (
     <Row>
       <Col className='mx-auto'>
+        <p className='fw-bold fs-6'>{t('footer.title')}</p>
         <Form id='form-newsletter' onSubmit={handleSubmit}>
           <Form.Group className='mb-3' controlId='formBasicPassword'>
             <Form.Label>{t('footer.name')}</Form.Label>

@@ -12,10 +12,13 @@
         "exhibitors_6": "¡Participa en Ecomondo!",
         "exhibitors_7": "Toolkit 2023",
         "exhibitors_8": "Manual del expositor",
-         "visitors": "Visitantes",
+        "visitors": "Visitantes",
         "visitors_1": "Perfil del visitante",
-         "visitors_2": "Visados",
-        "past_events": "Ediciones Ecomondo",
+        "visitors_2": "Visados",
+        "conferences": "Conferencias",
+         "conferences_1": "Programa de conferencias",
+         "conferences_2": "Comité Científico",
+        "past_events": "Ediciones",
         "ecomondo2023" : " Ecomondo 2023",
         "ecomondo2023_1" : "Directorio de Expositores 2023",
         "ecomondo2023_2" : "Reporte de Resultados 2023",
@@ -29,9 +32,11 @@
         "media_hub_1": "Galeria"
    },
    "home" :{
+        "slogan": "La feria de tecnología ambiental de Latinoamérica ",
+         "slogan_2": "Soluciones Ecológicas<br /> para un mundo<br /> más verde ",
         "factsheet" : "Factsheet 2024",
         "floorplan" : "Plano 2024",
-        "program" : "Programa 2024",
+        "program" : "Conferencias",
         "exhibitor_directory" : "Directorio de Expositores",
         "sponsor_1" : "Patrocinador Plata",
         "text_1" : "Bajo los ejes de Tratamiento de Agua, Gestión de Desperdicios y Bioenergía, ECOMONDO MEXICO 2024 es el lugar ideal para acceder a las últimas innovaciones ecológicas, y  los conocimientos más especializados en economía circular, que le permitirán participar en los negocios verdes del presente y del futuro al reunir tecnologías y soluciones de sectores que promueven la transición hacia un futuro más sustentable.",
@@ -312,10 +317,11 @@
       "sales_manager" : "Gerente de ventas",
       "sales_executive" : "Ejecutivo de ventas",
       "privacy_policy": "Aviso de privacidad",
+      "title":"Suscríbete a nuestro boletín",
       "contact": "Contacto",
       "name": "Nombre",
       "email": "Correo electrónico",
-      "subscription": "Suscribirse al boletín"
+      "subscription": "Suscribirse"
    },
    "program":{
       "title": "PROGRAMA DE ACTIVIDADES",

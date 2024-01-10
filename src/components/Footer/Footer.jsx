@@ -233,7 +233,9 @@ export function Footer() {
           </Row>
 
           <div className='mt-5 footer-language d-flex'>
-            <strong>Italian German Exhibition Company</strong>
+            <a href='https://igeco.mx' target='_blank'>
+              <strong>Italian German Exhibition Company</strong>
+            </a>
             <div className='ms-auto'>
               <LanguageButton />
             </div>
