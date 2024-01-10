@@ -11,3 +11,13 @@
     background-repeat: no-repeat;
     height: 70px;
   }
+  .foreign-contact{
+    text-align: start;
+  }
+  .foreign-contact a{
+    color: black;  
+    font-weight: 700;
+  }
+  .foreign-contact a:hover{
+    color: #288705;      
+  }
