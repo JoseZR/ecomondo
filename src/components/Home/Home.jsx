@@ -764,21 +764,6 @@ export function Home() {
                 />
               </a>
             </Col>
-            <Col xs={12} md={6} lg={3} className='mx-auto my-auto py-3'>
-              <a
-                href='https://heraldodemexico.com.mx/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/ecomondo/logos/pv-magazine-group.webp'
-                  width={250}
-                  height={70}
-                  loading='lazy'
-                  alt='el_heraldo_mexico'
-                />
-              </a>
-            </Col>
           </Row>
           <p
             className='fw-bold fs-2 text-center pt-5'
@@ -833,21 +818,6 @@ export function Home() {
               </a>
             </div>
             <div className='exibitorSlider text-center h-100'>
-              <a
-                href='https://energy21.com.mx/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/ecomondo/logos/energy-21.webp'
-                  width={200}
-                  height={40}
-                  loading='lazy'
-                  alt='energy-21'
-                />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
               <a href='https://dplnews.com/' target='_blank' rel='noreferrer'>
                 <img
                   src='/ecomondo/logos/dpl.webp'
@@ -855,21 +825,6 @@ export function Home() {
                   height={70}
                   loading='lazy'
                   alt='dpl-news'
-                />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a
-                href='https://energiaadebate.com/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/ecomondo/logos/energiadebate.webp'
-                  width={180}
-                  height={90}
-                  loading='lazy'
-                  alt='energia-debate'
                 />
               </a>
             </div>
@@ -979,21 +934,6 @@ export function Home() {
           </p>
           <Marquee gradient className='mt-3' direction='letf'>
             <div className='exibitorSlider text-center h-100'>
-              <a
-                href='https://plastico.com.mx/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/ecomondo/logos/gap.webp'
-                  width={180}
-                  height={70}
-                  loading='lazy'
-                  alt='ap'
-                />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
               <a href='' target='_blank' rel='noreferrer'>
                 <img
                   src='/ecomondo/logos/biosfera.webp'
@@ -1016,21 +956,6 @@ export function Home() {
                   height={50}
                   loading='lazy'
                   alt=''
-                />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a
-                href='http://www.revistadp.com/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/ecomondo/logos/preferencia.webp'
-                  width={200}
-                  height={60}
-                  loading='lazy'
-                  alt='de-preferencia'
                 />
               </a>
             </div>
