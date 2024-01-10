@@ -148,7 +148,7 @@ export function Home() {
           <Row>
             <Col md={6} className='text-start my-auto'>
               <img
-                src='/ecomondo2024.webp'
+                src='/ecomondo/ecomondo2024.webp'
                 width='270'
                 height='107'
                 alt='feria de sustentabilidad'
@@ -169,8 +169,8 @@ export function Home() {
                   class='mt-20'
                   src={
                     i18n.language === 'es'
-                      ? '/logo-igeco-esp.webp'
-                      : '/logo-igeco.webp'
+                      ? '/ecomondo/logo-igeco-esp.webp'
+                      : '/ecomondo/logo-igeco.webp'
                   }
                   alt='Expo de Sustentabilidad en Mexico'
                   width='350'
@@ -178,7 +178,7 @@ export function Home() {
               </div>
             </Col>
             <Col md={6}>
-              <img src='/world-ecomondo.webp' className='w-100' />
+              <img src='/ecomondo/world-ecomondo.webp' className='w-100' />
             </Col>
           </Row>
         </Container>
