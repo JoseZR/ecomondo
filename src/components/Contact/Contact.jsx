@@ -34,7 +34,7 @@ export function Contact() {
           </Col>
           <Col md className='text-center'>
             <img
-              src='/sergiolopez.webp'
+              src='/ecomondo/sergiolopez.webp'
               alt='Sergio López'
               width={150}
               loading='lazy'
