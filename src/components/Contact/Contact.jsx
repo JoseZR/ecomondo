@@ -7,15 +7,69 @@ export function Contact() {
   const { t } = useTranslation()
   return (
     <>
-      <Container>
-        <Row className='my-5'>
-          <Col xs={12} lg={6}>
-            <div className='div-con-fondo h-100' loading='lazy' />
+      <p className='fs-1'>
+        <strong>{t('menu.exhibitors_1')}</strong>
+      </p>
+      <section className='ecomondo-bloq-1 pt-5 pb-5'>
+        <Row>
+          <Col md className='text-center'>
+            <img
+              src='/ecomondo/sandra.webp'
+              alt='Sandra Elias'
+              height={150}
+              loading='lazy'
+              className='rounded-circle'
+            />
+            <p className='fw-bold'>
+              Sandra Elías
+              <br />
+              Directora de proyecto
+            </p>
+            <a
+              href='mailto:sandra.elias@igeco.mx'
+              className='text-black fw-bold'
+            >
+              sandra.elias@igeco.mx
+            </a>
           </Col>
-          <Col xs={12} lg={6}>
-            <ContactForm />
+          <Col md className='text-center'>
+            <img src='' alt='Sergio López' width={150} loading='lazy' />
+            <p className='fw-bold'>
+              Sergio López
+              <br />
+              Gerente de ventas
+            </p>
+            <a
+              href='mailto:sergio.lopez@igeco.mx'
+              className='text-black fw-bold'
+            >
+              sergio.lopez@igeco.mx
+            </a>
+          </Col>
+          <Col md className='text-center'>
+            <img
+              src='/ecomondo/marissa.jpg'
+              alt='Marissa Franco Zermeño'
+              width={150}
+              loading='lazy'
+              className='rounded-circle'
+            />
+            <p className='fw-bold'>
+              Marissa Franco Zermeño
+              <br />
+              Ejecutivo de ventas
+            </p>
+            <a
+              href='mailto:sergio.lopez@igeco.mx'
+              className='text-black fw-bold'
+            >
+              marissa.franco@igeco.mx
+            </a>
           </Col>
         </Row>
+      </section>
+      <Container>
+        <ContactForm />
         <p className='mt-5 text-start fs-3'>
           <strong>{t('footer.foreign_contact')}</strong>
         </p>

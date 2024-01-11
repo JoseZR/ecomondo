@@ -6,7 +6,7 @@ import { Container } from 'react-bootstrap'
 import { CustomRecaptcha } from '../CustomRecaptcha'
 import { useLanguage } from '../hooks/useLanguage'
 
-export function ContactForm () {
+export function ContactForm() {
   const { t } = useTranslation()
   const { stateLang } = useLanguage()
   const captchaRef = useRef()
@@ -29,9 +29,9 @@ export function ContactForm () {
       const requestOptions = {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json'
+          'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ token, formData })
+        body: JSON.stringify({ token, formData }),
       }
       try {
         const res = await fetch(
@@ -42,7 +42,7 @@ export function ContactForm () {
         if (data.status) {
           setMessage('Message send successfully!!')
         } else {
-          setMessage('Sorry we couldn\'t verify you are not robot try again...')
+          setMessage("Sorry we couldn't verify you are not robot try again...")
         }
       } catch (error) {
         console.log(error)
@@ -64,8 +64,12 @@ export function ContactForm () {
   return (
     <>
       <Container className='mt-5 mb-5'>
-        <h1 className='fw-bold'>{t('contactForm.title')}</h1>
-        <Form id='form-newsletter' onSubmit={handleSubmit} style={{textAlign: 'left'}}>
+        <h3 className='fw-bold'>{t('contactForm.title')}</h3>
+        <Form
+          id='form-newsletter'
+          onSubmit={handleSubmit}
+          style={{ textAlign: 'left' }}
+        >
           <Form.Group className='mb-3' controlId='formBasicPassword'>
             <Form.Label>{t('footer.name')}</Form.Label>
             <Form.Control type='text' name='name' required />
