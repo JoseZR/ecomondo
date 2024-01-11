@@ -33,7 +33,13 @@ export function Contact() {
             </a>
           </Col>
           <Col md className='text-center'>
-            <img src='' alt='Sergio López' width={150} loading='lazy' />
+            <img
+              src='/sergiolopez.webp'
+              alt='Sergio López'
+              width={150}
+              loading='lazy'
+              className='rounded-circle'
+            />
             <p className='fw-bold'>
               Sergio López
               <br />
