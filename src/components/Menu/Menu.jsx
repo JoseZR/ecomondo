@@ -142,7 +142,7 @@ export function Menu() {
                 >
                   <NavDropdown.Item
                     as={Link}
-                    to='/visitor-profile'
+                    to='/why-visit'
                     onClick={handleClose}
                   >
                     {t('menu.visitors_1')}
