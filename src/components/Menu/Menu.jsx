@@ -174,6 +174,13 @@ export function Menu() {
                   >
                     {t('menu.conferences_1')}
                   </NavDropdown.Item>
+                  <NavDropdown.Item
+                    as={Link}
+                    to='/scientific-committee'
+                    onClick={handleClose}
+                  >
+                    {t('menu.conferences_2')}
+                  </NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown
                   title={t('menu.past_events')}

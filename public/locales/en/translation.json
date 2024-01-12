@@ -297,6 +297,13 @@
          "close" : "Closing date: 15 March 2024"
       }
    },
+   "why-visit":{
+      "title": "WHY VISIT US?",
+      "description": "ECOMONDO MEXICO, the environmental technology fair in Latin America, will allow you to create strategic alliances to explore new growth and expansion opportunities for your business globally.<br /><br />Our exhibition is part of the Ecomondo Global Network in Italy, the reference fair in Europe and the Mediterranean basin for technologies, services and industrial solutions in the green and circular economy sectors; thanks to which you will be able to expand your network of contacts, connect with decision makers and key suppliers of the green business industry of today and the future.<br /><br />Discover the latest trends, innovations and technologies, and acquire the most specialized knowledge in the sectors of Waste Management, Bioenergy and Water Care and Management, in our conference program organized by a Scientific Committee.",
+      "item_1" : "Find the ideal tools to move towards more sustainable and efficient practices.",
+      "item_2" : "Secure your company's growth goals.",
+      "item_3" : "Visit an international program of high quality conferences and workshops."
+   },
    "visitorProfile":{
       "title": "Visitor's profile",
       "item_1" : "Directors of companies and industries",
@@ -331,6 +338,21 @@
       "title": "PROGRAM",
       "description": "Play a part in Mexico’s ecological transition, discover the latest innovations for industrial sustainability.",
       "comming_soon": "Coming soon..."
+   },
+   "scientific-committee":{
+      "title": "COMPOSICIÓN DEL Comité Científico y Técnico (CCT o CTS)",
+      "area_1": "WASTE AND BIOENERGY",
+      "member_1": "<strong>Marco Ricci</strong>,<br />Physicist and Ph.D. in Environmental Management, expert in organic waste and composting, member and Experto Seniorof the CIC Italian Composting and Biogas Association, researches and speaks for numerous international organisations.",
+      "member_2": "<strong>Gustavo Solorzano</strong><br /> Director of international affairs, DS Latinoamericana (ISWA National Member) – Mexico.<br />SIPRA, SC. Socio Director.<br /> Asociación Mexicana de Ingeniería, Ciencia y Gestión Ambiental.<br />Expert in waste management and member of the UN Coalition to Close Landfills (Mexico City).",
+      "member_3": "<strong>Blas Ramos</strong><br />PMJR Profesionales en Manejo de Residuos de Jalisco, part of the Chamber of commerce of Guadalajara.Buró de Gestión Ambietal de Occidente, S.A.<br />Consultoría en materia ambiental y en Programas Internos de Protección Civil. Elaboración de Planes de Manejo de Residuos. Programa de Cumplimiento Ambiental Voluntario.<br />Director General de Medio Ambiente, Gobierno Municipal de San Pedro Tlaquepaque.",
+      "member_4": "<strong>Ana Cecilia Martinez</strong><br />M.A. International Relations, MSc Globalization & Development.<br />Speaker & consultant integrated waste management, Circular Economy, greentech investments.<br />Sesman Recycling, Managing Director.<br />Cámara de Comercio de Guadalajara, Vice President of Sustainability.<br />Guadalajara, Mexico Metropolitan Area, President.<br />Red Iberoamericana de Medio Ambiente.",
+      "area_2": "WATER",
+      "member_5": "<strong>Francesco Fatone</strong><br />Full Professor of Chemical and Environmental Engineering at Università Politecnica delle Marche, Department of Materials, Environmental Sciences and Urban Planning SIMAU, Ancona, Italy.<br />International Water Association (IWA) fellow.<br />Water Europe Ambassador.",
+      "member_6": "<strong>Luis Arellano</strong>,<br />Environmental Technology Research Scientist at CIATEJ Mexico. <br />Research fields are: development of processes for household and industrial wastewater treatment, biofiltration technology and gaseous biofuels production and upgrading. Equity in access to water and sanitation, drinking water technology and climate change.",
+      "member_7": "<strong>José Tello</strong><br />Professional and Scholar in Sustainability, Local Development and Multimodal Infrastructure. Skilled in Project Management, Public Policy, Environmental Evaluation and Research Methodologies. Bachelor's degree in Political Science (ITAM); Master's in Local and Regional Development (ISS); Master's in Public Policy and Management (UoM); Doctoral degree in Environmental Conservation (CIBNOR).",
+      "member_8": "<strong>Paolo Malfitano</strong><br />Responsible for the program between ICE and the Ministero dell'Ambiente e della Tutela del Territorio e del Mare (Italian Ministry of Environment, Land and Sea Protection, also known as MATMM).<br />I coordinated international programs in the fight against climate change between the Italian Ministry of Environment and different Mexican institutions, both federal and local, such as the Ministry of Environment and Natural Resources (SEMARNAT), the National Forestry Commission (CONAFOR) and the Ministry of Environment of the Federal District (SEDEMA).<br />Coordinator and Responsible for several cooperation projects between Italy and Mexico.",
+      "contacts": "Contacts"
+
    },
    "hotels":{
       "description": "We are pleased to announce that we have secured preferential rates at quality hotels to make your experience even more comfortable and affordable.<br /><br />Strategically located around the event venue, these hotels offer not only comfort, but also the opportunity to fully immerse yourself in the atmosphere of the event. We have negotiated special rates for our attendees, ensuring that your stay will be as unforgettable as the event itself.",

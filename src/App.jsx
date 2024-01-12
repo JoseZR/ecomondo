@@ -14,6 +14,7 @@ import { useEffect } from 'react'
 import { Program } from './components/Program/Program'
 import { Hotels } from './components/Hotels/Hotels'
 import { Whyvisit } from './components/WhyVisit/Whyvisit'
+import { ScientificComittee } from './components/ScientificComittee/ScientificComittee'
 
 function App() {
   const location = useLocation()
@@ -44,6 +45,7 @@ function App() {
         <Route path='why-visit' element={<Whyvisit />} />
         <Route path='gallery' element={<GalleryPage />} />
         <Route path='program' element={<Program />} />
+        <Route path='scientific-committee' element={<ScientificComittee />} />
         <Route path='hotels' element={<Hotels />} />
       </Routes>
       <Footer />
