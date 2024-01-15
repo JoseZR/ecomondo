@@ -15,7 +15,11 @@ export function Menu() {
 
   return (
     <>
-      <Navbar className='text-uppercase text-center menu-padre' expand='lg'>
+      <Navbar
+        className='text-uppercase text-center menu-padre'
+        expand='lg'
+        sticky='top'
+      >
         <Container>
           <Navbar.Brand as={Link} to='/'>
             <img src={logoEco} alt='ecomondo' width='200' className='ms-3' />

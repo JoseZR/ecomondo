@@ -143,7 +143,17 @@ export function Home() {
         </header>
               </Container>*/}
 
-      <section class='ecomondo-bloq-1 pt-5 pb-5'>
+      <section
+        className='relative pt-5 pb-5 w-100 vh-100'
+        style={{ textShadow: '4px 4px 4px black' }}
+      >
+        <video
+          src='/propuestav1_opti.mp4'
+          autoPlay
+          muted
+          loop
+          className='video-bg-ecomondo'
+        ></video>
         <Container>
           <Row>
             <Col md={6} className='text-start my-auto'>
@@ -154,19 +164,25 @@ export function Home() {
                 alt='feria de sustentabilidad'
               />
               <p
-                class='text-white text-sm font-bold'
+                className='text-white text-sm font-bold fs-5'
                 dangerouslySetInnerHTML={{ __html: t('home.slogan') }}
               ></p>
-              <p class='fw-bold text-white'>
+              <p className='fw-bold text-white'>
                 {t('home.date')} <br /> Expo Guadalajara
               </p>
               <p
-                class='mt-5 text-white fw-light fs-3 lh-1'
+                className='mt-5 text-light text-f fs-6'
+                dangerouslySetInnerHTML={{
+                  __html: t('home.ecomondo_date_hours'),
+                }}
+              />
+              <p
+                className='mt-5 text-white fw-light fs-3 lh-1'
                 dangerouslySetInnerHTML={{ __html: t('home.slogan_2') }}
               ></p>
-              <div class='mt-5 flex justify-end'>
+              <div className='mt-5 flex justify-end'>
                 <img
-                  class='mt-20'
+                  className='mt-20'
                   src={
                     i18n.language === 'es'
                       ? '/ecomondo/logo-igeco-esp.webp'
@@ -177,9 +193,9 @@ export function Home() {
                 />
               </div>
             </Col>
-            <Col md={6}>
+            {/*<Col md={6}>
               <img src='/ecomondo/world-ecomondo.webp' className='w-100' />
-            </Col>
+                </Col>*/}
           </Row>
         </Container>
       </section>

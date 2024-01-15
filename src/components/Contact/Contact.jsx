@@ -11,68 +11,70 @@ export function Contact() {
         <strong>{t('menu.exhibitors_1')}</strong>
       </p>
       <section className='ecomondo-bloq-1 pt-5 pb-5'>
-        <Row>
-          <Col md className='text-center'>
-            <img
-              src='/ecomondo/sandra.webp'
-              alt='Sandra Elias'
-              height={150}
-              loading='lazy'
-              className='rounded-circle'
-            />
-            <p className='fw-bold'>
-              Sandra Elías
-              <br />
-              Directora de proyecto
-            </p>
-            <a
-              href='mailto:sandra.elias@igeco.mx'
-              className='text-black fw-bold'
-            >
-              sandra.elias@igeco.mx
-            </a>
-          </Col>
-          <Col md className='text-center'>
-            <img
-              src='/ecomondo/sergiolopez.webp'
-              alt='Sergio López'
-              width={150}
-              loading='lazy'
-              className='rounded-circle'
-            />
-            <p className='fw-bold'>
-              Sergio López
-              <br />
-              Gerente de ventas
-            </p>
-            <a
-              href='mailto:sergio.lopez@igeco.mx'
-              className='text-black fw-bold'
-            >
-              sergio.lopez@igeco.mx
-            </a>
-          </Col>
-          <Col md className='text-center'>
-            <img
-              src='/ecomondo/marissa.jpg'
-              alt='Marissa Franco Zermeño'
-              width={150}
-              loading='lazy'
-              className='rounded-circle'
-            />
-            <p className='fw-bold'>
-              Marissa Franco Zermeño
-              <br />
-              Ejecutivo de ventas
-            </p>
-            <a
-              href='mailto:sergio.lopez@igeco.mx'
-              className='text-black fw-bold'
-            >
-              marissa.franco@igeco.mx
-            </a>
-          </Col>
-        </Row>
+        <Container>
+          <Row>
+            <Col md className='text-center'>
+              <img
+                src='/ecomondo/sandra.webp'
+                alt='Sandra Elias'
+                height={150}
+                loading='lazy'
+                className='rounded-circle'
+              />
+              <p className='fw-bold'>
+                Sandra Elías
+                <br />
+                Directora de proyecto
+              </p>
+              <a
+                href='mailto:sandra.elias@igeco.mx'
+                className='text-black fw-bold'
+              >
+                sandra.elias@igeco.mx
+              </a>
+            </Col>
+            <Col md className='text-center'>
+              <img
+                src='/ecomondo/sergiolopez.webp'
+                alt='Sergio López'
+                width={150}
+                loading='lazy'
+                className='rounded-circle'
+              />
+              <p className='fw-bold'>
+                Sergio López
+                <br />
+                Gerente de ventas
+              </p>
+              <a
+                href='mailto:sergio.lopez@igeco.mx'
+                className='text-black fw-bold'
+              >
+                sergio.lopez@igeco.mx
+              </a>
+            </Col>
+            <Col md className='text-center'>
+              <img
+                src='/ecomondo/marissa.jpg'
+                alt='Marissa Franco Zermeño'
+                width={150}
+                loading='lazy'
+                className='rounded-circle'
+              />
+              <p className='fw-bold'>
+                Marissa Franco Zermeño
+                <br />
+                Ejecutivo de ventas
+              </p>
+              <a
+                href='mailto:sergio.lopez@igeco.mx'
+                className='text-black fw-bold'
+              >
+                marissa.franco@igeco.mx
+              </a>
+            </Col>
+          </Row>
+        </Container>
       </section>
       <Container>
         <ContactForm />
