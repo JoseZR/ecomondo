@@ -76,10 +76,10 @@ export function Contact() {
       </section>
       <Container>
         <ContactForm />
-        <p className='mt-5 text-start fs-3'>
+        {/*<p className='mt-5 text-start fs-3'>
           <strong>{t('footer.foreign_contact')}</strong>
         </p>
-        <Row className='foreign-contact'>
+       <Row className='foreign-contact'>
           <Col md>
             <p>
               <strong>GERMANY</strong>
@@ -172,7 +172,7 @@ export function Contact() {
               </a>
             </p>
           </Col>
-        </Row>
+        </Row>*/}
         <Row className='py-5'>
           <Col>
             <p className='text-center mt-5'>
