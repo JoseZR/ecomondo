@@ -20,9 +20,9 @@ export function Menu() {
         expand='lg'
         sticky='top'
       >
-        <Container>
+        <Container className='justify-content-center'>
           <Navbar.Brand as={Link} to='/'>
-            <img src={logoEco} alt='ecomondo' width='200' className='ms-3' />
+            <img src={logoEco} alt='ecomondo' width='150' />
           </Navbar.Brand>
           <a
             href='https://www.hfmexico.mx/solarpowermexico/'

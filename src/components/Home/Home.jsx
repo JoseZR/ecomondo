@@ -144,7 +144,7 @@ export function Home() {
               </Container>*/}
 
       <section
-        className='relative pt-5 pb-5 w-100 vh-100'
+        className='position-relative w-100 vh-100 d-flex align-items-center justify-content-center'
         style={{ textShadow: '4px 4px 4px black' }}
       >
         <video
