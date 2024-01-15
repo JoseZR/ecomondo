@@ -13,7 +13,6 @@ export function Participate() {
         </h2>
         <br />
         <br />
-        Fabio picate el rabo
         <Row>
           <Col xs={12} md={4} className='h-100 p-3'>
             <div className='container-plant'>
