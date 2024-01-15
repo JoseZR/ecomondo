@@ -18,7 +18,15 @@ export function Participate() {
             <div className='container-plant'>
               <h4 className='py-2'>{t('participate.sustainable')}</h4>
               <p>{t('participate.area')}</p>
-              <p>USD 1,800 + IVA</p>
+              <p>
+                <span className='text-decoration-line-through'>
+                  USD 1,800 + IVA
+                </span>
+                <span className='bg-danger fw-bold ms-2 rounded p-1 text-white'>
+                  50% desc
+                </span>
+              </p>
+              <p className='fw-bold'>USD 900 + IVA</p>
               <Row className='justify-content-md-center'>
                 <Col className='m-3'>
                   <img
@@ -81,7 +89,7 @@ export function Participate() {
             <div className='container-plant'>
               <h4 className='py-2'>{t('participate.equipped')}</h4>
               <p>9m² {t('participate.item01')}</p>
-              <p>USD 3,330 + IVA</p>
+              <p className='fw-bold'>USD 3,330 + IVA</p>
               <Row className='justify-content-md-center'>
                 <Col className='m-3'>
                   <img
@@ -168,7 +176,7 @@ export function Participate() {
             <div className='container-plant'>
               <h4 className='py-2'>{t('participate.free')}</h4>
               <p>18m² {t('participate.item01')}</p>
-              <p>USD 320 / m² + IVA</p>
+              <p className='fw-bold'>USD 320 / m² + IVA</p>
               <Row className='justify-content-md-center'>
                 <Col className='m-3'>
                   <img src='./phone-book.webp' alt='' className='icon-price' />
