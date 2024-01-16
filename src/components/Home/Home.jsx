@@ -148,7 +148,7 @@ export function Home() {
         style={{ textShadow: '4px 4px 4px black' }}
       >
         <video
-          src='/propuestav1_opti.mp4'
+          src='/ecomondo/propuestav1_opti.mp4'
           autoPlay
           muted
           loop
