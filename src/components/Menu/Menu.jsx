@@ -93,7 +93,11 @@ export function Menu() {
                     {t('menu.exhibitors_3')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href='/ecomondo/files/ASSpaceAgreement-Ecomondo-Mexico.pdf'
+                    href={
+                      i18n.language === 'es'
+                        ? '/ecomondo/files/ASSpaceAgreement-Ecomondo-Mexico.pdf'
+                        : '/ecomondo/files/ASSpaceAgreement-Ecomondo-Mexico-ENG.pdf'
+                    }
                     target='_blank'
                     onClick={handleClose}
                   >
