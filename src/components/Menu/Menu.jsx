@@ -96,7 +96,7 @@ export function Menu() {
                     href={
                       i18n.language === 'es'
                         ? '/ecomondo/files/ASSpaceAgreement-Ecomondo-Mexico.pdf'
-                        : '/ecomondo/files/ASSpaceAgreement-Ecomondo-Mexico-ENG.pdf'
+                        : '/ecomondo/files/Ecomondo-Space-Agreement-2024-ENGV1.pdf'
                     }
                     target='_blank'
                     onClick={handleClose}
