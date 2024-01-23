@@ -736,69 +736,17 @@ export function Home() {
               </a>
             </div>
           </Marquee>
+
           <p
-            className='fw-bold fs-2 text-center pt-5'
+            className='fw-bold fs-2 text-center mt-5 pt-5'
             style={{ color: '#288705' }}
           >
-            {t('home.broadcasting_media_partners')}
+            MEDIA PARTNERS
           </p>
-          <Row className='text-center py-5'>
-            <Col md={3} className='mx-auto my-auto'>
+          <Marquee gradient className='mt-3'>
+            <div className='exibitorSlider text-center h-100'>
               <a
-                href='https://heraldodemexico.com.mx/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/ecomondo/logos/el_heraldo_mexico.webp'
-                  width={250}
-                  height={40}
-                  loading='lazy'
-                  alt='el_heraldo_mexico'
-                />
-              </a>
-            </Col>
-          </Row>
-          <p
-            className='fw-bold fs-2 text-center pt-5'
-            style={{ color: '#288705' }}
-          >
-            {t('home.platinum_media_partners')}
-          </p>
-          <Row className='text-center py-5'>
-            <Col xs={12} md={6} lg={3} className='mx-auto my-auto py-3'>
-              <a
-                href='https://heraldodemexico.com.mx/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/ecomondo/logos/economista.webp'
-                  width={250}
-                  height={20}
-                  loading='lazy'
-                  alt='el_heraldo_mexico'
-                />
-              </a>
-            </Col>
-            <Col xs={12} md={6} lg={3} className='mx-auto my-auto py-3'>
-              <a
-                href='https://heraldodemexico.com.mx/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/ecomondo/logos/global-energy.webp'
-                  width={200}
-                  height={80}
-                  loading='lazy'
-                  alt='el_heraldo_mexico'
-                />
-              </a>
-            </Col>
-            <Col xs={12} md={6} lg={3} className='mx-auto my-auto py-3'>
-              <a
-                href='https://heraldodemexico.com.mx/'
+                href='https://mexicoindustry.com/'
                 target='_blank'
                 rel='noreferrer'
               >
@@ -810,15 +758,22 @@ export function Home() {
                   alt='el_heraldo_mexico'
                 />
               </a>
-            </Col>
-          </Row>
-          <p
-            className='fw-bold fs-2 text-center pt-5'
-            style={{ color: '#288705' }}
-          >
-            {t('home.gold_media_partners')}
-          </p>
-          <Marquee gradient className='mt-3'>
+            </div>
+            <div className='exibitorSlider text-center h-100'>
+              <a
+                href='https://globalenergy.mx/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img
+                  src='/ecomondo/logos/global-energy.webp'
+                  width={200}
+                  height={80}
+                  loading='lazy'
+                  alt='el_heraldo_mexico'
+                />
+              </a>
+            </div>
             <div className='exibitorSlider text-center h-100'>
               <a
                 href='https://www.cosmos.com.mx/'
@@ -876,7 +831,11 @@ export function Home() {
               </a>
             </div>
             <div className='exibitorSlider text-center h-100'>
-              <a href='' target='_blank' rel='noreferrer'>
+              <a
+                href='https://www.globalindustries.mx'
+                target='_blank'
+                rel='noreferrer'
+              >
                 <img
                   src='/ecomondo/logos/global-industries.webp'
                   width={200}
@@ -957,6 +916,8 @@ export function Home() {
                 />
               </a>
             </div>
+          </Marquee>
+          <Marquee gradient className='mt-3' direction='letf'>
             <div className='exibitorSlider text-center h-100'>
               <a
                 href='https://factorenergetico.mx/'
@@ -972,16 +933,12 @@ export function Home() {
                 />
               </a>
             </div>
-          </Marquee>
-          <p
-            className='fw-bold fs-2 text-center mt-5 pt-5'
-            style={{ color: '#288705' }}
-          >
-            {t('home.silverm_media_partners')}
-          </p>
-          <Marquee gradient className='mt-3' direction='letf'>
             <div className='exibitorSlider text-center h-100'>
-              <a href='' target='_blank' rel='noreferrer'>
+              <a
+                href='https://biosferambiental.com/'
+                target='_blank'
+                rel='noreferrer'
+              >
                 <img
                   src='/ecomondo/logos/biosfera.webp'
                   width={180}
