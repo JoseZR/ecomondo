@@ -127,8 +127,8 @@ export function Menu() {
                   <NavDropdown.Item
                     href={
                       i18n.language === 'es'
-                        ? '/ecomondo/files/MANUAL-DEL-EXPOSITOR-ECO-030124.pdf'
-                        : '/ecomondo/files/MANUAL-DEL-EXPOSITOR-ENG-ECO-030124.pdf'
+                        ? '/ecomondo/files/MANUAL-DEL-EXPOSITOR-ECO-230124v1.pdf'
+                        : '/ecomondo/files/MANUAL-DEL-EXPOSITOR-ENG-ECO-230124v1.pdf'
                     }
                     target='_blank'
                     onClick={handleClose}
