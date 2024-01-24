@@ -77,8 +77,8 @@ export function Menu() {
                   <NavDropdown.Item
                     href={
                       i18n.language === 'es'
-                        ? '/ecomondo/files/Factsheet-Ecomondo-Mexico-2024-ES-08124.pdf'
-                        : '/ecomondo/files/Factsheet-Ecomondo-Mexico-2024-EN-08124.pdf'
+                        ? '/ecomondo/files/Factsheet-Ecomondo-Mexico-2024-08124v2.pdf'
+                        : '/ecomondo/files/Factsheet-Ecomondo-Mexico-2024-08124-ENG-v2.pdf'
                     }
                     target='_blank'
                     onClick={handleClose}
