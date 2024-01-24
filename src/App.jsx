@@ -15,6 +15,7 @@ import { Program } from './components/Program/Program'
 import { Hotels } from './components/Hotels/Hotels'
 import { Whyvisit } from './components/WhyVisit/Whyvisit'
 import { ScientificComittee } from './components/ScientificComittee/ScientificComittee'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   const location = useLocation()
@@ -23,6 +24,7 @@ function App() {
   }, [location])
   return (
     <>
+      <ScrollToTop />
       <Menu />
       <div className='whatssap-button'>
         <a href='https://wa.me/14791484295' target='_blank' rel='noreferrer'>
