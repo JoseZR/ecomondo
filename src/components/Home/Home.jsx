@@ -31,7 +31,7 @@ export function Home() {
           <Row>
             <Col className='text-start my-auto text-center'>
               <p
-                className='text-white font-bold fs-3'
+                className='text-white fw-bold fs-3'
                 dangerouslySetInnerHTML={{ __html: t('home.slogan') }}
               ></p>
               <div className='d-flex gap-5 align-items-center justify-content-center mb-4'>
