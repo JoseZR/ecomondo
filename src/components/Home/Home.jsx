@@ -16,133 +16,6 @@ export function Home() {
   }, [])
   return (
     <>
-      {/*<Container>
-        <header>
-          <nav className='my-5 py-3 home-eco-submenu'>
-            <a
-              className='sub-menu-doc'
-              href={
-                i18n.language === 'es'
-                  ? '/ecomondo/files/Factsheet_Ecomondo_Mexico_2024_es_v80124.pdf'
-                  : '/ecomondo/files/Factsheet-Ecomondo-Mexico-2024-EN-61223.pdf'
-              }
-              target='_blank'
-              rel='noreferrer'
-            >
-              <svg
-                xmlns='http://www.w3.org/2000/svg'
-                fill='none'
-                viewBox='0 0 24 24'
-                strokeWidth={1.5}
-                stroke='currentColor'
-                width={30}
-              >
-                <path
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  d='M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25M9 16.5v.75m3-3v3M15 12v5.25m-4.5-15H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z'
-                />
-              </svg>
-              {t('home.factsheet')}
-            </a>
-            <a
-              href='/ecomondo/files/ECOMONDO-Y-SSM-PLANO-2024-v6_061223.pdf'
-              target='_blank'
-              rel='noreferrer'
-              className='sub-menu-doc'
-            >
-              <svg
-                xmlns='http://www.w3.org/2000/svg'
-                fill='none'
-                viewBox='0 0 24 24'
-                strokeWidth={1.5}
-                stroke='currentColor'
-                width={30}
-              >
-                <path
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  d='M2.25 7.125C2.25 6.504 2.754 6 3.375 6h6c.621 0 1.125.504 1.125 1.125v3.75c0 .621-.504 1.125-1.125 1.125h-6a1.125 1.125 0 01-1.125-1.125v-3.75zM14.25 8.625c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v8.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-8.25zM3.75 16.125c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-2.25z'
-                />
-              </svg>{' '}
-              {t('home.floorplan')}
-            </a>
-            <Link className='sub-menu-doc' to='program'>
-              <svg
-                xmlns='http://www.w3.org/2000/svg'
-                fill='none'
-                viewBox='0 0 24 24'
-                strokeWidth={1.5}
-                stroke='currentColor'
-                width={28}
-              >
-                <path
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  d='M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 116 0v8.25a3 3 0 01-3 3z'
-                />
-              </svg>
-              {t('home.program')}
-            </Link>
-            <a
-              href='/ecomondo/files/Directorio_ECOMONDO_2023.pdf'
-              target='_blank'
-              rel='noreferrer'
-              className='sub-menu-doc'
-            >
-              <svg
-                xmlns='http://www.w3.org/2000/svg'
-                fill='none'
-                viewBox='0 0 24 24'
-                strokeWidth={1.5}
-                stroke='currentColor'
-                width={30}
-              >
-                <path
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  d='M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25'
-                />
-              </svg>
-              {t('home.exhibitor_directory')}
-            </a>
-            <Link className='sub-menu-doc' to='/hotels'>
-              <svg
-                xmlns='http://www.w3.org/2000/svg'
-                fill='none'
-                viewBox='0 0 24 24'
-                strokeWidth={1.5}
-                stroke='currentColor'
-                width={40}
-              >
-                <path
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  d='M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z'
-                />
-              </svg>
-
-              {t('home.hotels')}
-            </Link>
-            <a
-              href='https://www.hfmexico.mx/solarpowermexico/'
-              style={{ padding: 0, background: 'none' }}
-              target='_blank'
-              rel='noreferrer'
-            >
-              <img
-                width={150}
-                src={
-                  i18n.language === 'es'
-                    ? '/ecomondo/SSM-boton-ES.webp'
-                    : '/ecomondo/SSM-boton-EN.webp'
-                }
-              />
-            </a>
-          </nav>
-        </header>
-              </Container>*/}
-
       <section
         className='position-relative w-100 vh-100 d-flex align-items-center justify-content-center'
         style={{ textShadow: '4px 4px 4px black' }}
@@ -157,19 +30,23 @@ export function Home() {
         <Container>
           <Row>
             <Col md={6} className='text-start my-auto'>
-              <img
-                src='/ecomondo/ecomondo2024.webp'
-                width='270'
-                height='107'
-                alt='feria de sustentabilidad'
-              />
               <p
                 className='text-white text-sm font-bold fs-5'
                 dangerouslySetInnerHTML={{ __html: t('home.slogan') }}
               ></p>
-              <p className='fw-bold text-white'>
-                {t('home.date')} <br /> Expo Guadalajara
-              </p>
+              <div className='d-flex gap-5'>
+                <p className='fw-bold text-white'>
+                  {t('home.date')} <br /> Expo Guadalajara
+                </p>
+                <a
+                  href='https://ecomondo.ahmreg.com/'
+                  target='_blank'
+                  className='text-white fw-bold p-3 rounded-3'
+                  style={{ zIndex: 999, backgroundColor: '#288705' }}
+                >
+                  {t('menu.banner')}
+                </a>
+              </div>
               <p
                 className='mt-5 text-light text-f fs-6'
                 dangerouslySetInnerHTML={{
