@@ -29,32 +29,33 @@ export function Home() {
         ></video>
         <Container>
           <Row>
-            <Col md={6} className='text-start my-auto'>
+            <Col className='text-start my-auto text-center'>
               <p
-                className='text-white text-sm font-bold fs-5'
+                className='text-white font-bold fs-3'
                 dangerouslySetInnerHTML={{ __html: t('home.slogan') }}
               ></p>
-              <div className='d-flex gap-5'>
+              <div className='d-flex gap-5 align-items-center justify-content-center mb-4'>
                 <p className='fw-bold text-white'>
                   {t('home.date')} <br /> Expo Guadalajara
                 </p>
-                <a
-                  href='https://ecomondo.ahmreg.com/'
-                  target='_blank'
-                  className='text-white fw-bold p-3 rounded-3'
-                  style={{ zIndex: 999, backgroundColor: '#288705' }}
-                >
-                  {t('menu.banner')}
-                </a>
+                <p
+                  className='text-light text-f fs-6'
+                  dangerouslySetInnerHTML={{
+                    __html: t('home.ecomondo_date_hours'),
+                  }}
+                />
               </div>
+
+              <a
+                href='https://ecomondo.ahmreg.com/'
+                target='_blank'
+                className='text-white fw-bold p-3 rounded-3'
+                style={{ backgroundColor: '#288705' }}
+              >
+                {t('menu.banner')}
+              </a>
               <p
-                className='mt-5 text-light text-f fs-6'
-                dangerouslySetInnerHTML={{
-                  __html: t('home.ecomondo_date_hours'),
-                }}
-              />
-              <p
-                className='mt-5 text-white fw-light fs-3 lh-1'
+                className='mt-4 text-white fw-light fs-3 lh-1'
                 dangerouslySetInnerHTML={{ __html: t('home.slogan_2') }}
               ></p>
               <div className='mt-5 flex justify-end'>
