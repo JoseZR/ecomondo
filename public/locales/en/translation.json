@@ -136,9 +136,9 @@
       "send": "Send"
   }, 
    "toolkit":{
-      "item01" : "Official Exhibitor",
-      "item02" : "Courtesy Access",
-      "item03" : "Social Network"
+      "item01" : "Banner Web",
+      "item02" : "Banner Doc",
+      "item03" : ""
    },
    "participate":{
       "title" : "FIND THE RIGHT PLAN",

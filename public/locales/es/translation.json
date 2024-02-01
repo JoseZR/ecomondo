@@ -132,9 +132,9 @@
       "send": "Enviar"
   }, 
    "toolkit":{
-      "item01" : "Expositor Confirmado",
-      "item02" : "Acceso de Cortesía",
-      "item03" : "Redes Sociales"
+      "item01" : "Banner Web",
+      "item02" : "Banner Doc",
+      "item03" : ""
    },
    "participate":{
             "title" : "ENCUENTRA EL PLAN ADECUADO",
