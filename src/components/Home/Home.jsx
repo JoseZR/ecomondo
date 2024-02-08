@@ -624,6 +624,21 @@ export function Home() {
           <Marquee gradient className='mt-3'>
             <div className='exibitorSlider text-center h-100'>
               <a
+                href='https://cuatro-cero.mx/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img
+                  src='/ecomondo/logos/cuatroCero.webp'
+                  width={200}
+                  height={70}
+                  loading='lazy'
+                  alt='Cuatro Cero'
+                />
+              </a>
+            </div>
+            <div className='exibitorSlider text-center h-100'>
+              <a
                 href='https://heraldodemexico.com.mx/'
                 target='_blank'
                 rel='noreferrer'
