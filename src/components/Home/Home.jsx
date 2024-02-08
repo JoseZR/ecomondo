@@ -624,6 +624,21 @@ export function Home() {
           <Marquee gradient className='mt-3'>
             <div className='exibitorSlider text-center h-100'>
               <a
+                href='https://heraldodemexico.com.mx/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img
+                  src='/ecomondo/logos/heraldoHorizontal.webp'
+                  width={200}
+                  height={70}
+                  loading='lazy'
+                  alt='el_heraldo_mexico'
+                />
+              </a>
+            </div>
+            <div className='exibitorSlider text-center h-100'>
+              <a
                 href='https://mexicoindustry.com/'
                 target='_blank'
                 rel='noreferrer'
@@ -633,7 +648,7 @@ export function Home() {
                   width={200}
                   height={70}
                   loading='lazy'
-                  alt='el_heraldo_mexico'
+                  alt='mexico industry'
                 />
               </a>
             </div>
@@ -648,7 +663,7 @@ export function Home() {
                   width={200}
                   height={80}
                   loading='lazy'
-                  alt='el_heraldo_mexico'
+                  alt='global-energy-mx'
                 />
               </a>
             </div>
