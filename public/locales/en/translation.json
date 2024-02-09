@@ -339,7 +339,11 @@
    "program": {
       "title": "PROGRAM",
       "description": "Play a part in Mexico’s ecological transition, discover the latest innovations for industrial sustainability.",
-      "comming_soon": "Coming soon..."
+      "comming_soon": "Coming soon...",
+      "day": "Day",
+      "day_1": "Wednesday, 17th April",
+      "day_2": "Thursday, 18th April",
+      "day_3": "Friday, 19th April"
    },
    "scientific-committee":{
       "title": "COMPOSICIÓN DEL Comité Científico y Técnico (CCT o CTS)",

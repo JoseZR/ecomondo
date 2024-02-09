@@ -335,7 +335,11 @@
    "program":{
       "title": "PROGRAMA DE ACTIVIDADES",
       "description": "Forma parte de la transición ecológica de México, descubre las últimas innovaciones para la sustentabilidad de las industrias.",
-      "comming_soon": "Próximamente..."
+      "comming_soon": "Próximamente...",
+      "day": "Día",
+      "day_1": "miércoles, 17 de abril",
+      "day_2": "jueves, 18 de abril",
+      "day_3": "viernes, 19 de abril"
    },
    "scientific-committee":{
       "title": "COMPOSICIÓN DEL Comité Científico y Técnico (CCT o CTS)",
