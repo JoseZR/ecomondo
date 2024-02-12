@@ -1,6 +1,34 @@
 const programECO = {
   stage_1: {
     april_17: [
+      {      
+        type: 'Seminario',
+        type_en:'Seminar',        
+        title: 'Mitigación de las emisiones de metano mediante la gestión de residuos orgánicos: Estrategias, economía y técnicas ',
+        title_en: 'Mitigating methane emissions by managing organic waste: Strategies, Economics, Tecniques',
+        location: 'ECO Stage',
+        duration: '3 hrs.',
+        hour: '11:00 - 14:00 hrs.',        
+        resume: 'Se centrarán en diversos enfoques para evitar que los residuos orgánicos generen y emitan biogás de vertedero. Las técnicas abordadas son: compostaje, digestión anaerobia y recogida de gas de vertedero. El seminario también estudiará el aspecto financiero en relación con la necesidad de instituciones internacionales disponibles para apoyar la inversión en estas nuevas tecnologías sostenibles.',
+        resume_en: 'The event will focus on various approaches to prevent organic waste to generate and emit biogas from landfills. The techniques addressed are: composting, anaerobic digestion and landfill gas collection. The seminar will also address the financial aspect regarding the need for international institutions available to support the investment into these new, sustainable technologies.',        
+        speakers: [
+          {
+            id: 1,
+          },
+          {
+            id: 2,
+          },
+          {
+            id: 3,
+          },
+          {
+            id: 4,
+          },
+          {
+            id: 5,
+          }
+        ],
+      },
       {        
         type: 'Seminario',
         type_en:'Seminar',
@@ -16,8 +44,7 @@ const programECO = {
             id: 6,
           },          
         ],
-      },
-           
+      }      
     ],
     april_18: [
       {
@@ -90,34 +117,6 @@ const programECO = {
   },
   stage_2: {
     april_17: [
-      {      
-        type: 'Seminario',
-        type_en:'Seminar',        
-        title: 'Mitigación de las emisiones de metano mediante la gestión de residuos orgánicos: Estrategias, economía y técnicas ',
-        title_en: 'Mitigating methane emissions by managing organic waste: Strategies, Economics, Tecniques',
-        location: 'ECO Stage',
-        duration: '3 hrs.',
-        hour: '11:00 - 14:00 hrs.',        
-        resume: 'Se centrarán en diversos enfoques para evitar que los residuos orgánicos generen y emitan biogás de vertedero. Las técnicas abordadas son: compostaje, digestión anaerobia y recogida de gas de vertedero. El seminario también estudiará el aspecto financiero en relación con la necesidad de instituciones internacionales disponibles para apoyar la inversión en estas nuevas tecnologías sostenibles.',
-        resume_en: 'The event will focus on various approaches to prevent organic waste to generate and emit biogas from landfills. The techniques addressed are: composting, anaerobic digestion and landfill gas collection. The seminar will also address the financial aspect regarding the need for international institutions available to support the investment into these new, sustainable technologies.',        
-        speakers: [
-          {
-            id: 1,
-          },
-          {
-            id: 2,
-          },
-          {
-            id: 3,
-          },
-          {
-            id: 4,
-          },
-          {
-            id: 5,
-          }
-        ],
-      },
       {        
         type: 'Seminario',
         type_en:'Seminar',
@@ -138,7 +137,7 @@ const programECO = {
         title_en: 'Industrial wastewater sustainable treatment and safe reuse',
         location: 'ECO Stage',
         duration: '1.5 hrs.',
-        hour: '15:00 - 18:00 hrs.',
+        hour: '17:00 - 18:30 hrs.',
         resume: 'Esta mesa redonda de comparación Italia/ Europa/ México pondrá a discusión estudios de tratamiento sostenible de aguas industriales así como aguas residuales, y la reutilización de este recurso, con casos de Europa y diferentes estados de México.',
         resume_en: 'International round table comparing: Italy/Europe, Mexico on the topic of sustainable industrial water and wastewater treatment and water reuse. Case studies from Europe and different Mexico states.',
         speakers: [
