@@ -873,21 +873,6 @@ export function Home() {
             </div>
             <div className='exibitorSlider text-center h-100'>
               <a
-                href='https://metropolimid.com.mx/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/ecomondo/logos/metropoli-min.webp'
-                  width={180}
-                  height={50}
-                  loading='lazy'
-                  alt='metropoli-mind'
-                />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a
                 href='https://petroleoenergia.com/'
                 target='_blank'
                 rel='noreferrer'
