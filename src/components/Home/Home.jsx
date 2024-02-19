@@ -8,9 +8,12 @@ import 'aos/dist/aos.css' // Importa los estilos CSS de AOS
 import { Link } from 'react-router-dom'
 import { GalleryYear } from '../GalleryPage/GalleryYear'
 import { gallery2023, gallery2022 } from '../GalleryPage/constans_gallery'
+import { Bullets } from './Bullets'   
+import { useNearScreen } from '../hooks/useNearScreen'
 
 export function Home() {
   const { t, i18n } = useTranslation()
+  const [show, ref] = useNearScreen()
   useEffect(() => {
     Aos.init()
   }, [])
@@ -351,7 +354,48 @@ export function Home() {
           </Row>
         </Container>
       </section>
-
+      <div ref={ref}>
+      <Container>
+          {show && (
+            <Row className='mt-5 pb-5'>
+              <Col md>
+                <Bullets number='7500' duration='4' />
+                <div className='text-center fw-bold'>
+                  <i>{t('home.bullet_1')}</i>
+                </div>
+              </Col>
+              <Col md>
+                <Bullets number='13000' duration='4' simbol='m&sup2;' />
+                <div className='text-center fw-bold '>
+                  <i>{t('home.bullet_2')}</i>
+                </div>
+              </Col>
+              <Col md>
+                <Bullets number='80' duration='4' />
+                <div className='text-center fw-bold'>
+                  <i>{t('home.bullet_3')}</i>
+                </div>
+              </Col>
+              <Col md>
+                <Bullets number='462' duration='4' simbol='mdp'/>
+                <div className='text-center fw-bold'>
+                  <i>{t('home.bullet_4')}</i><br />
+                  <i>(2023)</i>
+                </div>
+              </Col>
+              <Col md>
+                <Bullets number='6' duration='4' simbol='mdp'/>
+                <div className='text-center fw-bold'>
+                  <i>{t('home.bullet_5')}</i>
+                </div>
+              </Col>
+            </Row>
+          )}
+          <h3 className='fw-bold text-center title-reasons fs-2 mt-5 mb-5'>
+            Highlights ITM 2023
+          </h3>
+        </Container>
+      </div>
       <Container className='galleryPage mt-5'>
         <h1 className='gallery-title pt-5'>
           {t('menu.media_hub_1')} - Ecomondo 2023
