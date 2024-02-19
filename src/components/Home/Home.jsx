@@ -391,9 +391,6 @@ export function Home() {
               </Col>
             </Row>
           )}
-          <h3 className='fw-bold text-center title-reasons fs-2 mt-5 mb-5'>
-            Highlights ITM 2023
-          </h3>
         </Container>
       </div>
       <Container className='galleryPage mt-5'>
