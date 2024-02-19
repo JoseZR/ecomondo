@@ -358,6 +358,103 @@ export function Home() {
         </h1>
         <GalleryYear year={gallery2023} />
       </Container>
+      <section className='pt-5 pb-5'>
+          <p className='fw-bold fs-2 text-center' style={{ color: '#288705' }}>
+            {t('home.exhibitors')}
+          </p>
+          <Marquee gradient direction='letf'>
+            <div className='exibitorSlider text-center h-100'>
+              <a
+                href='https://brimexenergy.com.mx/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img
+                  src='/ecomondo/logos/exhibitors/brimex.webp'
+                  width={180}
+                  height={100}
+                  loading='lazy'
+                  alt='brimex'
+                />
+              </a>
+            </div>
+            <div className='exibitorSlider text-center h-100'>
+              <a
+                href='https://www.grupocauda.mx/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img
+                  src='/ecomondo/logos/exhibitors/cauda.webp'
+                  width={180}
+                  height={90}
+                  loading='lazy'
+                  alt='cauda'
+                />
+              </a>
+            </div>
+            <div className='exibitorSlider text-center h-100'>
+              <a
+                href='https://mx.kaeser.com/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img
+                  src='/ecomondo/logos/exhibitors/kaeser.webp'
+                  width={180}
+                  height={100}
+                  loading='lazy'
+                  alt='kaeser'
+                />
+              </a>
+            </div>
+            <div className='exibitorSlider text-center h-100'>
+              <a
+                href='http://www.magritep.com.mx/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img
+                  src='/ecomondo/logos/exhibitors/magritep.webp'
+                  width={180}
+                  height={100}
+                  loading='lazy'
+                  alt='magritep'
+                />
+              </a>
+            </div>
+            <div className='exibitorSlider text-center h-100'>
+              <a
+                href='https://mru-instruments.com/es/?cn-reloaded=1'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img
+                  src='/ecomondo/logos/exhibitors/mru_air.webp'
+                  width={160}
+                  height={90}
+                  loading='lazy'
+                  alt='mru'
+                />
+              </a>
+            </div>
+            <div className='exibitorSlider text-center h-100'>
+              <a
+                href='https://www.ticsa.com.mx/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img
+                  src='/ecomondo/logos/exhibitors/ticsa.webp'
+                  width={150}
+                  height={80}
+                  loading='lazy'
+                  alt='ticsa'
+                />
+              </a>
+            </div>
+          </Marquee>
+      </section>
       <section className='my-5'>
         <Container fluid>
           <p className='fw-bold fs-3 text-secondary text-center text-uppercase'>
