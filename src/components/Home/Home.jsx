@@ -355,39 +355,49 @@ export function Home() {
         </Container>
       </section>
       <div ref={ref}>
-      <Container>
+        <Container fluid>
           {show && (
-            <Row className='mt-5 pb-5'>
-              <Col md>
-                <Bullets number='7500' duration='4' />
-                <div className='text-center fw-bold'>
-                  <i>{t('home.bullet_1')}</i>
+            <Row className=''>
+              <Col md className='background_num1'>
+                <div className='position-num'>
+                  <Bullets number='7500' duration='4' />
+                  <div className='text-center fw-bold text-light'>
+                    <i>{t('home.bullet_1')}</i>
+                  </div>
                 </div>
               </Col>
-              <Col md>
-                <Bullets number='13000' duration='4' simbol='m&sup2;' />
-                <div className='text-center fw-bold '>
-                  <i>{t('home.bullet_2')}</i>
+              <Col md className='background_num2'>
+                <div className='position-num'>
+                  <Bullets number='13000' duration='4' simbol='m&sup2;' />
+                  <div className='text-center fw-bold text-light'>
+                    <i>{t('home.bullet_2')}</i>
+                  </div>
                 </div>
               </Col>
-              <Col md>
+              <Col md className='background_num3'>
+               <div className='position-num'>
                 <Bullets number='80' duration='4' />
-                <div className='text-center fw-bold'>
-                  <i>{t('home.bullet_3')}</i>
+                  <div className='text-center fw-bold text-light'>
+                    <i>{t('home.bullet_3')}</i><br /><br />
+                  </div>
+               </div>
+              </Col>
+              <Col md className='background_num4'>
+                <div className='position-num'>
+                  <Bullets number='462' duration='4' simbol='mdp'/>
+                  <div className='text-center fw-bold text-light'>
+                    <i>{t('home.bullet_4')}</i><br />
+                    <i>(2023)</i>
+                  </div>
                 </div>
               </Col>
-              <Col md>
-                <Bullets number='462' duration='4' simbol='mdp'/>
-                <div className='text-center fw-bold'>
-                  <i>{t('home.bullet_4')}</i><br />
-                  <i>(2023)</i>
-                </div>
-              </Col>
-              <Col md>
+              <Col md className='background_num5'>
+               <div className='position-num'>
                 <Bullets number='6' duration='4' simbol='mdp'/>
-                <div className='text-center fw-bold'>
-                  <i>{t('home.bullet_5')}</i>
-                </div>
+                  <div className='text-center fw-bold text-light'>
+                    <i>{t('home.bullet_5')}</i>
+                  </div>
+               </div>
               </Col>
             </Row>
           )}
