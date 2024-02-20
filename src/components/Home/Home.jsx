@@ -408,6 +408,7 @@ export function Home() {
         </div>
         <Container className='my-5 py-5'>
           <p className='gallery-title fw-bold fs-2 mb-5'>{t('home.interests.title')}</p>
+          <div data-aos="fade-right" data-aos-duration="3000">
           <Row className='text-center'>
             <Col className='text-center'>
               <div className='topic-size'>
@@ -452,6 +453,7 @@ export function Home() {
               </div>
             </Col>
           </Row>
+          </div>
         </Container>
         <Container>
           <h2 className='fw-bold fs-2 pb-4 home-text-color text-uppercase'
