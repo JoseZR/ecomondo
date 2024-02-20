@@ -405,6 +405,20 @@ export function Home() {
         </Container>
         <Testimonials />
         <Container>
+          <p className='gallery-title fw-bold fs-2'>{t('home.why_exhibit.title')} </p>
+          <Row>
+            <Col>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, nobis.</Col>
+            <Col>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, nobis.</Col>
+            <Col>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, nobis.</Col>
+            <Col>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, nobis.</Col>
+          </Row>
+          <Row>
+            <Col>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, nobis.</Col>
+            <Col>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, nobis.</Col>
+            <Col>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, nobis.</Col>
+          </Row>
+        </Container>
+        <Container>
           <h2 className='fw-bold fs-2 pt-5 pb-4 home-text-color text-uppercase'
             style={{ color: '#288705' }}>ECOMONDO MEXICO {t("home.rates.title")} 2024
           </h2>

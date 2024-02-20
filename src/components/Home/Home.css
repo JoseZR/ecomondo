@@ -215,11 +215,13 @@
     left: 0;
     z-index: -1;
 }
+
 .position-num{
   display: flex; 
   flex-direction: column;
   justify-content: flex-end;
-  height: 280px; /* ejemplo de alto */
+  height: 320px; 
+  text-shadow: 1px 3px 2px black;
 }
 
 .background_num1{
@@ -227,19 +229,19 @@
 }
 
 .background_num1{
-  background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(48,8,168,0) 40%), url('/ecomondo/gallery/2023/galleryECO2023-4.jpg');
+  background-image: linear-gradient(0deg, rgba(0,0,0,1) 10%, rgba(48,8,168,0) 40%), url('/ecomondo/gallery/2023/galleryECO2023-4.jpg');
 }
 .background_num2{
-  background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(48,8,168,0) 40%), url('/ecomondo/gallery/2023/galleryECO2023-26.jpg');
+  background-image: linear-gradient(0deg, rgba(0,0,0,1) 10%, rgba(48,8,168,0) 40%), url('/ecomondo/gallery/2023/galleryECO2023-26.jpg');
 }
 .background_num3{
-  background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(48,8,168,0) 40%), url('/ecomondo/gallery/2023/galleryECO2023-17.jpg');
+  background-image: linear-gradient(0deg, rgba(0,0,0,1) 10%, rgba(48,8,168,0) 40%), url('/ecomondo/gallery/2023/galleryECO2023-17.jpg');
 }
 .background_num4{
-  background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(48,8,168,0) 40%), url('/ecomondo/gallery/2023/galleryECO2023-22.jpg');
+  background-image: linear-gradient(0deg, rgba(0,0,0,1) 10%, rgba(48,8,168,0) 40%), url('/ecomondo/gallery/2023/galleryECO2023-22.jpg');
 }
 .background_num5{
-  background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(48,8,168,0) 40%), url('/ecomondo/gallery/2023/galleryECO2023-45.jpg');
+  background-image: linear-gradient(0deg, rgba(0,0,0,1) 10%, rgba(48,8,168,0) 40%), url('/ecomondo/gallery/2023/galleryECO2023-45.jpg');
 }
 
 .column-with-border {
@@ -253,7 +255,7 @@
 .background_num5 {
   background-size: cover;
   background-repeat: no-repeat;
-  height: 300px;
+  height: 350px;
 }
 
 .background_num1,
@@ -281,4 +283,18 @@
   .column-with-border {
     border-bottom: 1.5px solid #ccc; /* Ajusta el color y el grosor de la línea según tus preferencias */
   }
+
+.background_num1,
+.background_num2,
+.background_num3,
+.background_num4,
+.background_num5 {
+  height: 200px;
+}
+
+.position-num{
+  height: 180px; /* ejemplo de alto */
+  
+}
+
 }
