@@ -32,16 +32,19 @@ export function Home() {
           className='video-bg-ecomondo'
         ></video>
         <Container>
-          <Row>
-            <Col className='text-start my-auto text-center'>
+          <Row className='text-center'>
+            <Col lg={12} sm={12} md={12} className='text-start my-auto text-center'>
               <p
-                className='text-white fw-bold fs-3'
+                className='text-white fw-bold fs-3 text-uppercase'
                 dangerouslySetInnerHTML={{ __html: t('home.slogan') }}
               ></p>
+              <p className='fw-bold text-white fs-5'>
+                {t('home.date')} <br /> Expo Guadalajara
+              </p>
               <div className='d-flex gap-5 align-items-center justify-content-center mb-4'>
-                <p className='fw-bold text-white'>
+                {/* <p className='fw-bold text-white'>
                   {t('home.date')} <br /> Expo Guadalajara
-                </p>
+                </p> */}
                 <p
                   className='text-light text-f fs-6'
                   dangerouslySetInnerHTML={{
@@ -49,19 +52,36 @@ export function Home() {
                   }}
                 />
               </div>
-
-              <a
-                href='https://ecomondo.ahmreg.com/'
-                target='_blank'
-                className='text-white fw-bold p-3 rounded-3'
-                style={{ backgroundColor: '#288705' }}
-              >
-                {t('menu.banner')}
-              </a>
-              <p
+              <Container className='w-75'>
+                <Row className='justify-content-center'>
+                  <Col lg={2} md={3} sm={12} className=''></Col>
+                  <Col lg={4} md={3} sm={12} className='my-4'>
+                    <a
+                      href='https://ecomondo.ahmreg.com/'
+                      target='_blank'
+                      className='text-white fw-bold p-3 rounded-3'
+                      style={{ backgroundColor: '#288705' }}
+                    >
+                      {t('menu.banner')}
+                    </a>
+                  </Col>
+                  <Col lg={4} md={6} sm={12} className='my-4'>
+                    <a
+                      href='https://hfmexico.mx/ecomondo/program'
+                      target='_blank'
+                      className='text-white fw-bold p-3 rounded-3'
+                      style={{ backgroundColor: '#288705' }}
+                    >
+                      {t('menu.conferences_1')}
+                    </a>
+                  </Col>
+                  <Col lg={2} md={3} sm={12} className=''></Col>
+                </Row>
+              </Container>
+              {/* <p
                 className='mt-4 text-white fw-light fs-3 lh-1'
                 dangerouslySetInnerHTML={{ __html: t('home.slogan_2') }}
-              ></p>
+              ></p> */}
               <div className='mt-5 flex justify-end'>
                 <img
                   className='mt-20'
@@ -75,30 +95,31 @@ export function Home() {
                 />
               </div>
             </Col>
+            <Row />
             {/*<Col md={6}>
               <img src='/ecomondo/world-ecomondo.webp' className='w-100' />
                 </Col>*/}
           </Row>
         </Container>
       </section>
-      <Container>
-        <article className='text-start my-5'>
+      <Container fluid>
+        <article className='text-start mb-5 pb-5'>
           <Row className='pt-5 px-3 fs-5'>
-            <Col md={4} className='px-3'>
+            <Col md={6} className='px-5'>
               <p
                 className='fw-bold fs-2 home-text-color'
                 style={{ color: '#288705' }}
               >
                 ECOMONDO MÉXICO 2024
               </p>
-              <p className='fs-3'>{t('home.presentation')}</p>
+              <p className='fs-4 text-justify'>{t('home.general_description')}</p>
               <br />
-              <p className='fs-3'>
+              {/* <p className='fs-3'>
                 {t('home.date')} <br /> Expo Guadalajara{' '}
-              </p>
+              </p> */}
               <br />
             </Col>
-            <Col md={8} className='my-auto'>
+            <Col md={6} className='my-auto'>
               {i18n.language === 'es' ? (
                 <video
                   className='w-100'
@@ -126,12 +147,12 @@ export function Home() {
               )}
             </Col>
           </Row>
-          <Row className='pt-5 px-3 fs-5'>
+          {/* <Row className='pt-5 px-3 fs-5'>
             <Col>
               <p style={{ textAlign: 'justify' }}>{t('home.text_1')}</p>
               <p style={{ textAlign: 'justify' }}>{t('home.text_2')}</p>
             </Col>
-          </Row>
+          </Row> */}
         </article>
       </Container>
       <Container fluid>
@@ -409,50 +430,50 @@ export function Home() {
         <Container className='my-5 py-5'>
           <p className='gallery-title fw-bold fs-2 mb-5'>{t('home.interests.title')}</p>
           <div data-aos="fade-right" data-aos-duration="3000">
-          <Row className='text-center'>
-            <Col className='text-center'>
-              <div className='topic-size'>
-                <img src="/ecomondo/topic1.webp" alt="" style={{ width: '120px', height: '120px' }} />
-                <p className='pt-3 fs-6 fw-semibold'>{t("home.interests.item1")}</p>
-              </div>
-            </Col>
-            <Col>
+            <Row className='text-center'>
+              <Col className='text-center'>
                 <div className='topic-size'>
-                <img src="/ecomondo/topic5.webp" alt="" style={{ width: '120px', height: '120px' }} />
-                <p className='pt-3 fs-6 fw-semibold'>{t("home.interests.item5")}</p>
-              </div>
-            </Col>
-            <Col>
-              <div className='topic-size'>
-                <img src="/ecomondo/topic2.webp" alt="" style={{ width: '120px', height: '120px' }} />
-                <p className='pt-3 fs-6 fw-semibold'>{t("home.interests.item2")}</p>
-              </div>
-            </Col>
-            <Col>
+                  <img src="/ecomondo/topic1.webp" alt="" style={{ width: '120px', height: '120px' }} />
+                  <p className='pt-3 fs-6 fw-semibold'>{t("home.interests.item1")}</p>
+                </div>
+              </Col>
+              <Col>
                 <div className='topic-size'>
-                <img src="/ecomondo/topic6.webp" alt="" style={{ width: '120px', height: '120px' }} />
-                <p className='pt-3 fs-6 fw-semibold'>{t("home.interests.item6")}</p>
-              </div>
-            </Col>
-            <Col>
-              <div className='topic-size'>
-                <img src="/ecomondo/topic3.webp" alt="" style={{ width: '120px', height: '120px' }} />
-                <p className='pt-3 fs-6 fw-semibold'>{t("home.interests.item3")}</p>
-              </div>
-            </Col>
-            <Col>
+                  <img src="/ecomondo/topic5.webp" alt="" style={{ width: '120px', height: '120px' }} />
+                  <p className='pt-3 fs-6 fw-semibold'>{t("home.interests.item5")}</p>
+                </div>
+              </Col>
+              <Col>
                 <div className='topic-size'>
-                <img src="/ecomondo/topic7.webp" alt="" style={{ width: '120px', height: '120px' }} />
-                <p className='pt-3 fs-6 fw-semibold'>{t("home.interests.item7")}</p>
-              </div>
-            </Col>
-            <Col>
-              <div className='topic-size'>
-                <img src="/ecomondo/topic4.webp" alt="" style={{ width: '120px', height: '120px' }} />
-                <p className='pt-3 fs-6 fw-semibold'>{t("home.interests.item4")}</p>
-              </div>
-            </Col>
-          </Row>
+                  <img src="/ecomondo/topic2.webp" alt="" style={{ width: '120px', height: '120px' }} />
+                  <p className='pt-3 fs-6 fw-semibold'>{t("home.interests.item2")}</p>
+                </div>
+              </Col>
+              <Col>
+                <div className='topic-size'>
+                  <img src="/ecomondo/topic6.webp" alt="" style={{ width: '120px', height: '120px' }} />
+                  <p className='pt-3 fs-6 fw-semibold'>{t("home.interests.item6")}</p>
+                </div>
+              </Col>
+              <Col>
+                <div className='topic-size'>
+                  <img src="/ecomondo/topic3.webp" alt="" style={{ width: '120px', height: '120px' }} />
+                  <p className='pt-3 fs-6 fw-semibold'>{t("home.interests.item3")}</p>
+                </div>
+              </Col>
+              <Col>
+                <div className='topic-size'>
+                  <img src="/ecomondo/topic7.webp" alt="" style={{ width: '120px', height: '120px' }} />
+                  <p className='pt-3 fs-6 fw-semibold'>{t("home.interests.item7")}</p>
+                </div>
+              </Col>
+              <Col>
+                <div className='topic-size'>
+                  <img src="/ecomondo/topic4.webp" alt="" style={{ width: '120px', height: '120px' }} />
+                  <p className='pt-3 fs-6 fw-semibold'>{t("home.interests.item4")}</p>
+                </div>
+              </Col>
+            </Row>
           </div>
         </Container>
         <Container>
@@ -491,7 +512,7 @@ export function Home() {
               </ul>
             </Col>
             <Col lg={4} md={4} sm={12} className='p-4'>
-             <h4 className='fw-bolder'>{t("home.rates.item3.title1")}</h4>
+              <h4 className='fw-bolder'>{t("home.rates.item3.title1")}</h4>
               <p className='fs-3 text fw-bolder'>{t("home.rates.item3.price1")} </p>
               <p className='fs-4 text fw-semibold'>{t("home.rates.item1.title2")} </p>
               <ul class="list-group-flush p-0 m-0">
