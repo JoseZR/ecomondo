@@ -242,6 +242,10 @@
   background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(48,8,168,0) 40%), url('/ecomondo/gallery/2023/galleryECO2023-45.jpg');
 }
 
+.column-with-border {
+  border-right: 1.5px solid #ccc; /* Ajusta el color y el grosor de la línea según tus preferencias */
+}
+
 .background_num1,
 .background_num2,
 .background_num3,
@@ -272,5 +276,9 @@
     width: 80%;
     height: auto;
     text-align: center;  
+  }
+
+  .column-with-border {
+    border-bottom: 1.5px solid #ccc; /* Ajusta el color y el grosor de la línea según tus preferencias */
   }
 }

@@ -119,8 +119,45 @@
             "bullet_2":"Piso expositor en conjunto con SSM",
             "bullet_3":"Expositores",
             "bullet_4":"En negocios en sitio",
-            "bullet_5":"El valor comercial de cobertura mediática"
-
+            "bullet_5":"El valor comercial de cobertura mediática",
+            "rates":{
+               "title":"STANDS",
+               "sub-title":"TARIFAS DE PARTICIPACIÓN",
+               "item1":{
+                  "title1":"Sustainable Hub 2m2",
+                  "price1":"USD 1,800 + IVA",
+                  "priece2":"USD 900 + IVA",
+                  "title2":"Incluye",
+                  "topic1":"Alfombra estándar",
+                  "topic2":"Rótulo en vinil",
+                  "topic3":"Moviliario estándar",
+                  "topic4":"Contacto eléctrico de 110v",
+                  "topic5":"2 gafetes para el personal",
+                  "topic6":"Mención en el directorio"
+               },
+               "item2":{
+                  "title1":"Stan equipado 9m2",
+                  "price1":"USD 3,330 + IVA",
+                  "title2":"Incluye",
+                  "topic1":"Alfombra estándar",
+                  "topic2":"Mamparas divisorias",
+                  "topic3":"Antepecho con rótulo en vinil",
+                  "topic4":"Iluminación",
+                  "topic5":"Moviliario estándar",
+                  "topic6":"Contacto electrico de 110v",
+                  "topic7":"Gafetes de expositor",
+                  "topic8":"Mención en el directorio"
+               },
+               "item3":{
+                  "title1":"Superficie Libre 18 m2 minimo",
+                  "price1":"USD 320 / m2 + IVA",
+                  "title2":"Incluye",
+                  "topic1":"Espacio para stand",
+                  "topic2":"Gafetes de expositor",
+                  "topic3":"Mención en el directorio",
+                  "topic4":"No incluye alfombra, construcción, mobiliario, servicios"
+               }
+            }
    },
    "aboutUs" :{
       "description": "La industria, en la búsqueda del desarrollo sostenible hacia un futuro más verde, se ha orientado hacia impulsar una valorización y gestión eficiente de recursos, conduciendo a las empresas a aumentar su productividad y rentabilidad.<br /><br />La Cuarta Revolución Industrial marca un cambio significativo, donde la sostenibilidad y la economía circular dejan de ser simples modelos económicos para transformarse en parámetros esenciales de productividad, eficiencia y rentabilidad; en este escenario, el cambio hacia un futuro sostenible requiere de responsabilidad compartida y de la colaboración de todos los actores del ecosistema empresarial.<br /><br />Ante la demanda creciente por que las empresas demuestren un compromiso real con la sostenibilidad y la acción climática, el mercado mexicano y de América Latina emerge como un terreno fértil lleno de oportunidades para avanzar hacia un futuro más verde.<br /><br />ECOMONDO MEXICO llega desde Rimini, Italia, como la plataforma ideal para analizar las oportunidades de negocio al ofrecer el espacio ideal diversos a la colaboración entre los principales exponentes de soluciones tecnológicas ambientales y los actores clave de la industria a nivel global.<br /><br />Nuestra exhibición es la única feria en la región dedicada a impulsar el desarrollo sostenible y el cuidado de los recursos naturales que cuenta con el respaldo de dos de las compañías líderes en la organización de exposiciones y conferencias: Italian Exhibition Group y Deutsche Messe.<br /><br />Durante tres días de exhibición, reunimos las innovaciones tecnológicas ecológicas, así como los conocimientos más especializados en <strong>Manejo de residuos, Bioenergía y Cuidado y manejo del agua</strong>, lo que le permitirán acelerar sus oportunidades de negocio, tomar la delantera en un entorno cada vez más complejo, y expandir sus alianzas estratégicas que le permitirán participar en los negocios verdes del presente y del futuro.",
@@ -380,6 +417,24 @@
       "money": "Moneda",
       "money_desc": "Si estás planificando tu visita a Guadalajara, es importante conocer la moneda oficial de México, que es el peso mexicano (MXN). El peso mexicano se utiliza en transacciones diarias, y encontrarás billetes y monedas de diferentes denominaciones.",
       "link_currency": "Haga clic aquí para utilizar el conversor de moneda."
-  }
+  },
+  "testimonials":{
+   "title":"EXPERIENCIAS DE NUESTROS EXPOSITORES Y VISITANTES",
+   "person1":{
+      "position":"Director comercial de ECOTEC",
+      "description":"Hemos tenido la presencia de muchas personas interesadas, tanto a nivel gobierno como empresas privadas. Nos ha ayudado mucho para acercarnos más a diferentes áreas de esta región."
+   },
+   "person2":{
+      "position":"Anaista de Mercado de la Agencia Italiana para el comercio exterior",
+      "description":"Consideramos la segunda edición de Ecomondo México como un éxito. Estamos convencidos de que se puede consolidar como uno de los eventos más importantes del sector ambiental del área centroamericana y caribeña, es el inicio de una importante área para México y el mundo."
+   },
+   "person3":{
+      "description":"Estuvieron muy provechosas las conferencias, con información muy valiosa, fue muy interesante conocer las experiencias y conocimientos de expertos de la industria; hubo bastantes conferencistas internacionales."
+   },
+   "person4":{
+      "description":"Tuvimos muchos contactos, hablamos con expertos muy interesantes, tenemos la intención de participar en siguientes ediciones."
+   },
+   "type":"Visitante"
+}
 
 }

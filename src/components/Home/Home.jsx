@@ -8,8 +8,9 @@ import 'aos/dist/aos.css' // Importa los estilos CSS de AOS
 import { Link } from 'react-router-dom'
 import { GalleryYear } from '../GalleryPage/GalleryYear'
 import { gallery2023, gallery2022 } from '../GalleryPage/constans_gallery'
-import { Bullets } from './Bullets'   
+import { Bullets } from './Bullets'
 import { useNearScreen } from '../hooks/useNearScreen'
+import { Testimonials } from './Testimonials'
 
 export function Home() {
   const { t, i18n } = useTranslation()
@@ -375,16 +376,16 @@ export function Home() {
                 </div>
               </Col>
               <Col md className='background_num3'>
-               <div className='position-num'>
-                <Bullets number='80' duration='4' />
+                <div className='position-num'>
+                  <Bullets number='80' duration='4' />
                   <div className='text-center fw-bold text-light'>
                     <i>{t('home.bullet_3')}</i><br /><br />
                   </div>
-               </div>
+                </div>
               </Col>
               <Col md className='background_num4'>
                 <div className='position-num'>
-                  <Bullets number='462' duration='4' simbol='mdp'/>
+                  <Bullets number='462' duration='4' simbol='mdp' />
                   <div className='text-center fw-bold text-light'>
                     <i>{t('home.bullet_4')}</i><br />
                     <i>(2023)</i>
@@ -392,15 +393,64 @@ export function Home() {
                 </div>
               </Col>
               <Col md className='background_num5'>
-               <div className='position-num'>
-                <Bullets number='6' duration='4' simbol='mdp'/>
+                <div className='position-num'>
+                  <Bullets number='6' duration='4' simbol='mdp' />
                   <div className='text-center fw-bold text-light'>
                     <i>{t('home.bullet_5')}</i>
                   </div>
-               </div>
+                </div>
               </Col>
             </Row>
           )}
+        </Container>
+        <Testimonials />
+        <Container>
+          <h2 className='fw-bold fs-2 pt-5 pb-4 home-text-color text-uppercase'
+            style={{ color: '#288705' }}>ECOMONDO MEXICO {t("home.rates.title")} 2024
+          </h2>
+          <p className='fst-italic fs-5 mb-5'>{t("home.rates.sub-title")}</p>
+          <Row>
+            <Col lg={4} md={4} sm={12} className="column-with-border p-4">
+              <h4 className='fw-bolder'>{t("home.rates.item1.title1")}</h4>
+              <p className='text-decoration-line-through fs-4 text fw-semibold'> {t("home.rates.item1.price1")} </p>
+              <p className='fs-3 text fw-bolder text-danger'>{t("home.rates.item1.priece2")} </p>
+              <p className='fs-4 text fw-semibold'>{t("home.rates.item1.title2")} </p>
+              <ul class="list-group-flush p-0 m-0">
+                <li class="list-group-item"> {t("home.rates.item1.topic1")} </li>
+                <li class="list-group-item"> {t("home.rates.item1.topic2")} </li>
+                <li class="list-group-item"> {t("home.rates.item1.topic3")} </li>
+                <li class="list-group-item"> {t("home.rates.item1.topic4")} </li>
+                <li class="list-group-item"> {t("home.rates.item1.topic5")} </li>
+                <li class="list-group-item"> {t("home.rates.item1.topic6")} </li>
+              </ul>
+            </Col>
+            <Col lg={4} md={4} sm={12} className="column-with-border p-4">
+              <h4 className='fw-bolder'>{t("home.rates.item2.title1")}</h4>
+              <p className='fs-3 text  fw-bolder'> {t("home.rates.item2.price1")} </p>
+              <p className='fs-4 text fw-semibold'>{t("home.rates.item1.title2")} </p>
+              <ul class="list-group-flush p-0 m-0">
+                <li class="list-group-item"> {t("home.rates.item2.topic1")} </li>
+                <li class="list-group-item"> {t("home.rates.item2.topic2")} </li>
+                <li class="list-group-item"> {t("home.rates.item2.topic3")} </li>
+                <li class="list-group-item"> {t("home.rates.item2.topic4")} </li>
+                <li class="list-group-item"> {t("home.rates.item2.topic5")} </li>
+                <li class="list-group-item"> {t("home.rates.item2.topic6")} </li>
+                <li class="list-group-item"> {t("home.rates.item2.topic7")} </li>
+                <li class="list-group-item"> {t("home.rates.item2.topic8")} </li>
+              </ul>
+            </Col>
+            <Col lg={4} md={4} sm={12} className='p-4'>
+             <h4 className='fw-bolder'>{t("home.rates.item3.title1")}</h4>
+              <p className='fs-3 text fw-bolder'>{t("home.rates.item3.price1")} </p>
+              <p className='fs-4 text fw-semibold'>{t("home.rates.item1.title2")} </p>
+              <ul class="list-group-flush p-0 m-0">
+                <li class="list-group-item"> {t("home.rates.item3.topic1")} </li>
+                <li class="list-group-item"> {t("home.rates.item3.topic2")} </li>
+                <li class="list-group-item"> {t("home.rates.item3.topic3")} </li><br />
+                <li class="list-group-item fw-semibold"> {t("home.rates.item3.topic4")} </li>
+              </ul>
+            </Col>
+          </Row>
         </Container>
       </div>
       <Container className='galleryPage mt-5'>
@@ -410,101 +460,101 @@ export function Home() {
         <GalleryYear year={gallery2023} />
       </Container>
       <section className='pt-5 pb-5'>
-          <p className='fw-bold fs-2 text-center' style={{ color: '#288705' }}>
-            {t('home.exhibitors')}
-          </p>
-          <Marquee gradient direction='letf'>
-            <div className='exibitorSlider text-center h-100'>
-              <a
-                href='https://brimexenergy.com.mx/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/ecomondo/logos/exhibitors/brimex.webp'
-                  width={180}
-                  height={100}
-                  loading='lazy'
-                  alt='brimex'
-                />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a
-                href='https://www.grupocauda.mx/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/ecomondo/logos/exhibitors/cauda.webp'
-                  width={180}
-                  height={90}
-                  loading='lazy'
-                  alt='cauda'
-                />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a
-                href='https://mx.kaeser.com/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/ecomondo/logos/exhibitors/kaeser.webp'
-                  width={180}
-                  height={100}
-                  loading='lazy'
-                  alt='kaeser'
-                />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a
-                href='http://www.magritep.com.mx/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/ecomondo/logos/exhibitors/magritep.webp'
-                  width={180}
-                  height={100}
-                  loading='lazy'
-                  alt='magritep'
-                />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a
-                href='https://mru-instruments.com/es/?cn-reloaded=1'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/ecomondo/logos/exhibitors/mru_air.webp'
-                  width={160}
-                  height={90}
-                  loading='lazy'
-                  alt='mru'
-                />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a
-                href='https://www.ticsa.com.mx/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/ecomondo/logos/exhibitors/ticsa.webp'
-                  width={150}
-                  height={80}
-                  loading='lazy'
-                  alt='ticsa'
-                />
-              </a>
-            </div>
-          </Marquee>
+        <p className='fw-bold fs-2 text-center' style={{ color: '#288705' }}>
+          {t('home.exhibitors')}
+        </p>
+        <Marquee gradient direction='letf'>
+          <div className='exibitorSlider text-center h-100'>
+            <a
+              href='https://brimexenergy.com.mx/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img
+                src='/ecomondo/logos/exhibitors/brimex.webp'
+                width={180}
+                height={100}
+                loading='lazy'
+                alt='brimex'
+              />
+            </a>
+          </div>
+          <div className='exibitorSlider text-center h-100'>
+            <a
+              href='https://www.grupocauda.mx/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img
+                src='/ecomondo/logos/exhibitors/cauda.webp'
+                width={180}
+                height={90}
+                loading='lazy'
+                alt='cauda'
+              />
+            </a>
+          </div>
+          <div className='exibitorSlider text-center h-100'>
+            <a
+              href='https://mx.kaeser.com/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img
+                src='/ecomondo/logos/exhibitors/kaeser.webp'
+                width={180}
+                height={100}
+                loading='lazy'
+                alt='kaeser'
+              />
+            </a>
+          </div>
+          <div className='exibitorSlider text-center h-100'>
+            <a
+              href='http://www.magritep.com.mx/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img
+                src='/ecomondo/logos/exhibitors/magritep.webp'
+                width={180}
+                height={100}
+                loading='lazy'
+                alt='magritep'
+              />
+            </a>
+          </div>
+          <div className='exibitorSlider text-center h-100'>
+            <a
+              href='https://mru-instruments.com/es/?cn-reloaded=1'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img
+                src='/ecomondo/logos/exhibitors/mru_air.webp'
+                width={160}
+                height={90}
+                loading='lazy'
+                alt='mru'
+              />
+            </a>
+          </div>
+          <div className='exibitorSlider text-center h-100'>
+            <a
+              href='https://www.ticsa.com.mx/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img
+                src='/ecomondo/logos/exhibitors/ticsa.webp'
+                width={150}
+                height={80}
+                loading='lazy'
+                alt='ticsa'
+              />
+            </a>
+          </div>
+        </Marquee>
       </section>
       <section className='my-5'>
         <Container fluid>

@@ -1,0 +1,17 @@
+.txt-experiences{ text-align: left;}
+
+
+/* Media Query para dispositivos móviles */
+@media (max-width: 900px) {
+    .container-market , .content-market { 
+      height: 1100px;
+    }
+    .content-market-hijo{
+      width: 80%;
+      height: auto;
+      text-align: center;  
+    }
+
+    .img-experiences{width: 180px;}
+    .txt-experiences{ text-align: center;}
+  }
