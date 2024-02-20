@@ -452,7 +452,7 @@ export function Home() {
           </Row>
         </Container>
         <Container>
-          <h2 className='fw-bold fs-2 pt-5 pb-4 home-text-color text-uppercase'
+          <h2 className='fw-bold fs-2 pb-4 home-text-color text-uppercase'
             style={{ color: '#288705' }}>ECOMONDO MEXICO {t("home.rates.title")} 2024
           </h2>
           <p className='fst-italic fs-5 mb-5'>{t("home.rates.sub-title")}</p>
