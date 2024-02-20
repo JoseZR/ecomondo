@@ -102,7 +102,7 @@ export function Home() {
           </Row>
         </Container>
       </section>
-      <Container fluid>
+      <Container>
         <article className='text-start mb-5 pb-5'>
           <Row className='pt-5 px-3 fs-5'>
             <Col md={6} className='px-5'>
