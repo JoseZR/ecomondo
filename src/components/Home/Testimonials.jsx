@@ -7,7 +7,7 @@ export function Testimonials() {
   const { t } = useTranslation()
   return (
     <>
-      <Container>
+      <Container className="my-5">
         <h2 className='fw-bold fs-2 pt-5 pb-4 home-text-color text-uppercase'
           style={{ color: '#288705' }}>{t("testimonials.title")}</h2>
         <Row className="my-3">
