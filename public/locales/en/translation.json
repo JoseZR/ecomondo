@@ -152,15 +152,34 @@
             "topic7": "Display badges",
             "topic8":"Mention in the directory"
          },
-         "item3":{
-            "title1":"Superficie Libre 18 m2 minimo",
-            "price1":"USD 320 / m2 + IVA",
-            "title2":"Includes",
-            "topic1": "Stand space",
-            "topic2": "Display badges",
-            "topic3":"Mention in the directory",
-            "topic4":"Does not include carpet, construction, furniture, services"
-         }
+            "item3":{
+               "title1":"Superficie Libre 18 m2 minimo",
+               "price1":"USD 320 / m2 + IVA",
+               "title2":"Includes",
+               "topic1": "Stand space",
+               "topic2": "Display badges",
+               "topic3":"Mention in the directory",
+               "topic4":"Does not include carpet, construction, furniture, services"
+            }
+         },
+         "interests":{
+            "title":"KEY INTEREST SEGMENTS 2023",
+            "item1":"Waste management",
+            "item2":"Bioenergy",
+            "item3":"Water treatment",
+            "item4":"Waste transportation",
+            "item5":"Chemical waste management",
+            "item6":"Smart lighting",
+            "item7":"Certifications"
+         },
+         "social_media":{
+            "title":"SOCIAL MEDIA PRESENCE",
+            "item1":"FOLLOWERS",
+            "item2":"PEOPLE",
+            "item3":"COVERAGE",
+            "description1":"ON OUR SOCIAL MEDIA",
+            "description2":"REACHED",
+            "description3":"ACROSS ALL OF OUR PLATFORMS"
          }
    },
    "aboutUs" :{

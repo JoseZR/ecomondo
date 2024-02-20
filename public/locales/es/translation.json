@@ -157,6 +157,25 @@
                   "topic3":"Mención en el directorio",
                   "topic4":"No incluye alfombra, construcción, mobiliario, servicios"
                }
+            },
+            "interests":{
+               "title":"PRINCIPALES INTERESES 2023",
+               "item1":"Gestión de desperdicios y residuos",
+               "item2":"Bioenergia",
+               "item3":"Tratamiento de agua",
+               "item4":"Transporte de desechos",
+               "item5":"Manejo de residuos químicos",
+               "item6":"Iluminación Inteligente",
+               "item7":"Certificaciones"
+            },
+            "social_media":{
+               "title":"PRESENCIA EN <br /> REDES SOCIALES",
+               "item1":"SEGUIDORES",
+               "item2":"PERSONAS",
+               "item3":"COBERTURA",
+               "description1":"EN REDES",
+               "description2":"ALCANZAMOS",
+               "description3":"EN TODAS NUESTRAS REDES"
             }
    },
    "aboutUs" :{

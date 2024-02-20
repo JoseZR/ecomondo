@@ -404,18 +404,51 @@ export function Home() {
           )}
         </Container>
         <Testimonials />
-        <Container>
-          <p className='gallery-title fw-bold fs-2'>{t('home.why_exhibit.title')} </p>
-          <Row>
-            <Col>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, nobis.</Col>
-            <Col>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, nobis.</Col>
-            <Col>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, nobis.</Col>
-            <Col>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, nobis.</Col>
-          </Row>
-          <Row>
-            <Col>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, nobis.</Col>
-            <Col>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, nobis.</Col>
-            <Col>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, nobis.</Col>
+        <Container className='my-5 py-5'>
+          <p className='gallery-title fw-bold fs-2 mb-5'>{t('home.interests.title')}</p>
+          <Row className='text-center'>
+            <Col className='text-center'>
+              <div className='topic-size'>
+                <img src="/ecomondo/topic1.webp" alt="" style={{ width: '120px', height: '120px' }} />
+                <p className='pt-3 fs-6 fw-semibold'>{t("home.interests.item1")}</p>
+              </div>
+            </Col>
+            <Col>
+                <div className='topic-size'>
+                <img src="/ecomondo/topic5.webp" alt="" style={{ width: '120px', height: '120px' }} />
+                <p className='pt-3 fs-6 fw-semibold'>{t("home.interests.item5")}</p>
+              </div>
+            </Col>
+            <Col>
+              <div className='topic-size'>
+                <img src="/ecomondo/topic2.webp" alt="" style={{ width: '120px', height: '120px' }} />
+                <p className='pt-3 fs-6 fw-semibold'>{t("home.interests.item2")}</p>
+              </div>
+            </Col>
+            <Col>
+                <div className='topic-size'>
+                <img src="/ecomondo/topic6.webp" alt="" style={{ width: '120px', height: '120px' }} />
+                <p className='pt-3 fs-6 fw-semibold'>{t("home.interests.item6")}</p>
+              </div>
+            </Col>
+            <Col>
+              <div className='topic-size'>
+                <img src="/ecomondo/topic3.webp" alt="" style={{ width: '120px', height: '120px' }} />
+                <p className='pt-3 fs-6 fw-semibold'>{t("home.interests.item3")}</p>
+              </div>
+            </Col>
+            <Col>
+                <div className='topic-size'>
+                <img src="/ecomondo/topic7.webp" alt="" style={{ width: '120px', height: '120px' }} />
+                <p className='pt-3 fs-6 fw-semibold'>{t("home.interests.item7")}</p>
+              </div>
+            </Col>
+            <Col>
+              <div className='topic-size'>
+                <img src="/ecomondo/topic4.webp" alt="" style={{ width: '120px', height: '120px' }} />
+                <p className='pt-3 fs-6 fw-semibold'>{t("home.interests.item4")}</p>
+              </div>
+            </Col>
           </Row>
         </Container>
         <Container>
