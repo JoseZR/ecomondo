@@ -51,11 +51,11 @@ export function Program() {
                 eventKey='day_1'
                 title={
                   <>
-                    <strong className='fs-6 fw-bold'>
+                    {/* <strong className='fs-6 fw-bold'>
                       {t('program.day')} 1
-                    </strong>
+                    </strong> */}
                     <br />
-                    <span>{t('program.day_1')}</span>
+                    <span className='fs-4 fw-medium'>{t('program.day_1')}</span>
                   </>
                 }
                 style={{ backgroundColor: '#456e46' }}
@@ -114,11 +114,11 @@ export function Program() {
                 eventKey='day_2'
                 title={
                   <>
-                    <strong className='fs-6 fw-bold'>
+                    {/* <strong className='fs-6 fw-bold'>
                       {t('program.day')} 2
-                    </strong>
+                    </strong> */}
                     <br />
-                    <span>{t('program.day_2')}</span>
+                    <span className='fs-4 fw-medium'>{t('program.day_2')}</span>
                   </>
                 }
                 style={{ backgroundColor: '#456e46' }}
@@ -177,11 +177,11 @@ export function Program() {
                 eventKey='day_3'
                 title={
                   <>
-                    <strong className='fs-6 fw-bold'>
+                    {/* <strong className='fs-6 fw-bold'>
                       {t('program.day')} 3
-                    </strong>
+                    </strong> */}
                     <br />
-                    <span>{t('program.day_3')}</span>
+                    <span className='fs-4 fw-medium'>{t('program.day_3')}</span>
                   </>
                 }
                 style={{ backgroundColor: '#456e46' }}
