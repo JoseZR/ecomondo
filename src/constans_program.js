@@ -143,7 +143,7 @@ const programECO = {
         type: 'Información por confirmar',
         type_en:'Information to be completed',
         title: 'PRÓXIMAMENTE',
-        title_en: '',
+        title_en: 'COMING SOON',
         location: '',
         duration: '0 hrs.',
         hour: '00:00 a 00:00 hrs.',
