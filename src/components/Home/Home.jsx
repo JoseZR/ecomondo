@@ -626,6 +626,21 @@ export function Home() {
               />
             </a>
           </div>
+          <div className='exibitorSlider text-center h-100'>
+            <a
+              href='https://www.concordenviro.in/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img
+                src='/ecomondo/logos/exhibitors/concord.webp'
+                width={200}
+                height={100}
+                loading='lazy'
+                alt='ticsa'
+              />
+            </a>
+          </div>
         </Marquee>
       </section>
       <section className='my-5'>
