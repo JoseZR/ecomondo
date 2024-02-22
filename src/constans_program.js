@@ -11,7 +11,7 @@ const programECO = {
         hour: '11:00 - 14:00 hrs.',        
         resume: 'Se centrarán en diversos enfoques para evitar que los residuos orgánicos generen y emitan biogás de vertedero. Las técnicas abordadas son: compostaje, digestión anaerobia y recogida de gas de vertedero. El seminario también estudiará el aspecto financiero en relación con la necesidad de instituciones internacionales disponibles para apoyar la inversión en estas nuevas tecnologías sostenibles.',
         resume_en: 'The event will focus on various approaches to prevent organic waste to generate and emit biogas from landfills. The techniques addressed are: composting, anaerobic digestion and landfill gas collection. The seminar will also address the financial aspect regarding the need for international institutions available to support the investment into these new, sustainable technologies.',   
-        speakers : 'Jorge Israel García Ochoa | Izarelli | Rosillo | Marco Ricci | Paula García | R3VER. Linares',
+        speakers : 'Jorge Israel García Ochoa | Izarelli Rosillo | Marco Ricci | Paula García | R3VER. Linares',
         speakers_en : ""
         // speakers: [
         //   {
