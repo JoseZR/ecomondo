@@ -56,7 +56,7 @@ const speakers=[
     },
     {
         id:8,
-        name: 'M.C. Jesús Manríquez',
+        name: 'Jesús Manríquez',
         avatar: '/ecomondo/speakers/user_img.webp',
         resume_es: 'La información se está actualizando. Por favor, mantente atento.',
         resume_en: 'Information is being updated. Please stay tuned.',
