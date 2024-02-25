@@ -52,30 +52,30 @@ export function Home() {
                   }}
                 />
               </div>
-              <Container className='w-75'>
-                <Row className='justify-content-center'>
-                  <Col lg={2} md={3} sm={12} className=''></Col>
-                  <Col lg={4} md={3} sm={12} className='my-4'>
+              <Container className="">
+                <Row>
+                  <Col lg={3} className="my-3"></Col>
+                  <Col lg={3} className="my-3">
                     <a
-                      href='https://ecomondo.ahmreg.com/'
-                      target='_blank'
-                      className='text-white fw-bold p-3 rounded-3'
-                      style={{ backgroundColor: '#288705' }}
+                      href="https://ecomondo.ahmreg.com/"
+                      target="_blank"
+                      className="text-white fw-bold p-2 rounded-3"
+                      style={{ backgroundColor: "#288705" }}
                     >
                       {t('menu.banner')}
                     </a>
                   </Col>
-                  <Col lg={4} md={6} sm={12} className='my-4'>
+                  <Col lg={3} className="my-3">
                     <a
-                      href='https://hfmexico.mx/ecomondo/program'
-                      target='_blank'
-                      className='text-white fw-bold p-3 rounded-3'
-                      style={{ backgroundColor: '#288705' }}
+                      href="https://hfmexico.mx/ecomondo/program"
+                      target="_blank"
+                      className="text-white fw-bold p-2 rounded-3"
+                      style={{ backgroundColor: "#288705" }}
                     >
-                      {t('menu.conferences_1')}
+                      {t('home.program_button')}
                     </a>
                   </Col>
-                  <Col lg={2} md={3} sm={12} className=''></Col>
+                  <Col lg={3} className="my-3"></Col>
                 </Row>
               </Container>
               {/* <p
