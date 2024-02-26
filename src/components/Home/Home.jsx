@@ -54,7 +54,7 @@ export function Home() {
               </div>
               <Container>
                 <Row>
-                  <Col lg={3} className="my-5"></Col>
+                  <Col lg={3} className="my-2"></Col>
                   <Col lg={3} className="my-5">
                     <a
                       href="https://ecomondo.ahmreg.com/"
@@ -75,7 +75,7 @@ export function Home() {
                       {t('home.program_button')}
                     </a>
                   </Col>
-                  <Col lg={2} className="my-5"></Col>
+                  <Col lg={2} className="my-2"></Col>
                 </Row>
               </Container>
               {/* <p
