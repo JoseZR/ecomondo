@@ -411,43 +411,43 @@ export function Home() {
             <Row className='text-center fs-6 fw-semibold fst-italic'>
               <Col className='text-center'>
                 <div className='topic-size'>
-                  <img src="/ecomondo/topic_1.webp" alt="gestión de desperdicios y residuos"  width='100px' loading='lazy'/>
+                  <img src="/ecomondo/topic_1.webp" alt="gestión de desperdicios y residuos" width='100px' loading='lazy' />
                   <p className='pt-3'>{t("home.interests.item1")}</p>
                 </div>
               </Col>
               <Col>
                 <div className='topic-size'>
-                  <img src="/ecomondo/topic_2.webp" alt="manejo de residuos químicos" width='100px' loading='lazy'/>
+                  <img src="/ecomondo/topic_2.webp" alt="manejo de residuos químicos" width='100px' loading='lazy' />
                   <p className='pt-3'>{t("home.interests.item5")}</p>
                 </div>
               </Col>
               <Col>
                 <div className='topic-size'>
-                  <img src="/ecomondo/topic_3.webp" alt="bioenergia" width='100px' loading='lazy'/>
+                  <img src="/ecomondo/topic_3.webp" alt="bioenergia" width='100px' loading='lazy' />
                   <p className='pt-3'>{t("home.interests.item2")}</p>
                 </div>
               </Col>
               <Col>
                 <div className='topic-size'>
-                  <img src="/ecomondo/topic_4.webp" alt="iluminación inteligente" width='100px' loading='lazy'/>
+                  <img src="/ecomondo/topic_4.webp" alt="iluminación inteligente" width='100px' loading='lazy' />
                   <p className='pt-3'>{t("home.interests.item6")}</p>
                 </div>
               </Col>
               <Col>
                 <div className='topic-size'>
-                  <img src="/ecomondo/topic_5.webp" alt="tratamiento de agua" width='100px' loading='lazy'/>
+                  <img src="/ecomondo/topic_5.webp" alt="tratamiento de agua" width='100px' loading='lazy' />
                   <p className='pt-3'>{t("home.interests.item3")}</p>
                 </div>
               </Col>
               <Col>
                 <div className='topic-size'>
-                  <img src="/ecomondo/topic_6.webp" alt="certificaciones" width='100px' loading='lazy'/>
+                  <img src="/ecomondo/topic_6.webp" alt="certificaciones" width='100px' loading='lazy' />
                   <p className='pt-3'>{t("home.interests.item7")}</p>
                 </div>
               </Col>
               <Col>
                 <div className='topic-size'>
-                  <img src="/ecomondo/topic_7.webp" alt="transporte de desechos" width='100px' loading='lazy'/>
+                  <img src="/ecomondo/topic_7.webp" alt="transporte de desechos" width='100px' loading='lazy' />
                   <p className='pt-3'>{t("home.interests.item4")}</p>
                 </div>
               </Col>
@@ -1153,37 +1153,39 @@ export function Home() {
         </Container>
       </section>
       <section>
-        <Container className='my-5'>
-          <Row className='text-secondary text-center mb-5'>
-            <Col lg={12} className='fs-1 fw-bolder' style={{ color: '#288705' }}>PRESENCIA EN REDES SOCIALES</Col>
-            <Col lg={12} className=''>
-              <img src="/ecomondo/instagram.webp" alt="" width={35} className='m-2'/>
-              <img src="/ecomondo/facebook.webp" alt="" width={35} className='m-2'/>
-              <img src="/ecomondo/twitter.webp" alt="" width={35} className='m-2'/>
-              <img src="/ecomondo/linkedin.webp" alt="" width={35} className='m-2'/>
-            </Col>
-          </Row>
-          <Row className='d-flex align-items-center justify-content-center'>
-            <Col lg={4}>
-              <img src="/ecomondo/social_networks.webp" alt="" width={350} />
-            </Col>
-            <Col lg={8}>
-              <Row className='text-secondary d-flex align-items-center justify-content-center'>
-                <Col lg={3}>
-                  <Bullets number='7000' duration='4' simbol_1='+' />
-                  <p className='fs-6 text-uppercase'><span className='fs-3 fw-bolder' style={{ color: '#288705' }}>{t("home.social_networks.topic_1")}</span><br />{t("home.social_networks.dec_1")}</p>
-                </Col>
-                <Col lg={6}>
-                  <Bullets number='1500000' duration='4' simbol_1='+' />
-                  <p className='fs-6 text-uppercase'><span className='fs-3 fw-bolder' style={{ color: '#288705' }}>{t("home.social_networks.topic_2")}</span><br />{t("home.social_networks.dec_2")}</p>
-                </Col>
-                <Col lg={3}>
-                  <p className='fs-6 text-uppercase'><span className='fs-3 fw-bolder' style={{ color: '#288705' }}>{t("home.social_networks.topic_3")}</span><br />{t("home.social_networks.dec_3")}</p>
-                </Col>
-              </Row>
-            </Col>
-          </Row>
-        </Container>
+        <div data-aos="zoom-in" data-aos-duration="1500">
+          <Container className='my-5'>
+            <Row className='text-secondary text-center mb-5'>
+              <Col lg={12} className='fs-1 fw-bolder' style={{ color: '#288705' }}>PRESENCIA EN REDES SOCIALES</Col>
+              <Col lg={12} className=''>
+                <img src="/ecomondo/instagram.webp" alt="" width={35} className='m-2' />
+                <img src="/ecomondo/facebook.webp" alt="" width={35} className='m-2' />
+                <img src="/ecomondo/twitter.webp" alt="" width={35} className='m-2' />
+                <img src="/ecomondo/linkedin.webp" alt="" width={35} className='m-2' />
+              </Col>
+            </Row>
+            <Row className='d-flex align-items-center justify-content-center'>
+              <Col lg={4}>
+                <img src="/ecomondo/social_networks.webp" alt="" width={350} />
+              </Col>
+              <Col lg={8}>
+                <Row className='text-secondary d-flex align-items-center justify-content-center'>
+                  <Col lg={3}>
+                    <Bullets number='7000' duration='4' simbol_1='+' />
+                    <p className='fs-6 text-uppercase'><span className='fs-3 fw-bolder' style={{ color: '#288705' }}>{t("home.social_networks.topic_1")}</span><br />{t("home.social_networks.dec_1")}</p>
+                  </Col>
+                  <Col lg={6}>
+                    <Bullets number='1500000' duration='4' simbol_1='+' />
+                    <p className='fs-6 text-uppercase'><span className='fs-3 fw-bolder' style={{ color: '#288705' }}>{t("home.social_networks.topic_2")}</span><br />{t("home.social_networks.dec_2")}</p>
+                  </Col>
+                  <Col lg={3}>
+                    <p className='fs-6 text-uppercase'><span className='fs-3 fw-bolder' style={{ color: '#288705' }}>{t("home.social_networks.topic_3")}</span><br />{t("home.social_networks.dec_3")}</p>
+                  </Col>
+                </Row>
+              </Col>
+            </Row>
+          </Container>
+        </div>
       </section>
     </>
   )
