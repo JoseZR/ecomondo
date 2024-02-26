@@ -111,7 +111,7 @@ export function Menu() {
                     {t('menu.exhibitors_2')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href='/ecomondo/files/ECO Y SSM 2024_V7_021324.pdf'
+                    href='/ecomondo/files/ECO_Y_SSM_2024_V7_022424-Model_v260224.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
