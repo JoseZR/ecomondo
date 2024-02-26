@@ -54,8 +54,8 @@ export function Home() {
               </div>
               <Container>
                 <Row>
-                  <Col lg={3} className="my-4"></Col>
-                  <Col lg={3} className="my-4">
+                  <Col lg={3} className="my-5"></Col>
+                  <Col lg={3} className="my-5">
                     <a
                       href="https://ecomondo.ahmreg.com/"
                       target="_blank"
@@ -65,7 +65,7 @@ export function Home() {
                       {t('menu.banner')}
                     </a>
                   </Col>
-                  <Col lg={4} className="my-4">
+                  <Col lg={4} className="my-5">
                     <a
                       href="https://hfmexico.mx/ecomondo/program"
                       target="_blank"
@@ -75,7 +75,7 @@ export function Home() {
                       {t('home.program_button')}
                     </a>
                   </Col>
-                  <Col lg={2} className="my-4"></Col>
+                  <Col lg={2} className="my-5"></Col>
                 </Row>
               </Container>
               {/* <p
