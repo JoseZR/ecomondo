@@ -292,7 +292,7 @@ export function Home() {
         </p>
         <Container>
           <p>{t('home.why_exhibit.description')}</p>
-          <Row>
+          <Row className='text-center fs-6 fw-semibold fst-italic'>
             <Col
               md
               className='p-5'
