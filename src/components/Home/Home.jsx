@@ -304,6 +304,7 @@ export function Home() {
                 src='/ecomondo/icon1.webp'
                 width='70'
                 alt='crecimiento sostenible'
+                loading='lazy'
               />
               <p className='mt-3 text-center text-sm font-bold'>
                 {t('home.why_exhibit.item_1')}
@@ -320,6 +321,7 @@ export function Home() {
                 src='/ecomondo/icon2.webp'
                 width='70'
                 alt='negocios sostenibles'
+                loading='lazy'
               />
               <p className='mt-3 text-center text-sm font-bold'>
                 {t('home.why_exhibit.item_2')}
@@ -336,6 +338,7 @@ export function Home() {
                 src='/ecomondo/icon3.webp'
                 width='80'
                 alt='economía circular'
+                loading='lazy'
               />
               <p className='mt-3 text-center text-sm font-bold'>
                 {t('home.why_exhibit.item_3')}
@@ -352,6 +355,7 @@ export function Home() {
                 src='/ecomondo/icon4.webp'
                 width='90'
                 alt='alianza estrategica'
+                loading='lazy'
               />
               <p className='mt-3 text-center text-sm font-bold'>
                 {t('home.why_exhibit.item_4')}
@@ -368,6 +372,7 @@ export function Home() {
                 src='/ecomondo/icon5.webp'
                 width='60'
                 alt='conocimiento para la sostenibilidad de las industrias'
+                loading='lazy'
               />
               <p className='mt-3 text-center text-sm font-bold'>
                 {t('home.why_exhibit.item_5')}
@@ -451,7 +456,7 @@ export function Home() {
               </Col>
               <Col>
                 <div className='topic-size'>
-                  <img src="/ecomondo/topic_4.webp" alt="iluminación Inteligente" width='100px' loading='lazy'/>
+                  <img src="/ecomondo/topic_4.webp" alt="iluminación inteligente" width='100px' loading='lazy'/>
                   <p className='pt-3'>{t("home.interests.item6")}</p>
                 </div>
               </Col>
