@@ -1,4 +1,4 @@
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Row, Image, Button } from 'react-bootstrap'
 import './Footer.css'
 import { useTranslation } from 'react-i18next'
 import { LanguageButton } from '../Menu/LanguageButton'
@@ -101,32 +101,40 @@ export function Footer() {
               </p>
             </Col>
             <Col md>
-              <p>
-                <strong>{t('footer.contact_us')}</strong>
-                <br />
-                <br />
-                <strong>Sandra Elías</strong>
-                <br />
-                {t('footer.project_manager')}
-                <br />
-                <a href='mailto:sandra.elias@igeco.mx'>sandra.elias@igeco.mx</a>
-              </p>
-              <p>
-                <strong>Sergio López</strong>
-                <br />
-                {t('footer.sales_manager')}
-                <br />
-                <a href='mailto:sergio.lopez@igeco.mx'>sergio.lopez@igeco.mx</a>
-              </p>
-              <p>
-                <strong>Marissa Franco Zermeño</strong>
-                <br />
-                {t('footer.sales_executive')}
-                <br />
-                <a href='mailto:marissa.franco@igeco.mx'>
-                  marissa.franco@igeco.mx
-                </a>
-              </p>
+              <p className='mb-3'><strong>{t('footer.contact_us')}</strong></p>
+              <Row className='mb-5'>
+                <Col xs={4} md={12} lg={3}>
+                  <Image src="/ecomondo/sandra.webp" roundedCircle width='85' />
+                </Col>
+                <Col xs={8} md={12} lg={8}>
+                  <strong>Sandra Elías</strong><br />
+                    {t('footer.project_manager')}<br />
+                    <a href='mailto:sandra.elias@igeco.mx' className=''>sandra.elias@igeco.mx</a>
+                    <a href='mailto:sandra.elias@igeco.mx'><Button variant="success" size="sm"> {t('footer.message_button')}</Button></a>
+                </Col>
+              </Row>
+              <Row className='mb-5'>
+                <Col xs={4} md={12} lg={3}>
+                  <Image src="/ecomondo/sergiolopez.webp" roundedCircle width='85' />
+                </Col>
+                <Col xs={8} md={12} lg={8}>
+                  <strong>Sergio López</strong><br />
+                    {t('footer.sales_manager')}<br />
+                    <a href='mailto:sergio.lopez@igeco.mx'>sergio.lopez@igeco.mx</a>
+                    <a href='mailto:sergio.lopez@igeco.mx'><Button variant="success" size="sm"> {t('footer.message_button')}</Button></a>
+                </Col>
+              </Row>
+              <Row className='mb-5'>
+                <Col xs={4} md={12} lg={3}>
+                  <Image src="/ecomondo/marissa.jpg" roundedCircle width='85' />
+                </Col>
+                <Col xs={8} md={12} lg={8}>
+                  <strong>Marissa Franco Zermeño</strong><br />
+                    {t('footer.sales_executive')}<br />
+                    <a href='mailto:marissa.franco@igeco.mx'>marissa.franco@igeco.mx</a>
+                    <a href='mailto:marissa.franco@igeco.mx'><Button variant="success" size="sm"> {t('footer.message_button')}</Button></a>
+                </Col>
+              </Row>
             </Col>
             <Col md>
               <Subscribe />

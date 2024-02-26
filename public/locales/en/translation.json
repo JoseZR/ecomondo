@@ -408,7 +408,8 @@
       "contact": "Contact Us",
       "name": "Name",
       "email": "Email",
-      "subscription": "Suscribe"
+      "subscription": "Suscribe",
+      "message_button":"Send message"
    },
    "program": {
       "title": "PROGRAM",

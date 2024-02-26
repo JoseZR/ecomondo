@@ -405,7 +405,8 @@
       "contact": "Contacto",
       "name": "Nombre",
       "email": "Correo electrónico",
-      "subscription": "Suscribirse"
+      "subscription": "Suscribirse",
+      "message_button":"Enviar mensaje"
    },
    "program":{
       "title": "PROGRAMA DE ACTIVIDADES",
