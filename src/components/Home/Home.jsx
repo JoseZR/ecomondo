@@ -433,43 +433,43 @@ export function Home() {
             <Row className='text-center'>
               <Col className='text-center'>
                 <div className='topic-size'>
-                  <img src="/ecomondo/topic1.webp" alt="" style={{ width: '120px', height: '120px' }} />
+                  <img src="/ecomondo/topic_1.webp" alt="" style={{ width: '120px', height: '120px' }} />
                   <p className='pt-3 fs-6 fw-semibold'>{t("home.interests.item1")}</p>
                 </div>
               </Col>
               <Col>
                 <div className='topic-size'>
-                  <img src="/ecomondo/topic5.webp" alt="" style={{ width: '120px', height: '120px' }} />
+                  <img src="/ecomondo/topic_2.webp" alt="" style={{ width: '120px', height: '120px' }} />
                   <p className='pt-3 fs-6 fw-semibold'>{t("home.interests.item5")}</p>
                 </div>
               </Col>
               <Col>
                 <div className='topic-size'>
-                  <img src="/ecomondo/topic2.webp" alt="" style={{ width: '120px', height: '120px' }} />
+                  <img src="/ecomondo/topic_3.webp" alt="" style={{ width: '120px', height: '120px' }} />
                   <p className='pt-3 fs-6 fw-semibold'>{t("home.interests.item2")}</p>
                 </div>
               </Col>
               <Col>
                 <div className='topic-size'>
-                  <img src="/ecomondo/topic6.webp" alt="" style={{ width: '120px', height: '120px' }} />
+                  <img src="/ecomondo/topic_4.webp" alt="" style={{ width: '120px', height: '120px' }} />
                   <p className='pt-3 fs-6 fw-semibold'>{t("home.interests.item6")}</p>
                 </div>
               </Col>
               <Col>
                 <div className='topic-size'>
-                  <img src="/ecomondo/topic3.webp" alt="" style={{ width: '120px', height: '120px' }} />
+                  <img src="/ecomondo/topic_5.webp" alt="" style={{ width: '120px', height: '120px' }} />
                   <p className='pt-3 fs-6 fw-semibold'>{t("home.interests.item3")}</p>
                 </div>
               </Col>
               <Col>
                 <div className='topic-size'>
-                  <img src="/ecomondo/topic7.webp" alt="" style={{ width: '120px', height: '120px' }} />
+                  <img src="/ecomondo/topic_6.webp" alt="" style={{ width: '120px', height: '120px' }} />
                   <p className='pt-3 fs-6 fw-semibold'>{t("home.interests.item7")}</p>
                 </div>
               </Col>
               <Col>
                 <div className='topic-size'>
-                  <img src="/ecomondo/topic4.webp" alt="" style={{ width: '120px', height: '120px' }} />
+                  <img src="/ecomondo/topic_7.webp" alt="" style={{ width: '120px', height: '120px' }} />
                   <p className='pt-3 fs-6 fw-semibold'>{t("home.interests.item4")}</p>
                 </div>
               </Col>
