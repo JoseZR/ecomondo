@@ -291,7 +291,7 @@ export function Home() {
           {t('home.why_exhibit.title')}
         </p>
         <Container>
-          <p>{t('home.why_exhibit.description')}</p>
+          <p className='fs-4'>{t('home.why_exhibit.description')}</p>
           <Row className='text-center fs-6 fw-semibold fst-italic'>
             <Col
               md
@@ -429,7 +429,7 @@ export function Home() {
             </Row>
           )}
         </Container>
-        <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="3000">
+        <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1500">
           <Testimonials />
         </div>
         <Container className='my-5 py-5'>
