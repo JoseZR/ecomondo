@@ -402,9 +402,7 @@ export function Home() {
             </Row>
           )}
         </Container>
-        <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1500">
-          <Testimonials />
-        </div>
+        <Testimonials />
         <Container className='my-5 py-5'>
           <p className='gallery-title fw-bold fs-2 mb-5'>{t('home.interests.title')}</p>
           <div data-aos="fade-right" data-aos-duration="3000">
