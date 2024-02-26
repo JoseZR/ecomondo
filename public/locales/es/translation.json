@@ -178,7 +178,16 @@
                "description3":"EN TODAS NUESTRAS REDES"
             },
             "general_description":"Ecomondo Mexico facilita y acelera las oportunidades de negocio y networking entre los principales exponentes de soluciones tecnológicas ambientales y los tomadores de decisión clave de la industria a nivel global para promover la transición hacia un futuro más sustentable.",
-            "program_button":"Ver programa de conferencias"
+            "program_button":"Ver programa de conferencias",
+            "social_networks":{
+               "title":"PRESENCIA EN REDES SOCIALES",
+               "topic_1":"SEGUIDORES",
+               "dec_1":"EN REDES",
+               "topic_2":"PERSONAS",
+               "dec_2":"ALCANZADAS",
+               "topic_3":"COBERTURA",
+               "dec_3":"EN TODAS NUESTRAS REDES"
+            }
 
    },
    "aboutUs" :{

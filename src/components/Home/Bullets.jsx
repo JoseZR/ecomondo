@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 export function Bullets (props) {
-  const { number, duration, simbol } = props
+  const { number, duration, simbol_1, simbol_2 } = props
 
   const formatNumberWithCommas = (value) => {
     return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')
@@ -27,7 +27,7 @@ export function Bullets (props) {
 
   return (
     <div className='text-center'>
-      <span className='fw-bold fs-1 text-light'>{formatNumberWithCommas(count)} {simbol}</span>
+      <span className='fw-bold fs-1'>{simbol_1}{formatNumberWithCommas(count)}{simbol_2}</span>
     </div>
   )
 }

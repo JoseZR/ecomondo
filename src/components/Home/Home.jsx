@@ -379,10 +379,10 @@ export function Home() {
       <div ref={ref}>
         <Container fluid>
           {show && (
-            <Row className=''>
+            <Row className='text-light'>
               <Col md className='background_num1'>
                 <div className='position-num'>
-                  <Bullets number='7500' duration='4' />
+                  <Bullets number='7500' duration='4' simbol_1='+' />
                   <div className='text-center fw-bold text-light'>
                     <i>{t('home.bullet_1')}</i>
                   </div>
@@ -390,7 +390,7 @@ export function Home() {
               </Col>
               <Col md className='background_num2'>
                 <div className='position-num'>
-                  <Bullets number='13000' duration='4' simbol='m&sup2;' />
+                  <Bullets number='13000' duration='4' simbol_2='m&sup2;' />
                   <div className='text-center fw-bold text-light'>
                     <i>{t('home.bullet_2')}</i>
                   </div>
@@ -398,7 +398,7 @@ export function Home() {
               </Col>
               <Col md className='background_num3'>
                 <div className='position-num'>
-                  <Bullets number='80' duration='4' />
+                  <Bullets number='80' duration='4' simbol_1='+' />
                   <div className='text-center fw-bold text-light'>
                     <i>{t('home.bullet_3')}</i><br /><br />
                   </div>
@@ -406,7 +406,7 @@ export function Home() {
               </Col>
               <Col md className='background_num4'>
                 <div className='position-num'>
-                  <Bullets number='462' duration='4' simbol='mdp' />
+                  <Bullets number='462' duration='4' simbol_1='+' simbol_2='MDP' />
                   <div className='text-center fw-bold text-light'>
                     <i>{t('home.bullet_4')}</i><br />
                     <i>(2023)</i>
@@ -415,7 +415,7 @@ export function Home() {
               </Col>
               <Col md className='background_num5'>
                 <div className='position-num'>
-                  <Bullets number='6' duration='4' simbol='mdp' />
+                  <Bullets number='6' duration='4' simbol_1='+' simbol_2='MDP' />
                   <div className='text-center fw-bold text-light'>
                     <i>{t('home.bullet_5')}</i>
                   </div>
@@ -1172,6 +1172,39 @@ export function Home() {
               </a>
             </div>
           </Marquee>
+        </Container>
+      </section>
+      <section>
+        <Container className='my-5'>
+          <Row className='text-secondary text-center mb-5'>
+            <Col lg={12} className='fs-1 fw-bolder' style={{ color: '#288705' }}>PRESENCIA EN REDES SOCIALES</Col>
+            <Col lg={12} className=''>
+              <img src="/ecomondo/instagram.webp" alt="" width={35} className='m-2'/>
+              <img src="/ecomondo/facebook.webp" alt="" width={35} className='m-2'/>
+              <img src="/ecomondo/twitter.webp" alt="" width={35} className='m-2'/>
+              <img src="/ecomondo/linkedin.webp" alt="" width={35} className='m-2'/>
+            </Col>
+          </Row>
+          <Row className='d-flex align-items-center justify-content-center'>
+            <Col lg={4}>
+              <img src="/ecomondo/social_networks.webp" alt="" width={350} />
+            </Col>
+            <Col lg={8}>
+              <Row className='text-secondary d-flex align-items-center justify-content-center'>
+                <Col lg={3}>
+                  <Bullets number='7000' duration='4' simbol_1='+' />
+                  <p className='fs-6 text-uppercase'><span className='fs-3 fw-bolder' style={{ color: '#288705' }}>{t("home.social_networks.topic_1")}</span><br />{t("home.social_networks.dec_1")}</p>
+                </Col>
+                <Col lg={6}>
+                  <Bullets number='1500000' duration='4' simbol_1='+' />
+                  <p className='fs-6 text-uppercase'><span className='fs-3 fw-bolder' style={{ color: '#288705' }}>{t("home.social_networks.topic_2")}</span><br />{t("home.social_networks.dec_2")}</p>
+                </Col>
+                <Col lg={3}>
+                  <p className='fs-6 text-uppercase'><span className='fs-3 fw-bolder' style={{ color: '#288705' }}>{t("home.social_networks.topic_3")}</span><br />{t("home.social_networks.dec_3")}</p>
+                </Col>
+              </Row>
+            </Col>
+          </Row>
         </Container>
       </section>
     </>
