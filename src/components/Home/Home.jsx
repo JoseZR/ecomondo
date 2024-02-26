@@ -52,30 +52,30 @@ export function Home() {
                   }}
                 />
               </div>
-              <Container className="">
+              <Container>
                 <Row>
                   <Col lg={3} className="my-3"></Col>
                   <Col lg={3} className="my-3">
                     <a
                       href="https://ecomondo.ahmreg.com/"
                       target="_blank"
-                      className="text-white fw-bold p-2 rounded-3"
-                      style={{ backgroundColor: "#288705" }}
+                      className="fw-bold px-3 py-4 rounded-3"
+                      style={{ backgroundColor: "#ffffff", color:"#288705",  textShadow:'none'}}
                     >
                       {t('menu.banner')}
                     </a>
                   </Col>
-                  <Col lg={3} className="my-3">
+                  <Col lg={4} className="my-3">
                     <a
                       href="https://hfmexico.mx/ecomondo/program"
                       target="_blank"
-                      className="text-white fw-bold p-2 rounded-3"
-                      style={{ backgroundColor: "#288705" }}
+                      className="fw-bold px-3 py-4 rounded-3"
+                      style={{ backgroundColor: "#ffffff", color:"#288705", textShadow:'none'}}
                     >
                       {t('home.program_button')}
                     </a>
                   </Col>
-                  <Col lg={3} className="my-3"></Col>
+                  <Col lg={2} className="my-3"></Col>
                 </Row>
               </Container>
               {/* <p
@@ -1151,7 +1151,7 @@ export function Home() {
         </Container>
       </section>
       <section>
-        <div data-aos="zoom-in" data-aos-duration="1500">
+        <div data-aos="zoom-in" data-aos-duration="2500">
           <Container className='my-5'>
             <Row className='text-secondary text-center mb-5'>
               <Col lg={12} className='fs-1 fw-bolder' style={{ color: '#288705' }}>PRESENCIA EN REDES SOCIALES</Col>
