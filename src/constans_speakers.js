@@ -31,8 +31,8 @@ const speakers=[
         id:3,
         name: 'Marco Ricci', 
         avatar: '/ecomondo/speakers/user_img.webp',
-        resume_es: 'La información se está actualizando. Por favor, mantente atento.',
-        resume_en: 'Information is being updated. Please stay tuned.',
+        resume_es: 'Físico y Doctor en Gestión Ambiental, experto en estrategias, planificación, recolección y compostaje de residuos orgánicos. Experto Senior de CIC – Asociación Italiana de Compostaje y Biogás, investiga y coopera para numerosas organizaciones internacionales. Miembro del STC de ISWA International.',
+        resume_en: 'Physicist and Ph.D. in Environmental Management, expert in organic waste strategies, planning, collection and composting.Senior Expert of CIC – Italian Composting and Biogas Association, researches and cooperates for numerous international organisations. Member of the STC of ISWA international.',
     },
     {
         id:4,
