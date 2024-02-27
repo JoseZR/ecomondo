@@ -109,7 +109,7 @@ const programECO = {
         hour: '11:00 a 14:00 hrs.',
         resume:'Las innovaciones cercanas al mercado integradas en la infraestructura hídrica existente o nueva son el desafío al que la transferencia de conocimientos y tecnología debe hacer frente. El taller presentará innovaciones relevantes que han alcanzado un alto nivel de preparación tecnológica (TRL), incluyendo criterios de diseño y estrategias para integrarlos en estudios de casos reales.',
         resume_en:'Close to market innovations integrated in the existing or new water infrastructure. This is the challenge that knowledge and technology transfer should address. The workshop will present relevant innovations that have reached high technology readiness level (TRL) including design criteria and strategies to integrate them in real case studies',
-        speakers : ''       
+        speakers : 'Mario Guadalupe González Pérez'       
       },
       {
         type: 'Seminario',
