@@ -53,6 +53,8 @@ const speakers=[
         name: 'Cecile De Mauleon',
         avatar: '/ecomondo/speakers/user_img.webp',
         resume: '(Directora de Camexital, Cámara de Comercio Mexicana en Italia) MÁS PONENTES POR CONFIRMAR',
+        resume_es: 'La información se está actualizando. Por favor, mantente atento.',
+        resume_en: 'Information is being updated. Please stay tuned.',
     },
     {
         id:7,
