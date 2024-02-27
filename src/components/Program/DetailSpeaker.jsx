@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import { Col, Row } from 'react-bootstrap'
 import Modal from 'react-bootstrap/Modal'
 
-export function DetailSpeaker (props) {
+export function DetailSpeaker(props) {
   const { i18n, t } = useTranslation();
   return (
     <Modal
@@ -11,7 +11,7 @@ export function DetailSpeaker (props) {
       aria-labelledby='contained-modal-title-vcenter'
       centered
     >
-      <Modal.Header closeButton/>
+      <Modal.Header closeButton />
       <Modal.Body>
         <Row>
           <Col md={6} className='my-auto'>
@@ -25,9 +25,11 @@ export function DetailSpeaker (props) {
             </div>
           </Col>
           <Col md={6} className='my-auto'>
-            <h5 className='fw-bold text-danger'>{t("program.sub_title")} </h5>
-            <p>{i18n.language === "en" ? props?.speaker?.conference_en : props?.speaker?.conference_es}</p>
-            <p> {i18n.language === "en" ? props?.speaker?.resume_en : props?.speaker?.resume_es}</p>
+            <div className="p-3">
+              <h5 className='fw-bold text-danger'>{t("program.sub_title")} </h5>
+              <p>{i18n.language === "en" ? props?.speaker?.conference_en : props?.speaker?.conference_es}</p>
+              <p style={{ textAlign: 'justify' }}> {i18n.language === "en" ? props?.speaker?.resume_en : props?.speaker?.resume_es}</p>
+            </div>
           </Col>
         </Row>
       </Modal.Body>
