@@ -254,7 +254,7 @@ export function Program() {
           </div>
         </Container>
         <Container>
-            <h1 className='mt-5 text-light text-start' id='ponentes'> {t("program.title2")} </h1>
+            <h1 className='mt-5 text-light text-center' id='ponentes'> {t("program.title2")} </h1>
             <div className='mt-5 pb-5 program-wrapper-speakers'>
               {speakers.map((speaker, index) => (
                 <button key={index} onClick={() => handleModal2(speaker)}>

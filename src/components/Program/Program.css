@@ -6,8 +6,6 @@
     font-size: 3em;
   }
   
-  
-  
   .program-wrapper-speakers button {
     background-color: transparent;
     border: none;
@@ -17,9 +15,7 @@
     cursor: pointer;
     transition: all .5s ease-out;
   }
-  
-  
-  
+
   .program-date-item {
     display: flex;
     align-items: center;    
@@ -85,7 +81,7 @@
     background-color: transparent;
     text-decoration: none;
     color: white;
-    padding: 10px 35px;
+    padding: 10px auto;
     text-align: left;
   }
   
