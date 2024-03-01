@@ -620,7 +620,7 @@ export function Home() {
         </Marquee>
       </section>
       <section className='my-5'>
-        <Container fluid>
+        {/* <Container fluid>
           <p className='fw-bold fs-3 text-secondary text-center text-uppercase'>
             {t('home.sponsor_1')}
           </p>
@@ -640,7 +640,7 @@ export function Home() {
               </a>
             </Col>
           </Row>
-        </Container>
+        </Container> */}
       </section>
       <section className='pb-5'>
         <Container className=''>
