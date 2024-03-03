@@ -113,7 +113,7 @@ export function Home() {
               >
                 ECOMONDO MÉXICO 2024
               </p>
-              <p className='fs-4 text-justify'>{t('home.general_description')}</p>
+              <p className='fs-4'  style={{textAlign:'justify'}}>{t('home.general_description')}</p>
               <br />
               {/* <p className='fs-3'>
                 {t('home.date')} <br /> Expo Guadalajara{' '}
