@@ -25,10 +25,11 @@ export function Home() {
         style={{ textShadow: '4px 4px 4px black' }}
       >
         <video
-          src='/ecomondo/propuestav1_optix.mp4'
+          src='/ecomondo/background-ecomondo-2024.mp4'
           autoPlay
           muted
           loop
+          poster='/ecomondo/background-video-ecomondo.webp'
           className='video-bg-ecomondo'
         ></video>
         <Container>
