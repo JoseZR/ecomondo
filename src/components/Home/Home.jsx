@@ -404,7 +404,7 @@ export function Home() {
           )}
         </Container>
         <Testimonials />
-        <Container className='my-5 py-5'>
+        {/* <Container className='my-5 py-5'>
           <p className='gallery-title fw-bold fs-2 mb-5'>{t('home.interests.title')}</p>
           <div data-aos="fade-right" data-aos-duration="3000">
             <Row className='text-center fs-6 fw-semibold fst-italic'>
@@ -452,7 +452,7 @@ export function Home() {
               </Col>
             </Row>
           </div>
-        </Container>
+        </Container> */}
         <Container>
           <h2 className='fw-bold fs-2 pb-4 home-text-color text-uppercase'
             style={{ color: '#288705' }}>ECOMONDO MEXICO {t("home.rates.title")} 2024

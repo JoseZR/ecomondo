@@ -23,7 +23,7 @@ export function Testimonials() {
                   <p className="m-3">
                     <h5 className="font-weight-bold"><strong>Antonio Luna</strong></h5>
                     <p className="fs-6 fst-italic">{t("testimonials.person1.position")}</p>
-                    <p className="text-justify ">
+                    <p style={{textAlign:'justify'}}>
                       {t("testimonials.person1.description")}
                     </p>
                   </p>
