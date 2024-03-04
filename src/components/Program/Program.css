@@ -103,7 +103,6 @@
   }
   
   .speaker-item img {
-    filter: grayscale(100%);
     cursor: pointer;
     transition: all .3s ease-out;
     object-fit: cover;
