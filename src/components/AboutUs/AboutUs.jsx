@@ -16,31 +16,13 @@ export function AboutUs() {
           style={{ textAlign: 'justify' }}
           dangerouslySetInnerHTML={{ __html: t('aboutUs.description') }}
         ></p>
-        <p className='text-center'>
+        <p className='text-center fs-3 mt-5'>
           <i>
             <strong>{t('aboutUs.welcome')}</strong>
           </i>
         </p>
         <hr></hr>
         <p className='mt-5 fw-bold fs-4'>{t('aboutUs.network')}</p>
-        <Row className='mt-5'>
-          <Col md={4}>
-            <img src='/ecomondo/ecomondo-china.webp' className='w-100'></img>
-          </Col>
-          <Col md={8}>
-            <p className='fw-bold m-0'>ECOMONDO CHINA - CDEPE</p>
-            <span className='fw-light'>{t('aboutUs.network_1_date')}</span>
-            <p className='mt-3 mb-0'>{t('aboutUs.network_1_desc')}</p>
-            <a
-              style={{ color: '#288705' }}
-              className='fw-bold'
-              href='https://www.cdepe.com/eng/'
-              target='_blank'
-            >
-              {t('aboutUs.read_more')}
-            </a>
-          </Col>
-        </Row>
         <Row>
           <Col md={4} className='my-auto'>
             <img src='/ecomondo/ecomondo-italy.webp' className='w-100'></img>
@@ -53,6 +35,24 @@ export function AboutUs() {
               style={{ color: '#288705' }}
               className='fw-bold'
               href='https://en.ecomondo.com/ '
+              target='_blank'
+            >
+              {t('aboutUs.read_more')}
+            </a>
+          </Col>
+        </Row>
+        <Row className='mt-5'>
+          <Col md={4}>
+            <img src='/ecomondo/ecomondo-china.webp' className='w-100'></img>
+          </Col>
+          <Col md={8}>
+            <p className='fw-bold m-0'>ECOMONDO CHINA - CDEPE</p>
+            <span className='fw-light'>{t('aboutUs.network_1_date')}</span>
+            <p className='mt-3 mb-0'>{t('aboutUs.network_1_desc')}</p>
+            <a
+              style={{ color: '#288705' }}
+              className='fw-bold'
+              href='https://www.cdepe.com/eng/'
               target='_blank'
             >
               {t('aboutUs.read_more')}
