@@ -22,7 +22,7 @@ export function Contact() {
                   loading='lazy'
                   className='rounded-circle'
                 />
-                <p className='fw-bold fs-5'>Sandra Elías<br /> Directora de proyecto</p>
+                <p className='fw-bold fs-5'>Sandra Elías<br /> {t("footer.project_manager")} </p>
                 <a href='mailto:sandra.elias@igeco.mx' className='text-white fw-bold'> sandra.elias@igeco.mx</a><br /><br />
                 <a href='mailto:sandra.elias@igeco.mx'><Button variant="outline-light" size="lg"> {t('footer.message_button')}</Button></a>
               </Col>
@@ -37,7 +37,7 @@ export function Contact() {
                 <p className='fw-bold fs-5'>
                   Sergio López
                   <br />
-                  Gerente de ventas
+                  {t("footer.sales_manager")}
                 </p>
                 <a
                   href='mailto:sergio.lopez@igeco.mx'
@@ -58,7 +58,7 @@ export function Contact() {
                 <p className='fw-bold fs-5'>
                   Marissa Franco Zermeño
                   <br />
-                  Ejecutivo de ventas
+                  {t("footer.sales_executive")}
                 </p>
                 <a
                   href='mailto:sergio.lopez@igeco.mx'
