@@ -502,6 +502,7 @@ export function Home() {
           </div>
         </Container> */}
       </div>
+      {/* LOGOS DE EXPOSITORES */}
       <section className='pt-5 pb-5'>
         <p className='fw-bold fs-2 text-center' style={{ color: '#288705' }}>
           {t('home.exhibitors')}
@@ -614,8 +615,9 @@ export function Home() {
           </div>
         </Marquee>
       </section>
-      <section className='my-5'>
-        {/* <Container fluid>
+      {/* LOGOS PATROCINADORES */}
+      {/* <section className='my-5'>
+        <Container fluid>
           <p className='fw-bold fs-3 text-secondary text-center text-uppercase'>
             {t('home.sponsor_1')}
           </p>
@@ -635,8 +637,14 @@ export function Home() {
               </a>
             </Col>
           </Row>
-        </Container> */}
-      </section>
+        </Container>
+      </section> */}
+      <Container className='galleryPage mt-5'>
+        <h1 className='gallery-title pt-5'>
+          {t('menu.media_hub_1')} - Ecomondo 2023
+        </h1>
+        <GalleryYear year={gallery2023} />
+      </Container>
       <section className='pb-5'>
         <Container className=''>
           <p className='fw-bold fs-2 text-center' style={{ color: '#288705' }}>
@@ -870,7 +878,6 @@ export function Home() {
               </a>
             </div>
           </Marquee>
-
           <p
             className='fw-bold fs-2 text-center mt-5 pt-5'
             style={{ color: '#288705' }}
@@ -1145,12 +1152,6 @@ export function Home() {
           </Marquee>
         </Container>
       </section>
-      <Container className='galleryPage mt-5'>
-        <h1 className='gallery-title pt-5'>
-          {t('menu.media_hub_1')} - Ecomondo 2023
-        </h1>
-        <GalleryYear year={gallery2023} />
-      </Container>
       <section>
         <div data-aos="zoom-in" data-aos-duration="2500">
           <Container className='my-5'>
