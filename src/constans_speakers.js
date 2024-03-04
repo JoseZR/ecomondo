@@ -16,14 +16,14 @@ const speakers=[
     {
         id:1,
         name: 'Jorge Israel García Ochoa', 
-        avatar: '/ecomondo/speakers/user_img.webp',
+        avatar: '/ecomondo/speakers/israel-garcia-ochoa.webp',
         resume_es: 'La información se está actualizando. Por favor, mantente atento.',
         resume_en: 'Information is being updated. Please stay tuned.',
     },
     {
         id:2,
         name: 'Izarelly Rosillo', 
-        avatar: '/ecomondo/speakers/user_img.webp',
+        avatar: '/ecomondo/speakers/izarelly-rosillo.webp',
         resume_es: 'La información se está actualizando. Por favor, mantente atento.',
         resume_en: 'Information is being updated. Please stay tuned.',
     },
@@ -59,7 +59,7 @@ const speakers=[
     {
         id:7,
         name: 'Francesco Fatone',
-        avatar: '/ecomondo/speakers/user_img.webp',
+        avatar: '/ecomondo/speakers/francesco-fatone.webp',
         resume_es: 'La información se está actualizando. Por favor, mantente atento.',
         resume_en: 'Information is being updated. Please stay tuned.',
     },
@@ -87,7 +87,7 @@ const speakers=[
     {
         id:12,
         name: 'Cindy McCulligh',
-        avatar: '/ecomondo/speakers/user_img.webp',
+        avatar: '/ecomondo/speakers/cindy-mcCulligh.webp',
         resume_es: 'La información se está actualizando. Por favor, mantente atento.',
         resume_en: 'Information is being updated. Please stay tuned.',
     },
