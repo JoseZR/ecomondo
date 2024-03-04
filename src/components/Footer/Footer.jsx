@@ -93,7 +93,7 @@ export function Footer() {
                 <strong>ECOMONDO 2024</strong>
               </p>
               <p>
-                17 – 19 de Abril, 2024
+                {t("footer.event-date")}
                 <br />
                 Expo Guadalajara,
                 <br />
