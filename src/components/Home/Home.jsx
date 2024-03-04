@@ -610,6 +610,66 @@ export function Home() {
               />
             </a>
           </div>
+          <div className='exibitorSlider text-center h-100'>
+            <a
+              href='https://electric.hxgroup.com/en/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img
+                src='/ecomondo/logos/exhibitors/hexing.webp'
+                width={200}
+                height={100}
+                loading='lazy'
+                alt='hexing'
+              />
+            </a>
+          </div>
+          <div className='exibitorSlider text-center h-100'>
+            <a
+              href='https://livoltek.com/home/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img
+                src='/ecomondo/logos/exhibitors/livoltek.webp'
+                width={200}
+                height={100}
+                loading='lazy'
+                alt='livoltek'
+              />
+            </a>
+          </div>
+          <div className='exibitorSlider text-center h-100'>
+            <a
+              href='https://www.linkedin.com/company/zelink-water-meter/?trk=public_post_share-update_actor-text'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img
+                src='/ecomondo/logos/exhibitors/zlink.webp'
+                width={200}
+                height={100}
+                loading='lazy'
+                alt='zlink'
+              />
+            </a>
+          </div>
+          <div className='exibitorSlider text-center h-100'>
+            <a
+              href=''
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img
+                src='/ecomondo/logos/exhibitors/pq&s.webp'
+                width={200}
+                height={100}
+                loading='lazy'
+                alt='pq&s'
+              />
+            </a>
+          </div>
         </Marquee>
       </section>
       {/* <section className='my-5'>
