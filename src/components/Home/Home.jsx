@@ -60,8 +60,7 @@ export function Home() {
                     <a
                       href="https://ecomondo.ahmreg.com/"
                       target="_blank"
-                      className="fw-bold px-3 py-4 rounded-3"
-                      style={{ backgroundColor: "#ffffff", color:"#288705",  textShadow:'none'}}
+                      className="fw-bold px-3 py-4 rounded-3  button-cover"
                     >
                       {t('menu.banner')}
                     </a>
@@ -70,9 +69,7 @@ export function Home() {
                     <a
                       href="https://hfmexico.mx/ecomondo/program"
                       target="_blank"
-                      className="fw-bold px-3 py-4 rounded-3"
-                      style={{ backgroundColor: "#ffffff", color:"#288705", textShadow:'none'}}
-                    >
+                      className="fw-bold px-3 py-4 rounded-3 button-cover">
                       {t('home.program_button')}
                     </a>
                   </Col>
