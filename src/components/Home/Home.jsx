@@ -355,8 +355,56 @@ export function Home() {
           </Row>
         </Container>
       </section>
+      <Container>
+          <h2 className='fw-bold fs-2 pb-4 home-text-color text-uppercase'
+            style={{ color: '#288705' }}>ECOMONDO MEXICO {t("home.rates.title")} 2024
+          </h2>
+          <p className='fst-italic fs-5 mb-5'>{t("home.rates.sub-title")}</p>
+          <Row>
+            <Col lg={4} md={4} sm={12} className="column-with-border p-4">
+              <h4 className='fw-bolder'>{t("home.rates.item1.title1")}</h4>
+              <p className='text-decoration-line-through fs-4 text fw-semibold'> {t("home.rates.item1.price1")} </p>
+              <p className='fs-3 text fw-bolder text-danger'>{t("home.rates.item1.priece2")} </p>
+              <p className='fs-4 text fw-semibold'>{t("home.rates.item1.title2")} </p>
+              <ul class="list-group-flush p-0 m-0">
+                <li class="list-group-item"> {t("home.rates.item1.topic1")} </li>
+                <li class="list-group-item"> {t("home.rates.item1.topic2")} </li>
+                <li class="list-group-item"> {t("home.rates.item1.topic3")} </li>
+                <li class="list-group-item"> {t("home.rates.item1.topic4")} </li>
+                <li class="list-group-item"> {t("home.rates.item1.topic5")} </li>
+                <li class="list-group-item"> {t("home.rates.item1.topic6")} </li>
+              </ul>
+            </Col>
+            <Col lg={4} md={4} sm={12} className="column-with-border p-4">
+              <h4 className='fw-bolder'>{t("home.rates.item2.title1")}</h4>
+              <p className='fs-3 text  fw-bolder'> {t("home.rates.item2.price1")} </p>
+              <p className='fs-4 text fw-semibold'>{t("home.rates.item1.title2")} </p>
+              <ul class="list-group-flush p-0 m-0">
+                <li class="list-group-item"> {t("home.rates.item2.topic1")} </li>
+                <li class="list-group-item"> {t("home.rates.item2.topic2")} </li>
+                <li class="list-group-item"> {t("home.rates.item2.topic3")} </li>
+                <li class="list-group-item"> {t("home.rates.item2.topic4")} </li>
+                <li class="list-group-item"> {t("home.rates.item2.topic5")} </li>
+                <li class="list-group-item"> {t("home.rates.item2.topic6")} </li>
+                <li class="list-group-item"> {t("home.rates.item2.topic7")} </li>
+                <li class="list-group-item"> {t("home.rates.item2.topic8")} </li>
+              </ul>
+            </Col>
+            <Col lg={4} md={4} sm={12} className='p-4'>
+              <h4 className='fw-bolder'>{t("home.rates.item3.title1")}</h4>
+              <p className='fs-3 text fw-bolder'>{t("home.rates.item3.price1")} </p>
+              <p className='fs-4 text fw-semibold'>{t("home.rates.item1.title2")} </p>
+              <ul class="list-group-flush p-0 m-0">
+                <li class="list-group-item"> {t("home.rates.item3.topic1")} </li>
+                <li class="list-group-item"> {t("home.rates.item3.topic2")} </li>
+                <li class="list-group-item"> {t("home.rates.item3.topic3")} </li><br />
+                <li class="list-group-item fw-semibold"> {t("home.rates.item3.topic4")} </li>
+              </ul>
+            </Col>
+          </Row>
+      </Container>
       <div ref={ref}>
-        <Container fluid>
+        <Container fluid className='mt-5'>
           {show && (
             <Row className='text-light'>
               <Col md className='background_num1'>
@@ -453,61 +501,7 @@ export function Home() {
             </Row>
           </div>
         </Container> */}
-        <Container>
-          <h2 className='fw-bold fs-2 pb-4 home-text-color text-uppercase'
-            style={{ color: '#288705' }}>ECOMONDO MEXICO {t("home.rates.title")} 2024
-          </h2>
-          <p className='fst-italic fs-5 mb-5'>{t("home.rates.sub-title")}</p>
-          <Row>
-            <Col lg={4} md={4} sm={12} className="column-with-border p-4">
-              <h4 className='fw-bolder'>{t("home.rates.item1.title1")}</h4>
-              <p className='text-decoration-line-through fs-4 text fw-semibold'> {t("home.rates.item1.price1")} </p>
-              <p className='fs-3 text fw-bolder text-danger'>{t("home.rates.item1.priece2")} </p>
-              <p className='fs-4 text fw-semibold'>{t("home.rates.item1.title2")} </p>
-              <ul class="list-group-flush p-0 m-0">
-                <li class="list-group-item"> {t("home.rates.item1.topic1")} </li>
-                <li class="list-group-item"> {t("home.rates.item1.topic2")} </li>
-                <li class="list-group-item"> {t("home.rates.item1.topic3")} </li>
-                <li class="list-group-item"> {t("home.rates.item1.topic4")} </li>
-                <li class="list-group-item"> {t("home.rates.item1.topic5")} </li>
-                <li class="list-group-item"> {t("home.rates.item1.topic6")} </li>
-              </ul>
-            </Col>
-            <Col lg={4} md={4} sm={12} className="column-with-border p-4">
-              <h4 className='fw-bolder'>{t("home.rates.item2.title1")}</h4>
-              <p className='fs-3 text  fw-bolder'> {t("home.rates.item2.price1")} </p>
-              <p className='fs-4 text fw-semibold'>{t("home.rates.item1.title2")} </p>
-              <ul class="list-group-flush p-0 m-0">
-                <li class="list-group-item"> {t("home.rates.item2.topic1")} </li>
-                <li class="list-group-item"> {t("home.rates.item2.topic2")} </li>
-                <li class="list-group-item"> {t("home.rates.item2.topic3")} </li>
-                <li class="list-group-item"> {t("home.rates.item2.topic4")} </li>
-                <li class="list-group-item"> {t("home.rates.item2.topic5")} </li>
-                <li class="list-group-item"> {t("home.rates.item2.topic6")} </li>
-                <li class="list-group-item"> {t("home.rates.item2.topic7")} </li>
-                <li class="list-group-item"> {t("home.rates.item2.topic8")} </li>
-              </ul>
-            </Col>
-            <Col lg={4} md={4} sm={12} className='p-4'>
-              <h4 className='fw-bolder'>{t("home.rates.item3.title1")}</h4>
-              <p className='fs-3 text fw-bolder'>{t("home.rates.item3.price1")} </p>
-              <p className='fs-4 text fw-semibold'>{t("home.rates.item1.title2")} </p>
-              <ul class="list-group-flush p-0 m-0">
-                <li class="list-group-item"> {t("home.rates.item3.topic1")} </li>
-                <li class="list-group-item"> {t("home.rates.item3.topic2")} </li>
-                <li class="list-group-item"> {t("home.rates.item3.topic3")} </li><br />
-                <li class="list-group-item fw-semibold"> {t("home.rates.item3.topic4")} </li>
-              </ul>
-            </Col>
-          </Row>
-        </Container>
       </div>
-      <Container className='galleryPage mt-5'>
-        <h1 className='gallery-title pt-5'>
-          {t('menu.media_hub_1')} - Ecomondo 2023
-        </h1>
-        <GalleryYear year={gallery2023} />
-      </Container>
       <section className='pt-5 pb-5'>
         <p className='fw-bold fs-2 text-center' style={{ color: '#288705' }}>
           {t('home.exhibitors')}
@@ -1151,6 +1145,12 @@ export function Home() {
           </Marquee>
         </Container>
       </section>
+      <Container className='galleryPage mt-5'>
+        <h1 className='gallery-title pt-5'>
+          {t('menu.media_hub_1')} - Ecomondo 2023
+        </h1>
+        <GalleryYear year={gallery2023} />
+      </Container>
       <section>
         <div data-aos="zoom-in" data-aos-duration="2500">
           <Container className='my-5'>
