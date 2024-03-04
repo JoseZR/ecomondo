@@ -51,7 +51,8 @@
             "item_4" : "Manejo de residuos electrónicos",
             "item_5" : "Manejo de Materiales",
             "item_6" : "Maquinaria de recolección y carga de materia",
-            "item_7" : "Recolección y transporte de residuos"
+            "item_7" : "Recolección y transporte de residuos",
+            "item_8" : "Plantas de reciclaje"
          },
          "zone_2" : {
             "title" : "BIOENERGÍA",
@@ -61,7 +62,8 @@
             "item_4" : "Tecnologías y plantas de producción",
             "item_5" : "Biocombustibles",
             "item_6" : "Procesos Biotecnológicos",
-            "item_7" : "Consultoría"
+            "item_7" : "Compostaje para el suelo",
+            "item_8" : "Consultoría"
          },
          "zone_3" : {
             "title" : "CUIDADO Y MANEJO DEL AGUA",
