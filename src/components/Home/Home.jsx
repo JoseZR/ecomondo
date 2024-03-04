@@ -670,6 +670,21 @@ export function Home() {
               />
             </a>
           </div>
+          <div className='exibitorSlider text-center h-100'>
+            <a
+              href='https://www.waderain.com/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img
+                src='/ecomondo/logos/exhibitors/wade-rain.webp'
+                width={200}
+                height={100}
+                loading='lazy'
+                alt='wade-raing'
+              />
+            </a>
+          </div>
         </Marquee>
       </section>
       {/* <section className='my-5'>
