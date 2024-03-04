@@ -615,7 +615,6 @@ export function Home() {
           </div>
         </Marquee>
       </section>
-      {/* LOGOS PATROCINADORES */}
       {/* <section className='my-5'>
         <Container fluid>
           <p className='fw-bold fs-3 text-secondary text-center text-uppercase'>

@@ -1,4 +1,4 @@
-import { Col, Container, Row } from 'react-bootstrap'
+import { Button, Col, Container, Row } from 'react-bootstrap'
 import { useTranslation } from 'react-i18next'
 import { ContactForm } from './ContactForm'
 import './Contact.css'
@@ -7,75 +7,71 @@ export function Contact() {
   const { t } = useTranslation()
   return (
     <>
-      <p className='fs-1'>
-        <strong>{t('menu.exhibitors_1')}</strong>
-      </p>
-      <section className='ecomondo-bloq-1 pt-5 pb-5'>
-        <Container>
-          <Row>
-            <Col md className='text-center'>
-              <img
-                src='/ecomondo/sandra.webp'
-                alt='Sandra Elias'
-                height={150}
-                loading='lazy'
-                className='rounded-circle'
-              />
-              <p className='fw-bold'>
-                Sandra Elías
-                <br />
-                Directora de proyecto
-              </p>
-              <a
-                href='mailto:sandra.elias@igeco.mx'
-                className='text-black fw-bold'
-              >
-                sandra.elias@igeco.mx
-              </a>
-            </Col>
-            <Col md className='text-center'>
-              <img
-                src='/ecomondo/sergiolopez.webp'
-                alt='Sergio López'
-                width={150}
-                loading='lazy'
-                className='rounded-circle'
-              />
-              <p className='fw-bold'>
-                Sergio López
-                <br />
-                Gerente de ventas
-              </p>
-              <a
-                href='mailto:sergio.lopez@igeco.mx'
-                className='text-black fw-bold'
-              >
-                sergio.lopez@igeco.mx
-              </a>
-            </Col>
-            <Col md className='text-center'>
-              <img
-                src='/ecomondo/marissa.jpg'
-                alt='Marissa Franco Zermeño'
-                width={150}
-                loading='lazy'
-                className='rounded-circle'
-              />
-              <p className='fw-bold'>
-                Marissa Franco Zermeño
-                <br />
-                Ejecutivo de ventas
-              </p>
-              <a
-                href='mailto:sergio.lopez@igeco.mx'
-                className='text-black fw-bold'
-              >
-                marissa.franco@igeco.mx
-              </a>
-            </Col>
-          </Row>
-        </Container>
-      </section>
+      <Container fluid className='background-contact py-5'>
+        <p className='fs-1'>
+          <strong>{t('menu.exhibitors_1')}</strong>
+        </p>
+        <section className='ecomondo-bloq-1'>
+          <Container>
+            <Row className='gap-6'>
+              <Col md className='text-center pt-3'>
+                <img
+                  src='/ecomondo/sandra.webp'
+                  alt='Sandra Elias'
+                  height={150}
+                  loading='lazy'
+                  className='rounded-circle'
+                />
+                <p className='fw-bold fs-5'>Sandra Elías<br /> Directora de proyecto</p>
+                <a href='mailto:sandra.elias@igeco.mx' className='text-white fw-bold'> sandra.elias@igeco.mx</a><br /><br />
+                <a href='mailto:sandra.elias@igeco.mx'><Button variant="outline-light" size="lg"> {t('footer.message_button')}</Button></a>
+              </Col>
+              <Col md className='text-center pt-3'>
+                <img
+                  src='/ecomondo/sergiolopez.webp'
+                  alt='Sergio López'
+                  width={150}
+                  loading='lazy'
+                  className='rounded-circle'
+                />
+                <p className='fw-bold fs-5'>
+                  Sergio López
+                  <br />
+                  Gerente de ventas
+                </p>
+                <a
+                  href='mailto:sergio.lopez@igeco.mx'
+                  className='text-white fw-bold'
+                >
+                  sergio.lopez@igeco.mx
+                </a><br /><br />
+                <a href='mailto:sergio.lopez@igeco.mx'><Button variant="outline-light" size="lg"> {t('footer.message_button')}</Button></a>
+              </Col>
+              <Col md className='text-center pt-3'>
+                <img
+                  src='/ecomondo/marissa.jpg'
+                  alt='Marissa Franco Zermeño'
+                  width={150}
+                  loading='lazy'
+                  className='rounded-circle'
+                />
+                <p className='fw-bold fs-5'>
+                  Marissa Franco Zermeño
+                  <br />
+                  Ejecutivo de ventas
+                </p>
+                <a
+                  href='mailto:sergio.lopez@igeco.mx'
+                  className='text-white fw-bold'
+                >
+                  marissa.franco@igeco.mx
+                </a><br /><br />
+                <a href='mailto:marissa.franco@igeco.mx'><Button variant="outline-light" size="lg"> {t('footer.message_button')}</Button></a>
+              </Col>
+            </Row>
+          </Container>
+        </section>
+      </Container>
       <Container>
         <ContactForm />
         {/*<p className='mt-5 text-start fs-3'>
@@ -175,35 +171,11 @@ export function Contact() {
             </p>
           </Col>
         </Row>*/}
-        <Row className='py-5'>
-          <Col>
-            <p className='text-center mt-5'>
-              <strong>Deutsche Messe</strong>
-              <br />
-              Messegelände
-              <br />
-              30521 Hannover
-              <br />
-              Alemania
-              <br />
-              Tel. +49 511 89-0
-              <br />
-              <a href='mailto:info@messe.de' target='_blank' rel='noreferrer'>
-                {' '}
-                info@messe.de{' '}
-              </a>
-              |
-              <a
-                href='https://www.messe.de/en/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                {' '}
-                www.messe.de
-              </a>
-            </p>
+        <Row className='py-5 justify-content-md-center'>
+          <Col lg={3} className=' d-flex justify-content-center align-items-center border-end border-black'>
+            <img src="/ecomondo/igeco_logo_negro.webp" alt="italian exhibition group" width='200' />
           </Col>
-          <Col>
+          <Col lg={3} className=''>
             <p className='text-center mt-5'>
               <strong>IGECO</strong>
               <br />
