@@ -408,15 +408,15 @@ export function Home() {
                 <div className='position-num'>
                   <Bullets number='7500' duration='4' simbol_1='+' />
                   <div className='text-center fw-bold text-light'>
-                    <i>{t('home.bullet_1')}</i>
+                    <i className='fs-5'>{t('home.bullet_1')}</i>
                   </div>
                 </div>
               </Col>
               <Col md className='background_num2'>
                 <div className='position-num'>
-                  <Bullets number='13000' duration='4' simbol_2='m&sup2;' />
+                  <Bullets number='13000' duration='4' simbol_2={t("home.bullet_6")} />
                   <div className='text-center fw-bold text-light'>
-                    <i>{t('home.bullet_2')}</i>
+                    <i className='fs-5'>{t('home.bullet_2')}</i>
                   </div>
                 </div>
               </Col>
@@ -424,24 +424,24 @@ export function Home() {
                 <div className='position-num'>
                   <Bullets number='80' duration='4' simbol_1='+' />
                   <div className='text-center fw-bold text-light'>
-                    <i>{t('home.bullet_3')}</i><br /><br />
+                    <i className='fs-5'>{t('home.bullet_3')}</i><br /><br />
                   </div>
                 </div>
               </Col>
               <Col md className='background_num4'>
                 <div className='position-num'>
-                  <Bullets number='462' duration='4' simbol_1='+' simbol_2='MDP' />
+                  <Bullets number='462' duration='4' simbol_1='+' simbol_2={t("home.bullet_7")} />
                   <div className='text-center fw-bold text-light'>
-                    <i>{t('home.bullet_4')}</i><br />
+                    <i className='fs-5'>{t('home.bullet_4')}</i><br />
                     <i>(2023)</i>
                   </div>
                 </div>
               </Col>
               <Col md className='background_num5'>
                 <div className='position-num'>
-                  <Bullets number='6' duration='4' simbol_1='+' simbol_2='MDP' />
+                  <Bullets number='6' duration='4' simbol_1='+' simbol_2={t("home.bullet_7")} />
                   <div className='text-center fw-bold text-light'>
-                    <i>{t('home.bullet_5')}</i>
+                    <i className='fs-5'>{t('home.bullet_5')}</i>
                   </div>
                 </div>
               </Col>
