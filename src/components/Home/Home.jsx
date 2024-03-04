@@ -1212,7 +1212,7 @@ export function Home() {
         <div data-aos="zoom-in" data-aos-duration="2500">
           <Container className='my-5'>
             <Row className='text-secondary text-center mb-5'>
-              <Col lg={12} className='fs-1 fw-bolder' style={{ color: '#288705' }}>PRESENCIA EN REDES SOCIALES</Col>
+              <Col lg={12} className='fs-1 fw-bolder' style={{ color: '#288705' }}>{t("home.social_networks.title")}</Col>
               <Col lg={12} className=''>
                 <img src="/ecomondo/instagram.webp" alt="" width={35} className='m-2' />
                 <img src="/ecomondo/facebook.webp" alt="" width={35} className='m-2' />
