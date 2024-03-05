@@ -61,12 +61,80 @@ export function Contact() {
                   {t("footer.sales_executive")}
                 </p>
                 <a
-                  href='mailto:sergio.lopez@igeco.mx'
+                  href='mailto:marissa.franco@igeco.mx'
                   className='text-white fw-bold'
                 >
                   marissa.franco@igeco.mx
                 </a><br /><br />
                 <a href='mailto:marissa.franco@igeco.mx'><Button variant="outline-light" size="lg"> {t('footer.message_button')}</Button></a>
+              </Col>
+            </Row>
+            <Row className='gap-6 mt-5'>
+              <Col md className='text-center pt-3'>
+                <img
+                  src='/ecomondo/laura-amaro.webp'
+                  alt='Sandra Elias'
+                  height={150}
+                  loading='lazy'
+                  className='rounded-circle'
+                />
+                <p className='fw-bold fs-5'>Laura Amaro<br />{t("footer.sales_executive")}</p>
+                <a href='mailto:laura.amaro@igeco.mx' className='text-white fw-bold'> laura.amaro@igeco.mx</a><br /><br />
+                <a href='mailto:laura.amaro@igeco.mx'><Button variant="outline-light" size="lg"> {t('footer.message_button')}</Button></a>
+              </Col>
+              <Col md className='text-center pt-3'>
+                <img
+                  src='/ecomondo/janai-medina.webp'
+                  alt='Sandra Elias'
+                  height={150}
+                  loading='lazy'
+                  className='rounded-circle'
+                />
+                <p className='fw-bold fs-5'>Janai Medina<br />{t("footer.sales_executive")}</p>
+                <a href='mailto:janai.medina@igeco.mx' className='text-white fw-bold'>janai.medina@igeco.mx</a><br /><br />
+                <a href='mailto:janai.medina@igeco.mx'><Button variant="outline-light" size="lg"> {t('footer.message_button')}</Button></a>
+              </Col>
+              <Col md className='text-center pt-3'>
+                <img
+                  src='/ecomondo/brenda-reyes.webp'
+                  alt='Sergio López'
+                  width={150}
+                  loading='lazy'
+                  className='rounded-circle'
+                />
+                <p className='fw-bold fs-5'>
+                  Brenda Reyes
+                  <br />
+                  {t("footer.sales_executive")}
+                </p>
+                <a
+                  href='mailto:brenda.reyes@igeco.mx'
+                  className='text-white fw-bold'
+                >
+                  brenda.reyes@igeco.mx
+                </a><br /><br />
+                <a href='mailto:brenda.reyes@igeco.mx'><Button variant="outline-light" size="lg"> {t('footer.message_button')}</Button></a>
+              </Col>
+              <Col md className='text-center pt-3'>
+                <img
+                  src='/ecomondo/nayeli-rivera.webp'
+                  alt='Marissa Franco Zermeño'
+                  width={150}
+                  loading='lazy'
+                  className='rounded-circle'
+                />
+                <p className='fw-bold fs-5'>
+                  Nayeli Rivera
+                  <br />
+                  {t("footer.sales_executive")}
+                </p>
+                <a
+                  href='mailto:nayeli.rivera@igeco.mx'
+                  className='text-white fw-bold'
+                >
+                  nayeli.rivera@igeco.mx
+                </a><br /><br />
+                <a href='mailto:nayeli.rivera@igeco.mx'><Button variant="outline-light" size="lg"> {t('footer.message_button')}</Button></a>
               </Col>
             </Row>
           </Container>
