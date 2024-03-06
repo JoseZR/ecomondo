@@ -724,36 +724,6 @@ export function Home() {
           <Marquee gradient direction='letf'>
             <div className='exibitorSlider text-center h-100'>
               <a
-                href='https://aeej.jalisco.gob.mx/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/ecomondo/logos/aeej.webp'
-                  width={250}
-                  height={108}
-                  loading='lazy'
-                  alt='aeej'
-                />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a
-                href='https://sedeco.jalisco.gob.mx/inicio'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/ecomondo/logos/sedeco_jalisco.webp'
-                  width={160}
-                  height={50}
-                  loading='lazy'
-                  alt='desarrollo-economico-jalisco'
-                />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a
                 href='https://alianzaempresarial.jalisco.gob.mx/deinteres.html'
                 target='_blank'
                 rel='noreferrer'
@@ -764,21 +734,6 @@ export function Home() {
                   height={160}
                   loading='lazy'
                   alt='alianza-empresarial'
-                />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a
-                href='https://www.jalisco.gob.mx/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/ecomondo/logos/gob_jalisco.webp'
-                  width={160}
-                  height={160}
-                  loading='lazy'
-                  alt='jalisco-gob-estado'
                 />
               </a>
             </div>
@@ -860,32 +815,6 @@ export function Home() {
               </a>
             </div>
             <div className='exibitorSlider text-center h-100'>
-              <a href='https://amh.org.mx/' target='_blank' rel='noreferrer'>
-                <img
-                  src='/ecomondo/logos/amh.webp'
-                  width={120}
-                  height={120}
-                  loading='lazy'
-                  alt='asociacion-mexicana-de-hidraulica'
-                />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
-              <a
-                href='https://rivieramayasostenible.org/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/ecomondo/logos/rm_sostenible.webp'
-                  width={120}
-                  height={120}
-                  loading='lazy'
-                  alt='rivera-maya-sostenible'
-                />
-              </a>
-            </div>
-            <div className='exibitorSlider text-center h-100'>
               <a
                 href='https://www.greendestinations.org/'
                 target='_blank'
@@ -933,18 +862,75 @@ export function Home() {
                 />
               </a>
             </div>
+            
+
             <div className='exibitorSlider text-center h-100'>
               <a
-                href='https://eventossustentables.com/'
+                href=''
                 target='_blank'
                 rel='noreferrer'
               >
                 <img
-                  src='/ecomondo/logos/es_eventos.webp'
-                  width={190}
-                  height={80}
+                  src='/ecomondo/logos/amrcd.webp'
+                  height={100}
                   loading='lazy'
-                  alt='es-eventos-sustentables'
+                  alt='amrcd'
+                />
+              </a>
+            </div>
+            <div className='exibitorSlider text-center h-100'>
+              <a
+                href=''
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img
+                  src='/ecomondo/logos/red-nacional.webp'
+                  height={100}
+                  loading='lazy'
+                  alt='red nacional'
+                />
+              </a>
+            </div>
+            <div className='exibitorSlider text-center h-100'>
+              <a
+                href=''
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img
+                  src='/ecomondo/logos/earth.webp'
+                  height={100}
+                  loading='lazy'
+                  alt='earth'
+                />
+              </a>
+            </div>
+            <div className='exibitorSlider text-center h-100'>
+              <a
+                href=''
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img
+                  src='/ecomondo/logos/kas.webp'
+                  height={100}
+                  loading='lazy'
+                  alt='kas'
+                />
+              </a>
+            </div>
+            <div className='exibitorSlider text-center h-100'>
+              <a
+                href=''
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img
+                  src='/ecomondo/logos/anes.webp'
+                  width={190}
+                  loading='lazy'
+                  alt='anes'
                 />
               </a>
             </div>
