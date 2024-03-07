@@ -144,7 +144,7 @@ export function Menu() {
                   </NavDropdown.Item>
                   <NavDropdown.Item
                     as={Link}
-                    to='/toolkit'
+                    to='/media-toolkit'
                     onClick={handleClose}
                   >
                     toolkit

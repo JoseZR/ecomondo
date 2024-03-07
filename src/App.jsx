@@ -43,7 +43,7 @@ function App() {
         <Route path='about-us' element={<AboutUs />} />
         <Route path='participate' element={<Participate />} />
         <Route path='contact' element={<Contact />} />
-        <Route path='toolkit' element={<Toolkit />} />
+        <Route path='media-toolkit' element={<Toolkit />} />
         <Route path='why-visit' element={<Whyvisit />} />
         <Route path='gallery' element={<GalleryPage />} />
         <Route path='program' element={<Program />} />
