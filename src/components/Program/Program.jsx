@@ -101,6 +101,7 @@ export function Program() {
                               : program?.title}
                           </p>
                           <p className="fw-semibold fst-italic text-start"> {program?.speakers} </p>
+                          <p className="fw-semibold fst-italic text-start"> {i18n.language === "en" ? program?.position_en : program?.position} </p>
                           <p>
                             <p className='text-justify'>
                               {i18n.language === 'en'
@@ -167,6 +168,7 @@ export function Program() {
                               : program?.title}
                           </p>
                           <p className="fw-semibold fst-italic text-start"> {program?.speakers} </p>
+                          <p className="fw-semibold fst-italic text-start"> {i18n.language === "en" ? program?.position_en : program?.position} </p>
                           <p className="text-start">
                             {i18n.language === "en"
                               ? program?.resume_en
@@ -231,6 +233,7 @@ export function Program() {
                               : program?.title}
                           </p>
                           <p className="fw-semibold fst-italic text-start"> {program?.speakers} </p>
+                          <p className="fw-semibold fst-italic text-start"> {i18n.language === "en" ? program?.position_en : program?.position} </p>
                           <p className="text-start">
                             {i18n.language === "en"
                               ? program?.resume_en
