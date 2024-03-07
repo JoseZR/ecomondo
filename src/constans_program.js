@@ -151,8 +151,8 @@ const programECO = {
         resume: 'El uso excesivo o la contaminación de la calidad de las aguas superficiales o subterráneas puede afectar a amplias zonas y requerir mucho tiempo y grandes inversiones para su reparación. Se necesitan políticas y normativas que abarquen toda la cuenca para impulsar planes de acción integrados. En el taller se presentarán estudios de casos mexicanos y se entablará un debate constructivo con expertos europeos.',
         resume_en: 'Overuse or pollution of surface or groundwater quality might impact wide areas and require long time and high investments for remediation. Catchment-wide policies and regulations are needed to drive integrated action plans. The workshop will present Mexican case studied and discussion with European experts will drive the constructive discussion.',
         speakers : 'Cindy McCulligh | Francesco Fatone',
-        position : "",
-        position_en : "", 
+        position : "Profesora investigadora del Centro de Investigaciones y Estudios Superiores en Antropología Social CIESAS, en Guadalajara, México | Miembro de la Asociación Internacional del Agua IWA",
+        position_en : "Professor researcher at the Center for Research and Advanced Studies in Social Anthropology CIESAS | International Water Association IWA fellow", 
       }
     ],
     april_19: [
