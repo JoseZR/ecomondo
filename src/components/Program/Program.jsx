@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import "./Program.css";
-import { Accordion, Container, Nav, Tab, Tabs } from "react-bootstrap";
+import { Accordion, Col, Container, Nav, Row, Tab, Tabs } from "react-bootstrap";
 
 import { programECO } from "../../constans_program";
 import { DetailSpeaker } from './DetailSpeaker'
@@ -71,55 +71,49 @@ export function Program() {
               >
                 {programs?.april_17?.map((program, index) => {
                   return (
-                    <div key={index} className="program-date-item">
-                      <div style={{ width: "85px" }}>
-                        <p>
-                          <strong>{program.hour}</strong>
-                          <br />
-                          <svg
-                            width={20}
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth={1.5}
-                            stroke="currentColor"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                            />
-                          </svg>{" "}
-                          {program.duration}
-                        </p>
-                      </div>
-                      <div className="d-md-flex align-items-center justify-content-between w-100">
-                        <div className="w-100 pe-4 text-start">
-                          <p className="fs-3 fw-bold text-start">
-                            {i18n.language === "en"
-                              ? program?.title_en
-                              : program?.title}
-                          </p>
-                          <p className="fw-semibold fst-italic text-start"> {program?.speakers} </p>
-                          <p className="fw-semibold fst-italic text-start"> {i18n.language === "en" ? program?.position_en : program?.position} </p>
-                          <p>
-                            <p className='text-justify'>
-                              {i18n.language === 'en'
-                                ? program?.resume_en
-                                : program?.resume}
-                            </p>
-                          </p>
-                          <p className="text-start pt-2">
-                            <span className="bg-dark text-light fw-bold rounded-pill px-4 py-2">
-                              {i18n.language === "en"
-                                ? program.type_en
-                                : program.type}
-                            </span>
-                          </p>
+                    <Row className="align-items-start justify-content-center program-date-item text-white px-2">
+                      <Col lg={2} xs={12} md={3} className="d-flex flex-column">
+                        <div className="d-flex align-items-start">
+                          <div>
+                            <svg
+                              width={30}
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              strokeWidth={1.5}
+                              stroke="currentColor"
+                              className=""
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                              />
+                            </svg>
+                          </div>
+                          <p className="fs-6 text-start"><strong>{program.hour}</strong><br />{program.duration}</p>
                         </div>
-                        <div className="d-block text-md-end" />
-                      </div>
-                    </div>
+                        <p className="pt-2 d-flex">
+                          <span className="bg-dark text-light fw-bold rounded-pill px-4 py-2">
+                            {i18n.language === "en"
+                              ? program.type_en
+                              : program.type}
+                          </span>
+                        </p>
+                      </Col>
+                      <Col lg={9} xs={12} md={9} >
+                        <p className="fs-3 fw-bold text-start">
+                          {i18n.language === "en"
+                            ? program?.title_en
+                            : program?.title}
+                        </p>
+                        <p className="fw-semibold fst-italic text-start"> {program?.speakers} </p>
+                        <p className="fw-semibold fst-italic text-start"> {i18n.language === "en" ? program?.position_en : program?.position} </p>
+                        <p>
+                          <p style={{ textAlign: 'justify' }}> {i18n.language === 'en' ? program?.resume_en : program?.resume}</p>
+                        </p>
+                      </Col>
+                    </Row>
                   );
                 })}
               </Tab>
@@ -138,53 +132,49 @@ export function Program() {
               >
                 {programs?.april_18?.map((program, index) => {
                   return (
-                    <div key={index} className="program-date-item">
-                      <div style={{ width: "85px" }}>
-                        <p>
-                          <strong>{program.hour}</strong>
-                          <br />
-                          <svg
-                            width={20}
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth={1.5}
-                            stroke="currentColor"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                            />
-                          </svg>{" "}
-                          {program.duration}
-                        </p>
-                      </div>
-                      <div className="d-md-flex align-items-center justify-content-between w-100">
-                        <div className="w-100 pe-4">
-                          <p className="fs-4 fw-bold text-start">
-                            {i18n.language === "en"
-                              ? program?.title_en
-                              : program?.title}
-                          </p>
-                          <p className="fw-semibold fst-italic text-start"> {program?.speakers} </p>
-                          <p className="fw-semibold fst-italic text-start"> {i18n.language === "en" ? program?.position_en : program?.position} </p>
-                          <p className="text-start">
-                            {i18n.language === "en"
-                              ? program?.resume_en
-                              : program?.resume}
-                          </p>
-                          <p className="text-start pt-2">
-                            <span className="bg-dark text-light fw-bold rounded-pill px-4 py-2">
-                              {i18n.language === "en"
-                                ? program.type_en
-                                : program.type}
-                            </span>
-                          </p>
+                    <Row className="align-items-start justify-content-center program-date-item text-white px-2">
+                      <Col lg={2} xs={12} md={3} className="d-flex flex-column">
+                        <div className="d-flex align-items-start">
+                          <div>
+                            <svg
+                              width={30}
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              strokeWidth={1.5}
+                              stroke="currentColor"
+                              className=""
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                              />
+                            </svg>
+                          </div>
+                          <p className="fs-6 text-start"><strong>{program.hour}</strong><br />{program.duration}</p>
                         </div>
-                        <div className="d-block text-md-end" />
-                      </div>
-                    </div>
+                        <p className="pt-2 d-flex">
+                          <span className="bg-dark text-light fw-bold rounded-pill px-4 py-2">
+                            {i18n.language === "en"
+                              ? program.type_en
+                              : program.type}
+                          </span>
+                        </p>
+                      </Col>
+                      <Col lg={9} xs={12} md={9} >
+                        <p className="fs-3 fw-bold text-start">
+                          {i18n.language === "en"
+                            ? program?.title_en
+                            : program?.title}
+                        </p>
+                        <p className="fw-semibold fst-italic text-start"> {program?.speakers} </p>
+                        <p className="fw-semibold fst-italic text-start"> {i18n.language === "en" ? program?.position_en : program?.position} </p>
+                        <p>
+                          <p style={{ textAlign: 'justify' }}> {i18n.language === 'en' ? program?.resume_en : program?.resume}</p>
+                        </p>
+                      </Col>
+                    </Row>
                   );
                 })}
               </Tab>
@@ -203,53 +193,49 @@ export function Program() {
               >
                 {programs?.april_19?.map((program, index) => {
                   return (
-                    <div key={index} className="program-date-item">
-                      <div style={{ width: "85px" }}>
-                        <p>
-                          <strong>{program.hour}</strong>
-                          <br />
-                          <svg
-                            width={20}
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth={1.5}
-                            stroke="currentColor"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                            />
-                          </svg>{" "}
-                          {program.duration}
-                        </p>
-                      </div>
-                      <div className="d-md-flex align-items-center justify-content-between w-100">
-                        <div className="w-100 pe-4">
-                          <p className="fs-4 fw-bold text-start">
-                            {i18n.language === "en"
-                              ? program?.title_en
-                              : program?.title}
-                          </p>
-                          <p className="fw-semibold fst-italic text-start"> {program?.speakers} </p>
-                          <p className="fw-semibold fst-italic text-start"> {i18n.language === "en" ? program?.position_en : program?.position} </p>
-                          <p className="text-start">
-                            {i18n.language === "en"
-                              ? program?.resume_en
-                              : program?.resume}
-                          </p>
-                          <p className="text-start py-2">
+                    <Row className="align-items-start justify-content-center program-date-item text-white px-2">
+                      <Col lg={2} xs={12} md={3} className="d-flex flex-column">
+                        <div className="d-flex align-items-start">
+                          <div>
+                            <svg
+                              width={30}
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              strokeWidth={1.5}
+                              stroke="currentColor"
+                              className=""
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                              />
+                            </svg>
+                          </div>
+                          <p className="fs-6 text-start"><strong>{program.hour}</strong><br />{program.duration}</p>
+                        </div>
+                        <p className="pt-2 d-flex">
                             <span className="bg-dark text-light fw-bold rounded-pill px-4 py-2">
                               {i18n.language === "en"
                                 ? program.type_en
                                 : program.type}
                             </span>
                           </p>
-                        </div>
-                        <div className="d-block text-md-end" />
-                      </div>
-                    </div>
+                      </Col>
+                      <Col  lg={9} xs={12} md={9} >
+                          <p className="fs-3 fw-bold text-start">
+                           {i18n.language === "en"
+                              ? program?.title_en
+                              : program?.title}
+                          </p>
+                          <p className="fw-semibold fst-italic text-start"> {program?.speakers} </p>
+                          <p className="fw-semibold fst-italic text-start"> {i18n.language === "en" ? program?.position_en : program?.position} </p>
+                          <p>
+                            <p style={{textAlign:'justify'}}> {i18n.language === 'en'? program?.resume_en : program?.resume}</p>
+                          </p>
+                      </Col>
+                    </Row>
                   );
                 })}
               </Tab>
@@ -257,25 +243,25 @@ export function Program() {
           </div>
         </Container>
         <Container>
-            <h1 className='mt-5 text-light text-center' id='ponentes'> {t("program.title2")} </h1>
-            <div className='mt-5 pb-5 program-wrapper-speakers'>
-              {speakers.map((speaker, index) => (
-                <button key={index} onClick={() => handleModal2(speaker)}>
-                  <div className='speaker-item h-100 rounded'>
-                    <img src={speaker.avatar} width={300} height={300} alt={speaker.name} />
-                    <div className='info_speakers'>
-                      <p className="fs-4 fw-bolder">{speaker.name}</p>
-                    </div>
+          <h1 className='mt-5 text-light text-center' id='ponentes'> {t("program.title2")} </h1>
+          <div className='mt-5 pb-5 program-wrapper-speakers'>
+            {speakers.map((speaker, index) => (
+              <button key={index} onClick={() => handleModal2(speaker)}>
+                <div className='speaker-item h-100 rounded'>
+                  <img src={speaker.avatar} width={300} height={300} alt={speaker.name} />
+                  <div className='info_speakers'>
+                    <p className="fs-4 fw-bolder">{speaker.name}</p>
                   </div>
-                </button>
-              ))}
-              <div />
-            </div>
-            <DetailSpeaker
-              show={modalShow}
-              onHide={() => setModalShow(false)}
-              speaker={detailSpeaker}
-            />
+                </div>
+              </button>
+            ))}
+            <div />
+          </div>
+          <DetailSpeaker
+            show={modalShow}
+            onHide={() => setModalShow(false)}
+            speaker={detailSpeaker}
+          />
         </Container>
       </div>
     </>
