@@ -254,6 +254,39 @@ export function Home() {
                 </div>
               </div>
             </Col>
+            <Col xs={12} md={6} lg={3} className='text-center py-3'>
+              <div className='card-container'>
+                <div className='card'>
+                  <div className='front-content'>
+                  <img
+                      className='top-image'
+                      src='/ecomondo/sustainable_cities.webp'
+                      alt='Imagen superior'
+                    />
+                    <br />
+                    <br />
+                    <p className='title fs-5 circle-4'>{t('home.zone_4.title')}</p>
+                  </div>
+                  <div className='content'>
+                    <p className='heading'>{t('home.zone_4.title')}</p>
+                    <ul className='text-start'>
+                      <li>{t('home.zone_4.item_1')}</li>
+                      <li>{t('home.zone_4.item_2')}</li>
+                      <li>{t('home.zone_4.item_3')}</li>
+                      <li>{t('home.zone_4.item_4')}</li>
+                      <li>{t('home.zone_4.item_5')}</li>
+                      <li>{t('home.zone_4.item_6')}</li>
+                      <li>{t('home.zone_4.item_7')}</li>
+                      <li>{t('home.zone_4.item_8')}</li>
+                      <li>{t('home.zone_4.item_9')}</li>
+                      <li>{t('home.zone_4.item_10')}</li>
+                      <li>{t('home.zone_4.item_11')}</li>
+                      <li>{t('home.zone_4.item_12')}</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </Col>
           </Row>
         </div>
       </Container>
