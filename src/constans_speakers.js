@@ -37,14 +37,14 @@ const speakers=[
     {
         id:4,
         name: 'Paula García', 
-        avatar: '/ecomondo/speakers/user_img.webp',
+        avatar: '/ecomondo/speakers/Paula_Garcia_HOLLEY.webp',
         resume_es: 'Se incorporó a CATF en 2022 como Gerente de Políticas Públicas  para América Latina. En este cargo, apoya al equipo de Prevención de la Contaminación por Metano en sus esfuerzos por reducir las emisiones de metano de los  sectores de residuos sólidos e hidrocarburos abogando por regulaciones y políticas ambiciosas y técnicamente sólidas. Antes de unirse a CATF, trabajó en ICF, enfocándose en sustancias que agotan la capa de ozono; y en el análisis de hidrofluorocarbonos para la División de Protección Estratosférica de la Agencia de Protección Ambiental de EE. UU., así mismo trabajó en apoyo al cumplimiento ambiental para la Agencia de EE. UU. para el Desarrollo Internacional. Además, laboró en la Agencia de Seguridad, Energía y Medio Ambiente de México (ASEA), en el desarrollo e implementación de regulaciones de metano para el sector de petróleo y gas. Tiene un B.Sc. en Química por la Universidad Nacional Autónoma de México (UNAM) y M.Sc. en Química de la Universidad Northwestern.',
         resume_en: 'he joined CATF in 2022 as Public Policy Manager for Latin America. In this role, she supports the Methane Pollution Prevention team in its efforts to reduce methane emissions from the solid waste and hydrocarbon sectors by advocating for ambitious and technically sound regulations and policies. Before joining CATF, she worked at ICF, focusing on ozone-depleting substances; and analyzing hydrofluorocarbons for the U.S. Environmental Protection Agencys Stratospheric Protection Division. She also worked in support of environmental compliance for the U.S. Agency for International Development. Additionally, she worked at the Mexican Agency for Safety, Energy and Environment (ASEA), in the development and implementation of methane regulations for the oil and gas sector. She holds a B.Sc. in Chemistry from the National Autonomous University of Mexico (UNAM) and an M.Sc. in Chemistry from Northwestern University'
     },
     {
         id:5,
-        name: 'R3VER. Linares - México', 
-        avatar: '/ecomondo/speakers/user_img.webp',
+        name: 'Rosendo tamez', 
+        avatar: '/ecomondo/speakers/ROSENDO_TAMEZ.webp',
         resume_es: 'La información se está actualizando. Por favor, mantente atento.',
         resume_en: 'Information is being updated. Please stay tuned.',
     },  
@@ -66,7 +66,7 @@ const speakers=[
     {
         id:8,
         name: 'Jesús Manríquez',
-        avatar: '/ecomondo/speakers/user_img.webp',
+        avatar: '/ecomondo/speakers/JESUSMANRIQUEZ.webp',
         resume_es: 'La información se está actualizando. Por favor, mantente atento.',
         resume_en: 'Information is being updated. Please stay tuned.',
     },
