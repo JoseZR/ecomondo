@@ -718,6 +718,21 @@ export function Home() {
               />
             </a>
           </div>
+          <div className='exibitorSlider text-center h-100'>
+            <a
+              href='https://saveco-water.es/es-ES/SPEES/home'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img
+                src='/ecomondo/logos/exhibitors/saveco.webp'
+                width={200}
+                height={100}
+                loading='lazy'
+                alt='saveco'
+              />
+            </a>
+          </div>
         </Marquee>
       </section>
       {/* <section className='my-5'>
