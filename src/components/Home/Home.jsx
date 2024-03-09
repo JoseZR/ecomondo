@@ -733,6 +733,21 @@ export function Home() {
               />
             </a>
           </div>
+          <div className='exibitorSlider text-center h-100'>
+            <a
+              href='https://terminatorwatersolutions.com/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img
+                src='/ecomondo/logos/exhibitors/terminator.webp'
+                width={200}
+                height={100}
+                loading='lazy'
+                alt='terminator'
+              />
+            </a>
+          </div>
         </Marquee>
       </section>
       {/* <section className='my-5'>
