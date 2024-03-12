@@ -1340,6 +1340,20 @@ export function Home() {
                 />
               </a>
             </div>
+            <div className="exibitorSlider text-center h-100">
+              <a
+                href="https://lasempresasverdes.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="/ecomondo/logos/empresas-verdes.webp"
+                  width={190}
+                  loading="lazy"
+                  alt="las empresas verdes"
+                />
+              </a>
+            </div>
           </Marquee>
         </Container>
       </section>
