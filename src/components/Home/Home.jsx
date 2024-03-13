@@ -840,6 +840,34 @@ export function Home() {
               />
             </a>
           </div>
+          <div className="exibitorSlider text-center h-100">
+            <a
+              href="https://powerdepot.com.mx/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="/ecomondo/logos/exhibitors/power-depot.webp"
+                height={110}
+                loading="lazy"
+                alt="power depot"
+              />
+            </a>
+          </div>
+          <div className="exibitorSlider text-center h-100">
+            <a
+              href="https://hipro.com.mx/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="/ecomondo/logos/exhibitors/hipro.webp"
+                height={110}
+                loading="lazy"
+                alt="hipro"
+              />
+            </a>
+          </div>
         </Marquee>
       </section>
       {/* <section className='my-5'>
