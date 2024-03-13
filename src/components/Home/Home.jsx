@@ -159,11 +159,11 @@ export function Home() {
           {" "}
           {t("home.sponsor_1")}{" "}
         </p>
-        <Row className="justify-content-center">
+        <Row className="justify-content-center align-items-center">
           <Col xs={6} md={3} className="text-center">
             <a href="https://www.mase.gov.it/" target="_blank">
               <img
-                src="/ecomondo/mase-org.webp"
+                src="/ecomondo/logo_mase.webp"
                 alt="mase-org"
                 className="img-fluid"
                 style={{ maxHeight: "150px" }}
