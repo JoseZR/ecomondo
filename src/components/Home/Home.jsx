@@ -868,6 +868,20 @@ export function Home() {
               />
             </a>
           </div>
+          <div className="exibitorSlider text-center h-100">
+            <a
+              href=""
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="/ecomondo/logos/exhibitors/vite-energy.webp"
+                height={110}
+                loading="lazy"
+                alt="vite energy"
+              />
+            </a>
+          </div>
         </Marquee>
       </section>
       {/* <section className='my-5'>
