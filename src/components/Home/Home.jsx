@@ -152,26 +152,25 @@ export function Home() {
         </article>
       </Container>
       <Container className="pb-5">
-        <p
-          className="fw-bold fs-3 pb-4 home-text-color text-uppercase"
-          style={{ color: "#288705" }}
-        >
-          {" "}
-          {t("home.sponsor_1")}{" "}
-        </p>
-        <Row className="justify-content-center align-items-center">
-          <Col xs={6} md={3} className="text-center">
+        <Row className="justify-content-md-center">
+          <Col md>
+            <p className="fw-bold fs-3 pb-4 home-text-color text-uppercase" style={{ color: "#288705" }}>
+              {t("home.sponsor_1")}
+            </p>
             <a href="https://www.mase.gov.it/" target="_blank">
               <img
                 src="/ecomondo/logo_mase.webp"
                 alt="mase-org"
-                className="img-fluid"
-                style={{ maxHeight: "150px" }}
+                className="img-fluid my-3"
+                style={{ maxHeight: "60px" }}
               />
             </a>
           </Col>
-          <Col xs={6} md={3} className="text-center">
-            <a href="https://www.longi.com/mx/" target="_blank">
+          <Col md>
+            <p className="fw-bold fs-3 pb-4 home-text-color text-uppercase" style={{ color: "#288705" }}>
+                {t("home.sponsor_2")}
+              </p>
+              <a href="https://www.longi.com/mx/" target="_blank">
               <img
                 src="/ecomondo/logos/longi_logo.webp"
                 alt="longi"
