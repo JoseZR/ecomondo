@@ -739,6 +739,8 @@ export function Home() {
               />
             </a>
           </div>
+        </Marquee>
+        <Marquee gradient>
           <div className="exibitorSlider text-center h-100">
             <a
               href="https://www.linkedin.com/company/zelink-water-meter/?trk=public_post_share-update_actor-text"
