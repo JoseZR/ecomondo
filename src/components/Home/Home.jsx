@@ -819,7 +819,7 @@ export function Home() {
               rel="noreferrer"
             >
               <img
-                src="/ecomondo/logos/exhibitors/monitoreo-calidad.webp"
+                src="/ecomondo/logos/exhibitors/monitoreo-calidad_v2.webp"
                 width={200}
                 height={100}
                 loading="lazy"
