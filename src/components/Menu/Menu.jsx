@@ -113,8 +113,8 @@ export function Menu() {
                   <NavDropdown.Item
                     href={
                       i18n.language === 'es'
-                        ? '/ecomondo/files/sponsorships_es_2020332.pdf'
-                        : '/ecomondo/files/sponsorships_en_2020332.pdf'
+                        ? '/ecomondo/files/patrocionios_es_200324.pdf'
+                        : '/ecomondo/files/sponsorships_en_200324.pdf'
                     }
                     target='_blank'
                     onClick={handleClose}
