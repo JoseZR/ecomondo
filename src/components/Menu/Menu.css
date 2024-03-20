@@ -189,3 +189,7 @@
     80% {opacity:1;}
     100% {opacity:0;width: fit-content;}
 }
+
+.prueba{
+    font-weight: 100;
+}

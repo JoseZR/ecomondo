@@ -739,8 +739,6 @@ export function Home() {
               />
             </a>
           </div>
-        </Marquee>
-        <Marquee gradient>
           <div className="exibitorSlider text-center h-100">
             <a
               href="https://www.linkedin.com/company/zelink-water-meter/?trk=public_post_share-update_actor-text"
@@ -782,6 +780,8 @@ export function Home() {
               />
             </a>
           </div>
+        </Marquee>
+        <Marquee gradient>
           <div className="exibitorSlider text-center h-100">
             <a
               href="https://saveco-water.es/es-ES/SPEES/home"
@@ -880,6 +880,76 @@ export function Home() {
                 height={110}
                 loading="lazy"
                 alt="vite energy"
+              />
+            </a>
+          </div>
+          <div className="exibitorSlider text-center h-100">
+            <a
+              href="https://endesus.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="/ecomondo/logos/exhibitors/amc_soluciones.webp"
+                height={110}
+                loading="lazy"
+                alt="amc soluciones"
+              />
+            </a>
+          </div>
+          <div className="exibitorSlider text-center h-100">
+            <a
+              href="https://www.ht-instruments.mx/es-mx/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="/ecomondo/logos/exhibitors/ht_instruments.webp"
+                height={110}
+                loading="lazy"
+                alt="ht instruments"
+              />
+            </a>
+          </div>
+          <div className="exibitorSlider text-center h-100">
+            <a
+              href="https://corporate.evonik.com/en/company"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="/ecomondo/logos/exhibitors/evonik.webp"
+                height={110}
+                loading="lazy"
+                alt="evonik"
+              />
+            </a>
+          </div>
+          <div className="exibitorSlider text-center h-100">
+            <a
+              href="https://www.facebook.com/p/Evobac-100082953656421/?paipv=0&eav=AfZaOGMFfT6HsEtbGrMxlrDTyD665ZWlcPs5pJri8PSuqaj1B1E5mqXuAQ9PwhzaPnc&_rdr"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="/ecomondo/logos/exhibitors/evobac.webp"
+                height={110}
+                loading="lazy"
+                alt="evobac"
+              />
+            </a>
+          </div>
+          <div className="exibitorSlider text-center h-100">
+            <a
+              href="https://blowersandproducts.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="/ecomondo/logos/exhibitors/bpm.webp"
+                height={110}
+                loading="lazy"
+                alt="blowersandproducts"
               />
             </a>
           </div>
