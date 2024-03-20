@@ -111,6 +111,18 @@ export function Menu() {
                     {t('menu.exhibitors_2')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
+                    href={
+                      i18n.language === 'es'
+                        ? '/ecomondo/files/sponsorships_es_2020332.pdf'
+                        : '/ecomondo/files/sponsorships_en_2020332.pdf'
+                    }
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.sponsorships')}
+                  </NavDropdown.Item>
+
+                  <NavDropdown.Item
                     href='/ecomondo/files/ECO_SSM_2024_V9_031324_model.pdf'
                     target='_blank'
                     onClick={handleClose}
