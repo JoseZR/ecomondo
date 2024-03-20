@@ -59,45 +59,50 @@ export function Home() {
                 />
               </div>
               <Container>
-                <Row>
-                  <Col lg={3} className="my-2"></Col>
-                  <Col lg={3} className="my-5">
+                <Row className="justify-content-md-center gap-4">
+                  <Col lg={4} className="d-flex align-items-center justify-content-center">
                     <a
                       href="https://ecomondo.ahmreg.com/"
                       target="_blank"
-                      className="fw-bold px-3 py-4 rounded-3  button-cover"
+                      className="fw-bold px-3 py-4 rounded-3 button-cover"
                     >
                       {t("menu.banner")}
                     </a>
                   </Col>
-                  <Col lg={4} className="my-5">
+                  <Col lg={4} className="d-flex align-items-center justify-content-center">
                     <a
                       href="https://hfmexico.mx/ecomondo/program"
-                      target="_blank"
                       className="fw-bold px-3 py-4 rounded-3 button-cover"
                     >
                       {t("home.program_button")}
                     </a>
                   </Col>
-                  <Col lg={2} className="my-2"></Col>
+                </Row>
+                <Row className="justify-content-md-center pt-5">
+                  <p className="text-white fw-bold fs-4">{t("home.title-organizers")}</p>
+                  <Col xs={6} md={3} lg={3}>
+                    <img
+                      className="img-fluid"
+                      src="/ecomondo/igeco_bn.webp"
+                      alt="Expo de Sustentabilidad en Mexico"
+                      width="220"
+                    />
+                  </Col>
+                  <Col xs={6} md={3} lg={3}>
+                    <img
+                      className="img-fluid"
+                      src="/ecomondo/deutsche_messe_bn.webp"
+                      alt="Expo de Sustentabilidad en Mexico"
+                      width="220"
+                    />
+                  </Col>
                 </Row>
               </Container>
               {/* <p
                 className='mt-4 text-white fw-light fs-3 lh-1'
                 dangerouslySetInnerHTML={{ __html: t('home.slogan_2') }}
               ></p> */}
-              <div className="mt-5 flex justify-end">
-                <img
-                  className="mt-20"
-                  src={
-                    i18n.language === "es"
-                      ? "/ecomondo/logo-igeco-esp.webp"
-                      : "/ecomondo/logo-igeco.webp"
-                  }
-                  alt="Expo de Sustentabilidad en Mexico"
-                  width="350"
-                />
-              </div>
+
             </Col>
             <Row />
             {/*<Col md={6}>
@@ -168,9 +173,9 @@ export function Home() {
           </Col>
           <Col md>
             <p className="fw-bold fs-3 pb-4 home-text-color text-uppercase" style={{ color: "#288705" }}>
-                {t("home.sponsor_2")}
-              </p>
-              <a href="https://www.longi.com/mx/" target="_blank">
+              {t("home.sponsor_2")}
+            </p>
+            <a href="https://www.longi.com/mx/" target="_blank">
               <img
                 src="/ecomondo/logos/longi_logo.webp"
                 alt="longi"

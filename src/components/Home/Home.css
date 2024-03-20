@@ -295,13 +295,16 @@
    color:#ffffff; 
    text-shadow: none; 
    border: 2px solid #ffffff;
-}
+   width: 100%;
+   transition-duration: 500ms;
+  }
 
 .button-cover:hover {
   background-color: #ffffff;
    color:#015c06; 
    text-shadow: none;
 }
+
 
 /* Media Query para dispositivos móviles */
 @media (max-width: 900px) {
