@@ -1,4 +1,4 @@
-import { useTranslation } from "react-i18next";
+ import { useTranslation } from "react-i18next";
 import "./Program.css";
 import { Accordion, Col, Container, Nav, Row, Tab, Tabs } from "react-bootstrap";
 
