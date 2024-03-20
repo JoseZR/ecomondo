@@ -156,22 +156,22 @@ export function Home() {
           </Row>
         </article>
       </Container>
-      <Container className="pb-5">
+      <Container  className="pb-5">
         <Row className="justify-content-md-center">
-          <Col md>
+          <Col xs={12} md={4} lg={4} >
             <p className="fw-bold fs-3 pb-4 home-text-color text-uppercase" style={{ color: "#288705" }}>
               {t("home.sponsor_1")}
             </p>
-            <a href="https://www.mase.gov.it/" target="_blank">
+            <a href="https://www.mase.gov.it/" target="_blank" className="d-flex  align-items-baseline">
               <img
                 src="/ecomondo/logo_mase.webp"
                 alt="mase-org"
                 className="img-fluid my-3"
-                style={{ maxHeight: "60px" }}
+                style={{ maxHeight: "110px" }}
               />
             </a>
           </Col>
-          <Col md>
+          <Col xs={12} md={4} lg={4}>
             <p className="fw-bold fs-3 pb-4 home-text-color text-uppercase" style={{ color: "#288705" }}>
               {t("home.sponsor_2")}
             </p>
@@ -180,11 +180,29 @@ export function Home() {
                 src="/ecomondo/logos/longi_logo.webp"
                 alt="longi"
                 className="img-fluid"
-                style={{ maxHeight: "100px" }}
+                style={{ maxHeight: "90px" }}
               />
             </a>
           </Col>
         </Row>
+      </Container>
+      <Container fluid className="background-sponsors d-flex justify-content-center my-5 h-auto">
+        <div data-aos="zoom-out" data-aos-duration="2000" className=" text-center py-5 my-5 d-flex flex-column justify-content-center align-items-center ">
+          <p className="text-white text-uppercase w-75 fs-3 fw-bolder mb-5"> {t("home.sponsorships_des")} </p>
+          <div>
+            <a
+              href={
+                i18n.language === 'es'
+                  ? '/ecomondo/files/patrocionios_es_200324.pdf'
+                  : '/ecomondo/files/sponsorships_en_200324.pdf'
+              }
+              target='_blank'
+              className="fw-bold px-3 py-4 rounded-3 button-cover fs-4"
+            >
+              {t("home.btn-sponsorships")}
+            </a>
+          </div>
+        </div>
       </Container>
       <Container fluid>
         <p

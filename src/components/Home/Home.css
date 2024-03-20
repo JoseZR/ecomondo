@@ -305,6 +305,20 @@
    text-shadow: none;
 }
 
+.background-sponsors{
+  background: linear-gradient(
+    90deg,
+    rgb(61, 81, 59) 0%,
+    rgb(68, 85, 66) 33.333%,
+    rgb(95, 120, 89) 66.667%,
+    rgb(151, 174, 136) 100%
+  )
+  0px 0px / 312px 256px;
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+}
+
 
 /* Media Query para dispositivos móviles */
 @media (max-width: 900px) {
