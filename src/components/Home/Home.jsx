@@ -447,27 +447,26 @@ export function Home() {
         </h2>
         <p className="fst-italic fs-5 mb-5">{t("home.rates.sub-title")}</p>
         <Row>
-          <Col lg={4} md={4} sm={12} className="column-with-border p-4">
-            <h4 className="fw-bolder">{t("home.rates.item1.title1")}</h4>
-            <p className="text-decoration-line-through fs-4 text fw-semibold">
-              {" "}
-              {t("home.rates.item1.price1")}{" "}
-            </p>
-            <p className="fs-3 text fw-bolder text-danger">
-              {t("home.rates.item1.priece2")}{" "}
-            </p>
-            <p className="fs-4 text fw-semibold">
-              {t("home.rates.item1.title2")}{" "}
-            </p>
-            <ul class="list-group-flush p-0 m-0">
-              <li class="list-group-item"> {t("home.rates.item1.topic1")} </li>
-              <li class="list-group-item"> {t("home.rates.item1.topic2")} </li>
-              <li class="list-group-item"> {t("home.rates.item1.topic3")} </li>
-              <li class="list-group-item"> {t("home.rates.item1.topic4")} </li>
-              <li class="list-group-item"> {t("home.rates.item1.topic5")} </li>
-              <li class="list-group-item"> {t("home.rates.item1.topic6")} </li>
-            </ul>
+          <Col lg={4} md={4} sm={12} className="column-with-border p-4 relative">
+            <div className="position-relative">
+              <img src="/ecomondo/sold-outl.webp" alt="sold out" className="position-absolute top-0 start-50 translate-middle-x rounded-circle z-1 mt-4 pt-5" width='190' />
+              <div className="z-0">
+                <h4 className="fw-bolder mt-20">{t("home.rates.item1.title1")}</h4>
+                <p className="text-decoration-line-through fs-4 text fw-semibold">{" "}{t("home.rates.item1.price1")}{" "}</p>
+                <p className="fs-3 text fw-bolder text-danger"> {t("home.rates.item1.priece2")}{" "} </p>
+                <p className="fs-4 text fw-semibold"> {t("home.rates.item1.title2")}{" "} </p>
+                <ul className="list-group-flush p-0 m-0">
+                  <li className="list-group-item"> {t("home.rates.item1.topic1")} </li>
+                  <li className="list-group-item"> {t("home.rates.item1.topic2")} </li>
+                  <li className="list-group-item"> {t("home.rates.item1.topic3")} </li>
+                  <li className="list-group-item"> {t("home.rates.item1.topic4")} </li>
+                  <li className="list-group-item"> {t("home.rates.item1.topic5")} </li>
+                  <li className="list-group-item"> {t("home.rates.item1.topic6")} </li>
+                </ul>
+              </div>
+            </div>
           </Col>
+
           <Col lg={4} md={4} sm={12} className="column-with-border p-4">
             <h4 className="fw-bolder">{t("home.rates.item2.title1")}</h4>
             <p className="fs-3 text  fw-bolder">
