@@ -975,6 +975,20 @@ export function Home() {
               />
             </a>
           </div>
+          <div className="exibitorSlider text-center h-100">
+            <a
+              href="https://abadieco.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="/ecomondo/logos/exhibitors/abadi_eco.webp"
+                height={110}
+                loading="lazy"
+                alt="abadi eco"
+              />
+            </a>
+          </div>
         </Marquee>
       </section>
       {/* <section className='my-5'>
