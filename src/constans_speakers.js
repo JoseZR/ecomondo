@@ -60,8 +60,8 @@ const speakers=[
         id:7,
         name: 'Francesco Fatone',
         avatar: '/ecomondo/speakers/francesco-fatone.webp',
-        resume_es: 'La información se está actualizando. Por favor, mantente atento.',
-        resume_en: 'Information is being updated. Please stay tuned.',
+        resume_es: 'Profesor Titular de Ingeniería Química y Ambiental en la Universidad Politécnica de Marche, Italia, destaca por su liderazgo y contribuciones en múltiples ámbitos. Desde 2013, ha asegurado más de 10 millones de euros en financiamiento de proyectos de la UE y más de 2 millones de fondos privados. Ha liderado numerosas iniciativas de investigación, como el proyecto "SMART-Plant" de Horizon2020, y ha sido parte de más de 15 proyectos internacionales de I+D. Además, desempeña roles destacados en revistas científicas, conferencias internacionales y comités de expertos, abordando temas cruciales como la economía circular y la gestión del agua. Su extenso trabajo se refleja en más de 140 artículos indexados en SCOPUS, citados más de 4600 veces, y en su reconocimiento global, incluyendo un doctorado honoris causa y consultorías internacionales',
+        resume_en: 'Full Professor of Chemical and Environmental Engineering at the Polytechnic University of Marche, Italy, he is noted for his leadership and contributions in multiple fields. Since 2013, he has secured more than €10 million in EU project funding and more than €2 million in private funding. He has led numerous research initiatives, such as the Horizon2020 "SMART-Plant" project, and has been part of more than 15 international R&D projects. In addition, he plays leading roles in scientific journals, international conferences and expert committees, addressing crucial topics such as circular economy and water management. His extensive work is reflected in more than 140 articles indexed in SCOPUS, cited more than 4600 times, and in his global recognition, including an honorary doctorate and international consultancies.',
     },
     {
         id:8,
@@ -72,14 +72,14 @@ const speakers=[
     },
     {
         id:10,
-        name: 'Francisco Galvan',
+        name: 'Francisco Galván',
         avatar: '/ecomondo/speakers/FRANCISCO_GALVAN.webp',
         resume_es: 'La información se está actualizando. Por favor, mantente atento.',
         resume_en: 'Information is being updated. Please stay tuned.',
     },
     {
         id:11,
-        name: 'Gustavo Solorzano',
+        name: 'Gustavo Solórzano ',
         avatar: '/ecomondo/speakers/GUSTAVO_SOLORZANO.webp',
         resume_es: 'La información se está actualizando. Por favor, mantente atento.',
         resume_en: 'Information is being updated. Please stay tuned.',
@@ -104,6 +104,34 @@ const speakers=[
         avatar: '/ecomondo/speakers/LUISA_GONZALEZ.webp',
         resume_es: 'Ingeniera ambiental y química de la Universidad de los Andes en Bogotá, con doctorado en Ingeniería de Procesos de la Ecole des Mines de Nantes, Francia, con énfasis en tecnologías de remoción de contaminantes atmosféricos. Actualmente, apoya a la Coalición Clima y Aire Limpio, gestionando proyectos para mitigar los contaminantes climáticos de vida corta, como una iniciativa del Programa de las Naciones Unidas para el Medio Ambiente (PNUMA). También, colabora con la agenda de calidad del aire en el Programa de Productos Químicos y Contaminación de la Oficina del PNUMA para América Latina y el Caribe. Cuenta con más de 12 años de experiencia profesional en diferentes actividades académicas y de investigación, consultoría ambiental y servicio en el sector público ambiental, relacionadas con la medición de contaminantes en fuentes, monitoreo de la calidad del aire, desarrollo de políticas, gestión de proyectos entre otras actividades relacionadas con la gestión integrada de la calidad del aire y mitigación de contaminantes climáticos.',
         resume_en: 'Environmental and chemical engineer from Universidad de los Andes in Bogotá, with a PhD in Process Engineering from Ecole des Mines de Nantes, France, with emphasis on air pollutant removal technologies. Currently, he supports the Climate and Clean Air Coalition, managing projects to mitigate short-lived climate pollutants, as an initiative of the United Nations Environment Program (UNEP). He also collaborates with the air quality agenda in the Chemicals and Pollution Program of the UNEP Office for Latin America and the Caribbean. He has more than 12 years of professional experience in different academic and research activities, environmental consulting and service in the public environmental sector, related to the measurement of pollutants in sources, air quality monitoring, policy development, project management among other activities related to integrated air quality management and mitigation of climate pollutants.',
+    },
+    {
+        id:16,
+        name: 'Alejandra Bolio Rojas',
+        avatar: '/ecomondo/speakers/alejandra_rojas.webp',
+        resume_es: 'Consultora ambiental con más de 15 años de experiencia, ha dado un giro significativo en su carrera al adentrarse en el servicio público. Integrando sus habilidades de vinculación y sus conocimientos en Derecho Ambiental, Administración y Finanzas, ha encontrado una nueva forma de contribuir al bienestar de la comunidad.Su transición hacia el servicio público ha sido fluida y fructífera, demostrando su capacidad para adaptarse y aplicar sus habilidades de manera efectiva en este nuevo contexto. Alejandra, reconoce la importancia del trabajo en equipo y el valor de las alianzas estratégicas para lograr resultados significativos en el ámbito ambiental.',
+        resume_en: 'She is an environmental consultant with more than 15 years of experience, has taken a significant turn in her career by entering public service. By integrating her outreach skills and her knowledge in environmental law, administration and finance, she has found a new way to contribute to the welfare of the community. Her transition into public service has been smooth and fruitful, demonstrating her ability to adapt and apply her skills effectively in this new context. Alejandra recognizes the importance of teamwork and the value of strategic alliances to achieve significant results in the environmental field.',
+    },
+    {
+        id:17,
+        name: 'Efraín Aguirre Macías',
+        avatar: '/ecomondo/speakers/user_img.webp',
+        resume_es: 'Ingeniero agrónomo egresado del Centro Universitario de Ciencias Biológicas y Agropecuarias en 1979, ha dejado una marca significativa en diversos campos a lo largo de su carrera profesional. Durante su tiempo en la Secretaría de Agricultura y Recursos Hidráulicos como jefe de unidad en la Región de Cd. Guzmán, Jalisco, entre 1985 y 1995, se destacó por su aguda capacidad de resolución de problemas y compromiso con encontrar soluciones efectivas para los desafíos agrícolas. Posteriormente, como contratista en la Comisión Federal de Electricidad, coordinó servicios de calidad en la poda de líneas de alta tensión y el mantenimiento de subestaciones en todo el país. Además, viajó a países como Holanda, Estados Unidos, Japón y Colombia para explorar procesos avanzados de compostaje. Como resultado, estableció la planta de compostaje industrial El Morado Compost, líder en el sector, que ha contribuido al avance y la sostenibilidad de la industria mediante la implementación de métodos novedosos y la publicación de investigaciones científicas para eficientar procesos.',
+        resume_en: 'He is an agronomist graduated from the Centro Universitario de Ciencias Biológicas y Agropecuarias in 1979, and has left a significant mark in various fields throughout his professional career. During his time at the Ministry of Agriculture and Hydraulic Resources as head of unit in the region of Cd. Guzman, Jalisco, between 1985 and 1995, he stood out for his sharp problem-solving skills and commitment to finding effective solutions to agricultural challenges. Later, as a contractor for the Federal Electricity Commission, he coordinated quality services in high-voltage line trimming and substation maintenance throughout the country. In addition, he traveled to countries such as Holland, the United States, Japan and Colombia to explore advanced composting processes. As a result, he established the industrial composting plant El Morado Compost, a leader in the sector, which has contributed to the advancement and sustainability of the industry through the implementation of novel methods and the publication of scientific research to make processes more efficient.',
+    },
+    {
+        id:18,
+        name: 'Rodrigo Gómez Rizo',
+        avatar: '/ecomondo/speakers/user_img.webp',
+        resume_es: 'Licenciado en Biología comprometido con la preservación del medio ambiente y el desarrollo sostenible. Con una década de experiencia en la industria del compostaje, ha demostrado habilidades para innovar y liderar en este campo. Actualmente, es gerente de calidad y desarrollo tecnológico en El Morado Compost, donde promueve prácticas ambientales responsables. Paralelamente, está cursando una Maestría en Ciencias de Productos Forestales en la UDG, buscando enfrentar los desafíos ambientales con soluciones basadas en la ciencia y la innovación. Su combinación de experiencia y formación lo posiciona como un líder en la gestión ambiental y la industria del compostaje.',
+        resume_en: 'Biology graduate committed to environmental preservation and sustainable development. With a decade of experience in the composting industry, he has demonstrated skills to innovate and lead in this field. He is currently manager of quality and technological development at El Morado Compost, where he promotes responsible environmental practices. In parallel, he is pursuing a Master of Science in Forest Products at UDG, seeking to address environmental challenges with solutions based on science and innovation. His combination of experience and training positions him as a leader in environmental management and the composting industry.',
+    },
+    {
+        id:19,
+        name: 'Luca Torresan',
+        avatar: '/ecomondo/speakers/luca_torresan.webp',
+        resume_es: 'Ingeniero medioambiental, entusiasta de la economía circular y miembro activo de ISWA, trabaja en el campo de la gestión de residuos desde 2007. Ha experimentado el desarrollo y la difusión de prácticas de reducción y separación de residuos, tanto en Italia como a nivel internacional. Con más de 15 años de experiencia en la gestión de socios nacionales y mundiales, desarrollando proyectos e impulsando el crecimiento del modelo, su trayectoria hace especial hincapié en la exportación y remodelación del modelo italiano de recogida selectiva de biorresiduos. ',
+        resume_en: 'Environmental Engineer, Circular Economy enthusiast and active ISWA member he has working in the field of waste management since 2007. Has experienced the development and spread of waste reduction and separation practices, both in Italy and internationally. With over 15 years of experience in managing national and worldwide partners, developing projects and driving the model growth, his background has particular emphasis on exporting and re-modelling the Italian model of separate collection of bio-waste.',
     }
 ]
 export { speakers }
