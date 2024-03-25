@@ -803,7 +803,7 @@ export function Home() {
             </a>
           </div>
         </Marquee>
-        <Marquee gradient>
+        <Marquee gradient className="pt-3">
           <div className="exibitorSlider text-center h-100">
             <a
               href="https://saveco-water.es/es-ES/SPEES/home"
@@ -912,7 +912,7 @@ export function Home() {
               rel="noreferrer"
             >
               <img
-                src="/ecomondo/logos/exhibitors/amc_soluciones.webp"
+                src="/ecomondo/logos/exhibitors/amc-endesus.webp"
                 height={110}
                 loading="lazy"
                 alt="amc soluciones"
@@ -986,6 +986,48 @@ export function Home() {
                 height={110}
                 loading="lazy"
                 alt="abadi eco"
+              />
+            </a>
+          </div>
+          <div className="exibitorSlider text-center h-100">
+            <a
+              href="https://www.zemmler.de/es/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="/ecomondo/logos/exhibitors/zemmler.webp"
+                height={110}
+                loading="lazy"
+                alt="zemmler"
+              />
+            </a>
+          </div>
+          <div className="exibitorSlider text-center h-100">
+            <a
+              href="https://www.kingspan.com/mx/es/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="/ecomondo/logos/exhibitors/kingspan.webp"
+                height={100}
+                loading="lazy"
+                alt="kingspan"
+              />
+            </a>
+          </div>
+          <div className="exibitorSlider text-center h-100">
+            <a
+              href=""
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="/ecomondo/logos/exhibitors/doppstadt.webp"
+                height={110}
+                loading="lazy"
+                alt="doppstadt"
               />
             </a>
           </div>
