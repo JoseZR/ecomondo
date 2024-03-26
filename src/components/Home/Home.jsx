@@ -803,7 +803,7 @@ export function Home() {
             </a>
           </div>
         </Marquee>
-        <Marquee gradient className="pt-3">
+        <Marquee gradient className="mt-3">
           <div className="exibitorSlider text-center h-100">
             <a
               href="https://saveco-water.es/es-ES/SPEES/home"
@@ -1025,6 +1025,20 @@ export function Home() {
             >
               <img
                 src="/ecomondo/logos/exhibitors/doppstadt.webp"
+                height={110}
+                loading="lazy"
+                alt="doppstadt"
+              />
+            </a>
+          </div>
+          <div className="exibitorSlider text-center h-100">
+            <a
+              href="https://www.skf.com/mx"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="/ecomondo/logos/exhibitors/skf.webp"
                 height={110}
                 loading="lazy"
                 alt="doppstadt"
