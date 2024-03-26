@@ -43,8 +43,8 @@ const speakers=[
     },
     {
         id:5,
-        name: 'Rosendo tamez', 
-        avatar: '/ecomondo/speakers/ROSENDO_TAMEZ.webp',
+        name: 'Rosendo Tamez', 
+        avatar: '/ecomondo/speakers/rosendo-tamez_v2.webp',
         resume_es: 'La información se está actualizando. Por favor, mantente atento.',
         resume_en: 'Information is being updated. Please stay tuned.',
     },  
