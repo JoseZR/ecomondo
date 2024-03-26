@@ -1,6 +1,6 @@
- import { useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import "./Program.css";
-import { Accordion, Col, Container, Nav, Row, Tab, Tabs } from "react-bootstrap";
+import { Accordion, Col, Container, Nav, Row, Tab, Tabs, Image } from "react-bootstrap";
 
 import { programECO } from "../../constans_program";
 import { DetailSpeaker } from './DetailSpeaker'
@@ -18,6 +18,13 @@ export function Program() {
     setDetailSpeaker(speaker)
     setModalShow(true)
   }
+
+  const handleModal = (id) => {
+    const speaker = speakers.find(speaker => speaker.id === id)
+    setDetailSpeaker(speaker)
+    setModalShow(true)
+  }
+
   console.log(programs);
   return (
     <>
@@ -107,11 +114,26 @@ export function Program() {
                             ? program?.title_en
                             : program?.title}
                         </p>
-                        <p className="fw-semibold fst-italic text-start"> {program?.speakers} </p>
-                        <p className="fw-semibold fst-italic text-start"> {i18n.language === "en" ? program?.position_en : program?.position} </p>
-                        <p>
-                          <p style={{ textAlign: 'justify' }}> {i18n.language === 'en' ? program?.resume_en : program?.resume}</p>
-                        </p>
+                        <p style={{ textAlign: 'justify' }}> {i18n.language === 'en' ? program?.resume_en : program?.resume}</p>
+                        {/* aquí se muestra la información de los Speakers */}
+                        <Row className=" d-flex justify-content-start">
+                          {program.person && program.person.map((infoSpeaker, index) =>
+                            <Col xs={4} lg={4} key={infoSpeaker.id} className="text-center px-3">
+                              {infoSpeaker.photo && ( // Verifica si hay una foto
+                                <Image
+                                  onClick={() => handleModal(infoSpeaker.id)}
+                                  src={infoSpeaker.photo}
+                                  width={100}
+                                  height={100}
+                                  className='rounded-circle program-date-avatar me-2'
+                                  alt='speaker'
+                                />
+                              )}
+                              <p className="fw-bold"> {infoSpeaker.speakers_name} <br />
+                                <spam className="fst-italic fw-normal"> {i18n.language === 'en' ? infoSpeaker.position_en : infoSpeaker.position} </spam></p>
+                            </Col>
+                          )}
+                        </Row>
                       </Col>
                     </Row>
                   );
@@ -168,11 +190,26 @@ export function Program() {
                             ? program?.title_en
                             : program?.title}
                         </p>
-                        <p className="fw-semibold fst-italic text-start"> {program?.speakers} </p>
-                        <p className="fw-semibold fst-italic text-start"> {i18n.language === "en" ? program?.position_en : program?.position} </p>
-                        <p>
-                          <p style={{ textAlign: 'justify' }}> {i18n.language === 'en' ? program?.resume_en : program?.resume}</p>
-                        </p>
+                        <p style={{ textAlign: 'justify' }}> {i18n.language === 'en' ? program?.resume_en : program?.resume}</p>
+                        {/* aquí se muestra la información de los Speakers */}
+                        <Row className=" d-flex justify-content-start">
+                          {program.person && program.person.map((infoSpeaker, index) =>
+                            <Col xs={4} lg={4} key={infoSpeaker.id} className="text-center px-3">
+                              {infoSpeaker.photo && ( // Verifica si hay una foto
+                                <Image
+                                  onClick={() => handleModal(infoSpeaker.id)}
+                                  src={infoSpeaker.photo}
+                                  width={100}
+                                  height={100}
+                                  className='rounded-circle program-date-avatar me-2'
+                                  alt='speaker'
+                                />
+                              )}
+                              <p className="fw-bold"> {infoSpeaker.speakers_name} <br />
+                                <spam className="fst-italic fw-normal"> {i18n.language === 'en' ? infoSpeaker.position_en : infoSpeaker.position} </spam></p>
+                            </Col>
+                          )}
+                        </Row>
                       </Col>
                     </Row>
                   );
@@ -216,24 +253,39 @@ export function Program() {
                           <p className="fs-6 text-start"><strong>{program.hour}</strong><br />{program.duration}</p>
                         </div>
                         <p className="pt-2 d-flex">
-                            <span className="bg-dark text-light fw-bold rounded-pill px-4 py-2">
-                              {i18n.language === "en"
-                                ? program.type_en
-                                : program.type}
-                            </span>
-                          </p>
+                          <span className="bg-dark text-light fw-bold rounded-pill px-4 py-2">
+                            {i18n.language === "en"
+                              ? program.type_en
+                              : program.type}
+                          </span>
+                        </p>
                       </Col>
-                      <Col  lg={9} xs={12} md={9} >
-                          <p className="fs-3 fw-bold text-start">
-                           {i18n.language === "en"
-                              ? program?.title_en
-                              : program?.title}
-                          </p>
-                          <p className="fw-semibold fst-italic text-start"> {program?.speakers} </p>
-                          <p className="fw-semibold fst-italic text-start"> {i18n.language === "en" ? program?.position_en : program?.position} </p>
-                          <p>
-                            <p style={{textAlign:'justify'}}> {i18n.language === 'en'? program?.resume_en : program?.resume}</p>
-                          </p>
+                      <Col lg={9} xs={12} md={9} >
+                        <p className="fs-3 fw-bold text-start">
+                          {i18n.language === "en"
+                            ? program?.title_en
+                            : program?.title}
+                        </p>
+                        <p style={{ textAlign: 'justify' }}> {i18n.language === 'en' ? program?.resume_en : program?.resume}</p>
+                        {/* aquí se muestra la información de los Speakers */}
+                        <Row className=" d-flex justify-content-start">
+                          {program.person && program.person.map((infoSpeaker, index) =>
+                            <Col xs={4} lg={4} key={infoSpeaker.id} className="text-center px-3">
+                              {infoSpeaker.photo && ( // Verifica si hay una foto
+                                <Image
+                                  onClick={() => handleModal(infoSpeaker.id)}
+                                  src={infoSpeaker.photo}
+                                  width={100}
+                                  height={100}
+                                  className='rounded-circle program-date-avatar me-2'
+                                  alt='speaker'
+                                />
+                              )}
+                              <p className="fw-bold"> {infoSpeaker.speakers_name} <br />
+                                <spam className="fst-italic fw-normal"> {i18n.language === 'en' ? infoSpeaker.position_en : infoSpeaker.position} </spam></p>
+                            </Col>
+                          )}
+                        </Row>
                       </Col>
                     </Row>
                   );
