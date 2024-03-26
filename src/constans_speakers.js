@@ -45,8 +45,8 @@ const speakers=[
         id:5,
         name: 'Rosendo Tamez', 
         avatar: '/ecomondo/speakers/rosendo-tamez_v2.webp',
-        resume_es: 'La información se está actualizando. Por favor, mantente atento.',
-        resume_en: 'Information is being updated. Please stay tuned.',
+        resume_es: 'Ingeniero Industrial, con maestría en Dirección. Además, se dedica al diseño de Modelos de Gestión de Residuos Sólidos Urbanos. Actualmente, es Encargado de Nuevo negocios y proyectos de Digestión para la Reducción de Metano y Aprovechamiento de la Fracción Orgánica, para empresa R3VER y Grupo Eggersmann en LATAM.',
+        resume_en: 'Industrial Engineer, with a Master\'s Degree in Management. In addition, he is dedicated to the design of Urban Solid Waste Management Models. Currently, he is in charge of new business and Digestion projects for Methane Reduction and Organic Fraction Utilization for R3VER and Eggersmann Group in LATAM.',
     },  
     {
         id:6,
@@ -132,7 +132,28 @@ const speakers=[
         avatar: '/ecomondo/speakers/luca_torresan.webp',
         resume_es: 'Ingeniero medioambiental, entusiasta de la economía circular y miembro activo de ISWA, trabaja en el campo de la gestión de residuos desde 2007. Ha experimentado el desarrollo y la difusión de prácticas de reducción y separación de residuos, tanto en Italia como a nivel internacional. Con más de 15 años de experiencia en la gestión de socios nacionales y mundiales, desarrollando proyectos e impulsando el crecimiento del modelo, su trayectoria hace especial hincapié en la exportación y remodelación del modelo italiano de recogida selectiva de biorresiduos. ',
         resume_en: 'Environmental Engineer, Circular Economy enthusiast and active ISWA member he has working in the field of waste management since 2007. Has experienced the development and spread of waste reduction and separation practices, both in Italy and internationally. With over 15 years of experience in managing national and worldwide partners, developing projects and driving the model growth, his background has particular emphasis on exporting and re-modelling the Italian model of separate collection of bio-waste.',
-    }
+    },
+    {
+        id:20,
+        name: 'Omar Palafox Saenz ',
+        avatar: '/ecomondo/speakers/omar-palafox.webp',
+        resume_es: 'Ingeniero Industrial por el ITESO. Cuenta con una maestría en manufactura avanzada, por el ESADE; una maestría en Innovación Educativa, por la Universidad Antropológica de Guadalajara; y, maestría de Ingeniería Medioambiental y Sustentabilidad, por la Universidad Tecnológica de Latinoamérica. Asimismo tiene diferentes especialidades en Finanzas, Marketingt y Dirección de empresas. También, se desempeñó como asesor en proyectos medioambientales y de Economía Circular, Project Manager de proyectos en Tepatitlán de Morelos, Cd. Juárez, Churintzio. Actualmente, es Coordinador Zona Occidente, de Grupo Serrano, empresa dedicada a lácteos, ganadería, agricultura, porcicultura, reciclaje y generación de energías verdes con desechos orgánicos; funge como representante de la empresa en la Alianza Empresarial por el Clima, y es representante ciudadano en Tlajomulco, en el Consejo de Gobierno Abierto y Transparencia.',
+        resume_en: 'Industrial Engineer from ITESO. He has a master\'s degree in advanced manufacturing from ESADE; a master\'s degree in Educational Innovation from the Universidad Antropológica de Guadalajara; and a master\'s degree in Environmental Engineering and Sustainability from the Universidad Tecnológica de Latinoamérica. He also has different specialties in Finance, Marketing and Business Management. He has also worked as a consultant in environmental and Circular Economy projects, Project Manager of projects in Tepatitlán de Morelos, Cd. Juárez, Churintzio. Currently, he is the Western Zone Coordinator of Grupo Serrano, a company dedicated to dairy, livestock, agriculture, pig farming, recycling and generation of green energy with organic waste; he serves as a representative of the company in the Business Alliance for Climate, and is a citizen representative in Tlajomulco, in the Council of Open Government and Transparency.',
+    },
+    {
+        id:21,
+        name: 'Christian Mulcahy ',
+        avatar: '/ecomondo/speakers/christian-mulcahy.webp',
+        resume_es: 'Ingeniero Ambiental con 20 años de experiencia en diversas áreas ambientales y sociales, como estión de residuos, remediación de sitios contaminados, Economía Circular, e informes de sostenibilidad y ESG (Environmental, Social, and Governance). Apasionado por encontrar soluciones a los desafíos actuales como sociedad ante el cambio climático, el uso sostenible de recursos y la gestión de residuos.En los últimos años, ha orientado su carrera hacia la gestión de negocios relacionados con la gestión de residuos orgánicos y la agricultura sostenible, dos pilares fundamentales en la lucha contra el cambio climático y en la búsqueda de un futuro más sostenible. Su enfoque actual es el desarrollo e implementación de soluciones sostenibles para la gestión de residuos orgánicos en Iberia y América Latina con Compost Systems GmbH.',
+        resume_en: 'Environmental Engineer with 20 years of experience in various environmental and social areas, such as waste management, remediation of contaminated sites, Circular Economy, and sustainability and ESG (Environmental, Social, and Governance) reporting. Passionate about finding solutions to current challenges as a society in the face of climate change, sustainable resource use and waste management. In recent years, he has oriented his career towards the management of businesses related to organic waste management and sustainable agriculture, two fundamental pillars in the fight against climate change and in the search for a more sustainable future. His current focus is the development and implementation of sustainable solutions for organic waste management in Iberia and Latin America with Compost Systems GmbH.',
+    },
+    // {
+    //     id:21,
+    //     name: '',
+    //     avatar: '/ecomondo/speakers/user_img.webp',
+    //     resume_es: '',
+    //     resume_en: '',
+    // },
 ]
 export { speakers }
   
