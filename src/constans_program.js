@@ -52,7 +52,7 @@ const programECO = {
           },
           {
             id: 17,
-            photo: '/ecomondo/speakers/user_img.webp',
+            photo: '',
             speakers_name:'Efraín Aguirrre Macías',
             position :'Director General de El Morador Compost',
             position_en : 'General Manager of El Morador Compost'
