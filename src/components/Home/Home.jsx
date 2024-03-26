@@ -11,6 +11,8 @@ import { gallery2023, gallery2022 } from "../GalleryPage/constans_gallery";
 import { Bullets } from "./Bullets";
 import { useNearScreen } from "../hooks/useNearScreen";
 import { Testimonials } from "./Testimonials";
+import { exhibitors1, exhibitors2, exhibitors3 } from "../../constans_logos";
+
 
 export function Home() {
   const { t, i18n } = useTranslation();
@@ -156,7 +158,7 @@ export function Home() {
           </Row>
         </article>
       </Container>
-      <Container  className="pb-5">
+      <Container className="pb-5">
         <Row className="justify-content-md-center">
           <Col xs={12} md={4} lg={4} >
             <p className="fw-bold fs-3 pb-4 home-text-color text-uppercase" style={{ color: "#288705" }}>
@@ -625,451 +627,50 @@ export function Home() {
         </Container> */}
       </div>
       {/* LOGOS DE EXPOSITORES */}
-      <section className="pt-5 pb-5">
+      <Container className="pt-5 pb-5">
         <p className="fw-bold fs-2 text-center" style={{ color: "#288705" }}>
           {t("home.exhibitors")}
         </p>
-        <Marquee gradient direction="letf">
-          <div className="exibitorSlider text-center h-100">
-            <a
-              href="https://brimexenergy.com.mx/"
-              target="_blank"
-              rel="noreferrer"
-            >
+        <Marquee gradient>
+          {exhibitors1.map((logotypes, index) => (
+            <div key={index} className='exibitorSlider text-center h-100'>
               <img
-                src="/ecomondo/logos/exhibitors/brimex.webp"
-                width={180}
-                height={100}
-                loading="lazy"
-                alt="brimex"
+                width={logotypes.width}
+                height={logotypes.height}
+                src={logotypes.image}
+                alt={`exhibitor ${index}`}
+                loading='lazy'
               />
-            </a>
-          </div>
-          <div className="exibitorSlider text-center h-100">
-            <a
-              href="https://www.grupocauda.mx/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="/ecomondo/logos/exhibitors/cauda.webp"
-                width={180}
-                height={90}
-                loading="lazy"
-                alt="cauda"
-              />
-            </a>
-          </div>
-          <div className="exibitorSlider text-center h-100">
-            <a href="https://mx.kaeser.com/" target="_blank" rel="noreferrer">
-              <img
-                src="/ecomondo/logos/exhibitors/kaeser.webp"
-                width={180}
-                height={100}
-                loading="lazy"
-                alt="kaeser"
-              />
-            </a>
-          </div>
-          <div className="exibitorSlider text-center h-100">
-            <a
-              href="http://www.magritep.com.mx/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="/ecomondo/logos/exhibitors/magritep.webp"
-                width={180}
-                height={100}
-                loading="lazy"
-                alt="magritep"
-              />
-            </a>
-          </div>
-          <div className="exibitorSlider text-center h-100">
-            <a
-              href="https://mru-instruments.com/es/?cn-reloaded=1"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="/ecomondo/logos/exhibitors/mru_air.webp"
-                width={160}
-                height={90}
-                loading="lazy"
-                alt="mru"
-              />
-            </a>
-          </div>
-          <div className="exibitorSlider text-center h-100">
-            <a
-              href="https://www.ticsa.com.mx/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="/ecomondo/logos/exhibitors/ticsa.webp"
-                width={150}
-                height={80}
-                loading="lazy"
-                alt="ticsa"
-              />
-            </a>
-          </div>
-          <div className="exibitorSlider text-center h-100">
-            <a
-              href="https://www.concordenviro.in/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="/ecomondo/logos/exhibitors/concord.webp"
-                width={200}
-                height={100}
-                loading="lazy"
-                alt="ticsa"
-              />
-            </a>
-          </div>
-          <div className="exibitorSlider text-center h-100">
-            <a
-              href="https://electric.hxgroup.com/en/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="/ecomondo/logos/exhibitors/hexing.webp"
-                width={200}
-                height={100}
-                loading="lazy"
-                alt="hexing"
-              />
-            </a>
-          </div>
-          <div className="exibitorSlider text-center h-100">
-            <a
-              href="https://livoltek.com/home/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="/ecomondo/logos/exhibitors/livoltek.webp"
-                width={200}
-                height={100}
-                loading="lazy"
-                alt="livoltek"
-              />
-            </a>
-          </div>
-          <div className="exibitorSlider text-center h-100">
-            <a
-              href="https://www.linkedin.com/company/zelink-water-meter/?trk=public_post_share-update_actor-text"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="/ecomondo/logos/exhibitors/zlink.webp"
-                width={200}
-                height={100}
-                loading="lazy"
-                alt="zlink"
-              />
-            </a>
-          </div>
-          <div className="exibitorSlider text-center h-100">
-            <a href="" target="_blank" rel="noreferrer">
-              <img
-                src="/ecomondo/logos/exhibitors/pq&s.webp"
-                width={200}
-                height={100}
-                loading="lazy"
-                alt="pq&s"
-              />
-            </a>
-          </div>
-          <div className="exibitorSlider text-center h-100">
-            <a
-              href="https://www.waderain.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="/ecomondo/logos/exhibitors/wade-rain.webp"
-                width={200}
-                height={100}
-                loading="lazy"
-                alt="wade-raing"
-              />
-            </a>
-          </div>
+            </div>
+          ))}
         </Marquee>
-        <Marquee gradient className="mt-3">
-          <div className="exibitorSlider text-center h-100">
-            <a
-              href="https://saveco-water.es/es-ES/SPEES/home"
-              target="_blank"
-              rel="noreferrer"
-            >
+        <Marquee gradient direction='letf'>
+          {exhibitors2.map((logotypes, index) => (
+            <div key={index} className='exibitorSlider text-center h-100 my-2'>
               <img
-                src="/ecomondo/logos/exhibitors/saveco.webp"
-                width={200}
-                height={100}
-                loading="lazy"
-                alt="saveco"
+                width={logotypes.width}
+                height={logotypes.height}
+                src={logotypes.image}
+                alt={`exhibitor ${index}`}
+                loading='lazy'
               />
-            </a>
-          </div>
-          <div className="exibitorSlider text-center h-100">
-            <a
-              href="https://terminatorwatersolutions.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="/ecomondo/logos/exhibitors/terminator.webp"
-                width={200}
-                height={100}
-                loading="lazy"
-                alt="terminator"
-              />
-            </a>
-          </div>
-          <div className="exibitorSlider text-center h-100">
-            <a
-              href="https://www.monitoreoycalidadambiental.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="/ecomondo/logos/exhibitors/monitoreo-calidad_v2.webp"
-                width={200}
-                height={100}
-                loading="lazy"
-                alt="monitoreo-calidad"
-              />
-            </a>
-          </div>
-          <div className="exibitorSlider text-center h-100">
-            <a
-              href="https://www.requilibrium.com/index.html"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="/ecomondo/logos/exhibitors/requilibrium.webp"
-                height={120}
-                loading="lazy"
-                alt="requilibrium"
-              />
-            </a>
-          </div>
-          <div className="exibitorSlider text-center h-100">
-            <a
-              href="https://powerdepot.com.mx/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="/ecomondo/logos/exhibitors/power-depot.webp"
-                height={110}
-                loading="lazy"
-                alt="power depot"
-              />
-            </a>
-          </div>
-          <div className="exibitorSlider text-center h-100">
-            <a
-              href="https://hipro.com.mx/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="/ecomondo/logos/exhibitors/hipro.webp"
-                height={110}
-                loading="lazy"
-                alt="hipro"
-              />
-            </a>
-          </div>
-          <div className="exibitorSlider text-center h-100">
-            <a
-              href=""
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="/ecomondo/logos/exhibitors/vite-energy.webp"
-                height={110}
-                loading="lazy"
-                alt="vite energy"
-              />
-            </a>
-          </div>
-          <div className="exibitorSlider text-center h-100">
-            <a
-              href="https://endesus.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="/ecomondo/logos/exhibitors/amc-endesus.webp"
-                height={110}
-                loading="lazy"
-                alt="amc soluciones"
-              />
-            </a>
-          </div>
-          <div className="exibitorSlider text-center h-100">
-            <a
-              href="https://www.ht-instruments.mx/es-mx/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="/ecomondo/logos/exhibitors/ht_instruments.webp"
-                height={110}
-                loading="lazy"
-                alt="ht instruments"
-              />
-            </a>
-          </div>
-          <div className="exibitorSlider text-center h-100">
-            <a
-              href="https://corporate.evonik.com/en/company"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="/ecomondo/logos/exhibitors/evonik.webp"
-                height={110}
-                loading="lazy"
-                alt="evonik"
-              />
-            </a>
-          </div>
-          <div className="exibitorSlider text-center h-100">
-            <a
-              href="https://www.facebook.com/p/Evobac-100082953656421/?paipv=0&eav=AfZaOGMFfT6HsEtbGrMxlrDTyD665ZWlcPs5pJri8PSuqaj1B1E5mqXuAQ9PwhzaPnc&_rdr"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="/ecomondo/logos/exhibitors/evobac.webp"
-                height={110}
-                loading="lazy"
-                alt="evobac"
-              />
-            </a>
-          </div>
-          <div className="exibitorSlider text-center h-100">
-            <a
-              href="https://blowersandproducts.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="/ecomondo/logos/exhibitors/bpm.webp"
-                height={110}
-                loading="lazy"
-                alt="blowersandproducts"
-              />
-            </a>
-          </div>
-          <div className="exibitorSlider text-center h-100">
-            <a
-              href="https://abadieco.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="/ecomondo/logos/exhibitors/abadi_eco.webp"
-                height={110}
-                loading="lazy"
-                alt="abadi eco"
-              />
-            </a>
-          </div>
-          <div className="exibitorSlider text-center h-100">
-            <a
-              href="https://www.zemmler.de/es/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="/ecomondo/logos/exhibitors/zemmler.webp"
-                height={110}
-                loading="lazy"
-                alt="zemmler"
-              />
-            </a>
-          </div>
-          <div className="exibitorSlider text-center h-100">
-            <a
-              href="https://www.kingspan.com/mx/es/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="/ecomondo/logos/exhibitors/kingspan.webp"
-                height={100}
-                loading="lazy"
-                alt="kingspan"
-              />
-            </a>
-          </div>
-          <div className="exibitorSlider text-center h-100">
-            <a
-              href=""
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="/ecomondo/logos/exhibitors/doppstadt.webp"
-                height={110}
-                loading="lazy"
-                alt="doppstadt"
-              />
-            </a>
-          </div>
-          <div className="exibitorSlider text-center h-100">
-            <a
-              href="https://www.skf.com/mx"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="/ecomondo/logos/exhibitors/skf.webp"
-                height={110}
-                loading="lazy"
-                alt="doppstadt"
-              />
-            </a>
-          </div>
+            </div>
+          ))}
         </Marquee>
-      </section>
-      {/* <section className='my-5'>
-        <Container fluid>
-          <p className='fw-bold fs-3 text-secondary text-center text-uppercase'>
-            {t('home.sponsor_1')}
-          </p>
-          <Row className='text-center'>
-            <Col md={3} className='mx-auto my-auto'>
-              <a
-                href='https://www.aspiria.mx/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/ecomondo/logos/aspiria.webp'
-                  width={250}
-                  loading='lazy'
-                  alt='aspiria'
-                />
-              </a>
-            </Col>
-          </Row>
-        </Container>
-      </section> */}
+        <Marquee gradient>
+          {exhibitors3.map((logotypes, index) => (
+            <div key={index} className='exibitorSlider text-center h-100'>
+              <img
+                width={logotypes.width}
+                height={logotypes.height}
+                src={logotypes.image}
+                alt={`exhibitor ${index}`}
+                loading='lazy'
+              />
+            </div>
+          ))}
+        </Marquee>
+      </Container>
       <Container className="galleryPage mt-5">
         <h1 className="gallery-title pt-5">
           {t("menu.media_hub_1")} - Ecomondo 2023
