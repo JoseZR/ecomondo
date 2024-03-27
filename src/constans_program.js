@@ -321,8 +321,8 @@ const programECO = {
             position_en : 'Undersecretary of Environmental Management, Climate Change and Energy Sustainability. '
           },
           {
-            id: "",
-            photo: '',
+            id: 23,
+            photo: '/ecomondo/speakers/eduardo-walsh.webp',
             speakers_name:'Eduardo Walsh',
             position : 'Gerente de Proyectos, en la Fundación Konrad Adenauer KAS',
             position_en : 'Project Manager, Konrad Adenauer Foundation KAS'
