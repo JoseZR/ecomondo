@@ -52,7 +52,7 @@ const programECO = {
           },
           {
             id: 20,
-            photo: '/ecomondo/speakers/omar-palafox.webp',
+            photo: '/ecomondo/speakers/omar-palafox_v2.webp',
             speakers_name:'Omar Palafox Saenz',
             position :'Brimex Tequila Company, Agave leftlovers',
             position_en : 'Brimex Tequila Company, Agave leftlovers'
