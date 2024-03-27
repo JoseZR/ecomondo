@@ -118,7 +118,7 @@ export function Program() {
                         {/* aquí se muestra la información de los Speakers */}
                         <Row className=" d-flex justify-content-start">
                           {program.person && program.person.map((infoSpeaker, index) =>
-                            <Col xs={4} lg={4} key={infoSpeaker.id} className="text-center px-3">
+                            <Col xs={4} lg={4} key="" className="text-center px-3">
                               {infoSpeaker.photo && ( // Verifica si hay una foto
                                 <Image
                                   onClick={() => handleModal(infoSpeaker.id)}
@@ -194,7 +194,7 @@ export function Program() {
                         {/* aquí se muestra la información de los Speakers */}
                         <Row className=" d-flex justify-content-start">
                           {program.person && program.person.map((infoSpeaker, index) =>
-                            <Col xs={4} lg={4} key={infoSpeaker.id} className="text-center px-3">
+                            <Col xs={4} lg={4} key="" className="text-center px-3">
                               {infoSpeaker.photo && ( // Verifica si hay una foto
                                 <Image
                                   onClick={() => handleModal(infoSpeaker.id)}
@@ -270,7 +270,7 @@ export function Program() {
                         {/* aquí se muestra la información de los Speakers */}
                         <Row className=" d-flex justify-content-start">
                           {program.person && program.person.map((infoSpeaker, index) =>
-                            <Col xs={4} lg={4} key={infoSpeaker.id} className="text-center px-3">
+                            <Col xs={4} lg={4} key="" className="text-center px-3">
                               {infoSpeaker.photo && ( // Verifica si hay una foto
                                 <Image
                                   onClick={() => handleModal(infoSpeaker.id)}

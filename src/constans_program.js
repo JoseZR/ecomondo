@@ -51,11 +51,32 @@ const programECO = {
             position_en : 'R3VER. Linares - México'
           },
           {
+            id: 20,
+            photo: '/ecomondo/speakers/omar-palafox.webp',
+            speakers_name:'Omar Palafox Saenz',
+            position :'Brimex Tequila Company, Agave leftlovers',
+            position_en : 'Brimex Tequila Company, Agave leftlovers'
+          },
+          {
+            id: 15,
+            photo: '/ecomondo/speakers/LUISA_GONZALEZ.webp',
+            speakers_name:'Luisa González',
+            position :'CCAC',
+            position_en : 'CCAC'
+          },
+          {
             id: 17,
             photo: '',
             speakers_name:'Efraín Aguirrre Macías',
             position :'Director General de El Morador Compost',
             position_en : 'General Manager of El Morador Compost'
+          },
+          {
+            id: 18,
+            photo: '',
+            speakers_name:'Rodrigo Gómez Rizo',
+            position :'Director de Desarrollo y Tecnología de El Morado Compost',
+            position_en : 'Director of Development and Technology of El Morado Compost'
           },
         ],
       },
@@ -94,9 +115,9 @@ const programECO = {
         hour: '11:30 - 13:30 hrs.',
         resume: 'En el evento se presentará la Guía del Profesional centrada en la cuestión de los contaminantes en el reciclado de residuos orgánicos, un tema que aborda también otros flujos de reciclado como envases, RAEE, etc. El documento será presentado por uno de los autores principales y los ponentes se encuentran entre los colaboradores de la Guía o expertos de América Latina y de México. Organizado/ promovido en cooperación con la Red Regional ISWA para América Latina coordinada por ARS-Argentina.',
         resume_en: 'The event will present the Practitioner’s Guide focusing on the issue of contaminant in organic waste recycling, a topic which addresses also other recycling streams such as packaging, WEEE, etc. The document will be presented by one of the lead-authors and the speakers are among the contributors of the Guide or experts from Latin-American and from Mexico.  Organised/promoted in cooperation with the ISWA Regional Network for Latin America coordinated by ARS-Argentina.',
-        speakers : 'Francisco Galván | Marco Ricci | Gustavo Solórzano',
-        position : " | ISWA WG BTW | DSLatinoamericana-México",
-        position_en : "Chairman of DSLatinoamericana | ISWA WG BTW | Head of International Relations of DS Latinoamericana-Mexico",
+        speakers : "",
+        position : "",
+        position_en : "",
         person: [
           {
             id: 10,
@@ -118,6 +139,27 @@ const programECO = {
             speakers_name:'Gustavo Solórzano',
             position : 'DSLatinoamericana-México',
             position_en : 'DSLatinoamericana-México'
+          },
+          {
+            id: 19,
+            photo: '/ecomondo/speakers/luca_torresan.webp',
+            speakers_name:'Luca Torresan',
+            position : 'Sartori-Ambiente-IT',
+            position_en : 'Sartori-Ambiente-IT'
+          },
+          {
+            id: "",
+            photo: '',
+            speakers_name:'Marcelo Rosso ',
+            position : 'ARS-Argentina',
+            position_en : 'ARS-Argentina'
+          },
+          {
+            id: "",
+            photo: '',
+            speakers_name:'Cristian Mulcahy',
+            position : 'Composterra-Uruguay y Compost-Systems AT',
+            position_en : 'Composterra-Uruguay y Compost-Systems AT'
           },
         ],
       },
@@ -144,6 +186,29 @@ const programECO = {
           },
         ],
       },
+      {
+        type: 'Seminario',
+        type_en:'Seminar',
+        title: 'Chihuahua Verde',
+        title_en: 'Green Chihuahua',
+        location: 'ECO Stage',
+        duration: '1 hr.',
+        hour: '17:10 a 18:10 hrs.',
+        resume: '¿Cómo nace este proyecto de Economía Circular, de manera articulada a la iniciativa privada y el gobierno?',
+        resume_en: 'How was this Circular Economy project born, in coordination with the private sector and the government?',
+        speakers : '',
+        position : "",
+        position_en : "",
+        person: [
+          {
+            id: "",
+            photo: '',
+            speakers_name:'',
+            position : '',
+            position_en : ''
+          },
+        ],
+      },
     ],
     april_19: [
       {
@@ -161,11 +226,46 @@ const programECO = {
         position_en : "",
         person: [
           {
-            id: 0,
+            id: "",
+            photo: '',
+            speakers_name:'Ana Cecilia Martínez ',
+            position : 'Profesionales en Manejo de Residuos de Jalisco',
+            position_en : 'Jalisco Waste Management Professionals'
+          },
+          {
+            id: "",
             photo: '',
             speakers_name:'',
-            position : '',
-            position_en : ''
+            position : 'Representante de SIGRAUTO España (Asociación Nacional para la Gestión Sustentable del VLE)',
+            position_en : 'Representative of SIGRAUTO Spain (National Association for the Sustainable Management of ELVs)'
+          },
+          {
+            id: "",
+            photo: '',
+            speakers_name:'',
+            position : 'Representante del Clúster Automotriz Jalisco',
+            position_en : 'Representative of the Jalisco Automotive Cluster'
+          },
+          {
+            id: "",
+            photo: '',
+            speakers_name:'',
+            position : 'Representante del Instituto Nacional de Autopartes México',
+            position_en : 'Representative of the National Autoparts Institute Mexico'
+          },
+          {
+            id: "",
+            photo: '',
+            speakers_name:'',
+            position : ' Representante de Derichebourg (multinacional especialista en VLE) ',
+            position_en : 'Derichebourg representative (multinational VLE specialist) '
+          },
+          {
+            id: "",
+            photo: '',
+            speakers_name:'',
+            position : 'Representante de la Secretaría del Medio Ambiente Jalisco (SEMADET) ',
+            position_en : 'Representative of the Secretary of the Environment of Jalisco (SEMADET) '
           },
         ],
       },
@@ -173,7 +273,7 @@ const programECO = {
         type: 'Seminario',
         type_en:'Seminar',
         title: 'Residuos eléctricos y electrónicos (RAEE) en América Latina',
-        title_en: 'Waste management from end-of-life vehicles (EoL) vehicles',
+        title_en: 'Electrical and electronic waste (WEEE) in Latin America',
         location: 'ECO Stage',
         duration: '1 hrs.',
         hour: '12:15 - 13:15 hrs.',
@@ -184,11 +284,11 @@ const programECO = {
         position_en : "",
         person: [
           {
-            id: 0,
+            id: "",
             photo: '',
-            speakers_name:'',
-            position : '',
-            position_en : ''
+            speakers_name:'Bruno García Dancourt',
+            position : 'Director Ejecutivo de Scrapex S.A., y representante de la Asociación Nacional de Recicladores de Residuos Electrónicos de Guatemala',
+            position_en : 'Executive Director of Scrapex S.A., and representative of the National Association of Electronic Waste Recyclers of Guatemala.'
           },
         ],
       },
@@ -207,18 +307,25 @@ const programECO = {
         position_en : "Subsecretary of Environmental Management, Climate Change and Energy Sustainability Guanajuato | Director of the Sustainable Development Unit at Mérida, Yucatán",
         person: [
           {
-            id: 0,
+            id: 16,
+            photo: '/ecomondo/speakers/alejandra_rojas.webp',
+            speakers_name:'Alejandra Bolio Rojas',
+            position : 'Directora de la Unidad de Desarrollo Sustentable en Mérida, Yucatán',
+            position_en : 'Director of the Sustainable Development Unit in Mérida, Yucatán'
+          },
+          {
+            id: "",
             photo: '',
             speakers_name:'Alberto Carmona Velázquez',
             position : 'Subsecretario de Gestión Ambiental, Cambio Climático y Sustentabilidad Energética.',
             position_en : 'Undersecretary of Environmental Management, Climate Change and Energy Sustainability. '
           },
           {
-            id: 16,
-            photo: '/ecomondo/speakers/alejandra_rojas.webp',
-            speakers_name:'Alejandra Bolio Rojas',
-            position : 'Directora de la Unidad de Desarrollo Sustentable en Mérida, Yucatán',
-            position_en : 'Director of the Sustainable Development Unit in Mérida, Yucatán'
+            id: "",
+            photo: '',
+            speakers_name:'Eduardo Walsh',
+            position : 'Gerente de Proyectos, en la Fundación Konrad Adenauer KAS',
+            position_en : 'Project Manager, Konrad Adenauer Foundation KAS'
           },
         ],
       },
@@ -241,11 +348,18 @@ const programECO = {
         position_en : "",
         person: [
           {
+            id: "",
+            photo: "",
+            speakers_name:'Karina Márquez Guzmán',
+            position : 'Consejo Directivo del Colegio de Ingenieros Civiles del Estado de Jalisco (CICEJ)',
+            position_en : 'Board of Directors of the College of Civil Engineers of the State of Jalisco (CICEJ)'
+          },
+          {
             id: 14,
             photo: '/ecomondo/speakers/mario_guadalupe.webp',
             speakers_name:'Mario Guadalupe González Pérez',
-            position : 'Miembro del Sistema Nacional de Investigadores del Consejo Nacional de Tecnología de México',
-            position_en : 'Member of the National System of Researchers of the National Council of Technology of Mexico'
+            position : 'Profesor Investigador del Departamento de Estudios del Agua y Energía - Centro Universitario de Tonalá de la Universidad de Guadalajara',
+            position_en : 'Research Professor of the Department of Water and Energy Studies - Centro Universitario de Tonalá of the University of Guadalajara.'
           },
         ],      
       },
@@ -259,7 +373,7 @@ const programECO = {
         hour: '17:00 - 18:30 hrs.',
         resume: 'Esta mesa redonda de comparación Italia/ Europa/ México pondrá a discusión estudios de tratamiento sostenible de aguas industriales así como aguas residuales, y la reutilización de este recurso, con casos de Europa y diferentes estados de México.',
         resume_en: 'International round table comparing: Italy/Europe, Mexico on the topic of sustainable industrial water and wastewater treatment and water reuse. Case studies from Europe and different Mexico states.',
-        speakers : '',
+        speakers : "",
         position : "",
         position_en : "",
         person: [
@@ -300,7 +414,7 @@ const programECO = {
         resume_en: 'Overuse or pollution of surface or groundwater quality might impact wide areas and require long time and high investments for remediation. Catchment-wide policies and regulations are needed to drive integrated action plans. The workshop will present Mexican case studied and discussion with European experts will drive the constructive discussion.',
         speakers : '',
         position : "",
-        position_en : "", 
+        position_en : "",
         person: [
           {
             id: 12,
@@ -315,6 +429,13 @@ const programECO = {
             speakers_name:'Francesco Fatone',
             position : 'Miembro de la Asociación Internacional del Agua IWA',
             position_en : 'International Water Association IWA fellow'
+          },
+          {
+            id: "",
+            photo: '',
+            speakers_name:'Martín Argueta',
+            position : 'Presidente de la Asociación Geohidrológica Mexicana',
+            position_en : 'President of the Mexican Geohydrological Association'
           },
         ],
       }
@@ -335,7 +456,7 @@ const programECO = {
         position_en : "",
         person: [
           {
-            id: 0,
+            id: "",
             photo: '',
             speakers_name:'',
             position : '',
