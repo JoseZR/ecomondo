@@ -874,6 +874,17 @@ export function Home() {
                 />
               </a>
             </div>
+
+            <div className="exibitorSlider text-center h-100">
+              <a href="" target="_blank" rel="noreferrer">
+                <img
+                  src="/ecomondo/logos/red_mex_bioenergia.webp"
+                  width={220}
+                  loading="lazy"
+                  alt="anes"
+                />
+              </a>
+            </div>
           </Marquee>
           <p
             className="fw-bold fs-2 text-center mt-5 pt-5"
