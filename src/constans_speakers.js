@@ -81,8 +81,8 @@ const speakers=[
         id:11,
         name: 'Gustavo Solórzano ',
         avatar: '/ecomondo/speakers/GUSTAVO_SOLORZANO.webp',
-        resume_es: 'La información se está actualizando. Por favor, mantente atento.',
-        resume_en: 'Information is being updated. Please stay tuned.',
+        resume_es: 'Ingeniero industrial, Maestría en Ingeniería Ambiental de la UNAM y Universidad de París. Consultor internacional en residuos para Banco Mundial, BID, GIZ, PNUMA, entre otros. Director de Asuntos Internacionales, DS LATAM (Miembro Nacional ISWA – México).  Representante de AIDIS ante la Coalición para el Cierre de Basurales en América Latina y el Caribe del PNUMA. Co-autor de What a Waste 2.0 con Banco Mundial',
+        resume_en: 'Industrial Engineer, Master\'s Degree in Environmental Engineering from UNAM and University of Paris. International consultant on waste for the World Bank, IDB, GIZ, UNEP, among others. Director of International Affairs, DS LATAM (ISWA National Member - Mexico).  AIDIS representative to UNEP\'s Coalition for Landfill Closure in Latin America and the Caribbean. Co-author of What a Waste 2.0 with the World Bank.',
     },
     {
         id:12,
