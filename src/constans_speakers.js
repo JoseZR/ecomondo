@@ -87,9 +87,9 @@ const speakers=[
     {
         id:12,
         name: 'Cindy McCulligh',
-        avatar: '/ecomondo/speakers/cindy-mcCulligh.webp',
-        resume_es: 'La información se está actualizando. Por favor, mantente atento.',
-        resume_en: 'Information is being updated. Please stay tuned.',
+        avatar: '/ecomondo/speakers/cindy-mcculigh.webp',
+        resume_es: 'Profesora-investigadora del Centro de Investigaciones y Estudios Superiores en Antropología Social (CIESAS), Unidad Occidente. Estudió la maestría en Estudios Ambientales, en York University (Toronto, Canadá); y el doctorado en Ciencias Sociales, con Especialidad en Antropología Social, en CIESAS Occidente. Su tesis recibió el premio doctoral 2018 de la red internacional Waterlat-Gobacit. Ha publicado diversos artículos y libros sobre las temáticas de gestión del agua, conflictos socioambientales, agroextractivismo, regulación ambiental en particular de la industria, y las afectaciones sociales y ambientales de los procesos de contaminación ambiental. Aborda estos temas desde los enfoques de la ecología política y la justicia ambiental. En 2023, publicó su libro "Sewer of Progress: Corporations, Institutionalized Corruption, and the Struggle for the Santiago River", con MIT Press.',
+        resume_en: 'Professor-researcher at the Centro de Investigaciones y Estudios Superiores en Antropología Social (CIESAS), Unidad Occidente. She studied a Master\'s degree in Environmental Studies at York University (Toronto, Canada); and a PhD in Social Sciences, with a specialization in Social Anthropology, at CIESAS Occidente. Her thesis received the 2018 doctoral award from the international network Waterlat-Gobacit. He has published several articles and books on the topics of water management, socio-environmental conflicts, agro-extractivism, environmental regulation in particular of industry, and the social and environmental affectations of environmental pollution processes. He approaches these issues from the approaches of political ecology and environmental justice. In 2023, he published his book "Sewer of Progress: Corporations, Institutionalized Corruption, and the Struggle for the Santiago River", with MIT Press.',
     },
     {
         id:13,
@@ -160,6 +160,34 @@ const speakers=[
         avatar: '/ecomondo/speakers/eduardo-walsh.webp',
         resume_es: 'Licenciado en Economía por la Universidad Nacional Autónoma de México. Gerente de Proyectos de la Konrad-Adenauer-Stiftung México, enfocado en dirigir y desarrollar proyectos sobre economía, democracia, partidos políticos, empoderamiento de comunidades indígenas, energía, medio ambiente, desarrollo sustentable, entre otros. Ha colaborado como asesor en la Honorable Cámara de Diputados, así como en la Asamblea Legislativa del Distrito Federal. Cuenta también con experiencia en el sector privado, colaborando con empresas de energía y desarrollo sustentable. Autor de las obras “México, hacia una transición energética”, “Alianza Centro-Bajío-Occidente, un modelo de progreso, económico, social y medioambiental”,y “El ABC de la gestión energética y el combate al cambio climático a nivel subnacional”, entre otras. Es miembro del Consejo Consultivo del Índice de Gestión Energética y Cambio Climático (IGECC), proyecto de cooperación internacional enfocado en la evaluación de las políticas públicas de gobiernos subnacionales, en materia de combate al cambio climático y el desarrollo sustentable.',
         resume_en: 'Graduated in Economics from the Universidad Nacional Autónoma de México. Project Manager at Konrad-Adenauer-Stiftung Mexico, focused on directing and developing projects on economics, democracy, political parties, empowerment of indigenous communities, energy, environment, sustainable development, among others. He has collaborated as an advisor in the Honorable Chamber of Deputies, as well as in the Legislative Assembly of the Federal District. He also has experience in the private sector, collaborating with energy and sustainable development companies. He is the author of "Mexico, towards an energy transition", "Alianza Centro-Bajío-Occidente, a model of progress, economic, social and environmental", and "El ABC de la gestión energética y el combate al cambio climático a nivel subnacional", among others. He is a member of the Advisory Board of the Energy Management and Climate Change Index (IGECC), an international cooperation project focused on the evaluation of public policies of subnational governments in the fight against climate change and sustainable development.',
+    },
+     {
+        id:21,
+        name: 'Martín Argueta',
+        avatar: '/ecomondo/speakers/martin-argueta.webp',
+        resume_es: 'La información se está actualizando. Por favor, mantente atento.',
+        resume_en: 'Information is being updated. Please stay tuned.',
+    },
+     {
+        id:21,
+        name: 'Karina Márquez Guzmán',
+        avatar: '/ecomondo/speakers/karina-marquez.webp',
+        resume_es: 'La información se está actualizando. Por favor, mantente atento.',
+        resume_en: 'Information is being updated. Please stay tuned.',
+    },
+     {
+        id:21,
+        name: 'Marcelo Rosso',
+        avatar: '/ecomondo/speakers/marcelo-rosso.webp',
+        resume_es: 'La información se está actualizando. Por favor, mantente atento.',
+        resume_en: 'Information is being updated. Please stay tuned.',
+    },
+     {
+        id:21,
+        name: 'Bruno García Dancourt',
+        avatar: '/ecomondo/speakers/bruno-garcia.webp',
+        resume_es: 'La información se está actualizando. Por favor, mantente atento.',
+        resume_en: 'Information is being updated. Please stay tuned.',
     },
      // {
     //     id:21,
