@@ -148,8 +148,8 @@ const programECO = {
             position_en : 'Sartori-Ambiente-IT'
           },
           {
-            id: "",
-            photo: '',
+            id: 26,
+            photo: '/ecomondo/speakers/marcelo-rosso.webp',
             speakers_name:'Marcelo Rosso ',
             position : 'ARS-Argentina',
             position_en : 'ARS-Argentina'
@@ -284,8 +284,8 @@ const programECO = {
         position_en : "",
         person: [
           {
-            id: "",
-            photo: '',
+            id: 27,
+            photo: '/ecomondo/speakers/bruno-garcia.webp',
             speakers_name:'Bruno García Dancourt',
             position : 'Director Ejecutivo de Scrapex S.A., y representante de la Asociación Nacional de Recicladores de Residuos Electrónicos de Guatemala',
             position_en : 'Executive Director of Scrapex S.A., and representative of the National Association of Electronic Waste Recyclers of Guatemala.'
@@ -314,8 +314,8 @@ const programECO = {
             position_en : 'Director of the Sustainable Development Unit in Mérida, Yucatán'
           },
           {
-            id: "",
-            photo: '',
+            id: 22,
+            photo: '/ecomondo/speakers/alberto_carmona.webp',
             speakers_name:'Alberto Carmona Velázquez',
             position : 'Subsecretario de Gestión Ambiental, Cambio Climático y Sustentabilidad Energética.',
             position_en : 'Undersecretary of Environmental Management, Climate Change and Energy Sustainability. '
@@ -348,8 +348,8 @@ const programECO = {
         position_en : "",
         person: [
           {
-            id: "",
-            photo: "",
+            id: 25,
+            photo: "/ecomondo/speakers/karina-marquez.webp",
             speakers_name:'Karina Márquez Guzmán',
             position : 'Consejo Directivo del Colegio de Ingenieros Civiles del Estado de Jalisco (CICEJ)',
             position_en : 'Board of Directors of the College of Civil Engineers of the State of Jalisco (CICEJ)'
@@ -431,8 +431,8 @@ const programECO = {
             position_en : 'International Water Association IWA fellow'
           },
           {
-            id: "",
-            photo: '',
+            id: 24,
+            photo: '/ecomondo/speakers/martin-argueta.webp',
             speakers_name:'Martín Argueta',
             position : 'Presidente de la Asociación Geohidrológica Mexicana',
             position_en : 'President of the Mexican Geohydrological Association'
