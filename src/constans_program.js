@@ -155,9 +155,9 @@ const programECO = {
             position_en : 'ARS-Argentina'
           },
           {
-            id: "",
-            photo: '',
-            speakers_name:'Cristian Mulcahy',
+            id: 21,
+            photo: '/ecomondo/speakers/christian-mulcahy.webp',
+            speakers_name:'Christian Mulcahy',
             position : 'Composterra-Uruguay y Compost-Systems AT',
             position_en : 'Composterra-Uruguay y Compost-Systems AT'
           },
@@ -429,7 +429,7 @@ const programECO = {
             speakers_name:'Francesco Fatone',
             position : 'Miembro de la Asociación Internacional del Agua IWA',
             position_en : 'International Water Association IWA fellow'
-          },
+          }, 
           {
             id: 24,
             photo: '/ecomondo/speakers/martin-argueta.webp',
