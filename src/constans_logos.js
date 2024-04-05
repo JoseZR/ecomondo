@@ -20,6 +20,9 @@ const exhibitors2 = [
     { image: '/ecomondo/logos/exhibitors/hipro.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/power-depot.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/vite-energy.webp',   url:'' , height: 110 },
+    { image: '/ecomondo/logos/exhibitors/ciudad-maderas.webp',   url:'' , height: 110 },
+    { image: '/ecomondo/logos/exhibitors/sustainable.webp',   url:'' , height: 110 },
+    { image: '/ecomondo/logos/exhibitors/isocindu.webp',   url:'' , height: 110 },
 ]
 
 const exhibitors3 = [
