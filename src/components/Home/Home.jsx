@@ -1171,6 +1171,22 @@ export function Home() {
                 />
               </a>
             </div>
+
+            <div className="exibitorSlider text-center h-100">
+              <a
+                href="https://renewablematter.eu/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="/ecomondo/logos/renewablematter.webp"
+                  width={190}
+                  loading="lazy"
+                  alt="las empresas verdes"
+                />
+              </a>
+            </div>
+
           </Marquee>
         </Container>
       </section>
