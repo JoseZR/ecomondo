@@ -68,7 +68,8 @@ export function ScientificComittee() {
           <li>
             Marco Ricci, <a href='mailto:ricci@compost.it'>ricci@compost.it</a>
           </li>
-          <li>Gustavo Solorzano</li>
+          <li>Gustavo Solórzano, <a href='mailto:gsolorza@gmail.com'>gsolorza@gmail.com</a>
+          </li>
           <li>
             Blas Ramos,{' '}
             <a href='mailto:blasramoscaro@gmail.com'>blasramoscaro@gmail.com</a>
