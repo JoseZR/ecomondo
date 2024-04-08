@@ -1171,7 +1171,6 @@ export function Home() {
                 />
               </a>
             </div>
-
             <div className="exibitorSlider text-center h-100">
               <a
                 href="https://renewablematter.eu/"
@@ -1186,7 +1185,6 @@ export function Home() {
                 />
               </a>
             </div>
-
           </Marquee>
         </Container>
       </section>
