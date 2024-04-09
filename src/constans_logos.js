@@ -8,12 +8,12 @@ const exhibitors1 = [
     { image: '/ecomondo/logos/exhibitors/concord.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/hexing.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/livoltek.webp',   url:'' , height: 110 },
-]
-
-const exhibitors2 = [
     { image: '/ecomondo/logos/exhibitors/pq&s.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/zlink.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/wade-rain.webp',   url:'' , height: 110 },
+]
+
+const exhibitors2 = [
     { image: '/ecomondo/logos/exhibitors/saveco.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/terminator.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/requilibrium.webp',   url:'' , height: 110 },
@@ -23,12 +23,13 @@ const exhibitors2 = [
     { image: '/ecomondo/logos/exhibitors/ciudad-maderas.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/sustainable.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/isocindu.webp',   url:'' , height: 110 },
-]
-
-const exhibitors3 = [
     { image: '/ecomondo/logos/exhibitors/monitoreo-calidad_v2.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/bpm.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/evobac.webp',   url:'' , height: 110 },
+
+]
+
+const exhibitors3 = [
     { image: '/ecomondo/logos/exhibitors/evonik.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/ht_instruments.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/abadi_eco.webp',   url:'' , height: 110 },
@@ -38,7 +39,10 @@ const exhibitors3 = [
     { image: '/ecomondo/logos/exhibitors/zemmler.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/skf.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/fcta_mexico.webp',   url:'' , height: 110 },
-    
+    { image: '/ecomondo/logos/exhibitors/berner.webp',   url:'' , height: 110 },
+    { image: '/ecomondo/logos/exhibitors/awasa.webp',   url:'' , height: 110 },
+    { image: '/ecomondo/logos/exhibitors/sstp.webp',   url:'' , height: 110 },
+    { image: '/ecomondo/logos/exhibitors/piaggio.webp',   url:'' , height: 110 },
 ]
 
 export {exhibitors1, exhibitors2, exhibitors3}
