@@ -163,29 +163,29 @@ const programECO = {
           },
         ],
       },
-      {
-        type: 'Seminario',
-        type_en:'Seminar',
-        title: 'Ciudades verdes y desarrollo sostenible en América Latina: nuevas fronteras de la Economía Circular',
-        title_en: 'Green cities and sustainable development in Latin America: new frontiers of the circular economy',
-        location: 'ECO Stage',
-        duration: '1.5 hrs.',
-        hour: '15:30 - 17:00 hrs.',
-        resume: 'Ciudades verdes y desarrollo sostenible en América Latina: nuevas fronteras de la Economía Circular',
-        resume_en: 'Green cities and sustainable development in Latin America: new frontiers of the circular economy',
-        speakers : '',
-        position : "",
-        position_en : "",
-        person: [
-          {
-            id: 13,
-            photo: '/ecomondo/speakers/GISELLE_CANAHUATI.webp',
-            speakers_name:'Giselle Canahuati',
-            position : 'Secretario Socioeconómico - IILA Organización Internacional Italo-Latinoamericana',
-            position_en : 'Socioeconomic Secretary of IILA International Italo-Latin American Organization'
-          },
-        ],
-      },
+      // {
+      //   type: 'Seminario',
+      //   type_en:'Seminar',
+      //   title: 'Ciudades verdes y desarrollo sostenible en América Latina: nuevas fronteras de la Economía Circular',
+      //   title_en: 'Green cities and sustainable development in Latin America: new frontiers of the circular economy',
+      //   location: 'ECO Stage',
+      //   duration: '1.5 hrs.',
+      //   hour: '15:30 - 17:00 hrs.',
+      //   resume: 'Ciudades verdes y desarrollo sostenible en América Latina: nuevas fronteras de la Economía Circular',
+      //   resume_en: 'Green cities and sustainable development in Latin America: new frontiers of the circular economy',
+      //   speakers : '',
+      //   position : "",
+      //   position_en : "",
+      //   person: [
+      //     {
+      //       id: 13,
+      //       photo: '/ecomondo/speakers/GISELLE_CANAHUATI.webp',
+      //       speakers_name:'Giselle Canahuati',
+      //       position : 'Secretario Socioeconómico - IILA Organización Internacional Italo-Latinoamericana',
+      //       position_en : 'Socioeconomic Secretary of IILA International Italo-Latin American Organization'
+      //     },
+      //   ],
+      // },
       {
         type: 'Seminario',
         type_en:'Seminar',
