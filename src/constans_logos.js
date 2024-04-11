@@ -47,7 +47,7 @@ const exhibitors3 = [
 
 const exhibitorsItaly1 = [
     { image: '/ecomondo/logos/italyHall/amut.webp',   url:'' , height: 110  },
-    { image: '/ecomondo/logos/italyHall/cimbria.webp',   url:'' , height: 110  },
+    { image: '/ecomondo/logos/italyHall/cimbria_v2.webp',   url:'' , height: 110  },
     { image: '/ecomondo/logos/italyHall/evaporators.webp',   url:'' , height: 110  },
     { image: '/ecomondo/logos/italyHall/flash-innovations.webp',   url:'' , height: 110  },
     { image: '/ecomondo/logos/italyHall/incoip.webp',   url:'' , height: 110  },
