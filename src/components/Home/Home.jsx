@@ -11,7 +11,7 @@ import { gallery2023, gallery2022 } from "../GalleryPage/constans_gallery";
 import { Bullets } from "./Bullets";
 import { useNearScreen } from "../hooks/useNearScreen";
 import { Testimonials } from "./Testimonials";
-import { exhibitors1, exhibitors2, exhibitors3 } from "../../constans_logos";
+import { exhibitors1, exhibitors2, exhibitors3, exhibitorsItaly1, exhibitorsItaly2, exhibitorsChihuahua1, exhibitorsChihuahua2 } from "../../constans_logos";
 
 
 export function Home() {
@@ -671,6 +671,69 @@ export function Home() {
           ))}
         </Marquee>
       </Container>
+
+      <Container className="py-5">
+        <p className="fw-bold fs-2 text-center text-uppercase" style={{ color: "#288705" }}> {t("home.italy-hall")}</p>
+        <Marquee gradient direction='letf'>
+          {exhibitorsItaly1.map((logotypes, index) => (
+            <div key={index} className='exibitorSlider text-center h-100'>
+              <img
+                width={logotypes.width}
+                height={logotypes.height}
+                src={logotypes.image}
+                alt={`exhibitor ${index}`}
+                loading='lazy'
+              />
+            </div>
+          ))}
+        </Marquee>
+        <Marquee gradient>
+          {exhibitorsItaly2.map((logotypes, index) => (
+            <div key={index} className='exibitorSlider text-center h-100'>
+              <img
+                width={logotypes.width}
+                height={logotypes.height}
+                src={logotypes.image}
+                alt={`exhibitor ${index}`}
+                loading='lazy'
+              />
+            </div>
+          ))}
+        </Marquee>
+      </Container>
+
+
+      <Container className="py-5">
+        <p className="fw-bold fs-2 text-center text-uppercase" style={{ color: "#288705" }}>{t("home.chihuahua-hall")}</p>
+        <Marquee gradient direction='letf'>
+          {exhibitorsChihuahua1.map((logotypes, index) => (
+            <div key={index} className='exibitorSlider text-center h-100'>
+              <img
+                width={logotypes.width}
+                height={logotypes.height}
+                src={logotypes.image}
+                alt={`exhibitor ${index}`}
+                loading='lazy'
+              />
+            </div>
+          ))}
+        </Marquee>
+        <Marquee gradient>
+          {exhibitorsChihuahua2.map((logotypes, index) => (
+            <div key={index} className='exibitorSlider text-center h-100'>
+              <img
+                width={logotypes.width}
+                height={logotypes.height}
+                src={logotypes.image}
+                alt={`exhibitor ${index}`}
+                loading='lazy'
+              />
+            </div>
+          ))}
+        </Marquee>
+      </Container>
+
+
       <Container className="galleryPage mt-5">
         <h1 className="gallery-title pt-5">
           {t("menu.media_hub_1")} - Ecomondo 2023

@@ -45,4 +45,41 @@ const exhibitors3 = [
     { image: '/ecomondo/logos/exhibitors/piaggio.webp',   url:'' , height: 110 },
 ]
 
-export {exhibitors1, exhibitors2, exhibitors3}
+const exhibitorsItaly1 = [
+    { image: '/ecomondo/logos/italyHall/amut.webp',   url:'' , height: 110  },
+    { image: '/ecomondo/logos/italyHall/cimbria.webp',   url:'' , height: 110  },
+    { image: '/ecomondo/logos/italyHall/evaporators.webp',   url:'' , height: 110  },
+    { image: '/ecomondo/logos/italyHall/flash-innovations.webp',   url:'' , height: 110  },
+    { image: '/ecomondo/logos/italyHall/incoip.webp',   url:'' , height: 110  },
+    { image: '/ecomondo/logos/italyHall/indeco.webp',   url:'' , height: 110  },
+]
+
+const exhibitorsItaly2 = [
+    { image: '/ecomondo/logos/italyHall/inpro.webp',   url:'' , height: 110  },
+    { image: '/ecomondo/logos/italyHall/montalbano.webp',   url:'' , height: 110  },
+    { image: '/ecomondo/logos/italyHall/pannizzolo.webp',   url:'' , height: 110  },
+    { image: '/ecomondo/logos/italyHall/pozzi-leopoldo.webp',   url:'' , height: 110  },
+    { image: '/ecomondo/logos/italyHall/sereco.webp',   url:'' , height: 110  },
+    { image: '/ecomondo/logos/italyHall/stokkermill.webp',   url:'' , height: 110  },
+    { image: '/ecomondo/logos/italyHall/arcostop.webp',   url:'' , height: 110  },
+]
+
+const exhibitorsChihuahua1  = [
+    { image: '/ecomondo/logos/exhibitors/chihuahua-estado.webp',   url:'' , height: 110  },
+    { image: '/ecomondo/logos/exhibitors/chihuahua-gobierno.webp',   url:'' , height: 110  },
+    { image: '/ecomondo/logos/exhibitors/chihuahua-green.webp',   url:'' , height: 110  },
+    { image: '/ecomondo/logos/exhibitors/contitech.webp',   url:'' , height: 110  },
+    { image: '/ecomondo/logos/exhibitors/gcc.webp',   url:'' , height: 110  },
+    { image: '/ecomondo/logos/exhibitors/ge-healthCare.webp',   url:'' , height: 110  },
+]
+
+const exhibitorsChihuahua2  = [
+    { image: '/ecomondo/logos/exhibitors/grupo-bafar.webp',   url:'' , height: 110  },
+    { image: '/ecomondo/logos/exhibitors/index.webp',   url:'' , height: 110  },
+    { image: '/ecomondo/logos/exhibitors/innovak.webp',   url:'' , height: 110  },
+    { image: '/ecomondo/logos/exhibitors/interceramic.webp',   url:'' , height: 110  },
+    { image: '/ecomondo/logos/exhibitors/la-nogalera.webp',   url:'' , height: 110  },
+    { image: '/ecomondo/logos/exhibitors/recilogic.webp',   url:'' , height: 110  },
+]
+
+export {exhibitors1, exhibitors2, exhibitors3, exhibitorsItaly1, exhibitorsItaly2, exhibitorsChihuahua1, exhibitorsChihuahua2 } 
