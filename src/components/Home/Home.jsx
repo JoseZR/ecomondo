@@ -752,7 +752,7 @@ export function Home() {
         </h1>
         <GalleryYear year={gallery2023} />
       </Container>
-      <section className="pb-5">
+      <section className="">
         <Container className="">
           <p className="fw-bold fs-2 text-center" style={{ color: "#288705" }}>
             {t("home.strategies_allies")}
@@ -966,7 +966,7 @@ export function Home() {
           >
             MEDIA PARTNERS
           </p>
-          <Marquee gradient className="mt-3">
+          <Marquee gradient className="mt-3" direction="letf">
             <div className="exibitorSlider text-center h-100">
               <a
                 href="https://cuatro-cero.mx/"
@@ -1170,7 +1170,7 @@ export function Home() {
               </a>
             </div>
           </Marquee>
-          <Marquee gradient className="mt-3" direction="letf">
+          <Marquee gradient className="mt-3">
             <div className="exibitorSlider text-center h-100">
               <a
                 href="https://factorenergetico.mx/"
