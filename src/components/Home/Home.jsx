@@ -159,11 +159,11 @@ export function Home() {
         </article>
       </Container>
       <Container className="pb-5">
+        <p className="fw-bold fs-3 pb-4 home-text-color text-uppercase" style={{ color: "#288705" }}>
+            {t("home.sponsor_1")}
+          </p>
         <Row className="justify-content-md-center">
-          <Col xs={12} md={4} lg={4} >
-            <p className="fw-bold fs-3 pb-4 home-text-color text-uppercase" style={{ color: "#288705" }}>
-              {t("home.sponsor_1")}
-            </p>
+          <Col xs={12} md={12} lg={4} >
             <a href="https://www.mase.gov.it/" target="_blank" className="d-flex  align-items-baseline">
               <img
                 src="/ecomondo/logo_mase.webp"
@@ -173,16 +173,28 @@ export function Home() {
               />
             </a>
           </Col>
-          <Col xs={12} md={4} lg={4}>
-            <p className="fw-bold fs-3 pb-4 home-text-color text-uppercase" style={{ color: "#288705" }}>
-              {t("home.sponsor_2")}
-            </p>
+        </Row>
+        <p className="fw-bold mt-5 fs-3 home-text-color text-uppercase" style={{ color: "#288705" }}>
+            {t("home.sponsor_2")}
+          </p>
+        <Row className="justify-content-md-center">
+          <Col xs={12} md={12} lg={3}>
             <a href="https://www.longi.com/mx/" target="_blank">
               <img
                 src="/ecomondo/logos/longi_logo.webp"
                 alt="longi"
                 className="img-fluid"
                 style={{ maxHeight: "90px" }}
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={12} lg={3}>
+            <a href="https://www.cpm.coop/" target="_blank">
+              <img
+                src="/ecomondo/logos/caja-popular.webp"
+                alt="caja popular mexicana"
+                className="img-fluid"
+                style={{ maxHeight: "120px" }}
               />
             </a>
           </Col>
