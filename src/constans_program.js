@@ -193,7 +193,7 @@ const programECO = {
         title_en: 'Green Chihuahua',
         location: 'ECO Stage',
         duration: '1 hr.',
-        hour: '17:10 a 18:10 hrs.',
+        hour: '16:00 - 17:00 hrs.',
         resume: '¿Cómo nace este proyecto de Economía Circular, de manera articulada a la iniciativa privada y el gobierno?',
         resume_en: 'How was this Circular Economy project born, in coordination with the private sector and the government?',
         speakers : '',
