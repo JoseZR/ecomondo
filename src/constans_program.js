@@ -386,7 +386,7 @@ const programECO = {
         person: [
           {
             id: 7,
-            photo: '/ecomondo/speakers/francesco-fatone.webp',
+            photo: '/ecomondo/speakers/francesco-fatone_v2.webp',
             speakers_name:'Francesco Fatone',
             position : 'Miembro de la Asociación Internacional del Agua IWA',
             position_en : 'International Water Association IWA fellow'
@@ -432,7 +432,7 @@ const programECO = {
           },
           {
             id: 7,
-            photo: '/ecomondo/speakers/francesco-fatone.webp',
+            photo: '/ecomondo/speakers/francesco-fatone_v2.webp',
             speakers_name:'Francesco Fatone',
             position : 'Miembro de la Asociación Internacional del Agua IWA',
             position_en : 'International Water Association IWA fellow'
