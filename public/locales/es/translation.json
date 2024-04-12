@@ -481,6 +481,12 @@
       "description":"Tuvimos muchos contactos, hablamos con expertos muy interesantes, tenemos la intención de participar en siguientes ediciones."
    },
    "type":"Visitante"
+},
+"contact":{
+   "subtitle":"Con el apoyo y la colaboración de </br> Italian Exhibition Group SpA - Green & Tech Division",
+   "position1":"Directora Global de Exposiciones Green & Technology IEG",
+   "position2":"Directora de Desarrollo de Negocio Internacional",
+   "position3":"Director Internacional de Proyectos"
 }
 
 }

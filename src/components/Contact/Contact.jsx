@@ -1,4 +1,4 @@
-import { Button, Col, Container, Row } from 'react-bootstrap'
+import { Button, Col, Container, Row, Image } from 'react-bootstrap'
 import { useTranslation } from 'react-i18next'
 import { ContactForm } from './ContactForm'
 import './Contact.css'
@@ -140,6 +140,49 @@ export function Contact() {
           </Container>
         </section>
       </Container>
+      <Container className=' my-5'>
+      <p className='fs-1 py-5 fw-bold' dangerouslySetInnerHTML={{__html: t('contact.subtitle') }}></p>
+        <Row className='gap-6 px-5'>
+          <Col md className='text-center pt-3'>
+            <img
+              src='/ecomondo/alessandra-astolfi.webp'
+              alt='Sandra Elias'
+              height={150}
+              loading='lazy'
+              className='rounded-circle'
+            />
+            <p className='fw-bold fs-5'>Alessandra Astolfi<br /> {t("contact.position1")} </p>
+          </Col>
+          <Col md className='text-center pt-3'>
+            <img
+              src='/ecomondo/laura-ponzoni.webp'
+              alt='Sergio López'
+              width={150}
+              loading='lazy'
+              className='rounded-circle'
+            />
+            <p className='fw-bold fs-5'>
+            Laura Ponzoni
+              <br />
+              {t("contact.position2")}
+            </p>
+          </Col>
+          <Col md className='text-center pt-3'>
+            <Image
+              src='/ecomondo/fabio-filipponi.webp'
+              alt='Marissa Franco Zermeño'
+              width={150}
+              loading='lazy'
+              className='rounded-circle'
+            />
+            <p className='fw-bold fs-5'>
+              Fabio Filipponi
+              <br />
+              {t("contact.position3")}
+            </p>
+          </Col>
+        </Row>
+      </Container>
       <Container fluid className='background-contact'>
         <ContactForm />
         {/*<p className='mt-5 text-start fs-3'>
@@ -239,6 +282,8 @@ export function Contact() {
             </p>
           </Col>
         </Row>*/}
+      </Container>
+      <Container>
         <Row className='py-5 justify-content-md-center'>
           <Col lg={3} className=' d-flex justify-content-center align-items-center border-end border-black'>
             <img src="/ecomondo/igeco_logo_negro.webp" alt="italian exhibition group" width='200' />
