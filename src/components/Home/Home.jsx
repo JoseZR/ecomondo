@@ -744,11 +744,9 @@ export function Home() {
           ))}
         </Marquee>
       </Container>
-
-
-      <Container className="galleryPage mt-5">
+      <Container className="galleryPage">
         <h1 className="gallery-title pt-5">
-          {t("menu.media_hub_1")} - Ecomondo 2023
+          {t("menu.media_hub_1")} Ecomondo 2023
         </h1>
         <GalleryYear year={gallery2023} />
       </Container>
@@ -1019,11 +1017,10 @@ export function Home() {
                 rel="noreferrer"
               >
                 <img
-                  src="/ecomondo/logos/global-energy.webp"
-                  width={200}
-                  height={80}
+                  src="/ecomondo/logos/global-energy-v2.webp"
+                  height={65}
                   loading="lazy"
-                  alt="global-energy-mx"
+                  alt="global energy"
                 />
               </a>
             </div>
@@ -1090,11 +1087,10 @@ export function Home() {
                 rel="noreferrer"
               >
                 <img
-                  src="/ecomondo/logos/global-industries.webp"
-                  width={200}
-                  height={70}
+                  src="/ecomondo/logos/global-industries_v2.webp"
+                  height={65}
                   loading="lazy"
-                  alt=""
+                  alt="global industries"
                 />
               </a>
             </div>
