@@ -140,7 +140,7 @@ export function Contact() {
           </Container>
         </section>
       </Container>
-      <Container>
+      <Container fluid className='background-contact'>
         <ContactForm />
         {/*<p className='mt-5 text-start fs-3'>
           <strong>{t('footer.foreign_contact')}</strong>

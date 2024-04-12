@@ -5,6 +5,7 @@ import { useRef, useState } from 'react'
 import { Container } from 'react-bootstrap'
 import { CustomRecaptcha } from '../CustomRecaptcha'
 import { useLanguage } from '../hooks/useLanguage'
+import './Contact.css'
 
 export function ContactForm() {
   const { t } = useTranslation()
@@ -63,7 +64,7 @@ export function ContactForm() {
   }
   return (
     <>
-      <Container className='mt-5 mb-5'>
+      <Container fluid className='container-form'>
         <h3 className='fw-bold'>{t('contactForm.title')}</h3>
         <Form
           id='form-newsletter'
