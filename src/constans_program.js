@@ -201,15 +201,15 @@ const programECO = {
         position_en : "",
         person: [
           {
-            id: 0,
-            photo: '',
+            id: 28,
+            photo: '/ecomondo/speakers/gilberto-elias.webp',
             speakers_name:'Gilberto Elías Ogaz ',
             position : 'Subdirector de Industria de la Dirección de Desarrollo Económico y Turístico del Municipio de Chihuahua',
             position_en : 'Deputy Director of Industry of the Directorate of Economic and Tourist Development of the Municipality of Chihuahua.'
           },
           {
-            id: 0,
-            photo: '',
+            id: 29,
+            photo: '/ecomondo/speakers/luis-tellez.webp',
             speakers_name:'Luis Téllez Live ',
             position : 'Gerente de Proyectos de la Fundación Konrad Adenauer (KAS) México',
             position_en : 'Project Manager of the Konrad Adenauer Foundation (KAS) Mexico'
