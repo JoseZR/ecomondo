@@ -49,19 +49,19 @@ const exhibitorsItaly1 = [
     { image: '/ecomondo/logos/italyHall/amut.webp',   url:'' , height: 110  },
     { image: '/ecomondo/logos/italyHall/cimbria_v2.webp',   url:'' , height: 110  },
     { image: '/ecomondo/logos/italyHall/evaporators.webp',   url:'' , height: 110  },
-    { image: '/ecomondo/logos/italyHall/flash-innovations.webp',   url:'' , height: 110  },
+    { image: '/ecomondo/logos/italyHall/flash-innovations_v2.webp',   url:'' , height: 110  },
     { image: '/ecomondo/logos/italyHall/incoip.webp',   url:'' , height: 110  },
     { image: '/ecomondo/logos/italyHall/indeco.webp',   url:'' , height: 110  },
 ]
 
 const exhibitorsItaly2 = [
     { image: '/ecomondo/logos/italyHall/inpro.webp',   url:'' , height: 110  },
-    { image: '/ecomondo/logos/italyHall/montalbano.webp',   url:'' , height: 110  },
+    { image: '/ecomondo/logos/italyHall/montalbano_v2.webp',   url:'' , height: 110  },
     { image: '/ecomondo/logos/italyHall/pannizzolo.webp',   url:'' , height: 110  },
     { image: '/ecomondo/logos/italyHall/pozzi-leopoldo.webp',   url:'' , height: 110  },
     { image: '/ecomondo/logos/italyHall/sereco.webp',   url:'' , height: 110  },
     { image: '/ecomondo/logos/italyHall/stokkermill.webp',   url:'' , height: 110  },
-    { image: '/ecomondo/logos/italyHall/arcostop.webp',   url:'' , height: 110  },
+    { image: '/ecomondo/logos/italyHall/arcostop_v2.webp',   url:'' , height: 110  },
 ]
 
 const exhibitorsChihuahua1  = [
