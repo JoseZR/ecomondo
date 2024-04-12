@@ -753,9 +753,8 @@ export function Home() {
                 rel="noreferrer"
               >
                 <img
-                  src="/ecomondo/logos/alianza_empresarial.webp"
-                  width={180}
-                  height={160}
+                  src="/ecomondo/logos/alianza_empresarial_v2.webp"
+                  width={230}
                   loading="lazy"
                   alt="alianza-empresarial"
                 />
