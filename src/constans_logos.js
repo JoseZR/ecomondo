@@ -11,11 +11,11 @@ const exhibitors1 = [
     { image: '/ecomondo/logos/exhibitors/pq&s.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/zlink.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/wade-rain.webp',   url:'' , height: 110 },
+    { image: '/ecomondo/logos/exhibitors/saveco.webp',   url:'' , height: 110 },
+    { image: '/ecomondo/logos/exhibitors/terminator.webp',   url:'' , height: 110 },
 ]
 
 const exhibitors2 = [
-    { image: '/ecomondo/logos/exhibitors/saveco.webp',   url:'' , height: 110 },
-    { image: '/ecomondo/logos/exhibitors/terminator.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/requilibrium.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/hipro.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/power-depot.webp',   url:'' , height: 110 },
@@ -26,14 +26,13 @@ const exhibitors2 = [
     { image: '/ecomondo/logos/exhibitors/monitoreo-calidad_v2.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/bpm.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/evobac.webp',   url:'' , height: 110 },
-
-]
-
-const exhibitors3 = [
     { image: '/ecomondo/logos/exhibitors/evonik.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/ht_instruments.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/abadi_eco.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/amc-endesus.webp',   url:'' , height: 110 },
+]
+
+const exhibitors3 = [
     { image: '/ecomondo/logos/exhibitors/doppstadt.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/kingspan.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/zemmler.webp',   url:'' , height: 110 },
@@ -43,6 +42,13 @@ const exhibitors3 = [
     { image: '/ecomondo/logos/exhibitors/awasa.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/sstp.webp',   url:'' , height: 110 },
     { image: '/ecomondo/logos/exhibitors/piaggio.webp',   url:'' , height: 110 },
+    { image: '/ecomondo/logos/exhibitors/aspiria.webp',   url:'' , height: 110 },
+    { image: '/ecomondo/logos/exhibitors/nalon-minerals.webp',   url:'' , height: 130 },
+    { image: '/ecomondo/logos/exhibitors/bosch.webp',   url:'' , height: 110 },
+    { image: '/ecomondo/logos/exhibitors/watt-sint.webp',   url:'' , height: 110 },
+    { image: '/ecomondo/logos/exhibitors/volvo.webp',   url:'' , height: 110 },
+    { image: '/ecomondo/logos/exhibitors/unisangil.webp',   url:'' , height: 110 },
+    { image: '/ecomondo/logos/exhibitors/tecsol.webp',   url:'' , height: 110 },
 ]
 
 const exhibitorsItaly1 = [
