@@ -66,14 +66,14 @@ const programECO = {
           },
           {
             id: 17,
-            photo: '',
+            photo: '/ecomondo/speakers/efrain-aguirrre-macias.webp',
             speakers_name:'Efraín Aguirrre Macías',
             position :'Director General de El Morador Compost',
             position_en : 'General Manager of El Morador Compost'
           },
           {
             id: 18,
-            photo: '',
+            photo: '/ecomondo/speakers/rodrigo-gomez-rizo.webp',
             speakers_name:'Rodrigo Gómez Rizo',
             position :'Director de Desarrollo y Tecnología de El Morado Compost',
             position_en : 'Director of Development and Technology of El Morado Compost'
