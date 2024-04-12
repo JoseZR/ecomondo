@@ -425,7 +425,7 @@ const programECO = {
         person: [
           {
             id: 12,
-            photo: '/ecomondo/speakers/cindy-mcCulligh.webp',
+            photo: '/ecomondo/speakers/cindy-mcculigh.webp',
             speakers_name:'Cindy McCulligh',
             position : 'Profesora investigadora del Centro de Investigaciones y Estudios Superiores en Antropología Social CIESAS, en Guadalajara, México',
             position_en : 'Professor researcher at the Center for Research and Advanced Studies in Social Anthropology CIESAS'
