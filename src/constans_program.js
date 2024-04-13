@@ -102,7 +102,135 @@ const programECO = {
             position_en : 'Director of Camexital, Mexican Chamber of Commerce in Italy.'
           },
         ],
-      }      
+      },
+      {        
+        type: '',
+        type_en:'',
+        title: 'Palabras de Apertura',
+        title_en: 'Opening Remarks',
+        location: 'ECO Stage',
+        duration: '20 min',
+        hour: '15:00 - 15:20 hrs.',
+        resume: '',
+        resume_en: '',
+        person: [
+          {
+            id: 0,
+            photo: '',
+            speakers_name:'Alessandro Modiano',
+            position : 'Embajador de Italia en México.',
+            position_en : 'Ambassador of Italy in Mexico.'
+          },
+          {
+            id: 0,
+            photo: '',
+            speakers_name:'Cecile de Mauleon',
+            position : 'Directora Ejecutiva, Cámara de Comercio de México en Italia (CaMexItal)',
+            position_en : 'Executive Director, Mexican Chamber of Commerce in Italy (CaMexItal)'
+          },
+        ],
+      }, 
+      {        
+        type: '',
+        type_en:'',
+        title: 'Retos y oportunidades para la transición sostenible y circular en México y América Latina',
+        title_en: 'Challenges and opportunities for sustainable and circular transition in Mexico and Latin America',
+        location: 'ECO Stage',
+        duration: '30 min',
+        hour: '15:20 - 15:50 hrs',
+        resume: '',
+        resume_en: '',
+        person: [
+          {
+            id: 0,
+            photo: '',
+            speakers_name:' Giselle Canahuati',
+            position : 'Secretaria Socio-Económica, Instituto Ítalo Latinoamericano (IILA).',
+            position_en : 'Socio-Economic Secretary, Italian-Latin American Institute (IILA).'
+          },
+          {
+            id: 0,
+            photo: '',
+            speakers_name:'Pablo David Necoechea Porras',
+            position : 'CEO, ESG Academy',
+            position_en : 'CEO, ESG Academy'
+          },
+        ],
+      }, 
+      {        
+        type: '',
+        type_en:'',
+        title: 'Modelos exitosos de producción sostenible y circular: buenas prácticas, oportunidades e instrumentos de apoyo a la internacionalización',
+        title_en: 'Successful models of sustainable and circular production: best practices, opportunities and instruments to support internationalisation',
+        location: 'ECO Stage',
+        duration: '45 min',
+        hour: '15:50 - 16:35  hrs',
+        resume: '',
+        resume_en: '',
+        person: [
+          {
+            id: 0,
+            photo: '',
+            speakers_name:' Guillermo Luna',
+            position : 'Director General, IsoCindu (Manni Group).',
+            position_en : 'General Manager, IsoCindu (Manni Group). '
+          },
+          {
+            id: 0,
+            photo: '',
+            speakers_name:'Alessandra Testoni',
+            position : 'Gerente de Sostenibilidad, Eni México',
+            position_en : 'Sustainability Manager, Eni Mexico'
+          },
+          {
+            id: 0,
+            photo: '',
+            speakers_name:'Mariano Sánchez Vaca',
+            position : 'Director para México, Exetra  Export & Trading Agency',
+            position_en : 'Mexico Country Director, Exetra Export & Trading Agency'
+          },
+        ],
+      }, 
+      {        
+        type: '',
+        type_en:'',
+        title: 'Conclusiones y reflexiones a futuro',
+        title_en: 'Conclusions and future reflections',
+        location: 'ECO Stage',
+        duration: '15 min',
+        hour: '16:35- 16:50  hrs',
+        resume: 'La comunicación como factor habilitador de la cooperación para el desarrollo sostenible',
+        resume_en: 'Communication as an enabler of sustainable development cooperation',
+        person: [
+          {
+            id: 0,
+            photo: '',
+            speakers_name:'Emanuele Bompan ',
+            position : 'Director Ejecutivo de la revista “Renewable matter”',
+            position_en : 'Executive Director of the magazine "Renewable matter".'
+          },
+        ],
+      }, 
+      {        
+        type: '',
+        type_en:'',
+        title: 'Q&A y Cierre del evento',
+        title_en: 'Q&A and Closing of the event',
+        location: 'ECO Stage',
+        duration: '10 min',
+        hour: '16:50 - 17.00  hrs',
+        resume: '',
+        resume_en: '',
+        person: [
+          {
+            id: 0,
+            photo: '',
+            speakers_name:'',
+            position : '',
+            position_en : ''
+          },
+        ],
+      },      
     ],
     april_18: [
       {
