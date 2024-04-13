@@ -14,6 +14,7 @@ import { useEffect } from 'react'
 import { Program } from './components/Program/Program'
 import { Hotels } from './components/Hotels/Hotels'
 import { Whyvisit } from './components/WhyVisit/Whyvisit'
+import { ModalBanner } from './components/Home/ModalBanner'
 import { ScientificComittee } from './components/ScientificComittee/ScientificComittee'
 import ScrollToTop from './components/ScrollToTop'
 
@@ -24,6 +25,7 @@ function App() {
   }, [location])
   return (
     <>
+      <ModalBanner/>
       <ScrollToTop />
       <Menu />
       <div className='whatssap-button'>
