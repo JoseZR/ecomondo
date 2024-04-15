@@ -19,7 +19,7 @@ export function ModalBanner() {
           className='container-banner'
         >
           <Modal.Body className='m-0 p-0'>
-              <img src="/ecomondo/banner_eco.png" alt="bioVerdeMex" width='100%' onClick={() => setModalShow(false)} />
+              <img src="/ecomondo/bannerBioVerdeMex.webp" alt="bioVerdeMex" width='100%' onClick={() => setModalShow(false)} />
           </Modal.Body>
         </Modal>
     </div>
