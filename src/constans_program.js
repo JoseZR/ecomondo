@@ -240,7 +240,7 @@ const programECO = {
         title_en: 'ISWA International Solid Waste Association - Practitioners Guide',
         location: 'ECO Stage',
         duration: '2 hrs.',
-        hour: '11:30 - 13:30 hrs.',
+        hour: '11:00 - 13:00 hrs.',
         resume: 'En el evento se presentará la Guía del Profesional centrada en la cuestión de los contaminantes en el reciclado de residuos orgánicos, un tema que aborda también otros flujos de reciclado como envases, RAEE, etc. El documento será presentado por uno de los autores principales y los ponentes se encuentran entre los colaboradores de la Guía o expertos de América Latina y de México. Organizado/ promovido en cooperación con la Red Regional ISWA para América Latina coordinada por ARS-Argentina.',
         resume_en: 'The event will present the Practitioner’s Guide focusing on the issue of contaminant in organic waste recycling, a topic which addresses also other recycling streams such as packaging, WEEE, etc. The document will be presented by one of the lead-authors and the speakers are among the contributors of the Guide or experts from Latin-American and from Mexico.  Organised/promoted in cooperation with the ISWA Regional Network for Latin America coordinated by ARS-Argentina.',
         speakers : "",
@@ -317,8 +317,8 @@ const programECO = {
       {
         type: 'Seminario',
         type_en:'Seminar',
-        title: 'Chihuahua Verde',
-        title_en: 'Green Chihuahua',
+        title: 'Chihuahua Green',
+        title_en: 'Chihuahua Green ',
         location: 'ECO Stage',
         duration: '1 hr.',
         hour: '16:00 - 17:00 hrs.',
@@ -578,6 +578,13 @@ const programECO = {
             speakers_name:'Martín Argueta',
             position : 'Presidente de la Asociación Geohidrológica Mexicana',
             position_en : 'President of the Mexican Geohydrological Association'
+          },
+          {
+            id: 30,
+            photo: '/ecomondo/speakers/victor-mijango.webp',
+            speakers_name:'Víctor Mijangos',
+            position : 'Gerente Operativo del Consejo de Cuenca del Río Santiago',
+            position_en : 'Operational Manager of the Santiago River Basin Council'
           },
         ],
       }
