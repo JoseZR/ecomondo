@@ -111,6 +111,13 @@ export function Menu() {
                     {t('menu.exhibitors_2')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
+                    href='/ecomondo/files/DIRECTORIO_ECO _15-04-2024.pdf'
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.directory')}
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
                     href={
                       i18n.language === 'es'
                         ? '/ecomondo/files/patrocionios_es_200324.pdf'
@@ -121,7 +128,6 @@ export function Menu() {
                   >
                     {t('menu.sponsorships')}
                   </NavDropdown.Item>
-
                   <NavDropdown.Item
                     href='/ecomondo/files/ECO_SSM_2024_v11_041124_model.pdf'
                     target='_blank'

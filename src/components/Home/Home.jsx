@@ -61,8 +61,8 @@ export function Home() {
                 />
               </div>
               <Container>
-                <Row className="justify-content-md-center gap-4">
-                  <Col lg={4} className="d-flex align-items-center justify-content-center">
+                <Row className="justify-content-md-center">
+                  <Col lg={4} className="d-flex align-items-center justify-content-center py-2">
                     <a
                       href="https://ecomondo.ahmreg.com/"
                       target="_blank"
@@ -71,12 +71,20 @@ export function Home() {
                       {t("menu.banner")}
                     </a>
                   </Col>
-                  <Col lg={4} className="d-flex align-items-center justify-content-center">
+                  <Col lg={4} className="d-flex align-items-center justify-content-center py-2">
                     <a
                       href="https://hfmexico.mx/ecomondo/program"
                       className="fw-bold px-3 py-4 rounded-3 button-cover"
                     >
                       {t("home.program_button")}
+                    </a>
+                  </Col>
+                  <Col lg={4} className="d-flex align-items-center justify-content-center py-2">
+                    <a
+                      href="https://hfmexico.mx/ecomondo/program"
+                      className="fw-bold px-3 py-4 rounded-3 button-cover"
+                    >
+                      {t("menu.directory")}
                     </a>
                   </Col>
                 </Row>
@@ -100,16 +108,8 @@ export function Home() {
                   </Col>
                 </Row>
               </Container>
-              {/* <p
-                className='mt-4 text-white fw-light fs-3 lh-1'
-                dangerouslySetInnerHTML={{ __html: t('home.slogan_2') }}
-              ></p> */}
-
             </Col>
             <Row />
-            {/*<Col md={6}>
-              <img src='/ecomondo/world-ecomondo.webp' className='w-100' />
-                </Col>*/}
           </Row>
         </Container>
       </section>
