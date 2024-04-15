@@ -123,7 +123,7 @@ export function Menu() {
                   </NavDropdown.Item>
 
                   <NavDropdown.Item
-                    href='/ecomondo/files/ECO_SSM_2024_V9_031324_model.pdf'
+                    href='/ecomondo/files/ECO_SSM_2024_v11_041124_model.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
