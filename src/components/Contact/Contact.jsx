@@ -16,7 +16,7 @@ export function Contact() {
             <Row className='gap-6'>
               <Col md className='text-center pt-3'>
                 <img
-                  src='/ecomondo/sandra.webp'
+                  src='/ecomondo/sandra_v2.webp'
                   alt='Sandra Elias'
                   height={150}
                   loading='lazy'

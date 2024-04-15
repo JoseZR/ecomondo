@@ -104,7 +104,7 @@ export function Footer() {
               <p className='mb-3'><strong>{t('footer.contact_us')}</strong></p>
               <Row className='mb-5'>
                 <Col xs={4} md={12} lg={3}>
-                  <Image src="/ecomondo/sandra.webp" roundedCircle width='85' />
+                  <Image src="/ecomondo/sandra_v2.webp" roundedCircle width='85' />
                 </Col>
                 <Col xs={8} md={12} lg={8}>
                   <strong>Sandra Elías</strong><br />
