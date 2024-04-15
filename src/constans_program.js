@@ -363,44 +363,51 @@ const programECO = {
           {
             id: "",
             photo: '',
-            speakers_name:'Ana Cecilia Martínez ',
-            position : 'Profesionales en Manejo de Residuos de Jalisco',
-            position_en : 'Jalisco Waste Management Professionals'
+            speakers_name:'Ana Cecilia Martínez',
+            position : 'Directora Sesman Recycling; Vicepresidenta de Sustentabilidad Empresarial, Cámara de Comercio de Guadalajara',
+            position_en : ' Director Sesman Recycling; Vice-President of Business Sustainability, Guadalajara Chamber of Commerce'
           },
           {
             id: "",
             photo: '',
-            speakers_name:'',
-            position : 'Representante de SIGRAUTO España (Asociación Nacional para la Gestión Sustentable del VLE)',
-            position_en : 'Representative of SIGRAUTO Spain (National Association for the Sustainable Management of ELVs)'
+            speakers_name:'Manuel Kindelan ',
+            position : 'Director General SIGRAUTO España (Asociación Nacional para la Gestión Sostenible de VFVU)',
+            position_en : 'General Director SIGRAUTO Spain (National Association for the Sustainable Management of ELVs)'
           },
           {
             id: "",
             photo: '',
-            speakers_name:'',
+            speakers_name:'Rubén Reséndiz',
             position : 'Representante del Clúster Automotriz Jalisco',
             position_en : 'Representative of the Jalisco Automotive Cluster'
           },
           {
             id: "",
             photo: '',
-            speakers_name:'',
-            position : 'Representante del Instituto Nacional de Autopartes México',
-            position_en : 'Representative of the National Autoparts Institute Mexico'
+            speakers_name:'Rodolfo Hernández ',
+            position : 'Director de Derichebourg México  (Multinacional especialista en VFVU) ',
+            position_en : 'Derichebourg Mexico Director (Multinational VFVU specialist) '
           },
           {
             id: "",
             photo: '',
-            speakers_name:'',
-            position : ' Representante de Derichebourg (multinacional especialista en VLE) ',
-            position_en : 'Derichebourg representative (multinational VLE specialist) '
+            speakers_name:'Ernesto Sánchez Proal',
+            position : 'Director de Seeräuber Automotive, ex Secretario de Desarrollo Económico del estado de Jalisco',
+            position_en : 'Director of Seeräuber Automotive, former Secretary of Economic Development of the state of Jalisco'
           },
           {
             id: "",
             photo: '',
-            speakers_name:'',
-            position : 'Representante de la Secretaría del Medio Ambiente Jalisco (SEMADET) ',
-            position_en : 'Representative of the Secretary of the Environment of Jalisco (SEMADET) '
+            speakers_name:'Ricardo Tinoco',
+            position : 'Director Grupo CART S.A.',
+            position_en : 'Director CART Group S.A.'
+          },
+          {
+            id: "",
+            photo: '',
+            speakers_name:'Juan Luis Sube',
+            position : 'Director General de Protección y Gestión Ambiental, Secretaría de Medio Ambiente y Desarrollo Territorial Jalisco',
+            position_en : 'Director General for Environmental Protection and Management, Ministry of Environment and Territorial Development Jalisco'
           },
         ],
       },
