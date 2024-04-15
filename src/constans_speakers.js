@@ -17,8 +17,8 @@ const speakers=[
         id:1,
         name: 'Jorge Israel García Ochoa', 
         avatar: '/ecomondo/speakers/israel-garcia-ochoa.webp',
-        resume_es: 'La información se está actualizando. Por favor, mantente atento.',
-        resume_en: 'Information is being updated. Please stay tuned.',
+        resume_es: 'Es Ingeniero Industrial, por el ITESO; Técnico en Energía Solar por Censolar (Centro de Estudios de la Energía Solar), en España; y, también cuenta con la especialidad de Técnico Mecánico Automotriz, por el CECATEM. Fungió como Director General de la empresa Mejora tu Planeta, dedicada a la asesoría y distribución de tecnología ambiental y económicamente sustentable; y, fue Director General de Bosques Urbanos de Guadalajara. ',
+        resume_en: 'Industrial Engineer, ITESO; Technician in Solar Energy by Censolar (Centro de Estudios de la Energía Solar), in Spain; and, he also has a speciality of Automotive Mechanic Technician, by CECATEM. He served as General Director of the company Mejora tu Planeta, dedicated to consulting and distribution of environmental and economically sustainable technology, and was General Director of Bosques Urbanos de Guadalajara. ',
     },
     {
         id:2,
@@ -52,9 +52,8 @@ const speakers=[
         id:6,
         name: 'Cecile De Mauleon',
         avatar: '/ecomondo/speakers/CECILE_DE_MAULEON.webp',
-        resume: '(Directora de Camexital, Cámara de Comercio Mexicana en Italia) MÁS PONENTES POR CONFIRMAR',
-        resume_es: 'La información se está actualizando. Por favor, mantente atento.',
-        resume_en: 'Information is being updated. Please stay tuned.',
+        resume_es: 'Experimentada profesional jurídica internacional con 15 años de trayectoria trabajando con gobiernos, organismos multilaterales, el Vaticano, organizaciones internacionales, el sector privado y la sociedad civil. Ha gestionado proyectos de cooperación internacional, prestado apoyo a oficinas en países en desarrollo, apoyado la negociación de políticas y programas globales, y proporcionado asesoramiento jurídico y político en el contexto de organismos de la ONU y conferencias internacionales de alto nivel. Es experta en el desarrollo de asociaciones estratégicas, la creación de coaliciones, el desarrollo empresarial, la participación de las partes interesadas, y la gestión de proyectos y eventos a escala nacional e internacional. Además, posee una pasión por áreas como la Ecología Integral, la Agenda 2030, la Encíclica Vaticana Laudato Si, los vínculos entre el Estado de Derecho y el desarrollo sostenible, y temas como los derechos humanos, el cambio climático y la economía verde.',
+        resume_en: 'Experienced international legal professional with 15 years of experience working with governments, multilateral agencies, the Vatican, international organisations, the private sector and civil society. She has managed international cooperation projects, supported offices in developing countries, supported the negotiation of global policies and programmes, and provided legal and policy advice in the context of UN bodies and high-level international conferences. She is an expert in strategic partnership development, coalition building, business development, stakeholder engagement, and project and event management at national and international levels. In addition, she has a passion for areas such as Integral Ecology, the 2030 Agenda, the Vatican Encyclical Laudato Si, the links between the rule of law and sustainable development, and issues such as human rights, climate change and the green economy.',
     },
     {
         id:7,
@@ -74,8 +73,8 @@ const speakers=[
         id:10,
         name: 'Francisco Galván',
         avatar: '/ecomondo/speakers/FRANCISCO_GALVAN.webp',
-        resume_es: 'La información se está actualizando. Por favor, mantente atento.',
-        resume_en: 'Information is being updated. Please stay tuned.',
+        resume_es: 'Licenciado en Derecho, por la Universidad Panamericana. Con una trayectoria de más de 20 años, ha dedicado su carrera en la búsqueda de un desarrollo sostenible. la protección del medio ambiente a través de la creación y gestión de programas de protección, gestión de residuos y el mejoramiento en el cumplimiento ambiental. Fue Director de Protección Ambiental, en el Ayuntamiento de Zapopan, Jalisco; Técnico especialista ambiental, en la Secretaría de Medio Ambiente para el Desarrollo Sustentable Gobierno del Estado de Jalisco; Director General, en el Sistema Intermunicipal De Manejo De Residuos Sureste O.P.D. ',
+        resume_en: 'Law degree from the Universidad Panamericana. With a career spanning more than 20 years, he has dedicated his career to the pursuit of sustainable development and environmental protection through the creation and management of protection programmes, waste management and the improvement of environmental compliance. He was Director of Environmental Protection in the City Council of Zapopan, Jalisco; Technical Environmental Specialist in the Ministry of Environment for Sustainable Development, Government of the State of Jalisco; General Director in the Intermunicipal System of Waste Management Southeast O.P.D. ',
     },
     {
         id:11,
