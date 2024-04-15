@@ -81,7 +81,8 @@ export function Home() {
                   </Col>
                   <Col lg={4} className="d-flex align-items-center justify-content-center py-2">
                     <a
-                      href="https://hfmexico.mx/ecomondo/program"
+                      href="/ecomondo/files/DIRECTORIO_ECO _15-04-2024.pdf"
+                      target="_blank"
                       className="fw-bold px-3 py-4 rounded-3 button-cover"
                     >
                       {t("menu.directory")}
