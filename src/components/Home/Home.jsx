@@ -11,6 +11,7 @@ import { gallery2023, gallery2022 } from "../GalleryPage/constans_gallery";
 import { Bullets } from "./Bullets";
 import { useNearScreen } from "../hooks/useNearScreen";
 import { Testimonials } from "./Testimonials";
+import { Program } from "../Program/Program";
 import { exhibitors1, exhibitors2, exhibitors3, exhibitorsItaly1, exhibitorsItaly2, exhibitorsChihuahua1, exhibitorsChihuahua2 } from "../../constans_logos";
 
 
@@ -204,7 +205,9 @@ export function Home() {
           </Col>
         </Row>
       </Container>
-      <Container fluid className="background-sponsors d-flex justify-content-center my-5 h-auto">
+
+      {/* INVITACION A SER PATROCINADOR */}
+      {/* <Container fluid className="background-sponsors d-flex justify-content-center my-5 h-auto">
         <div data-aos="zoom-out" data-aos-duration="2000" className=" text-center py-5 my-5 d-flex flex-column justify-content-center align-items-center ">
           <p className="text-white text-uppercase w-75 fs-3 fw-bolder mb-5"> {t("home.sponsorships_des")} </p>
           <div>
@@ -222,6 +225,9 @@ export function Home() {
           </div>
         </div>
       </Container>
+       */}
+
+      {/* EJES DEL EVENTO */}
       <Container fluid>
         <p
           className="fw-bold fs-3 pb-4 home-text-color text-uppercase"
@@ -361,7 +367,13 @@ export function Home() {
           </Row>
         </div>
       </Container>
-      <section className="mt-5 home-whyexhibit">
+      
+      <Container fluid className="program-wrapper d-flex justify-content-center my-5 h-auto">
+        <Program />
+      </Container>
+      
+
+      {/* <section className="mt-5 home-whyexhibit">
         <p className="gallery-title fw-bold fs-2">
           {t("home.why_exhibit.title")}
         </p>
@@ -455,8 +467,9 @@ export function Home() {
             </Col>
           </Row>
         </Container>
-      </section>
-      <Container>
+      </section> */}
+
+      {/* <Container>
         <h2
           className="fw-bold fs-2 pb-4 home-text-color text-uppercase"
           style={{ color: "#288705" }}
@@ -525,9 +538,10 @@ export function Home() {
             </ul>
           </Col>
         </Row>
-      </Container>
+      </Container> */}
+
       <div ref={ref}>
-        <Container fluid className="mt-5">
+        {/* <Container fluid className="mt-5">
           {show && (
             <Row className="text-light">
               <Col md className="background_num1">
@@ -591,7 +605,7 @@ export function Home() {
             </Row>
           )}
         </Container>
-        <Testimonials />
+        <Testimonials /> */}
         {/* <Container className='my-5 py-5'>
           <p className='gallery-title fw-bold fs-2 mb-5'>{t('home.interests.title')}</p>
           <div data-aos="fade-right" data-aos-duration="3000">
@@ -687,7 +701,6 @@ export function Home() {
           ))}
         </Marquee>
       </Container>
-
       <Container className="py-5">
         <p className="fw-bold fs-2 text-center text-uppercase" style={{ color: "#288705" }}> {t("home.italy-hall")}</p>
         <Marquee gradient direction='letf'>
@@ -717,8 +730,6 @@ export function Home() {
           ))}
         </Marquee>
       </Container>
-
-
       <Container className="py-5">
         <p className="fw-bold fs-2 text-center text-uppercase" style={{ color: "#288705" }}>{t("home.chihuahua-hall")}</p>
         <Marquee gradient direction='letf'>
@@ -748,12 +759,13 @@ export function Home() {
           ))}
         </Marquee>
       </Container>
-      <Container className="galleryPage">
+      {/* GALERIA */}
+      {/* <Container className="galleryPage">
         <h1 className="gallery-title pt-5">
           {t("menu.media_hub_1")} Ecomondo 2023
         </h1>
         <GalleryYear year={gallery2023} />
-      </Container>
+      </Container> */}
       <section className="">
         <Container className="">
           <p className="fw-bold fs-2 text-center" style={{ color: "#288705" }}>
@@ -834,8 +846,6 @@ export function Home() {
                 />
               </a>
             </div>
-          </Marquee>
-          <Marquee gradient className="mt-3">
             <div className="exibitorSlider text-center h-100">
               <a
                 href="https://ambcittadelmessico.esteri.it/it/"
@@ -877,6 +887,8 @@ export function Home() {
                 />
               </a>
             </div>
+          </Marquee>
+          <Marquee gradient className="mt-3">
             <div className="exibitorSlider text-center h-100">
               <a href="https://amrre.org.mx/" target="_blank" rel="noreferrer">
                 <img
@@ -899,7 +911,6 @@ export function Home() {
                 />
               </a>
             </div>
-
             <div className="exibitorSlider text-center h-100">
               <a href="" target="_blank" rel="noreferrer">
                 <img
@@ -950,7 +961,6 @@ export function Home() {
                 />
               </a>
             </div>
-
             <div className="exibitorSlider text-center h-100">
               <a href="" target="_blank" rel="noreferrer">
                 <img
@@ -1262,7 +1272,8 @@ export function Home() {
           </Marquee>
         </Container>
       </section>
-      <section>
+      {/* PRESENCIA EN REDES SOCIALES */}
+      {/* <section>
         <div data-aos="zoom-in" data-aos-duration="2500">
           <Container className="my-5">
             <Row className="text-secondary text-center mb-5">
@@ -1349,7 +1360,7 @@ export function Home() {
             </Row>
           </Container>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
