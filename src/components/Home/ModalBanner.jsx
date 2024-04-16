@@ -10,18 +10,20 @@ export function ModalBanner() {
 
   return (
     <div>
-        <Modal
-          show={modalShow}
-          size='lg'
-          aria-labelledby='contained-modal-title-vcenter'
-          centered
-          onHide={() => setModalShow(false)}
-          className='container-banner'
-        >
-          <Modal.Body className='m-0 p-0'>
-              <img src="/ecomondo/bannerBioVerdeMex.webp" alt="bioVerdeMex" width='100%' onClick={() => setModalShow(false)} />
-          </Modal.Body>
-        </Modal>
+      <Modal
+        show={modalShow}
+        size='lg'
+        aria-labelledby='contained-modal-title-vcenter'
+        centered
+        onHide={() => setModalShow(false)}
+        className='container-banner'
+      >
+        <Modal.Body className='m-0 p-0'>
+          <a href="https://ecomondo-tour.igeco.mx/" target='_blank'>
+            <img src="/ecomondo/bannerBioVerdeMex.webp" alt="bioVerdeMex" width='100%' onClick={() => setModalShow(false)} />
+          </a>
+        </Modal.Body>
+      </Modal>
     </div>
   )
 }
