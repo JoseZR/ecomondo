@@ -232,7 +232,7 @@ const speakers=[
     },
     {
         id:34,
-        name: 'Mirna Avilés',
+        name: 'Mirna Aideé Avilés',
         avatar: '/ecomondo/speakers/mirna-avilez.webp',
         resume_es: 'Ingeniera civil por parte de la Universidad de Guadalajara, especialista en Ingeniería Geológica aplicada a minería, por la Cámara Minera del Perú; Maestra en Hidráulica y Especialista en Hidráulica Urbana, por la Universidad Autónoma de Guadalajara (UAG); Maestrante en Gestión Integrada de los Recursos Hídricos, por el Instituto Mexicano de Tecnología del Agua (IMTA); y Doctorante en Agua y Energía por la Universidad de Guadalajara. Es directora general de la empresa SELIV ASOCIADOS de 2013 a la fecha. Fue profesora en la Lic. De Ingeniería Civil de la Universidad Autónoma de Guadalajara en asignaturas referentes a hidráulica. Es miembro activo de la Asociación Mexicana de Hidráulica, dentro del Colegio de Ingenieros Civiles del Estado de Jalisco A.C. ha ocupado los cargos de directora y secretaria de la Sección Técnica por Especialidad en Hidráulica; actualmente, es primer secretaria suplente del XXVIII Consejo Directivo, Coordinadora de Proyectos especiales en materia hídrica y Consejera Ciudadana de las Mujeres de la Secretaria de Igualdad Sustantiva entre Mujeres y Hombres del Estado de Jalisco.',
         resume_en: 'Civil engineer from the University of Guadalajara, specialist in Geological Engineering applied to mining, by the Mining Chamber of Peru; Master in Hydraulics and Specialist in Urban Hydraulics, by the Autonomous University of Guadalajara (UAG); Master in Integrated Management of Water Resources, by the Mexican Institute of Water Technology (IMTA); and PhD in Water and Energy by the University of Guadalajara. She is General Director of the company SELIV ASOCIADOS from 2013 to date. She was a professor of Civil Engineering at the Autonomous University of Guadalajara in subjects related to hydraulics. She is an active member of the Mexican Association of Hydraulics, within the College of Civil Engineers of the State of Jalisco A.C. She has held the positions of director and secretary of the Technical Section by Specialty in Hydraulics; currently, she is first alternate secretary of the XXVIII Board of Directors, Coordinator of Special Projects in water matters and Citizen Councillor for Women of the Secretary of Substantive Equality between Women and Men of the State of Jalisco.',
@@ -265,6 +265,34 @@ const speakers=[
         resume_es: 'Ingeniero civil graduado del ITESO y posee un máster en Gestión Directiva de la Universidad Antropológica de Guadalajara. Además de ser esposo y padre de tres hijos, disfruta de actividades deportivas como el ciclismo de montaña y el atletismo. Su experiencia profesional se centra en el desarrollo de infraestructura vial, urbanización y obra civil. Como representante de la tercera generación en la empresa familiar, lidera la gerencia general. Con más de 24 años en la industria de la construcción, Juan ha sido un miembro activo de la CMIC durante más de una década, desempeñando varios roles que han contribuido al fortalecimiento de la institución. Actualmente, ejerce como Presidente de la Delegación Jalisco, destacándose por su liderazgo joven y dinámico. Su enfoque se centra en la creación de comunidad, el fomento del desarrollo económico y del sector, así como en la promoción de la igualdad de oportunidades.',
         resume_en: 'Civil Engineer graduated from ITESO and holds a Master\'s degree in Management from the Anthropological University of Guadalajara. In addition to being a husband and father of three children, he enjoys sports activities such as mountain biking and athletics. His professional experience focuses on the development of road infrastructure, urbanisation and civil works. As a representative of the third generation in the family business, he leads the general management. With more than 24 years in the construction industry, Juan has been an active member of CMIC for more than a decade, playing various roles that have contributed to the strengthening of the institution. He currently serves as President of the Jalisco Delegation, standing out for his young and dynamic leadership. His focus is on community building, fostering economic and sector development, as well as promoting equal opportunities.',
     },
+    {
+        id: 39,
+        name: 'Rodrigo Navarro Guerrero',
+        avatar: '/ecomondo/speakers/rodrigo_navarro.webp',
+        resume_es: 'Es un profesional versátil con una sólida formación en ingeniería civil, administración y finanzas. Graduado de la Universidad Panamericana, ha desempeñado roles clave en instituciones como BANOBRAS y Holcim - Apasco. Además de su destacada labor académica, su expertise se extiende a la gestión de proyectos de infraestructura y finanzas corporativas, con un enfoque especial en el sector del agua. Su compromiso con el desarrollo se refleja en su participación en diversos consejos relacionados con este campo.',
+        resume_en: 'He is a versatile professional with a solid background in civil engineering, administration and finance. A graduate of the Universidad Panamericana, he has held key roles in institutions such as BANOBRAS and Holcim - Apasco. In addition to his outstanding academic work, his expertise extends to infrastructure project management and corporate finance, with a special focus on the water sector. His commitment to development is reflected in his participation in various boards related to this field.',
+    },
+    {
+        id: 40,
+        name: 'Reynaldo Evaristo Díaz Hernández',
+        avatar: '/ecomondo/speakers/reynaldo_diaz.webp',
+        resume_es: ' Ingeniero Civil con una sólida experiencia de 30 años en el sector del agua en México. Especializado en programas de infraestructura, ha contribuido significativamente en proyectos clave como el abastecimiento de agua potable y el saneamiento. Con una formación académica sólida, ha liderado iniciativas importantes tanto a nivel estatal como federal, demostrando su compromiso con la mejora de los servicios de agua en beneficio de la población. Además, su participación activa en asociaciones profesionales muestra su dedicación continua al avance y la excelencia en su campo. Su objetivo profesional es lograr la cobertura universal en los servicios de agua potable, alcantarillado y saneamiento, priorizando la calidad y la sustentabilidad de los recursos hídricos.',
+        resume_en: 'Civil Engineer with a solid experience of 30 years in the water sector in Mexico. Specialised in infrastructure programmes, he has contributed significantly to key projects such as drinking water supply and sanitation. With a solid academic background, he has led important initiatives at both state and federal level, demonstrating his commitment to improving water services for the benefit of the population. In addition, his active participation in professional associations shows his continued dedication to advancement and excellence in his field. His professional goal is to achieve universal coverage in drinking water, sewerage and sanitation services, prioritising the quality and sustainability of water resources.',
+    },
+    // {
+    //     id:21,
+    //     name: '',
+    //     avatar: '/ecomondo/speakers/user_img.webp',
+    //     resume_es: '',
+    //     resume_en: '',
+    // },
+    // {
+    //     id:21,
+    //     name: '',
+    //     avatar: '/ecomondo/speakers/user_img.webp',
+    //     resume_es: '',
+    //     resume_en: '',
+    // },
     // {
     //     id:21,
     //     name: '',
