@@ -466,8 +466,22 @@ const programECO = {
             id: 23,
             photo: '/ecomondo/speakers/eduardo-walsh.webp',
             speakers_name:'Eduardo Walsh',
-            position : 'Gerente de Proyectos, en la Fundación Konrad Adenauer KAS',
-            position_en : 'Project Manager, Konrad Adenauer Foundation KAS'
+            position : 'Gerente de proyectos KAS México',
+            position_en : 'Project Manager KAS Mexico'
+          },
+          {
+            id: 36,
+            photo: '/ecomondo/speakers/pablo-necochea.webp',
+            speakers_name:'Pablo Necoechea',
+            position : 'CEO ESG Academy',
+            position_en : 'CEO ESG Academy'
+          },
+          {
+            id: 37,
+            photo: '/ecomondo/speakers/hans-blomeier.webp',
+            speakers_name:'Hans Blomeier ',
+            position : 'Director KAS México',
+            position_en : 'Director KAS Mexico'
           },
         ],
       },
