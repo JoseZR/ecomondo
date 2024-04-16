@@ -503,6 +503,36 @@ const programECO = {
             position : 'Profesor Investigador del Departamento de Estudios del Agua y Energía - Centro Universitario de Tonalá de la Universidad de Guadalajara',
             position_en : 'Research Professor of the Department of Water and Energy Studies - Centro Universitario de Tonalá of the University of Guadalajara.'
           },
+
+          {
+            id: 0,
+            photo: '',
+            speakers_name:'MH. Mirna Aideé Avilés ',
+            position : 'Mis. Coordinadora de proyectos especiales en materia hídrica del Colegio de Ingenieros Civiles del Estado de Jalisco (CICEJ)-Modelo de gestión hídrica para el Estado de Jalisco',
+            position_en : 'Mis. Coordinator of special water projects of the College of Civil Engineers of the State of Jalisco (CICEJ) - Water management model for the State of Jalisco.'
+          },
+          {
+            id: 0,
+            photo: '',
+            speakers_name:'Juan Manuel Chávez Ochoa ',
+            position : 'Presidente Cámara Mexicana de la Industria de la Construcción Delegación Jalisco (CMIC)',
+            position_en : 'President of the Mexican Chamber of the Construction Industry Delegation of Jalisco (CMIC) '
+          },
+          {
+            id: 0,
+            photo: '',
+            speakers_name:' Reynaldo Evaristo Díaz Hernández',
+            position : 'Presidente de la Asociación Mexicana de Hidráulica De Jalisco',
+            position_en : 'President of the Asociación Mexicana de Hidráulica de Jalisco (Mexican Hydraulics Association of Jalisco)'
+          },
+          {
+            id: 0,
+            photo: '',
+            speakers_name:'Rodrigo Navarro Guerrero ',
+            position : 'Consejo Consultivo del Agua Jalisco A.C',
+            position_en : 'Water Advisory Council Jalisco A.C'
+          },
+         
         ],      
       },
       {
