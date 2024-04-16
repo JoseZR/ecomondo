@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import "./Home.css";
 import { useTranslation } from "react-i18next";
 import Marquee from "react-fast-marquee";
@@ -161,8 +161,8 @@ export function Home() {
       </Container>
       <Container className="pb-5">
         <p className="fw-bold fs-3 pb-4 home-text-color text-uppercase" style={{ color: "#288705" }}>
-            {t("home.sponsor_1")}
-          </p>
+          {t("home.sponsor_1")}
+        </p>
         <Row className="justify-content-md-center">
           <Col xs={12} md={12} lg={4} >
             <a href="https://www.mase.gov.it/" target="_blank" className="d-flex  align-items-baseline">
@@ -173,11 +173,14 @@ export function Home() {
                 style={{ maxHeight: "110px" }}
               />
             </a>
+            <a href="https://www.mase.gov.it/" target="_blank">
+              <Button variant="link" className="fs-5">{t("home.btn_moreInformation")}</Button>
+            </a>
           </Col>
         </Row>
         <p className="fw-bold mt-5 fs-3 home-text-color text-uppercase" style={{ color: "#288705" }}>
-            {t("home.sponsor_2")}
-          </p>
+          {t("home.sponsor_2")}
+        </p>
         <Row className="justify-content-md-center">
           <Col xs={12} md={12} lg={3}>
             <a href="https://www.longi.com/mx/" target="_blank">
