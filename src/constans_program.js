@@ -499,33 +499,33 @@ const programECO = {
             position_en : 'Undersecretary of Environmental Management, Climate Change and Energy Sustainability. '
           },
           {
-            id: 23,
-            photo: '/ecomondo/speakers/eduardo-walsh.webp',
-            speakers_name:'Eduardo Walsh',
-            position : 'Gerente de proyectos KAS México',
-            position_en : 'Project Manager KAS Mexico'
-          },
-          {
-            id: 36,
-            photo: '/ecomondo/speakers/pablo-necochea.webp',
-            speakers_name:'Pablo Necoechea',
-            position : 'CEO ESG Academy',
-            position_en : 'CEO ESG Academy'
-          },
-          {
-            id: 37,
-            photo: '/ecomondo/speakers/hans-blomeier.webp',
-            speakers_name:'Hans Blomeier ',
-            position : 'Director KAS México',
-            position_en : 'Director KAS Mexico'
-          },
-          {
             id: 32,
             photo: '/ecomondo/speakers/jesus-garcia.webp',
             speakers_name:'Jesús García ',
             position : 'Subsecretario de Innovación y Desarrollo Económico (SIDE), Gobierno del Estado de Chihuahua',
             position_en : 'Undersecretary of Innovation and Economic Development (SIDE), Government of the State of Chihuahua'
           },
+          // {
+          //   id: 23,
+          //   photo: '/ecomondo/speakers/eduardo-walsh.webp',
+          //   speakers_name:'Eduardo Walsh',
+          //   position : 'Gerente de proyectos KAS México',
+          //   position_en : 'Project Manager KAS Mexico'
+          // },
+          // {
+          //   id: 36,
+          //   photo: '/ecomondo/speakers/pablo-necochea.webp',
+          //   speakers_name:'Pablo Necoechea',
+          //   position : 'CEO ESG Academy',
+          //   position_en : 'CEO ESG Academy'
+          // },
+          // {
+          //   id: 37,
+          //   photo: '/ecomondo/speakers/hans-blomeier.webp',
+          //   speakers_name:'Hans Blomeier ',
+          //   position : 'Director KAS México',
+          //   position_en : 'Director KAS Mexico'
+          // },
         ],
       },
     ],   
