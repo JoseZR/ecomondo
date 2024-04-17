@@ -317,8 +317,8 @@ const programECO = {
       {
         type: 'Seminario',
         type_en:'Seminar',
-        title: 'Chihuahua Green',
-        title_en: 'Chihuahua Green ',
+        title: 'Economía Circular: El caso de Chihuahua Green City ',
+        title_en: 'Circular Economy: The Case of Chihuahua Green City ',
         location: 'ECO Stage',
         duration: '1 hr.',
         hour: '16:00 - 17:00 hrs.',
@@ -341,6 +341,28 @@ const programECO = {
             speakers_name:'Luis Téllez Live ',
             position : 'Gerente de Proyectos de la Fundación Konrad Adenauer (KAS) México',
             position_en : 'Project Manager of the Konrad Adenauer Foundation (KAS) Mexico'
+          },
+
+          {
+            id: 35,
+            photo: '/ecomondo/speakers/victor-gomez.webp',
+            speakers_name:'Víctor Gómez Céspedes',
+            position : 'Team Leader Chihuahua Green',
+            position_en : 'Team Leader Chihuahua Green'
+          },
+          {
+            id: 32,
+            photo: '/ecomondo/speakers/jesus-garcia.webp',
+            speakers_name:'Jesús García',
+            position : 'Subsecretario de Innovación y Desarrollo Económico (SIDE), Gobierno del Estado de Chihuahua.',
+            position_en : 'Undersecretary of Innovation and Economic Development (SIDE), Government of the State of Chihuahua.'
+          },
+          {
+            id: 0,
+            photo: '',
+            speakers_name:'Jesús Carrera',
+            position : 'Gerente La Nogalera',
+            position_en : 'Manager La Nogalera'
           },
         ],
       },
