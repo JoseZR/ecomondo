@@ -627,6 +627,20 @@ const programECO = {
             position : 'Conservación Ambiental CIBNOR',
             position_en : 'Environmental Conservation CIBNOR'
           },
+          {
+            id: 33,
+            photo: '/ecomondo/speakers/roest-kees.webp ',
+            speakers_name:'Kees Roest',
+            position : 'Miembro del equipo de Energía y Sistemas Circulares en KWR ',
+            position_en : 'Member of the Energy and Circular Systems team at KWR. '
+          },
+          {
+            id: 31,
+            photo: '/ecomondo/speakers/julian-somaza.webp',
+            speakers_name:'Julián Somoza',
+            position : 'Jefe de Planeación Estratégica Ambiental, Secretaría de Gestión Integral del Agua de Jalisco',
+            position_en : 'Head of Strategic Environmental Planning, Secretariat of Integral Water Management of Jalisco.'
+          },
         ],
       }
     ],
