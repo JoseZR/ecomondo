@@ -83,8 +83,8 @@ const programECO = {
       {        
         type: 'Seminario',
         type_en:'Seminar',
-        title: 'Historias de éxito en modelos circulares de negocio',
-        title_en: 'Success stories in circular business models',
+        title: 'Nuevos modelos de negocio y de producción circular: historias de éxito, buenas prácticas y lecciones aprendidas',
+        title_en: 'New business and circular production models: success stories, best practices and lessons learned.',
         location: 'ECO Stage',
         duration: '2 hrs.',
         hour: '15:00 - 17:00 hrs.',
