@@ -300,8 +300,8 @@ const programECO = {
             id: 21,
             photo: '/ecomondo/speakers/christian-mulcahy.webp',
             speakers_name:'Christian Mulcahy',
-            position : 'Composterra-Uruguay y Compost-Systems AT',
-            position_en : 'Composterra-Uruguay y Compost-Systems AT'
+            position : 'Compost Systems GmbH',
+            position_en : 'Compost Systems GmbH'
           },
         ],
       },
