@@ -60,7 +60,7 @@ export function Program() {
                 href="#stage_ecopitch"
                 onClick={() => setPrograms(programECO.stage_3)}
               >
-                <h4 className="text-light">ECOPITCH</h4>
+                <h4 className="text-light">ECO PITCH</h4>
               </Nav.Link>
             </Nav.Item>
           </Nav>
