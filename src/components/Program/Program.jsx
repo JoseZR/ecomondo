@@ -57,7 +57,7 @@ export function Program() {
             </Nav.Item>
             <Nav.Item>
               <Nav.Link
-                href="#stage_3"
+                href="#stage_ecopitch"
                 onClick={() => setPrograms(programECO.stage_3)}
               >
                 <h4 className="text-light">ECOPITCH</h4>
