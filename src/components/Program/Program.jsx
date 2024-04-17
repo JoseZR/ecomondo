@@ -55,6 +55,14 @@ export function Program() {
                 <h4 className="text-light">{t("home.zone_3.title")}</h4>
               </Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                href="#stage_3"
+                onClick={() => setPrograms(programECO.stage_3)}
+              >
+                <h4 className="text-light">ECOPITCH</h4>
+              </Nav.Link>
+            </Nav.Item>
           </Nav>
           <div className=" mt-5">
             <Tabs
