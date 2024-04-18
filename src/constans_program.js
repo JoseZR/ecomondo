@@ -499,6 +499,20 @@ const programECO = {
             position_en: 'Director of the Sustainable Development Unit in Mérida, Yucatán'
           },
           {
+            id: 23,
+            photo: '/ecomondo/speakers/eduardo-walsh.webp',
+            speakers_name:'Eduardo Walsh',
+            position : 'Gerente de proyectos KAS México',
+            position_en : 'Project Manager KAS Mexico'
+          },
+          {
+            id: 0,
+            photo: '',
+            speakers_name:'',
+            position : '',
+            position_en : ''
+          },
+          {
             id: 22,
             photo: '/ecomondo/speakers/alberto_carmona.webp',
             speakers_name: 'Alberto Carmona Velázquez',
@@ -512,27 +526,20 @@ const programECO = {
             position: 'Subsecretario de Innovación y Desarrollo Económico (SIDE), Gobierno del Estado de Chihuahua',
             position_en: 'Undersecretary of Innovation and Economic Development (SIDE), Government of the State of Chihuahua'
           },
-          {
-            id: 23,
-            photo: '/ecomondo/speakers/eduardo-walsh.webp',
-            speakers_name:'Eduardo Walsh',
-            position : 'Gerente de proyectos KAS México',
-            position_en : 'Project Manager KAS Mexico'
-          },
-          {
-            id: 36,
-            photo: '/ecomondo/speakers/pablo-necochea.webp',
-            speakers_name:'Pablo Necoechea',
-            position : 'CEO ESG Academy',
-            position_en : 'CEO ESG Academy'
-          },
-          {
-            id: 37,
-            photo: '/ecomondo/speakers/hans-blomeier.webp',
-            speakers_name:'Hans Blomeier ',
-            position : 'Director KAS México',
-            position_en : 'Director KAS Mexico'
-          },
+          // {
+          //   id: 36,
+          //   photo: '/ecomondo/speakers/pablo-necochea.webp',
+          //   speakers_name:'Pablo Necoechea',
+          //   position : 'CEO ESG Academy',
+          //   position_en : 'CEO ESG Academy'
+          // },
+          // {
+          //   id: 37,
+          //   photo: '/ecomondo/speakers/hans-blomeier.webp',
+          //   speakers_name:'Hans Blomeier ',
+          //   position : 'Director KAS México',
+          //   position_en : 'Director KAS Mexico'
+          // },
         ],
       },
     ],
