@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
-import logoEco from '../../assets/logo-ecomondo.webp'
 import './Menu.css'
 import { Container, Nav, NavDropdown, Navbar, Offcanvas } from 'react-bootstrap'
 import { LanguageButton } from './LanguageButton'
@@ -47,7 +46,7 @@ export function Menu() {
       <Navbar className='text-uppercase text-center menu-padre' expand='lg'>
         <Container className='justify-content-center'>
           <Navbar.Brand as={Link} to='/'>
-            <img src={logoEco} alt='ecomondo' width='150' />
+            <img src='/ecomondo_logo_2025.webp' alt='ecomondo' width='190' />
           </Navbar.Brand>
           {/* <a
             href='https://www.hfmexico.mx/solarpowermexico/'
