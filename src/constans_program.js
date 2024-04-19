@@ -1107,8 +1107,8 @@ const programECO = {
       {
         type: '',
         type_en: '',
-        title: 'Carbón Incorporado',
-        title_en: 'Incorporated Coal',
+        title: 'Oportunidades y desafíos para el re-uso de agua en México',
+        title_en: 'Opportunities and challenges for water reuse in Mexico',
         location: '',
         duration: '30 min.',
         hour: '11:30 - 12:00 hrs.',
@@ -1121,9 +1121,9 @@ const programECO = {
           {
             id: "",
             photo: '',
-            speakers_name: 'Gabriel Moises',
-            position: '',
-            position_en: ''
+            speakers_name: 'Patricia Ramírez',
+            position: 'REQUILIBRIUM',
+            position_en: 'REQUILIBRIUM'
           },
         ],
       },
@@ -1145,8 +1145,8 @@ const programECO = {
             id: "",
             photo: '',
             speakers_name: 'Fernando Manzaneque',
-            position: '',
-            position_en: ''
+            position: 'Termimator Water Solutions',
+            position_en: 'Termimator Water Solutions'
           },
         ],
       },
@@ -1168,8 +1168,8 @@ const programECO = {
             id: "",
             photo: '',
             speakers_name: 'Ivonne Teresa Gutiérrez Obregón',
-            position: '',
-            position_en: ''
+            position: 'HT Instruments',
+            position_en: 'HT Instruments'
           },
         ],
       },
@@ -1191,8 +1191,8 @@ const programECO = {
             id: "",
             photo: '',
             speakers_name: 'Víctor Gómez Céspedes',
-            position: '',
-            position_en: ''
+            position: 'Recilogic',
+            position_en: 'Recilogic'
           },
         ],
       },
@@ -1213,9 +1213,115 @@ const programECO = {
           {
             id: "",
             photo: '',
-            speakers_name: 'Jesús García  Subsecretario de la Secretaría de Innovación y Desarrollo Económico del Estado de Chihuahua',
+            speakers_name: 'Jesús García',
             position: 'Subsecretario de la Secretaría de Innovación y Desarrollo Económico del Estado de Chihuahua',
             position_en: 'Undersecretary of the Ministry of Innovation and Economic Development of the State of Chihuahua'
+          },
+        ],
+      },
+      {
+        type: '',
+        type_en: '',
+        title: 'Volvo Innovación Eléctrica, sostenibilidad que inspira',
+        title_en: 'Volvo Electric Innovation, inspiring sustainability',
+        location: '',
+        duration: '30 min.',
+        hour: '14:00 - 14:30 hrs.',
+        resume: '',
+        resume_en: '',
+        speakers: '',
+        position: "",
+        position_en: "",
+        person: [
+          {
+            id: "",
+            photo: '',
+            speakers_name: 'Karen Jímenez',
+            position: 'VOLVO',
+            position_en: 'VOLVO'
+          },
+          {
+            id: "",
+            photo: '',
+            speakers_name: 'Eduardo Jirón ',
+            position: 'VOLVO',
+            position_en: 'VOLVO'
+          },
+          {
+            id: "",
+            photo: '',
+            speakers_name: 'Aldo Chavarín',
+            position: 'VOLVO',
+            position_en: 'VOLVO'
+          },
+        ],
+      },
+      {
+        type: '',
+        type_en: '',
+        title: 'Servicios de AWASA, aplicaciones para industrias y entidades públicas y las Normativas Oficiales Mexicanas. Casos de éxito relevantes. Invitación a visitar stand.',
+        title_en: 'AWASA services, applications for industries and public entities and Mexican Official Standards. Relevant success stories. Invitation to visit our booth.',
+        location: '',
+        duration: '30 min.',
+        hour: '15:00 - 15:30 hrs.',
+        resume: '',
+        resume_en: '',
+        speakers: '',
+        position: "",
+        position_en: "",
+        person: [
+          {
+            id: "",
+            photo: '',
+            speakers_name: 'Gilberto Anguiano',
+            position: 'AWASA',
+            position_en: 'AWASA'
+          },
+        ],
+      },
+      {
+        type: '',
+        type_en: '',
+        title: 'Eficiencia energetica en sistemas de aereación en PTAR',
+        title_en: 'Energy efficiency of WWTP aeration systems',
+        location: '',
+        duration: '30 min.',
+        hour: '15:30 -	16:00 hrs.',
+        resume: '',
+        resume_en: '',
+        speakers: '',
+        position: "",
+        position_en: "",
+        person: [
+          {
+            id: "",
+            photo: '',
+            speakers_name: '',
+            position: 'Kaeser Kompressoren',
+            position_en: 'Kaeser Kompressoren'
+          },
+        ],
+      },
+      {
+        type: '',
+        type_en: '',
+        title: 'Hábitos Realmente Sustentables',
+        title_en: 'Truly Sustainable Habits',
+        location: '',
+        duration: '30 min.',
+        hour: '16:00-	16:30 hrs.',
+        resume: '',
+        resume_en: '',
+        speakers: '',
+        position: "",
+        position_en: "",
+        person: [
+          {
+            id: "",
+            photo: '',
+            speakers_name: 'Gerardo Sánchez',
+            position: 'ABADI ECO',
+            position_en: 'ABADI ECO'
           },
         ],
       }
