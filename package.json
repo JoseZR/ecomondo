@@ -39,5 +39,5 @@
   "eslintConfig": {
     "extends": "./node_modules/standard/eslintrc.json"
   },
-  "homepage": "https://hfmexico.mx/ecomondo/"
+  "homepage": "https://ecomondo.igeco.mx/"
 }
