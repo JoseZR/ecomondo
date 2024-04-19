@@ -18,7 +18,7 @@ export function Menu() {
       className='position-sticky top-0'
       style={{ zIndex: 999, backgroundColor: '#288705' }}
     >
-      <a href='https://ecomondo.ahmreg.com/' target='_blank'>
+      {/* <a href='https://ecomondo.ahmreg.com/' target='_blank'>
         <div className='banner-become text-white text-center p-2'>
           <div>
             <span className='bg-secondary rounded-circle p-2 d-inline-flex justify-content-center'>
@@ -43,7 +43,7 @@ export function Menu() {
             <span className='text-uppercase'>{t('menu.banner')}</span>
           </div>
         </div>
-      </a>
+      </a> */}
       <Navbar className='text-uppercase text-center menu-padre' expand='lg'>
         <Container className='justify-content-center'>
           <Navbar.Brand as={Link} to='/'>
