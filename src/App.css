@@ -11,10 +11,6 @@ body {overflow-x: hidden;}
   /* Agrega más formatos de fuente si es necesario */
 }
 
-body {
-  font-family: 'Nombre de tu fuente', sans-serif; /* Usa tu fuente personalizada en todo el cuerpo del documento */
-}
-
 
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {

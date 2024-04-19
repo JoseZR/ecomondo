@@ -7,7 +7,7 @@ import { I18nextProvider } from 'react-i18next'
 import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename='ecomondo'>
+  <BrowserRouter>
     <I18nextProvider i18n={i18n}>
       <App />
     </I18nextProvider>
