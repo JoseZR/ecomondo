@@ -5,6 +5,17 @@
 /* ayuda para el efecto AOS Scroll */
 body {overflow-x: hidden;}
 
+@font-face {
+  font-family: 'N27-Regular';
+  src: url('./fonts/N27-Regular.otf') format('opentype'); /* Ruta a tu archivo .otf */
+  /* Agrega más formatos de fuente si es necesario */
+}
+
+body {
+  font-family: 'Nombre de tu fuente', sans-serif; /* Usa tu fuente personalizada en todo el cuerpo del documento */
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;

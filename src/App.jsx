@@ -26,7 +26,8 @@ function App() {
   }, [location])
   return (
     <>
-      <ModalBanner/>
+      
+      {/* <ModalBanner/> */}{/* Esta es ventana emergente */}
       <ScrollToTop />
       <Menu />
       <div className='whatssap-button'>
