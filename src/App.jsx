@@ -17,6 +17,7 @@ import { Whyvisit } from './components/WhyVisit/Whyvisit'
 import { ModalBanner } from './components/Home/ModalBanner'
 import { ScientificComittee } from './components/ScientificComittee/ScientificComittee'
 import ScrollToTop from './components/ScrollToTop'
+import { HomeNew } from './components/HomeNew/HomeNew'
 
 function App() {
   const location = useLocation()
@@ -51,6 +52,7 @@ function App() {
         <Route path='program' element={<Program />} />
         <Route path='scientific-committee' element={<ScientificComittee />} />
         <Route path='hotels' element={<Hotels />} />
+        <Route path='homeNew' element={<HomeNew />} />
       </Routes>
       <Footer />
     </>
