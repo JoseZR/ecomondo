@@ -44,7 +44,7 @@ export function HomeNew() {
             <Container>
                 <article className="text-start pb-5">
                     <Row className="pt-5 px-3 fs-5">
-                        <Col md={6} className="px-5">
+                        <Col md={12} className="px-5">
                             <p
                                 className="fw-bold fs-2 home-text-color"
                                 style={{ color: "#288705" }}
@@ -56,7 +56,7 @@ export function HomeNew() {
                             </p>
                             <br />
                         </Col>
-                        <Col md={6} className="my-auto">
+                        {/* <Col md={6} className="my-auto">
                             {i18n.language === "es" ? (
                                 <video
                                     className="w-100"
@@ -82,7 +82,7 @@ export function HomeNew() {
                                     loop
                                 />
                             )}
-                        </Col>
+                        </Col> */}
                     </Row>
                 </article>
             </Container>
