@@ -1296,7 +1296,7 @@ const programECO = {
           {
             id: "",
             photo: '',
-            speakers_name: '',
+            speakers_name: 'Sansón Pérez',
             position: 'Kaeser Kompressoren',
             position_en: 'Kaeser Kompressoren'
           },
