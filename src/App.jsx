@@ -43,7 +43,7 @@ function App() {
         </a>
       </div>
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/' element={<HomeNew />} />
         <Route path='about-us' element={<AboutUs />} />
         <Route path='participate' element={<Participate />} />
         <Route path='contact' element={<Contact />} />

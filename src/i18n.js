@@ -13,7 +13,7 @@ i18n
       escapeValue: false
     },
     backend: {
-      loadPath: '/ecomondo/locales/{{lng}}/translation.json',
+      loadPath: '/locales/{{lng}}/translation.json',
       requestOptions: {
         cache: 'no-store'
       }

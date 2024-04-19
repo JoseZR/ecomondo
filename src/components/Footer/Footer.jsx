@@ -13,7 +13,7 @@ export function Footer() {
       >
         <div className='' style={{ width: '200px' }}>
           <img
-            src='/ecomondo/igeco_bn.webp'
+            src='/igeco_bn.webp'
             alt='igeco'
             className='w-100'
             loading='lazy'
@@ -21,7 +21,7 @@ export function Footer() {
         </div>
         <div className='' style={{ width: '200px' }}>
           <img
-            src='/ecomondo/deutsche_messe_bn.webp'
+            src='/deutsche_messe_bn.webp'
             alt='igeco'
             className='w-100'
             loading='lazy'
@@ -32,7 +32,7 @@ export function Footer() {
         <Container>
           <div className='footer-socialmedia mt-5'>
             <a
-              href='https://www.facebook.com/EcomondoMexico'
+              href='https://www.facebook.comMexico'
               target='_blank'
               rel='noreferrer'
             >
@@ -46,7 +46,7 @@ export function Footer() {
               </svg>
             </a>
             <a
-              href='https://www.linkedin.com/company/ecomondo-m%C3%A9xico/'
+              href='https://www.linkedin.com/company-m%C3%A9xico/'
               target='_blank'
               rel='noreferrer'
             >
@@ -60,7 +60,7 @@ export function Footer() {
               </svg>
             </a>
             <a
-              href='https://twitter.com/ecomondomx/'
+              href='https://twitter.commx/'
               target='_blank'
               rel='noreferrer'
               aria-label='Twitter Link'
@@ -73,7 +73,7 @@ export function Footer() {
               </svg>
             </a>
             <a
-              href='https://www.instagram.com/ecomondomx/'
+              href='https://www.instagram.commx/'
               target='_blank'
               rel='noreferrer'
             >
@@ -104,7 +104,7 @@ export function Footer() {
               <p className='mb-3'><strong>{t('footer.contact_us')}</strong></p>
               <Row className='mb-5'>
                 <Col xs={4} md={12} lg={3}>
-                  <Image src="/ecomondo/sandra_v2.webp" roundedCircle width='85' />
+                  <Image src="/sandra_v2.webp" roundedCircle width='85' />
                 </Col>
                 <Col xs={8} md={12} lg={8}>
                   <strong>Sandra Elías</strong><br />
@@ -115,7 +115,7 @@ export function Footer() {
               </Row>
               <Row className='mb-5'>
                 <Col xs={4} md={12} lg={3}>
-                  <Image src="/ecomondo/sergiolopez.webp" roundedCircle width='85' />
+                  <Image src="/sergiolopez.webp" roundedCircle width='85' />
                 </Col>
                 <Col xs={8} md={12} lg={8}>
                   <strong>Sergio López</strong><br />
@@ -126,7 +126,7 @@ export function Footer() {
               </Row>
               <Row className='mb-5'>
                 <Col xs={4} md={12} lg={3}>
-                  <Image src="/ecomondo/marissa.jpg" roundedCircle width='85' />
+                  <Image src="/marissa.jpg" roundedCircle width='85' />
                 </Col>
                 <Col xs={8} md={12} lg={8}>
                   <strong>Marissa Franco Zermeño</strong><br />
@@ -256,7 +256,7 @@ export function Footer() {
             >
               {t('footer.privacy_policy')}
             </a>{' '}
-            | <a href='/ecomondo/contact'>{t('footer.contact')}</a>
+            | <a href='/contact'>{t('footer.contact')}</a>
           </div>
         </Container>
       </footer>

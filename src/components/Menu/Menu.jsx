@@ -59,8 +59,8 @@ export function Menu() {
               width={120}
               src={
                 i18n.language === 'es'
-                  ? '/ecomondo/SSM-boton-ES.webp'
-                  : '/ecomondo/SSM-boton-EN.webp'
+                  ? '/SSM-boton-ES.webp'
+                  : '/SSM-boton-EN.webp'
               }
             />
           </a>
