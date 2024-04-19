@@ -1,4 +1,4 @@
-import { Col, Container, Row } from 'react-bootstrap'
+import { Button, Col, Container, Row } from 'react-bootstrap'
 import Aos from "aos";
 import { useEffect } from "react";
 import './HomeNew.css'
@@ -7,37 +7,274 @@ import Marquee from 'react-fast-marquee'
 import { exhibitors1, exhibitors2, exhibitors3, exhibitorsItaly1, exhibitorsItaly2, exhibitorsChihuahua1, exhibitorsChihuahua2 } from "../../constans_logos";
 
 export function HomeNew() {
-    const { t } = useTranslation()
+    const { t, i18n } = useTranslation()
     useEffect(() => {
         Aos.init();
     }, []);
     return (
-        <><section class="background-image d-flex justify-content-center align-items-center">
+        <>
+            <section class="background-image d-flex justify-content-center align-items-center">
+                <Container>
+                    <Row className="d-flex justify-content-center align-items-center">
+                        <Col xs={10} sm={10} md={8} lg={5}>
+                            <div data-aos="fade-zoom-in"
+                                data-aos-easing="ease-in-back"
+                                data-aos-delay="100"
+                                data-aos-duration="500"
+                                data-aos-offset="0">
+                                <img src="/ecomondo_logo_2025.webp" alt="ecomondo 2025" className="img-fluid" />
+                            </div>
+                        </Col>
+                    </Row>
+                    <div data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom" data-aos-delay="800" data-aos-duration="1000">
+                        <Row className='justify-content-md-center'>
+                            <Col xxl={6}><h1 className='date-title mt-5'> {t("home.new-eco-date")} </h1></Col>
+                        </Row>
+                        <Row className="justify-content-md-center">
+                            <Col xs={6} sm={3} md={3} lg={2}>  <img src="/igeco_bn.webp" alt="" className="img-fluid" /> </Col>
+                            <Col xs={6} sm={3} md={3} lg={2}>  <img src="/deutsche_messe_bn.webp" alt="" className="img-fluid" /> </Col>
+                        </Row>
+                    </div>
+
+                </Container>
+            </section>
+
+            {/* Sobre ecomondo */}
             <Container>
-                <Row className="d-flex justify-content-center align-items-center">
-                    <Col xs={10} sm={10} md={8} lg={5}>
-                        <div data-aos="fade-zoom-in"
-                            data-aos-easing="ease-in-back"
-                            data-aos-delay="100"
-                            data-aos-duration="500"
-                            data-aos-offset="0">
-                            <img src="/ecomondo_logo_2025.webp" alt="ecomondo 2025" className="img-fluid" />
-                        </div>
+                <article className="text-start pb-5">
+                    <Row className="pt-5 px-3 fs-5">
+                        <Col md={6} className="px-5">
+                            <p
+                                className="fw-bold fs-2 home-text-color"
+                                style={{ color: "#288705" }}
+                            >
+                                ECOMONDO MÉXICO 2025
+                            </p>
+                            <p className="fs-4" style={{ textAlign: "justify" }}>
+                                {t("home.general_description")}
+                            </p>
+                            <br />
+                        </Col>
+                        <Col md={6} className="my-auto">
+                            {i18n.language === "es" ? (
+                                <video
+                                    className="w-100"
+                                    controls
+                                    src="/Ecomondo_2024_ESV1.mp4"
+                                    poster="/posterVideoEco2023.webp"
+                                    loading="lazy"
+                                    autoPlay
+                                    muted
+                                    playsInline
+                                    loop
+                                />
+                            ) : (
+                                <video
+                                    className="w-100"
+                                    controls
+                                    src="/Ecomondo_2024_ENV1.mp4"
+                                    poster="/posterVideoEco2023.webp"
+                                    loading="lazy"
+                                    autoPlay
+                                    muted
+                                    playsInline
+                                    loop
+                                />
+                            )}
+                        </Col>
+                    </Row>
+                </article>
+            </Container>
+
+
+            {/* PATROCINADORES */}
+            <Container className="pb-5">
+                <p className="fw-bold fs-3 pb-4 home-text-color text-uppercase" style={{ color: "#288705" }}>
+                    {t("home.sponsor_1")}
+                </p>
+                <Row className="justify-content-md-center">
+                    <Col xs={12} md={12} lg={4} >
+                        <a href="https://www.mase.gov.it/" target="_blank" className="d-flex  align-items-baseline">
+                            <img
+                                src="/logo_mase.webp"
+                                alt="mase-org"
+                                className="img-fluid my-3"
+                                style={{ maxHeight: "110px" }}
+                            />
+                        </a>
+                        <a href="https://www.mase.gov.it/" target="_blank">
+                            <Button variant="link" className="fs-5">{t("home.btn_moreInformation")}</Button>
+                        </a>
                     </Col>
                 </Row>
-                <div data-aos="fade-up"
-                    data-aos-anchor-placement="center-bottom" data-aos-delay="800" data-aos-duration="1000">
-                    <Row className='justify-content-md-center'>
-                        <Col xxl={6}><h1 className='date-title mt-5'> {t("home.new-eco-date")} </h1></Col>
-                    </Row>
-                    <Row className="justify-content-md-center">
-                        <Col xs={6} sm={3} md={3} lg={2}>  <img src="/igeco_bn.webp" alt="" className="img-fluid" /> </Col>
-                        <Col xs={6} sm={3} md={3} lg={2}>  <img src="/deutsche_messe_bn.webp" alt="" className="img-fluid" /> </Col>
+                <p className="fw-bold mt-5 fs-3 home-text-color text-uppercase" style={{ color: "#288705" }}>
+                    {t("home.sponsor_2")}
+                </p>
+                <Row className="justify-content-md-center">
+                    <Col xs={12} md={12} lg={3}>
+                        <a href="https://www.longi.com/mx/" target="_blank">
+                            <img
+                                src="/logos/longi_logo.webp"
+                                alt="longi"
+                                className="img-fluid"
+                                style={{ maxHeight: "90px" }}
+                            />
+                        </a>
+                    </Col>
+                    <Col xs={12} md={12} lg={3}>
+                        <a href="https://www.cpm.coop/" target="_blank">
+                            <img
+                                src="/logos/caja-popular.webp"
+                                alt="caja popular mexicana"
+                                className="img-fluid"
+                                style={{ maxHeight: "120px" }}
+                            />
+                        </a>
+                    </Col>
+                </Row>
+            </Container>
+
+            {/* EJES DEL EVENTO */}
+            <Container fluid className='pt-5'>
+                <p
+                    className="fw-bold fs-3 pb-4 home-text-color text-uppercase"
+                    style={{ color: "#288705" }}
+                >
+                    {t("home.zone")}
+                </p>
+                <div className="section-evento">
+                    <Row className="justify-content-md-center  ">
+                        <Col xs={12} md={6} lg={3} className="text-center py-3">
+                            <div className="card-container">
+                                <div className="card">
+                                    <div className="front-content">
+                                        <img
+                                            className="top-image"
+                                            src="/eco_control-residuos.webp"
+                                            alt=""
+                                        />
+                                        <br />
+                                        <br />
+                                        <p className="title fs-5 circle-1">
+                                            {t("home.zone_1.title")}
+                                        </p>
+                                    </div>
+                                    <div className="content">
+                                        <p className="heading">{t("home.zone_1.title")}</p>
+                                        <ul className="text-start">
+                                            <li>{t("home.zone_1.item_1")}</li>
+                                            <li>{t("home.zone_1.item_2")}</li>
+                                            <li>{t("home.zone_1.item_3")}</li>
+                                            <li>{t("home.zone_1.item_4")}</li>
+                                            <li>{t("home.zone_1.item_5")}</li>
+                                            <li>{t("home.zone_1.item_6")}</li>
+                                            <li>{t("home.zone_1.item_7")}</li>
+                                            <li>{t("home.zone_1.item_8")}</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col xs={12} md={6} lg={3} className="text-center py-3">
+                            <div className="card-container">
+                                <div className="card">
+                                    <div className="front-content">
+                                        <img
+                                            className="top-image"
+                                            src="/eco_bioenergia.webp"
+                                            alt="Imagen superior"
+                                        />
+                                        <br />
+                                        <br />
+                                        <p className="title fs-5 circle-2">
+                                            {t("home.zone_2.title")}
+                                        </p>
+                                    </div>
+                                    <div className="content">
+                                        <p className="heading">{t("home.zone_2.title")}</p>
+                                        <ul className="text-start">
+                                            <li>{t("home.zone_2.item_1")}</li>
+                                            <li>{t("home.zone_2.item_2")}</li>
+                                            <li>{t("home.zone_2.item_3")}</li>
+                                            <li>{t("home.zone_2.item_4")}</li>
+                                            <li>{t("home.zone_2.item_5")}</li>
+                                            <li>{t("home.zone_2.item_6")}</li>
+                                            <li>{t("home.zone_2.item_7")}</li>
+                                            <li>{t("home.zone_2.item_8")}</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col xs={12} md={6} lg={3} className="text-center py-3">
+                            <div className="card-container">
+                                <div className="card">
+                                    <div className="front-content">
+                                        <img
+                                            className="top-image"
+                                            src="/tratado-agua_eco.webp"
+                                            alt="Imagen superior"
+                                        />
+                                        <br />
+                                        <br />
+                                        <p className="title fs-5 circle-3">
+                                            {t("home.zone_3.title")}
+                                        </p>
+                                    </div>
+                                    <div className="content">
+                                        <p className="heading">{t("home.zone_3.title")}</p>
+                                        <ul className="text-start">
+                                            <li>{t("home.zone_3.item_1")}</li>
+                                            <li>{t("home.zone_3.item_2")}</li>
+                                            <li>{t("home.zone_3.item_3")}</li>
+                                            <li>{t("home.zone_3.item_4")}</li>
+                                            <li>{t("home.zone_3.item_5")}</li>
+                                            <li>{t("home.zone_3.item_6")}</li>
+                                            <li>{t("home.zone_3.item_7")}</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col xs={12} md={6} lg={3} className="text-center py-3">
+                            <div className="card-container">
+                                <div className="card">
+                                    <div className="front-content">
+                                        <img
+                                            className="top-image"
+                                            src="/sustainable_cities.webp"
+                                            alt="Imagen superior"
+                                        />
+                                        <br />
+                                        <br />
+                                        <p className="title fs-5 circle-4">
+                                            {t("home.zone_4.title")}
+                                        </p>
+                                    </div>
+                                    <div className="content">
+                                        <p className="heading">{t("home.zone_4.title")}</p>
+                                        <ul className="text-start">
+                                            <li>{t("home.zone_4.item_1")}</li>
+                                            <li>{t("home.zone_4.item_2")}</li>
+                                            <li>{t("home.zone_4.item_3")}</li>
+                                            <li>{t("home.zone_4.item_4")}</li>
+                                            <li>{t("home.zone_4.item_5")}</li>
+                                            <li>{t("home.zone_4.item_6")}</li>
+                                            <li>{t("home.zone_4.item_7")}</li>
+                                            <li>{t("home.zone_4.item_8")}</li>
+                                            <li>{t("home.zone_4.item_9")}</li>
+                                            <li>{t("home.zone_4.item_10")}</li>
+                                            <li>{t("home.zone_4.item_11")}</li>
+                                            <li>{t("home.zone_4.item_12")}</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </Col>
                     </Row>
                 </div>
-
             </Container>
-        </section>
             {/* LOGOS DE EXPOSITORES */}
             <Container className="pt-5 pb-5">
                 <p className="fw-bold fs-2 text-center" style={{ color: "#288705" }}>
