@@ -54,7 +54,7 @@ export function Menu() {
             style={{ padding: 0, background: 'none' }}
             target='_blank'
             rel='noreferrer'
-          >
+        
             <img
               width={120}
               src={
@@ -102,8 +102,8 @@ export function Menu() {
                   <NavDropdown.Item
                     href={
                       i18n.language === 'es'
-                        ? '/ecomondo/files/Factsheet_Ecomondo_Mexico_2024_ESP_AC_220324.pdf'
-                        : '/ecomondo/files/Factsheet_Ecomondo_Mexico_2024_ENG_AC_220324.pdf'
+                        ? '/files/ECOMONDO_2025_FS_V1_ESP.pdf'
+                        : '/files/ECOMONDO_2025_FS_V1_ENG.pdf'
                     }
                     target='_blank'
                     onClick={handleClose}
@@ -120,8 +120,8 @@ export function Menu() {
                   <NavDropdown.Item
                     href={
                       i18n.language === 'es'
-                        ? '/ecomondo/files/patrocionios_es_200324.pdf'
-                        : '/ecomondo/files/sponsorships_en_200324.pdf'
+                        ? '/files/patrocionios_es_200324.pdf'
+                        : '/files/sponsorships_en_200324.pdf'
                     }
                     target='_blank'
                     onClick={handleClose}
@@ -129,25 +129,21 @@ export function Menu() {
                     {t('menu.sponsorships')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href='/ecomondo/files/ECO_SSM_2024_v11_041124_model.pdf'
+                    href='/files/ECOMONDO_2025_v6041624_Model.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
                     {t('menu.exhibitors_3')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href={
-                      i18n.language === 'es'
-                        ? '/ecomondo/files/ASSpaceAgreement-Ecomondo-Mexico-ACv2.pdf'
-                        : '/ecomondo/files/ASSpaceAgreement-Ecomondo-Mexico-ENG-ACv2.pdf'
-                    }
+                    href='/files/ECOMONDO_2025_SpaceAgreement_ED.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
                     {t('menu.exhibitors_4')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href='/ecomondo/files/Contrato-Patrocinios-ECO-1n.pdf'
+                    href='/files/Contrato-Patrocinios-ECO-1n.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
