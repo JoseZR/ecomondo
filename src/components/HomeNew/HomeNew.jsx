@@ -41,7 +41,7 @@ export function HomeNew() {
             {/* LOGOS DE EXPOSITORES */}
             <Container className="pt-5 pb-5">
                 <p className="fw-bold fs-2 text-center" style={{ color: "#288705" }}>
-                    {t("home.exhibitors")}
+                    {t("home.exhibitors")} 2024
                 </p>
                 <Marquee gradient>
                     {exhibitors1.map((logotypes, index) => (
@@ -84,7 +84,7 @@ export function HomeNew() {
                 </Marquee>
             </Container>
             <Container className="py-5">
-                <p className="fw-bold fs-2 text-center text-uppercase" style={{ color: "#288705" }}> {t("home.italy-hall")}</p>
+                <p className="fw-bold fs-2 text-center text-uppercase" style={{ color: "#288705" }}> {t("home.italy-hall")} 2024</p>
                 <Marquee gradient direction='letf'>
                     {exhibitorsItaly1.map((logotypes, index) => (
                         <div key={index} className='exibitorSlider text-center h-100'>
@@ -113,7 +113,7 @@ export function HomeNew() {
                 </Marquee>
             </Container>
             <Container className="py-5">
-                <p className="fw-bold fs-2 text-center text-uppercase" style={{ color: "#288705" }}>{t("home.chihuahua-hall")}</p>
+                <p className="fw-bold fs-2 text-center text-uppercase" style={{ color: "#288705" }}>{t("home.chihuahua-hall")} 2024</p>
                 <Marquee gradient direction='letf'>
                     {exhibitorsChihuahua1.map((logotypes, index) => (
                         <div key={index} className='exibitorSlider text-center h-100'>
@@ -145,7 +145,7 @@ export function HomeNew() {
             <section className="">
                 <Container className="">
                     <p className="fw-bold fs-2 text-center" style={{ color: "#288705" }}>
-                        {t("home.strategies_allies")}
+                        {t("home.strategies_allies")} 2024
                     </p>
                     <Marquee gradient direction="letf">
                         <div className="exibitorSlider text-center h-100">
@@ -352,7 +352,7 @@ export function HomeNew() {
                         className="fw-bold fs-2 text-center mt-5 pt-5"
                         style={{ color: "#288705" }}
                     >
-                        MEDIA PARTNERS
+                        MEDIA PARTNERS 2024
                     </p>
                     <Marquee gradient className="mt-3" direction="letf">
                         <div className="exibitorSlider text-center h-100">

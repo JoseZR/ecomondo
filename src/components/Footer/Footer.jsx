@@ -90,14 +90,14 @@ export function Footer() {
           <Row className='mt-5'>
             <Col md>
               <p>
-                <strong>ECOMONDO 2024</strong>
+                <strong>ECOMONDO 2025</strong>
               </p>
               <p>
                 {t("footer.event-date")}
                 <br />
-                Expo Guadalajara,
+                {/* Expo Guadalajara,
                 <br />
-                Guadalajara, Jalisco, México
+                Guadalajara, Jalisco, México */}
               </p>
             </Col>
             <Col md>
