@@ -49,7 +49,7 @@ export function Menu() {
           <Navbar.Brand as={Link} to='/'>
             <img src={logoEco} alt='ecomondo' width='150' />
           </Navbar.Brand>
-          <a
+          {/* <a
             href='https://www.hfmexico.mx/solarpowermexico/'
             style={{ padding: 0, background: 'none' }}
             target='_blank'
@@ -63,7 +63,7 @@ export function Menu() {
                   : '/SSM-boton-EN.webp'
               }
             />
-          </a>
+          </a> */}
           <Navbar.Toggle onClick={handleShow} />
           <Navbar.Offcanvas
             id='offcanvasMenuweb'
