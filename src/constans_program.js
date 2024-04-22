@@ -17,63 +17,63 @@ const programECO = {
         person: [
           {
             id: 1,
-            photo: '/ecomondo/speakers/israel-garcia-ochoa.webp',
+            photo: '/speakers/israel-garcia-ochoa.webp',
             speakers_name: 'Jorge Israel García Ochoa',
             position: 'Secretario de SEMADET, Gobierno del Estado de Jalisco',
             position_en: 'Secretary of SEMADET, Jalisco State Government'
           },
           {
             id: 2,
-            photo: '/ecomondo/speakers/izarelly-rosillo.webp',
+            photo: '/speakers/izarelly-rosillo.webp',
             speakers_name: 'Izarelly Rosillo',
             position: 'Universidad de Querétaro',
             position_en: 'University of Querétaro'
           },
           {
             id: 3,
-            photo: '/ecomondo/speakers/MARCO_RICCI.webp',
+            photo: '/speakers/MARCO_RICCI.webp',
             speakers_name: 'Marco Ricci',
             position: 'Comité Científico y Técnico de Ecomondo',
             position_en: 'Ecomondo Scientific and Technical Committee'
           },
           {
             id: 4,
-            photo: '/ecomondo/speakers/Paula_Garcia_HOLLEY.webp',
+            photo: '/speakers/Paula_Garcia_HOLLEY.webp',
             speakers_name: 'Paula García',
             position: 'Clean Air Task Force',
             position_en: 'Clean Air Task Force'
           },
           {
             id: 5,
-            photo: '/ecomondo/speakers/rosendo-tamez_v2.webp',
+            photo: '/speakers/rosendo-tamez_v2.webp',
             speakers_name: 'Rosendo Tamez',
             position: 'R3VER. Linares - México',
             position_en: 'R3VER. Linares - México'
           },
           {
             id: 20,
-            photo: '/ecomondo/speakers/omar-palafox_v3.webp',
+            photo: '/speakers/omar-palafox_v3.webp',
             speakers_name: 'Omar Palafox Saenz',
             position: 'Brimex Company, Agave leftlovers',
             position_en: 'Brimex Company, Agave leftlovers'
           },
           {
             id: 15,
-            photo: '/ecomondo/speakers/LUISA_GONZALEZ.webp',
+            photo: '/speakers/LUISA_GONZALEZ.webp',
             speakers_name: 'Luisa González',
             position: 'CCAC',
             position_en: 'CCAC'
           },
           {
             id: 17,
-            photo: '/ecomondo/speakers/efrain-aguirrre-macias.webp',
+            photo: '/speakers/efrain-aguirrre-macias.webp',
             speakers_name: 'Efraín Aguirrre Macías',
             position: 'Director General de El Morado Compost',
             position_en: 'General Manager of El Morado Compost'
           },
           {
             id: 18,
-            photo: '/ecomondo/speakers/rodrigo-gomez-rizo.webp',
+            photo: '/speakers/rodrigo-gomez-rizo.webp',
             speakers_name: 'Rodrigo Gómez Rizo',
             position: 'Director de Desarrollo y Tecnología de El Morado Compost',
             position_en: 'Director of Development and Technology of El Morado Compost'
@@ -96,7 +96,7 @@ const programECO = {
         person: [
           {
             id: 6,
-            photo: '/ecomondo/speakers/CECILE_DE_MAULEON.webp',
+            photo: '/speakers/CECILE_DE_MAULEON.webp',
             speakers_name: 'Cecile De Mauleon',
             position: 'Directora de Camexital, Cámara de Comercio Mexicana en Italia.',
             position_en: 'Director of Camexital, Mexican Chamber of Commerce in Italy.'
@@ -143,28 +143,28 @@ const programECO = {
         person: [
           {
             id: 13,
-            photo: '/ecomondo/speakers/GISELLE_CANAHUATI.webp',
+            photo: '/speakers/GISELLE_CANAHUATI.webp',
             speakers_name: ' Giselle Canahuati',
             position: 'Secretaria Socio-Económica, Instituto Ítalo Latinoamericano (IILA).',
             position_en: 'Socio-Economic Secretary, Italian-Latin American Institute (IILA).'
           },
           {
             id: 36,
-            photo: '/ecomondo/speakers/pablo-necochea.webp',
+            photo: '/speakers/pablo-necochea.webp',
             speakers_name: 'Pablo David Necoechea Porras',
             position: 'CEO, ESG Academy',
             position_en: 'CEO, ESG Academy'
           },
           {
             id: 23,
-            photo: '/ecomondo/speakers/eduardo-walsh.webp',
+            photo: '/speakers/eduardo-walsh.webp',
             speakers_name: 'Eduardo Walsh',
             position: 'Gerente de proyectos KAS México',
             position_en: 'Project Manager KAS Mexico'
           },
           {
             id: 37,
-            photo: '/ecomondo/speakers/hans-blomeier.webp',
+            photo: '/speakers/hans-blomeier.webp',
             speakers_name: 'Hans Blomeier ',
             position: 'Director KAS México',
             position_en: 'Director KAS Mexico'
@@ -263,42 +263,42 @@ const programECO = {
         person: [
           {
             id: 10,
-            photo: '/ecomondo/speakers/FRANCISCO_GALVAN.webp',
+            photo: '/speakers/FRANCISCO_GALVAN.webp',
             speakers_name: 'Francisco Galván',
             position: 'DSLatinoamericana, Presidente',
             position_en: 'DSLatinoamericana, President'
           },
           {
             id: 3,
-            photo: '/ecomondo/speakers/MARCO_RICCI.webp',
+            photo: '/speakers/MARCO_RICCI.webp',
             speakers_name: 'Marco Ricci',
             position: 'ISWA WG BTW ',
             position_en: 'ISWA WG BTW '
           },
           {
             id: 11,
-            photo: '/ecomondo/speakers/GUSTAVO_SOLORZANO.webp',
+            photo: '/speakers/GUSTAVO_SOLORZANO.webp',
             speakers_name: 'Gustavo Solórzano',
             position: 'DSLatinoamericana-México',
             position_en: 'DSLatinoamericana-México'
           },
           {
             id: 19,
-            photo: '/ecomondo/speakers/luca_torresan.webp',
+            photo: '/speakers/luca_torresan.webp',
             speakers_name: 'Luca Torresan',
             position: 'Sartori-Ambiente-IT',
             position_en: 'Sartori-Ambiente-IT'
           },
           {
             id: 26,
-            photo: '/ecomondo/speakers/marcelo-rosso.webp',
+            photo: '/speakers/marcelo-rosso.webp',
             speakers_name: 'Marcelo Rosso ',
             position: 'ARS-Argentina',
             position_en: 'ARS-Argentina'
           },
           {
             id: 21,
-            photo: '/ecomondo/speakers/christian-mulcahy.webp',
+            photo: '/speakers/christian-mulcahy.webp',
             speakers_name: 'Christian Mulcahy',
             position: 'Compost Systems GmbH',
             position_en: 'Compost Systems GmbH'
@@ -321,7 +321,7 @@ const programECO = {
       //   person: [
       //     {
       //       id: 13,
-      //       photo: '/ecomondo/speakers/GISELLE_CANAHUATI.webp',
+      //       photo: '/speakers/GISELLE_CANAHUATI.webp',
       //       speakers_name:'Giselle Canahuati',
       //       position : 'Secretario Socioeconómico - IILA Organización Internacional Italo-Latinoamericana',
       //       position_en : 'Socioeconomic Secretary of IILA International Italo-Latin American Organization'
@@ -344,21 +344,21 @@ const programECO = {
         person: [
           {
             id: 37,
-            photo: '/ecomondo/speakers/hans-blomeier.webp',
+            photo: '/speakers/hans-blomeier.webp',
             speakers_name: 'Hans Blomeier ',
             position: 'Director KAS México',
             position_en: 'Director KAS Mexico'
           },
           {
             id: 28,
-            photo: '/ecomondo/speakers/gilberto-elias.webp',
+            photo: '/speakers/gilberto-elias.webp',
             speakers_name: 'Gilberto Elías Ogaz ',
             position: 'Subdirector de Industria de la Dirección de Desarrollo Económico y Turístico del Municipio de Chihuahua',
             position_en: 'Deputy Director of Industry of the Directorate of Economic and Tourist Development of the Municipality of Chihuahua.'
           },
           {
             id: 29,
-            photo: '/ecomondo/speakers/luis-tellez.webp',
+            photo: '/speakers/luis-tellez.webp',
             speakers_name: 'Luis Téllez Live ',
             position: 'Gerente de Proyectos de la Fundación Konrad Adenauer (KAS) México',
             position_en: 'Project Manager of the Konrad Adenauer Foundation (KAS) Mexico'
@@ -366,14 +366,14 @@ const programECO = {
 
           {
             id: 35,
-            photo: '/ecomondo/speakers/victor-gomez.webp',
+            photo: '/speakers/victor-gomez.webp',
             speakers_name: 'Víctor Gómez Céspedes',
             position: 'Team Leader Chihuahua Green',
             position_en: 'Team Leader Chihuahua Green'
           },
           {
             id: 32,
-            photo: '/ecomondo/speakers/jesus-garcia.webp',
+            photo: '/speakers/jesus-garcia.webp',
             speakers_name: 'Jesús García',
             position: 'Subsecretario de Innovación y Desarrollo Económico (SIDE), Gobierno del Estado de Chihuahua.',
             position_en: 'Undersecretary of Innovation and Economic Development (SIDE), Government of the State of Chihuahua.'
@@ -470,7 +470,7 @@ const programECO = {
         person: [
           {
             id: 27,
-            photo: '/ecomondo/speakers/bruno-garcia.webp',
+            photo: '/speakers/bruno-garcia.webp',
             speakers_name: 'Bruno García Dancourt',
             position: 'Director Ejecutivo de Scrapex S.A., y representante de la Asociación Nacional de Recicladores de Residuos Electrónicos de Guatemala',
             position_en: 'Executive Director of Scrapex S.A., and representative of the National Association of Electronic Waste Recyclers of Guatemala.'
@@ -493,14 +493,14 @@ const programECO = {
         person: [
           {
             id: 16,
-            photo: '/ecomondo/speakers/alejandra_rojas.webp',
+            photo: '/speakers/alejandra_rojas.webp',
             speakers_name: 'Alejandra Bolio Rojas',
             position: 'Directora de la Unidad de Desarrollo Sustentable en Mérida, Yucatán',
             position_en: 'Director of the Sustainable Development Unit in Mérida, Yucatán'
           },
           {
             id: 23,
-            photo: '/ecomondo/speakers/eduardo-walsh.webp',
+            photo: '/speakers/eduardo-walsh.webp',
             speakers_name:'Eduardo Walsh',
             position : 'Gerente de proyectos KAS México',
             position_en : 'Project Manager KAS Mexico'
@@ -514,28 +514,28 @@ const programECO = {
           },
           {
             id: 22,
-            photo: '/ecomondo/speakers/alberto_carmona.webp',
+            photo: '/speakers/alberto_carmona.webp',
             speakers_name: 'Alberto Carmona Velázquez',
             position: 'Subsecretario de Gestión Ambiental, Cambio Climático y Sustentabilidad Energética.',
             position_en: 'Undersecretary of Environmental Management, Climate Change and Energy Sustainability. '
           },
           {
             id: 32,
-            photo: '/ecomondo/speakers/jesus-garcia.webp',
+            photo: '/speakers/jesus-garcia.webp',
             speakers_name: 'Jesús García ',
             position: 'Subsecretario de Innovación y Desarrollo Económico (SIDE), Gobierno del Estado de Chihuahua',
             position_en: 'Undersecretary of Innovation and Economic Development (SIDE), Government of the State of Chihuahua'
           },
           // {
           //   id: 36,
-          //   photo: '/ecomondo/speakers/pablo-necochea.webp',
+          //   photo: '/speakers/pablo-necochea.webp',
           //   speakers_name:'Pablo Necoechea',
           //   position : 'CEO ESG Academy',
           //   position_en : 'CEO ESG Academy'
           // },
           // {
           //   id: 37,
-          //   photo: '/ecomondo/speakers/hans-blomeier.webp',
+          //   photo: '/speakers/hans-blomeier.webp',
           //   speakers_name:'Hans Blomeier ',
           //   position : 'Director KAS México',
           //   position_en : 'Director KAS Mexico'
@@ -562,14 +562,14 @@ const programECO = {
         person: [
           {
             id: 25,
-            photo: "/ecomondo/speakers/karina-marquez.webp",
+            photo: "/speakers/karina-marquez.webp",
             speakers_name: 'Karina Márquez Guzmán',
             position: 'Consejo Directivo del Colegio de Ingenieros Civiles del Estado de Jalisco (CICEJ)',
             position_en: 'Board of Directors of the College of Civil Engineers of the State of Jalisco (CICEJ)'
           },
           {
             id: 14,
-            photo: '/ecomondo/speakers/mario_guadalupe.webp',
+            photo: '/speakers/mario_guadalupe.webp',
             speakers_name: 'Mario Guadalupe González Pérez',
             position: 'Profesor Investigador del Departamento de Estudios del Agua y Energía - Centro Universitario de Tonalá de la Universidad de Guadalajara',
             position_en: 'Research Professor of the Department of Water and Energy Studies - Centro Universitario de Tonalá of the University of Guadalajara.'
@@ -577,28 +577,28 @@ const programECO = {
 
           {
             id: 34,
-            photo: '/ecomondo/speakers/mirna-avilez.webp',
+            photo: '/speakers/mirna-avilez.webp',
             speakers_name: 'MH. Mirna Aideé Avilés ',
             position: 'Mis. Coordinadora de proyectos especiales en materia hídrica del Colegio de Ingenieros Civiles del Estado de Jalisco (CICEJ)-Modelo de gestión hídrica para el Estado de Jalisco',
             position_en: 'Mis. Coordinator of special water projects of the College of Civil Engineers of the State of Jalisco (CICEJ) - Water management model for the State of Jalisco.'
           },
           {
             id: 38,
-            photo: '/ecomondo/speakers/juan-manue-ochoa.webp',
+            photo: '/speakers/juan-manue-ochoa.webp',
             speakers_name: 'Juan Manuel Chávez Ochoa ',
             position: 'Presidente Cámara Mexicana de la Industria de la Construcción Delegación Jalisco (CMIC)',
             position_en: 'President of the Mexican Chamber of the Construction Industry Delegation of Jalisco (CMIC) '
           },
           {
             id: 40,
-            photo: '/ecomondo/speakers/reynaldo_diaz.webp',
+            photo: '/speakers/reynaldo_diaz.webp',
             speakers_name: ' Reynaldo Evaristo Díaz Hernández',
             position: 'Presidente de la Asociación Mexicana de Hidráulica De Jalisco',
             position_en: 'President of the Asociación Mexicana de Hidráulica de Jalisco (Mexican Hydraulics Association of Jalisco)'
           },
           {
             id: 39,
-            photo: '/ecomondo/speakers/rodrigo_navarro.webp',
+            photo: '/speakers/rodrigo_navarro.webp',
             speakers_name: 'Rodrigo Navarro Guerrero ',
             position: 'Consejo Consultivo del Agua Jalisco A.C',
             position_en: 'Water Advisory Council Jalisco A.C'
@@ -622,35 +622,35 @@ const programECO = {
         person: [
           {
             id: 7,
-            photo: '/ecomondo/speakers/francesco-fatone_v2.webp',
+            photo: '/speakers/francesco-fatone_v2.webp',
             speakers_name: 'Francesco Fatone',
             position: 'Miembro de la Asociación Internacional del Agua IWA',
             position_en: 'International Water Association IWA fellow'
           },
           {
             id: 8,
-            photo: '/ecomondo/speakers/JESUSMANRIQUEZ.webp',
+            photo: '/speakers/JESUSMANRIQUEZ.webp',
             speakers_name: 'Jesús Manríquez',
             position: 'Gerente de tratamiento y reutilización de SAPAL León, Guanajuato México',
             position_en: 'Treatment and reuse manager at SAPAL'
           },
           {
             id: 9,
-            photo: '/ecomondo/speakers/jose_tello.webp',
+            photo: '/speakers/jose_tello.webp',
             speakers_name: 'José Tello',
             position: 'Conservación Ambiental CIBNOR',
             position_en: 'Environmental Conservation CIBNOR'
           },
           {
             id: 33,
-            photo: '/ecomondo/speakers/roest-kees.webp ',
+            photo: '/speakers/roest-kees.webp ',
             speakers_name: 'Kees Roest',
             position: 'Miembro del equipo de Energía y Sistemas Circulares en KWR ',
             position_en: 'Member of the Energy and Circular Systems team at KWR. '
           },
           {
             id: 31,
-            photo: '/ecomondo/speakers/julian-somaza.webp',
+            photo: '/speakers/julian-somaza.webp',
             speakers_name: 'Julián Somoza',
             position: 'Jefe de Planeación Estratégica Ambiental, Secretaría de Gestión Integral del Agua de Jalisco',
             position_en: 'Head of Strategic Environmental Planning, Secretariat of Integral Water Management of Jalisco.'
@@ -675,28 +675,28 @@ const programECO = {
         person: [
           {
             id: 12,
-            photo: '/ecomondo/speakers/cindy-mcculigh.webp',
+            photo: '/speakers/cindy-mcculigh.webp',
             speakers_name: 'Cindy McCulligh',
             position: 'Profesora investigadora del Centro de Investigaciones y Estudios Superiores en Antropología Social CIESAS, en Guadalajara, México',
             position_en: 'Professor researcher at the Center for Research and Advanced Studies in Social Anthropology CIESAS'
           },
           {
             id: 7,
-            photo: '/ecomondo/speakers/francesco-fatone_v2.webp',
+            photo: '/speakers/francesco-fatone_v2.webp',
             speakers_name: 'Francesco Fatone',
             position: 'Miembro de la Asociación Internacional del Agua IWA',
             position_en: 'International Water Association IWA fellow'
           },
           {
             id: 24,
-            photo: '/ecomondo/speakers/martin-argueta.webp',
+            photo: '/speakers/martin-argueta.webp',
             speakers_name: 'Martín Argueta',
             position: 'Presidente de la Asociación Geohidrológica Mexicana',
             position_en: 'President of the Mexican Geohydrological Association'
           },
           {
             id: 30,
-            photo: '/ecomondo/speakers/victor-mijango.webp',
+            photo: '/speakers/victor-mijango.webp',
             speakers_name: 'Víctor Mijangos',
             position: 'Gerente Operativo del Consejo de Cuenca del Río Santiago',
             position_en: 'Operational Manager of the Santiago River Basin Council'
