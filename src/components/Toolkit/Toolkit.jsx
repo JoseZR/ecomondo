@@ -23,8 +23,8 @@ export function Toolkit() {
           <a
             data-src={
               i18n.language === 'es'
-                ? '/ecomondo/toolkit/banner_exhibitor_banner_horizontal_esp.webp'
-                : '/ecomondo/toolkit/banner_exhibitor_banner_horizontal_eng.webp'
+                ? '/toolkit/banner_exhibitor_banner_horizontal_esp.webp'
+                : '/toolkit/banner_exhibitor_banner_horizontal_eng.webp'
             }
             className='img-gallery'
           >
@@ -32,8 +32,8 @@ export function Toolkit() {
             <img
               src={
                 i18n.language === 'es'
-                  ? '/ecomondo/toolkit/banner_exhibitor_banner_horizontal_esp.webp'
-                  : '/ecomondo/toolkit/banner_exhibitor_banner_horizontal_eng.webp'
+                  ? '/toolkit/banner_exhibitor_banner_horizontal_esp.webp'
+                  : '/toolkit/banner_exhibitor_banner_horizontal_eng.webp'
               }
               className='w-100 p-2'
               loading='lazy'
@@ -42,8 +42,8 @@ export function Toolkit() {
           <a
             data-src={
               i18n.language === 'es'
-                ? '/ecomondo/toolkit/exhibitor_banner_doc_esp.webp'
-                : '/ecomondo/toolkit/exhibitor_banner_doc_eng.webp'
+                ? '/toolkit/exhibitor_banner_doc_esp.webp'
+                : '/toolkit/exhibitor_banner_doc_eng.webp'
             }
             className='img-gallery'
           >
@@ -51,8 +51,8 @@ export function Toolkit() {
             <img
               src={
                 i18n.language === 'es'
-                  ? '/ecomondo/toolkit/exhibitor_banner_doc_esp.webp'
-                  : '/ecomondo/toolkit/exhibitor_banner_doc_eng.webp'
+                  ? '/toolkit/exhibitor_banner_doc_esp.webp'
+                  : '/toolkit/exhibitor_banner_doc_eng.webp'
               }
               className='w-100 p-2'
               loading='lazy'
@@ -61,8 +61,8 @@ export function Toolkit() {
           <a
             data-src={
               i18n.language === 'es'
-                ? '/ecomondo/toolkit/facebook_post_horizontal_esp.webp'
-                : '/ecomondo/toolkit/facebook_post_horizontal_eng.webp'
+                ? '/toolkit/facebook_post_horizontal_esp.webp'
+                : '/toolkit/facebook_post_horizontal_eng.webp'
             }
             className='img-gallery'
           >
@@ -70,8 +70,8 @@ export function Toolkit() {
             <img
               src={
                 i18n.language === 'es'
-                  ? '/ecomondo/toolkit/facebook_post_horizontal_esp.webp'
-                  : '/ecomondo/toolkit/facebook_post_horizontal_eng.webp'
+                  ? '/toolkit/facebook_post_horizontal_esp.webp'
+                  : '/toolkit/facebook_post_horizontal_eng.webp'
               }
               className='w-100 p-2'
               loading='lazy'
@@ -80,8 +80,8 @@ export function Toolkit() {
           <a
             data-src={
               i18n.language === 'es'
-                ? '/ecomondo/toolkit/twitter_exhibitor_esp.webp'
-                : '/ecomondo/toolkit/twitter_exhibitor_eng.webp'
+                ? '/toolkit/twitter_exhibitor_esp.webp'
+                : '/toolkit/twitter_exhibitor_eng.webp'
             }
             className='img-gallery'
           >
@@ -89,8 +89,8 @@ export function Toolkit() {
             <img
               src={
                 i18n.language === 'es'
-                  ? '/ecomondo/toolkit/twitter_exhibitor_esp.webp'
-                  : '/ecomondo/toolkit/twitter_exhibitor_eng.webp'
+                  ? '/toolkit/twitter_exhibitor_esp.webp'
+                  : '/toolkit/twitter_exhibitor_eng.webp'
               }
               className='w-100 p-2'
               loading='lazy'
@@ -99,8 +99,8 @@ export function Toolkit() {
           <a
             data-src={
               i18n.language === 'es'
-                ? '/ecomondo/toolkit/linkedin_exhibitor_esp.webp'
-                : '/ecomondo/toolkit/linkedin_exhibitor_eng.webp'
+                ? '/toolkit/linkedin_exhibitor_esp.webp'
+                : '/toolkit/linkedin_exhibitor_eng.webp'
             }
             className='img-gallery'
           >
@@ -108,8 +108,8 @@ export function Toolkit() {
             <img
               src={
                 i18n.language === 'es'
-                  ? '/ecomondo/toolkit/linkedin_exhibitor_esp.webp'
-                  : '/ecomondo/toolkit/linkedin_exhibitor_eng.webp'
+                  ? '/toolkit/linkedin_exhibitor_esp.webp'
+                  : '/toolkit/linkedin_exhibitor_eng.webp'
               }
               className='w-100 p-2'
               loading='lazy'

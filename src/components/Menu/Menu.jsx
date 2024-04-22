@@ -110,7 +110,7 @@ export function Menu() {
                     {t('menu.exhibitors_2')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href='/ecomondo/files/DIRECTORIO_ECO_2024_v3_16042024.pdf'
+                    href='/files/DIRECTORIO_ECO_2024_v3_16042024.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
@@ -165,8 +165,8 @@ export function Menu() {
                   <NavDropdown.Item
                     href={
                       i18n.language === 'es'
-                        ? '/ecomondo/files/MANUAL_DEL_EXPOSITOR_ECO_230314.pdf'
-                        : '/ecomondo/files/MANUAL_DEL_EXPOSITOR_ENG_ECO_230314.pdf'
+                        ? '/files/MANUAL_DEL_EXPOSITOR_ECO_230314.pdf'
+                        : '/files/MANUAL_DEL_EXPOSITOR_ENG_ECO_230314.pdf'
                     }
                     target='_blank'
                     onClick={handleClose}
@@ -201,7 +201,7 @@ export function Menu() {
                     {t('home.hotels')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href='/ecomondo/files/LETTER-TEMPLATE-2024-ECO.pdf'
+                    href='/files/LETTER-TEMPLATE-2024-ECO.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
@@ -235,7 +235,7 @@ export function Menu() {
                 >
                   <p className='mt-2 p-2 mb-0'>{t('menu.ecomondo2023')}</p>
                   <NavDropdown.Item
-                    href='/ecomondo/files/Directorio_ECOMONDO_2023.pdf'
+                    href='/files/Directorio_ECOMONDO_2023.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
@@ -244,8 +244,8 @@ export function Menu() {
                   <NavDropdown.Item
                     href={
                       i18n.language === 'es'
-                        ? '/ecomondo/files/REPORTE-DE-RESULTADOS-ECO-ESP.pdf'
-                        : '/ecomondo/files/AFTERSHOW-REPORT-ECO-ENG.pdf'
+                        ? '/files/REPORTE-DE-RESULTADOS-ECO-ESP.pdf'
+                        : '/files/AFTERSHOW-REPORT-ECO-ENG.pdf'
                     }
                     target='_blank'
                     onClick={handleClose}
@@ -256,7 +256,7 @@ export function Menu() {
                   <NavDropdown.Divider />
                   <p className='mt-2 p-2 mb-0'>{t('menu.ecomondo2022')}</p>
                   <NavDropdown.Item
-                    href='/ecomondo/files/Directorio_ECOMONDO_2022-1.pdf'
+                    href='/files/Directorio_ECOMONDO_2022-1.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
@@ -265,8 +265,8 @@ export function Menu() {
                   <NavDropdown.Item
                     href={
                       i18n.language === 'es'
-                        ? '/ecomondo/files/Resultados_ECO_2022_ES.pdf'
-                        : '/ecomondo/files/Resultados_ECO_2022_EN.pdf'
+                        ? '/files/Resultados_ECO_2022_ES.pdf'
+                        : '/files/Resultados_ECO_2022_EN.pdf'
                     }
                     target='_blank'
                     onClick={handleClose}
