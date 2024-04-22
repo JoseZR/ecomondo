@@ -16,7 +16,7 @@ export function Contact() {
             <Row className='gap-6'>
               <Col md className='text-center pt-3'>
                 <img
-                  src='/ecomondo/sandra_v2.webp'
+                  src='/sandra_v2.webp'
                   alt='Sandra Elias'
                   height={150}
                   loading='lazy'
@@ -28,7 +28,7 @@ export function Contact() {
               </Col>
               <Col md className='text-center pt-3'>
                 <img
-                  src='/ecomondo/sergiolopez.webp'
+                  src='/sergiolopez.webp'
                   alt='Sergio López'
                   width={150}
                   loading='lazy'
@@ -49,7 +49,7 @@ export function Contact() {
               </Col>
               <Col md className='text-center pt-3'>
                 <img
-                  src='/ecomondo/marissa.jpg'
+                  src='/marissa.jpg'
                   alt='Marissa Franco Zermeño'
                   width={150}
                   loading='lazy'
@@ -72,7 +72,7 @@ export function Contact() {
             <Row className='gap-6 mt-5'>
               <Col md className='text-center pt-3'>
                 <img
-                  src='/ecomondo/laura-amaro.webp'
+                  src='/laura-amaro.webp'
                   alt='Sandra Elias'
                   height={150}
                   loading='lazy'
@@ -84,7 +84,7 @@ export function Contact() {
               </Col>
               <Col md className='text-center pt-3'>
                 <img
-                  src='/ecomondo/janai-medina.webp'
+                  src='/janai-medina.webp'
                   alt='Sandra Elias'
                   height={150}
                   loading='lazy'
@@ -96,7 +96,7 @@ export function Contact() {
               </Col>
               <Col md className='text-center pt-3'>
                 <img
-                  src='/ecomondo/brenda-reyes.webp'
+                  src='/brenda-reyes.webp'
                   alt='Sergio López'
                   width={150}
                   loading='lazy'
@@ -117,7 +117,7 @@ export function Contact() {
               </Col>
               <Col md className='text-center pt-3'>
                 <img
-                  src='/ecomondo/nayeli-rivera.webp'
+                  src='/nayeli-rivera.webp'
                   alt='Marissa Franco Zermeño'
                   width={150}
                   loading='lazy'
@@ -145,7 +145,7 @@ export function Contact() {
         <Row className='gap-6 px-5'>
           <Col md className='text-center pt-3'>
             <img
-              src='/ecomondo/alessandra-astolfi.webp'
+              src='/alessandra-astolfi.webp'
               alt='Sandra Elias'
               height={150}
               loading='lazy'
@@ -155,7 +155,7 @@ export function Contact() {
           </Col>
           <Col md className='text-center pt-3'>
             <img
-              src='/ecomondo/laura-ponzoni.webp'
+              src='/laura-ponzoni.webp'
               alt='Sergio López'
               width={150}
               loading='lazy'
@@ -169,7 +169,7 @@ export function Contact() {
           </Col>
           <Col md className='text-center pt-3'>
             <Image
-              src='/ecomondo/fabio-filipponi.webp'
+              src='/fabio-filipponi.webp'
               alt='Marissa Franco Zermeño'
               width={150}
               loading='lazy'
@@ -286,7 +286,7 @@ export function Contact() {
       <Container>
         <Row className='py-5 justify-content-md-center'>
           <Col lg={3} className=' d-flex justify-content-center align-items-center border-end border-black'>
-            <img src="/ecomondo/igeco_logo_negro.webp" alt="italian exhibition group" width='200' />
+            <img src="/igeco_logo_negro.webp" alt="italian exhibition group" width='200' />
           </Col>
           <Col lg={3} className=''>
             <p className='text-center mt-5'>
