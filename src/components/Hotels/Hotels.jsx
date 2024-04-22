@@ -60,11 +60,11 @@ export function Hotels() {
                     {t('hotels.code')} <strong>{hotel.code}</strong>
                   </ListGroup.Item>
                   <ListGroup.Item>
-                    <img src='/ecomondo/walk_icon.webp' width={20} />{' '}
+                    <img src='/walk_icon.webp' width={20} />{' '}
                     {hotel.time_walk} {t('hotels.time')}
                   </ListGroup.Item>
                   <ListGroup.Item>
-                    <img src='/ecomondo/car_icon.webp' width={20} />{' '}
+                    <img src='/car_icon.webp' width={20} />{' '}
                     {hotel.time_drive}
                   </ListGroup.Item>
                 </ListGroup>

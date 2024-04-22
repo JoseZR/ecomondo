@@ -1,6 +1,6 @@
 const hotels = [
   {
-    src: '/ecomondo/hotel_barcelo.webp',
+    src: '/hotel_barcelo.webp',
     name: 'Barceló Guadalajara',
     address: 'Av. De las Rosas 2933 Col. Rinconada del Bosque.',
     rate: '$1,500.00 MXN',
@@ -13,7 +13,7 @@ const hotels = [
     whatsapp: ''
   },
   {
-    src: '/ecomondo/hotel_westin.webp',
+    src: '/hotel_westin.webp',
     name: 'The Westin Guadalajara',
     address: 'Av. Las Rosas 2911, colonia Verde valle, C.P. 44530, Guadalajara, Jalisco.',
     rate: '$135.00 USD',
@@ -26,7 +26,7 @@ const hotels = [
     whatsapp: ''
   },
   {
-    src: '/ecomondo/hotel_marriot.webp',
+    src: '/hotel_marriot.webp',
     name: 'AC Marriot Guadalajara Expo',
     address: 'Av. López Mateos 2375. Ciudad del Sol. C.P. 45050. Guadalajara, Jalisco.',
     rate: '$1,850.00 MXN',
@@ -39,7 +39,7 @@ const hotels = [
     whatsapp: '33 18 93 37 90'
   },
   {
-    src: '/ecomondo/hotel_rui.webp',
+    src: '/hotel_rui.webp',
     name: 'RIU Plaza Guadalajara',
     address: 'Av. Av. López Mateos No. 830 Fracc. Chapalita.',
     rate: '$1,990.00 MXN',
@@ -52,7 +52,7 @@ const hotels = [
     whatsapp: '33 3956 2291'
   },
   {
-    src: '/ecomondo/hotel_ibis.webp',
+    src: '/hotel_ibis.webp',
     name: 'IBIS Guadalajara Expo',
     address: 'Av. Mariano Otero 1400 Col, Jardines del Bosque, 44520 Guadalajara, Jal.',
     rate: '$1,132.00 MXN',
@@ -65,7 +65,7 @@ const hotels = [
     whatsapp: '33 3880 96 00'
   },
   {
-    src: '/ecomondo/hotel_presidente.webp',
+    src: '/hotel_presidente.webp',
     name: 'Hotel Presidente InterContinental Guadalajara ',
     address: 'Moctezuma 2515, esquina Av. Adolfo López Mateos, Cd del Sol, Zapopan Jalisco.',
     rate: '15% de Desc.',
@@ -78,7 +78,7 @@ const hotels = [
     whatsapp: ''
   },
   {
-    src: '/ecomondo/hotel_real_inn.webp',
+    src: '/hotel_real_inn.webp',
     name: 'Real Inn Expo',
     address: 'Av. Mariano Otero N. 1326, Col. Jardines de San Ignacio. C.P 45040.',
     rate: '$1,900.00 MXN',
@@ -91,7 +91,7 @@ const hotels = [
     whatsapp: ''
   },
   {
-    src: '/ecomondo/hotel_fiesta_inn.webp',
+    src: '/hotel_fiesta_inn.webp',
     name: 'Fiesta Inn Guadalajara Expo',
     address: 'AV. Mariano Otero 1550 Rinconada del Sol.',
     rate: '$1,650.00 MXN',
@@ -104,7 +104,7 @@ const hotels = [
     whatsapp: ''
   },
   {
-    src: '/ecomondo/hotel_indigo.webp',
+    src: '/hotel_indigo.webp',
     name: 'Hotel INDIGO Guadalajara Expo',
     address: 'Av. López Mateos Sur 1280, Col. Chapalita.',
     rate: '$1,790.00 MXN',
