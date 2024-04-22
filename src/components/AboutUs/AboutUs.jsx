@@ -25,7 +25,7 @@ export function AboutUs() {
         <p className='mt-5 fw-bold fs-4'>{t('aboutUs.network')}</p>
         <Row>
           <Col md={4} className='my-auto'>
-            <img src='/ecomondo/ecomondo-italy.webp' className='w-100'></img>
+            <img src='/ecomondo-italy.webp' className='w-100'></img>
           </Col>
           <Col md={8}>
             <p className='mt-5 fw-bold m-0'>ECOMONDO ITALY</p>
@@ -43,7 +43,7 @@ export function AboutUs() {
         </Row>
         <Row className='mt-5'>
           <Col md={4}>
-            <img src='/ecomondo/ecomondo-china.webp' className='w-100'></img>
+            <img src='/ecomondo-china.webp' className='w-100'></img>
           </Col>
           <Col md={8}>
             <p className='fw-bold m-0'>ECOMONDO CHINA - CDEPE</p>
