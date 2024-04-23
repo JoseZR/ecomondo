@@ -13,8 +13,8 @@ export function Contact() {
         </p>
         <section className='ecomondo-bloq-1'>
           <Container>
-            <Row className='gap-6'>
-              <Col md className='text-center pt-3'>
+            <Row className='justify-content-md-center'>
+              <Col sm={12} md={4} lg={4} xl={4} xx={4} className='text-center pt-3'>
                 <img
                   src='/sandra_v2.webp'
                   alt='Sandra Elias'
@@ -26,28 +26,7 @@ export function Contact() {
                 <a href='mailto:sandra.elias@igeco.mx' className='text-white fw-bold'> sandra.elias@igeco.mx</a><br /><br />
                 <a href='mailto:sandra.elias@igeco.mx'><Button variant="outline-light" size="lg"> {t('footer.message_button')}</Button></a>
               </Col>
-              <Col md className='text-center pt-3'>
-                <img
-                  src='/sergiolopez.webp'
-                  alt='Sergio López'
-                  width={150}
-                  loading='lazy'
-                  className='rounded-circle'
-                />
-                <p className='fw-bold fs-5'>
-                  Sergio López
-                  <br />
-                  {t("footer.sales_manager")}
-                </p>
-                <a
-                  href='mailto:sergio.lopez@igeco.mx'
-                  className='text-white fw-bold'
-                >
-                  sergio.lopez@igeco.mx
-                </a><br /><br />
-                <a href='mailto:sergio.lopez@igeco.mx'><Button variant="outline-light" size="lg"> {t('footer.message_button')}</Button></a>
-              </Col>
-              <Col md className='text-center pt-3'>
+              <Col sm={12} md={4} lg={4} xl={4} xx={4} className='text-center pt-3'>
                 <img
                   src='/marissa.jpg'
                   alt='Marissa Franco Zermeño'
