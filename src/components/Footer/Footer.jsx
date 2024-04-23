@@ -113,7 +113,7 @@ export function Footer() {
                     <a href='mailto:sandra.elias@igeco.mx'><Button variant="success" size="sm"> {t('footer.message_button')}</Button></a>
                 </Col>
               </Row>
-              <Row className='mb-5'>
+              {/* <Row className='mb-5'>
                 <Col xs={4} md={12} lg={3}>
                   <Image src="/sergiolopez.webp" roundedCircle width='85' />
                 </Col>
@@ -123,7 +123,7 @@ export function Footer() {
                     <a href='mailto:sergio.lopez@igeco.mx'>sergio.lopez@igeco.mx</a>
                     <a href='mailto:sergio.lopez@igeco.mx'><Button variant="success" size="sm"> {t('footer.message_button')}</Button></a>
                 </Col>
-              </Row>
+              </Row> */}
               <Row className='mb-5'>
                 <Col xs={4} md={12} lg={3}>
                   <Image src="/marissa.jpg" roundedCircle width='85' />
