@@ -27,7 +27,7 @@ export function VisitorProfile() {
                   <ul style={{ listStyle: 'none' }}>
                     <li>
                       <img
-                        src='/ecomondo/whyvisit_3.png'
+                        src='/whyvisit_3.png'
                         alt='digital transformation'
                         width={85}
                       />
@@ -35,7 +35,7 @@ export function VisitorProfile() {
                     </li>
                     <li>
                       <img
-                        src='/ecomondo/whyvisit_2.png'
+                        src='/whyvisit_2.png'
                         alt='digital transformation'
                         width={85}
                       />
