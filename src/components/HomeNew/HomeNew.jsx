@@ -5,6 +5,9 @@ import './HomeNew.css'
 import { useTranslation } from 'react-i18next'
 import Marquee from 'react-fast-marquee'
 import { exhibitors1, exhibitors2, exhibitors3, exhibitorsItaly1, exhibitorsItaly2, exhibitorsChihuahua1, exhibitorsChihuahua2 } from "../../constans_logos";
+import { GalleryYear } from "../GalleryPage/GalleryYear";
+import { gallery2024 } from "../GalleryPage/constans_gallery";
+
 
 export function HomeNew() {
     const { t, i18n } = useTranslation()
@@ -885,6 +888,13 @@ export function HomeNew() {
                     </Marquee>
                 </Container>
             </section>
+
+            <Container className="galleryPage">
+                <h1 className="gallery-title pt-5">
+                    {t("menu.media_hub_1")} Ecomondo 2024
+                </h1>
+                <GalleryYear year={gallery2024} />
+            </Container>
         </>
     )
 }

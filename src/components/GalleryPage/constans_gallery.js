@@ -1,3 +1,26 @@
+const gallery2024 = [
+  '/gallery/2024/eco_2024_1.webp',
+  '/gallery/2024/eco_2024_2.webp',
+  '/gallery/2024/eco_2024_3.webp',
+  '/gallery/2024/eco_2024_4.webp',
+  '/gallery/2024/eco_2024_5.webp',
+  '/gallery/2024/eco_2024_6.webp',
+  '/gallery/2024/eco_2024_7.webp',
+  '/gallery/2024/eco_2024_8.webp',
+  '/gallery/2024/eco_2024_9.webp',
+  '/gallery/2024/eco_2024_10.webp',
+  '/gallery/2024/eco_2024_11.webp',
+  '/gallery/2024/eco_2024_12.webp',
+  '/gallery/2024/eco_2024_13.webp',
+  '/gallery/2024/eco_2024_14.webp',
+  '/gallery/2024/eco_2024_15.webp',
+  '/gallery/2024/eco_2024_16.webp',
+  '/gallery/2024/eco_2024_17.webp',
+  '/gallery/2024/eco_2024_18.webp',
+  '/gallery/2024/eco_2024_19.webp',
+  '/gallery/2024/eco_2024_20.webp'
+]
+
 const gallery2023 = [     
     '/gallery/2023/galleryECO2023-21.jpg',
     '/gallery/2023/galleryECO2023-22.jpg',
@@ -113,4 +136,4 @@ const gallery2023 = [
 
   ]
 
-  export { gallery2023, gallery2022 }
+  export { gallery2023, gallery2022, gallery2024 }
