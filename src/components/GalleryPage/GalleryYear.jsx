@@ -37,7 +37,7 @@ export function GalleryYear({ year }) {
                   src={img}
                   style={{ objectFit: 'cover' }}
                   className='w-100 mx-1 my-2 rounded'
-                  height='auto'
+                  height={200}
                   loading='lazy'
                 />
               </div>
