@@ -237,8 +237,8 @@ export function Menu() {
                       <NavDropdown.Item
                         href={
                           i18n.language === 'es'
-                            ? '/files/AFTER_SHOW_REPORT_ECO_SOLAR_ESP_AF_2024_v2.pdf'
-                            : '/files/AFTER_SHOW_REPORT_ECO_SOLAR_ENG_AF_2024_v2.pdf'
+                            ? '/files/AFTER_SHOW_REPORT_ECO_SOLAR_ESP_AF_2024_v3.pdf'
+                            : '/files/AFTER_SHOW_REPORT_ECO_SOLAR_ENG_AF_2024_v3.pdf'
                         }
                         target='_blank'
                         onClick={handleClose}
