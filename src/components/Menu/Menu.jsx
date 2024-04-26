@@ -110,13 +110,6 @@ export function Menu() {
                     {t('menu.exhibitors_2')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href='/files/DIRECTORIO_ECO_2024_v3_16042024.pdf'
-                    target='_blank'
-                    onClick={handleClose}
-                  >
-                    {t('menu.directory')}
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
                     href={
                       i18n.language === 'es'
                         ? '/files/patrocionios_es_200324.pdf'
