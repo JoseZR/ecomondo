@@ -233,46 +233,62 @@ export function Menu() {
                   renderMenuOnMount
                   disabled
                 >
-                  <p className='mt-2 p-2 mb-0'>{t('menu.ecomondo2023')}</p>
-                  <NavDropdown.Item
-                    href='/files/Directorio_ECOMONDO_2023.pdf'
-                    target='_blank'
-                    onClick={handleClose}
-                  >
-                    {t('menu.ecomondo2023_1')}
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
-                    href={
-                      i18n.language === 'es'
-                        ? '/files/REPORTE-DE-RESULTADOS-ECO-ESP.pdf'
-                        : '/files/AFTERSHOW-REPORT-ECO-ENG.pdf'
-                    }
-                    target='_blank'
-                    onClick={handleClose}
-                  >
-                    {t('menu.ecomondo2023_2')}
-                  </NavDropdown.Item>
+                      <p className='mt-2 p-2 mb-0'>{t('menu.ecomondo-title')}2024</p>
+                      <NavDropdown.Item
+                        href='/files/DIRECTORIO_ECO_2024_v3_16042024.pdf'
+                        target='_blank'
+                        onClick={handleClose}
+                      >
+                        {t('menu.ecomondo2023_1')} 2024
+                      </NavDropdown.Item>
+                      <NavDropdown.Item
+                        href='/files/After_Show Report_ECO_SOLAR_AF_2024.pdf'
+                        target='_blank'
+                        onClick={handleClose}
+                      >
+                        {t('menu.ecomondo2023_2')} 2024
+                      </NavDropdown.Item>
+                  <NavDropdown.Divider />
+                      <p className='mt-2 p-2 mb-0'>{t('menu.ecomondo-title')}2023</p>
+                      <NavDropdown.Item
+                        href='/files/Directorio_ECOMONDO_2023.pdf'
+                        target='_blank'
+                        onClick={handleClose}
+                      >
+                        {t('menu.ecomondo2023_1')} 2023
+                      </NavDropdown.Item>
+                      <NavDropdown.Item
+                        href={
+                          i18n.language === 'es'
+                            ? '/files/REPORTE-DE-RESULTADOS-ECO-ESP.pdf'
+                            : '/files/AFTERSHOW-REPORT-ECO-ENG.pdf'
+                        }
+                        target='_blank'
+                        onClick={handleClose}
+                      >
+                        {t('menu.ecomondo2023_2')} 2023
+                      </NavDropdown.Item>
                   {/* <NavDropdown.Item as={Link} to='/about-us' onClick={handleClose}>{t('menu.ecomondo2023_3')}</NavDropdown.Item> */}
                   <NavDropdown.Divider />
-                  <p className='mt-2 p-2 mb-0'>{t('menu.ecomondo2022')}</p>
-                  <NavDropdown.Item
-                    href='/files/Directorio_ECOMONDO_2022-1.pdf'
-                    target='_blank'
-                    onClick={handleClose}
-                  >
-                    {t('menu.ecomondo2022_1')}
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
-                    href={
-                      i18n.language === 'es'
-                        ? '/files/Resultados_ECO_2022_ES.pdf'
-                        : '/files/Resultados_ECO_2022_EN.pdf'
-                    }
-                    target='_blank'
-                    onClick={handleClose}
-                  >
-                    {t('menu.ecomondo2022_2')}
-                  </NavDropdown.Item>
+                      <p className='mt-2 p-2 mb-0'>{t('menu.ecomondo-title')}2022</p>
+                      <NavDropdown.Item
+                        href='/files/Directorio_ECOMONDO_2022-1.pdf'
+                        target='_blank'
+                        onClick={handleClose}
+                      >
+                        {t('menu.ecomondo2022_1')}
+                      </NavDropdown.Item>
+                      <NavDropdown.Item
+                        href={
+                          i18n.language === 'es'
+                            ? '/files/Resultados_ECO_2022_ES.pdf'
+                            : '/files/Resultados_ECO_2022_EN.pdf'
+                        }
+                        target='_blank'
+                        onClick={handleClose}
+                      >
+                        {t('menu.ecomondo2022_2')}
+                      </NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown
                   title={t('menu.media_hub')}
