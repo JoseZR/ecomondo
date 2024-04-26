@@ -233,7 +233,7 @@ export function Menu() {
                   renderMenuOnMount
                   disabled
                 >
-                      <p className='mt-2 p-2 mb-0'>{t('menu.ecomondo-title')}2024</p>
+                      <p className='mt-2 p-2 mb-0'>{t('menu.ecomondo-title')} 2024</p>
                       <NavDropdown.Item
                         href='/files/DIRECTORIO_ECO_2024_v3_16042024.pdf'
                         target='_blank'
@@ -242,14 +242,18 @@ export function Menu() {
                         {t('menu.ecomondo2023_1')} 2024
                       </NavDropdown.Item>
                       <NavDropdown.Item
-                        href='/files/After_Show Report_ECO_SOLAR_AF_2024.pdf'
+                        href={
+                          i18n.language === 'es'
+                            ? '/files/AFTER_SHOW_REPORT_ECO_SOLAR_ESP_AF_2024_v2.pdf'
+                            : '/files/AFTER_SHOW_REPORT_ECO_SOLAR_ENG_AF_2024_v2.pdf'
+                        }
                         target='_blank'
                         onClick={handleClose}
                       >
                         {t('menu.ecomondo2023_2')} 2024
                       </NavDropdown.Item>
                   <NavDropdown.Divider />
-                      <p className='mt-2 p-2 mb-0'>{t('menu.ecomondo-title')}2023</p>
+                      <p className='mt-2 p-2 mb-0'>{t('menu.ecomondo-title')} 2023</p>
                       <NavDropdown.Item
                         href='/files/Directorio_ECOMONDO_2023.pdf'
                         target='_blank'
@@ -268,15 +272,14 @@ export function Menu() {
                       >
                         {t('menu.ecomondo2023_2')} 2023
                       </NavDropdown.Item>
-                  {/* <NavDropdown.Item as={Link} to='/about-us' onClick={handleClose}>{t('menu.ecomondo2023_3')}</NavDropdown.Item> */}
                   <NavDropdown.Divider />
-                      <p className='mt-2 p-2 mb-0'>{t('menu.ecomondo-title')}2022</p>
+                      <p className='mt-2 p-2 mb-0'>{t('menu.ecomondo-title')} 2022</p>
                       <NavDropdown.Item
                         href='/files/Directorio_ECOMONDO_2022-1.pdf'
                         target='_blank'
                         onClick={handleClose}
                       >
-                        {t('menu.ecomondo2022_1')}
+                        {t('menu.ecomondo2022_1')} 2022
                       </NavDropdown.Item>
                       <NavDropdown.Item
                         href={
@@ -287,7 +290,7 @@ export function Menu() {
                         target='_blank'
                         onClick={handleClose}
                       >
-                        {t('menu.ecomondo2022_2')}
+                        {t('menu.ecomondo2022_2')} 2022
                       </NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown
