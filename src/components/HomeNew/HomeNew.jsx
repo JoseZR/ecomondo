@@ -90,6 +90,36 @@ export function HomeNew() {
                 </article>
             </Container>
 
+            <Container className='mb-5 pb-5'>
+                <div className="container-items">
+                    <a href={
+                        i18n.language === 'es'
+                            ? '/files/ECO_FACTSHEET_2025_FS_V2_ESP_23-04-2024.pdf'
+                            : '/files/ECO_FACTSHEET_2025_FS_V2_ENG_23-04-2024.pdf'
+                    }
+                        target='_blank'
+                        className='text-decoration-none'>
+                        <div className="btn-item"> {t("menu.exhibitors_2")} </div>
+                    </a>
+                    <a href='/files/ECOMONDO_2025_v6041624_Model.pdf'
+                        target='_blank' className='text-decoration-none'>
+                        <div className="btn-item"> {t("menu.exhibitors_3")} </div>
+                    </a>
+                    <a href='/files/ECOMONDO_2025_SpaceAgreement ED_v2.pdf'
+                        target='_blank' className='text-decoration-none'>
+                        <div className="btn-item"> {t("menu.exhibitors_4")} </div>
+                    </a>
+                    <a href={
+                        i18n.language === 'es'
+                            ? '/files/AFTER_SHOW_REPORT_ECO_SOLAR_ESP_AF_2024_v3.pdf'
+                            : '/files/AFTER_SHOW_REPORT_ECO_SOLAR_ENG_AF_2024_v3.pdf'
+                    } target='_blank' className='text-decoration-none'>
+                        <div className="btn-item"> {t("menu.ecomondo2023_2")} 2024 </div>
+                    </a>
+                </div>
+            </Container>
+
+
 
             {/* PATROCINADORES */}
             <Container className="pb-5">

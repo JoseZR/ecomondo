@@ -228,6 +228,8 @@ export function Home() {
        */}
 
       {/* EJES DEL EVENTO */}
+
+
       <Container fluid>
         <p
           className="fw-bold fs-3 pb-4 home-text-color text-uppercase"
@@ -367,11 +369,11 @@ export function Home() {
           </Row>
         </div>
       </Container>
-      
+
       <Container fluid className="program-wrapper d-flex justify-content-center my-5 h-auto">
         <Program />
       </Container>
-      
+
 
       {/* <section className="mt-5 home-whyexhibit">
         <p className="gallery-title fw-bold fs-2">
