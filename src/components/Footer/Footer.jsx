@@ -95,9 +95,9 @@ export function Footer() {
               <p>
                 {t("footer.event-date")}
                 <br />
-                {/* Expo Guadalajara,
+                Expo Guadalajara,
                 <br />
-                Guadalajara, Jalisco, México */}
+                Guadalajara, Jalisco, México
               </p>
             </Col>
             <Col md>
