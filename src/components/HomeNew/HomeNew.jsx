@@ -142,7 +142,7 @@ export function HomeNew() {
                     </Col>
                 </Row>
                 <p className="fw-bold mt-5 fs-3 home-text-color text-uppercase" style={{ color: "#288705" }}>
-                    {t("home.sponsor_2")}
+                    {t("home.sponsor_2")} 2024
                 </p>
                 <Row className="justify-content-md-center">
                     <Col xs={12} md={12} lg={3}>
