@@ -37,18 +37,28 @@
 }
 
 .btn-item:hover {
-  background-color: rgb(40, 135, 5) ; /* Cambia el color de fondo al verde */
-  border-color: rgb(40, 135, 5); /* Cambia el color del borde al verde */
-  color: #fff; /* Cambia el color del texto a blanco */
+  background-color: rgb(40, 135, 5) ;
+  border-color: rgb(40, 135, 5);
+  color: #fff; 
 }
 
 
 @media only screen and (max-width: 768px) {
     .date-title{font-size: 40px;}
+
+    .container-items{
+      display: flex;
+      flex-direction: column;
+    }
+
   }
 
   
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    /* Estilos para tabletas */
+    .container-items{
+      display: flex;
+      flex-direction: column;
+    }
+
   }
   
