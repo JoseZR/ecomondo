@@ -37,11 +37,24 @@
 
 }
 
-.btn-item:hover {
+.card-padre{
+  border-radius: 10px;
+  border:  1px solid green;
+  box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.255) ;
+  transition: all 0.5s ease;
+}
+
+
+.btn-item:hover, .card-padre:hover {
   background-color: rgb(40, 135, 5) ;
   border-color: rgb(40, 135, 5);
   color: #fff; 
 }
+
+
+
+
+
 
 
 @media only screen and (max-width: 768px) {

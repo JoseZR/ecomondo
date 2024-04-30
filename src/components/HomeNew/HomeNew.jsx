@@ -1,4 +1,4 @@
-import { Button, Col, Container, Row } from 'react-bootstrap'
+import { Button, Card, Col, Container, Row } from 'react-bootstrap'
 import Aos from "aos";
 import { useEffect } from "react";
 import './HomeNew.css'
@@ -7,6 +7,7 @@ import Marquee from 'react-fast-marquee'
 import { exhibitors1, exhibitors2, exhibitors3, exhibitorsItaly1, exhibitorsItaly2, exhibitorsChihuahua1, exhibitorsChihuahua2 } from "../../constans_logos";
 import { GalleryYear } from "../GalleryPage/GalleryYear";
 import { gallery2024 } from "../GalleryPage/constans_gallery";
+import { Rates } from '../Rates/Rates';
 
 
 export function HomeNew() {
@@ -16,7 +17,7 @@ export function HomeNew() {
     }, []);
     return (
         <>
-            <section class="background-image d-flex justify-content-center align-items-center">
+            <section className="background-image d-flex justify-content-center align-items-center">
                 <Container>
                     <Row className="d-flex justify-content-center align-items-center">
                         <Col xs={10} sm={10} md={8} lg={5}>
@@ -90,6 +91,7 @@ export function HomeNew() {
                 </article>
             </Container>
 
+            {/* ACCESOS DIRECTOS  */}
             <Container className='mb-5 pb-5'>
                 <div className="container-items">
                     <a href={
@@ -118,8 +120,6 @@ export function HomeNew() {
                     </a>
                 </div>
             </Container>
-
-
 
             {/* PATROCINADORES */}
             <Container className="pb-5">
@@ -308,6 +308,11 @@ export function HomeNew() {
                     </Row>
                 </div>
             </Container>
+
+            <Rates />
+
+                    
+                    
             {/* LOGOS DE EXPOSITORES */}
             <Container className="pt-5 pb-5">
                 <p className="fw-bold fs-2 text-center" style={{ color: "#288705" }}>
