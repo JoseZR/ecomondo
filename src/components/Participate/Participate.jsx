@@ -2,18 +2,19 @@ import { Col, Container, Row } from 'react-bootstrap'
 import './Participate.css'
 import { useTranslation } from 'react-i18next'
 import { Schedule } from '../Schedule/Schedule'
+import { Rates } from '../Rates/Rates'
 
 export function Participate() {
   const { t } = useTranslation()
   return (
     <>
       <Container className='my-5'>
-        <h2 className='fw-font title-conferencias'>
+        {/* <h2 className='fw-font title-conferencias'>
           <strong>{t('participate.title')}</strong>
         </h2>
         <br />
-        <br />
-        <Row>
+        <br /> */}
+        {/* <Row>
           <Col xs={12} md={4} className='h-100 p-3'>
             <div className='container-plant'>
               <h4 className='py-2'>{t('participate.sustainable')}</h4>
@@ -211,9 +212,10 @@ export function Participate() {
               </button>
             </div>
           </Col>
-        </Row>
+        </Row> */}
+        <Rates />
       </Container>
-      <Schedule />
+      {/* <Schedule /> */}
     </>
   )
 }
