@@ -104,13 +104,13 @@ export function Footer() {
               <p className='mb-3'><strong>{t('footer.contact_us')}</strong></p>
               <Row className='mb-5'>
                 <Col xs={4} md={12} lg={3}>
-                  <Image src="/sandra_v2.webp" roundedCircle width='85' />
+                  <Image src="/laura-amaro.webp" roundedCircle width='85' />
                 </Col>
                 <Col xs={8} md={12} lg={8}>
-                  <strong>Sandra Elías</strong><br />
-                    {t('footer.project_manager')}<br />
-                    <a href='mailto:sandra.elias@igeco.mx' className=''>sandra.elias@igeco.mx</a>
-                    <a href='mailto:sandra.elias@igeco.mx'><Button variant="success" size="sm"> {t('footer.message_button')}</Button></a>
+                  <strong>Laura Amaro</strong><br />
+                    {t("footer.sales_executive")}<br />
+                    <a href='mailto:laura.amaro@igeco.mx' className=''>sandra.elias@igeco.mx</a>
+                    <a href='mailto:laura.amaro@igeco.mx' ><Button variant="success" size="sm"> {t('footer.message_button')}</Button></a>
                 </Col>
               </Row>
               {/* <Row className='mb-5'>
