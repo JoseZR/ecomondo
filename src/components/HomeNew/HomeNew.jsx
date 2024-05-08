@@ -33,7 +33,10 @@ export function HomeNew() {
                     <div data-aos="fade-up"
                         data-aos-anchor-placement="center-bottom" data-aos-delay="800" data-aos-duration="1000">
                         <Row className='justify-content-md-center'>
-                            <Col xxl={6}><h1 className='date-title mt-5'> {t("home.new-eco-date")} </h1></Col>
+                            <Col xxl={6}>
+                                <h1 className='date-title mt-5'> {t("home.new-eco-date")}</h1>
+                                <p className='fs-3 mb-5'>Expo Guadalajara, Jalisco, México</p>
+                            </Col>
                         </Row>
                         <Row className="justify-content-md-center">
                             <Col xs={6} sm={3} md={3} lg={2}>  <img src="/igeco_bn.webp" alt="" className="img-fluid" /> </Col>
