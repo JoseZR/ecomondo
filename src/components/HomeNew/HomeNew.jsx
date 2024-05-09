@@ -98,9 +98,9 @@ export function HomeNew() {
             <Container className='mb-5 pb-5'>
                 <div className="container-items">
                     <a href={
-                        i18n.language === 'es'
-                            ? '/files/ECO_FACTSHEET_2025_V3_ESP_02052024.pdf'
-                            : '/files/ECO_FACTSHEET_2025_V3_ENG_02052024.pdf'
+                      i18n.language === 'es'
+                            ? '/files/ECO_FACTSHEET_2025_V3_ESP_09_05_2024.pdf'
+                            : '/files/ECO_FACTSHEET_2025_V3_ENG_09_05_2024.pdf'
                     }
                         target='_blank'
                         className='text-decoration-none'>

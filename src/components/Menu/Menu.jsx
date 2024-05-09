@@ -101,8 +101,8 @@ export function Menu() {
                   <NavDropdown.Item
                     href={
                       i18n.language === 'es'
-                            ? '/files/ECO_FACTSHEET_2025_V3_ESP_02052024.pdf'
-                            : '/files/ECO_FACTSHEET_2025_V3_ENG_02052024.pdf'
+                            ? '/files/ECO_FACTSHEET_2025_V3_ESP_09_05_2024.pdf'
+                            : '/files/ECO_FACTSHEET_2025_V3_ENG_09_05_2024.pdf'
                     }
                     target='_blank'
                     onClick={handleClose}
