@@ -128,7 +128,7 @@ export function Menu() {
                     {t('menu.exhibitors_3')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href='/files/ECOMONDO_2025_SpaceAgreement ED_v2.pdf'
+                    href='/files/ECOMONDO_2025_SpaceAgreement_ed_160524.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >

@@ -110,7 +110,7 @@ export function HomeNew() {
                         target='_blank' className='text-decoration-none'>
                         <div className="btn-item"> {t("menu.exhibitors_3")} </div>
                     </a>
-                    <a href='/files/ECOMONDO_2025_SpaceAgreement ED_v2.pdf'
+                    <a href='/files/ECOMONDO_2025_SpaceAgreement_ed_160524.pdf'
                         target='_blank' className='text-decoration-none'>
                         <div className="btn-item"> {t("menu.exhibitors_4")} </div>
                     </a>
