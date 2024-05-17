@@ -121,7 +121,7 @@ export function Menu() {
                     {t('menu.sponsorships')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href='/files/ECOMONDO_floorplan_2025_v7_08_05_2024.pdf'
+                    href='/files/ECOMONDO_floorplan_2025_v7_015_05_2024.pdf.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
