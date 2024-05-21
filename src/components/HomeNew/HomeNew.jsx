@@ -126,8 +126,8 @@ export function HomeNew() {
           <a
             href={
               i18n.language === 'es'
-                ? '/files/ECO-2025-FS-V5-ESP_compressed.pdf.pdf'
-                : '/files/ECO-2025-FS-V5-ENG_compressed.pdf.pdf'
+                ? '/files/ECO-2025-FS-V5-ESP_compressed.pdf'
+                : '/files/ECO-2025-FS-V5-ENG_compressed.pdf'
             }
             target='_blank'
             className='text-decoration-none'
