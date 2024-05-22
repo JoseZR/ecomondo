@@ -70,18 +70,19 @@
 }
 
 .circle-3 {
-  background-color: #01509b;
-  color: #01509b;
-}
-
-.circle-4 {
   background-color: #f6ca08;
   color: #f6ca08;
 }
 
+.circle-4 {
+  
+  background-color: #01509b;
+  color: #01509b;
+}
+
 .top-image {
   width: 95%;
-  height: auto;
+  
   border-radius: 5px;
 }
 

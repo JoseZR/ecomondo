@@ -335,6 +335,7 @@ export function HomeNew() {
                       className='top-image '
                       src='/bgEjes4.webp'
                       alt='Imagen superior'
+                      height={190}
                     />
                     <br />
                     <br />
