@@ -82,7 +82,7 @@ export function HomeNew() {
                 className='fw-bold fs-2 home-text-color'
                 style={{ color: '#288705' }}
               >
-                ECOMONDO MÉXICO 2025
+                ECOMONDO MEXICO 2025
               </p>
               <p className='fs-4' style={{ textAlign: 'justify' }}>
                 {t('home.general_description')}
