@@ -101,8 +101,8 @@ export function Menu() {
                   <NavDropdown.Item
                     href={
                       i18n.language === 'es'
-                        ? '/files/ECO-2025-FS-V5-ESP_compressed.pdf'
-                        : '/files/ECO-2025-FS-V5-ENG_compressed.pdf'
+                        ? '/files/ECO-2025-FS-V6-ESP_compressed.pdf'
+                        : '/files/ECO-2025-FS-V6-ENG_compressed.pdf'
                     }
                     target='_blank'
                     onClick={handleClose}
