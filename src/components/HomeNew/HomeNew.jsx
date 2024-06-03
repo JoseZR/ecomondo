@@ -543,7 +543,7 @@ export function HomeNew() {
                 />
               </a>
             </div>
-            <div className='exibitorSlider text-center h-100'>
+            {/* <div className='exibitorSlider text-center h-100'>
               <a
                 href='https://www.giz.de/en/worldwide/33041.html'
                 target='_blank'
@@ -557,7 +557,7 @@ export function HomeNew() {
                   alt='giz'
                 />
               </a>
-            </div>
+            </div> */}
             <div className='exibitorSlider text-center h-100'>
               <a
                 href='https://ambcittadelmessico.esteri.it/it/'
@@ -653,7 +653,7 @@ export function HomeNew() {
                 />
               </a>
             </div>
-            <div className='exibitorSlider text-center h-100'>
+            {/* <div className='exibitorSlider text-center h-100'>
               <a href='' target='_blank' rel='noreferrer'>
                 <img
                   src='/logos/kas.webp'
@@ -662,7 +662,7 @@ export function HomeNew() {
                   alt='kas'
                 />
               </a>
-            </div>
+            </div> */}
             <div className='exibitorSlider text-center h-100'>
               <a href='' target='_blank' rel='noreferrer'>
                 <img
