@@ -23,17 +23,16 @@ export function Toolkit() {
           <a
             data-src={
               i18n.language === 'es'
-                ? '/toolkit/banner_exhibitor_banner_horizontal_esp.webp'
-                : '/toolkit/banner_exhibitor_banner_horizontal_eng.webp'
+                ? '/toolkit/BANNER_WEB _ESP_2025.webp'
+                : '/toolkit/BANNER_WEB ING_2025.webp'
             }
-            className='img-gallery'
-          >
+            className='img-gallery' >
             <p className='text-center title-toolk'>{t('toolkit.item01')}</p>
             <img
               src={
                 i18n.language === 'es'
-                  ? '/toolkit/banner_exhibitor_banner_horizontal_esp.webp'
-                  : '/toolkit/banner_exhibitor_banner_horizontal_eng.webp'
+                ? '/toolkit/BANNER_WEB _ESP_2025.webp'
+                : '/toolkit/BANNER_WEB ING_2025.webp'
               }
               className='w-100 p-2'
               loading='lazy'
@@ -42,8 +41,8 @@ export function Toolkit() {
           <a
             data-src={
               i18n.language === 'es'
-                ? '/toolkit/exhibitor_banner_doc_esp.webp'
-                : '/toolkit/exhibitor_banner_doc_eng.webp'
+                ? '/toolkit/BANNER_DOC ESP_2025.webp'
+                : '/toolkit/BANNER DOC_ING_2025.webp'
             }
             className='img-gallery'
           >
@@ -51,8 +50,8 @@ export function Toolkit() {
             <img
               src={
                 i18n.language === 'es'
-                  ? '/toolkit/exhibitor_banner_doc_esp.webp'
-                  : '/toolkit/exhibitor_banner_doc_eng.webp'
+                  ? '/toolkit/BANNER_DOC ESP_2025.webp'
+                  : '/toolkit/BANNER DOC_ING_2025.webp'
               }
               className='w-100 p-2'
               loading='lazy'
@@ -61,8 +60,8 @@ export function Toolkit() {
           <a
             data-src={
               i18n.language === 'es'
-                ? '/toolkit/facebook_post_horizontal_esp.webp'
-                : '/toolkit/facebook_post_horizontal_eng.webp'
+                ? '/toolkit/FB_ESP_2025.webp'
+                : '/toolkit/FB_ING_2025.webp'
             }
             className='img-gallery'
           >
@@ -70,8 +69,8 @@ export function Toolkit() {
             <img
               src={
                 i18n.language === 'es'
-                  ? '/toolkit/facebook_post_horizontal_esp.webp'
-                  : '/toolkit/facebook_post_horizontal_eng.webp'
+                  ? '/toolkit/FB_ESP_2025.webp'
+                  : '/toolkit/FB_ING_2025.webp'
               }
               className='w-100 p-2'
               loading='lazy'
@@ -80,8 +79,8 @@ export function Toolkit() {
           <a
             data-src={
               i18n.language === 'es'
-                ? '/toolkit/twitter_exhibitor_esp.webp'
-                : '/toolkit/twitter_exhibitor_eng.webp'
+                ? '/toolkit/TW_ESP_2025.webp'
+                : '/toolkit/TW_ING_2025.webp'
             }
             className='img-gallery'
           >
@@ -89,8 +88,8 @@ export function Toolkit() {
             <img
               src={
                 i18n.language === 'es'
-                  ? '/toolkit/twitter_exhibitor_esp.webp'
-                  : '/toolkit/twitter_exhibitor_eng.webp'
+                  ? '/toolkit/TW_ESP_2025.webp'
+                  : '/toolkit/TW_ING_2025.webp'
               }
               className='w-100 p-2'
               loading='lazy'
@@ -99,8 +98,8 @@ export function Toolkit() {
           <a
             data-src={
               i18n.language === 'es'
-                ? '/toolkit/linkedin_exhibitor_esp.webp'
-                : '/toolkit/linkedin_exhibitor_eng.webp'
+                ? '/toolkit/LK _ESP_2025.webp'
+                : '/toolkit/LK_ING_2025.webp'
             }
             className='img-gallery'
           >
@@ -108,8 +107,8 @@ export function Toolkit() {
             <img
               src={
                 i18n.language === 'es'
-                  ? '/toolkit/linkedin_exhibitor_esp.webp'
-                  : '/toolkit/linkedin_exhibitor_eng.webp'
+                  ? '/toolkit/LK _ESP_2025.webp'
+                  : '/toolkit/LK_ING_2025.webp'
               }
               className='w-100 p-2'
               loading='lazy'
