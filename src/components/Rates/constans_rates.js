@@ -19,7 +19,7 @@ const rates_eco = {
       },
       early_price: {
         es: '59,400 MXN + IVA',
-        en: '66,600 MXN + VAT'
+        en: '59,400 MXN + VAT'
       },
       regular_price: {
         es: '66,600 MXN + IVA',
@@ -145,7 +145,7 @@ const rates_eco = {
       },
       title: {
         es: 'Sustainable Hub 3 m2',
-        en: 'Sustainable Hub 2sqm'
+        en: 'Sustainable Hub 3 sqm'
       },
       early_price_title: {
         es: 'Precio de Preventa',
