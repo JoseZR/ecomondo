@@ -127,7 +127,7 @@ export function HomeNew() {
             href={
               i18n.language === 'es'
                 ? '/files/ECO-2025-FS-V6-ESP_compressed.pdf'
-                : '/files/ECO-2025-FS-V6-ENG_compressed.pdf'
+                : '/files/Factsheet_Ecomondo_Mexico_2024_ENG_180624.pdf'
             }
             target='_blank'
             className='text-decoration-none'
