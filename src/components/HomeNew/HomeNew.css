@@ -51,10 +51,33 @@
   color: #fff; 
 }
 
+.bg-sponsor{
+  background-image: linear-gradient(to left bottom, #03973c, #05a242, #08ad48, #0bb94e, #0dc454, #0ec351, #10c24d, #11c14a, #10b43c, #0da72e, #099a20, #048e0e);
+  color: #fff; 
+  height: 100vh; 
+  font-family: 'N27-Regular';
+  color: #fff;
+  text-shadow: 4px 4px 5px rgb(0, 0, 0) ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.btn-item-sponsor{
+  color: green;
+  background-color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  text-shadow: none;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
 
-
-
+.btn-item-sponsor:hover{
+  background-color: rgb(25, 90, 2) ;
+  color: #fff;
+}
 
 
 @media only screen and (max-width: 768px) {

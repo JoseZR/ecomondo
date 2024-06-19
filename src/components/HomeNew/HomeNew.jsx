@@ -228,6 +228,25 @@ export function HomeNew() {
         </Row>
       </Container>
 
+      <Container fluid className='p-0 m-0'>
+        <section className='bg-sponsor'>
+          <h2 className='fs-1'>{t("menu.sponsorships")} </h2>
+          <p className='fs-5 w-75 mt-3'>{t("home.des-sponsor")}</p>
+
+          <a
+            href='/files/PATROCINIOS_ECOMONDO_2025_190624.pdf'
+            target='_blank'
+            className='text-decoration-none'
+            rel='noreferrer'
+          >
+            <div className='btn-item-sponsor'> {t("home.btn-more")}
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 15 15"><path fill="currentColor" fillRule="evenodd" d="M2.146 11.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 1 0-.708.708L5.793 7.5zm6 0a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 1 0-.708.708L11.793 7.5z" clipRule="evenodd" /></svg>
+            </div>
+          </a>
+
+        </section>
+      </Container>
+
       {/* EJES DEL EVENTO */}
       <Container fluid className='pt-5'>
         <p
