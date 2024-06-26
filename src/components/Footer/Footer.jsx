@@ -32,7 +32,7 @@ export function Footer() {
         <Container>
           <div className='footer-socialmedia mt-5'>
             <a
-              href='https://www.facebook.comMexico'
+              href='https://www.facebook.com/EcomondoMexico'
               target='_blank'
               rel='noreferrer'
             >
@@ -46,7 +46,7 @@ export function Footer() {
               </svg>
             </a>
             <a
-              href='https://www.linkedin.com/company-m%C3%A9xico/'
+              href='https://www.linkedin.com/company/ecomondo-m%C3%A9xico/'
               target='_blank'
               rel='noreferrer'
             >
@@ -60,20 +60,7 @@ export function Footer() {
               </svg>
             </a>
             <a
-              href='https://twitter.commx/'
-              target='_blank'
-              rel='noreferrer'
-              aria-label='Twitter Link'
-            >
-              <svg viewBox='0 0 24 24' aria-hidden='true'>
-                <title>Twitter</title>
-                <g>
-                  <path d='M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z' />
-                </g>
-              </svg>
-            </a>
-            <a
-              href='https://www.instagram.commx/'
+              href='https://www.instagram.com/ecomondomx?igsh=YzljYTk1ODg3Zg=='
               target='_blank'
               rel='noreferrer'
             >
@@ -113,17 +100,6 @@ export function Footer() {
                     <a href='mailto:laura.amaro@igeco.mx' ><Button variant="success" size="sm"> {t('footer.message_button')}</Button></a>
                 </Col>
               </Row>
-              {/* <Row className='mb-5'>
-                <Col xs={4} md={12} lg={3}>
-                  <Image src="/sergiolopez.webp" roundedCircle width='85' />
-                </Col>
-                <Col xs={8} md={12} lg={8}>
-                  <strong>Sergio López</strong><br />
-                    {t('footer.sales_manager')}<br />
-                    <a href='mailto:sergio.lopez@igeco.mx'>sergio.lopez@igeco.mx</a>
-                    <a href='mailto:sergio.lopez@igeco.mx'><Button variant="success" size="sm"> {t('footer.message_button')}</Button></a>
-                </Col>
-              </Row> */}
               <Row className='mb-5'>
                 <Col xs={4} md={12} lg={3}>
                   <Image src="/marissa.jpg" roundedCircle width='85' />
