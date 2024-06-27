@@ -102,13 +102,24 @@ export function Footer() {
               </Row>
               <Row className='mb-5'>
                 <Col xs={4} md={12} lg={3}>
-                  <Image src="/marissa.jpg" roundedCircle width='85' />
+                  <Image src="/brenda-reyes.webp" roundedCircle width='85' />
                 </Col>
                 <Col xs={8} md={12} lg={8}>
-                  <strong>Marissa Franco Zermeño</strong><br />
+                  <strong>Brenda Reyes</strong><br />
                     {t('footer.sales_executive')}<br />
-                    <a href='mailto:marissa.franco@igeco.mx'>marissa.franco@igeco.mx</a>
-                    <a href='mailto:marissa.franco@igeco.mx'><Button variant="success" size="sm"> {t('footer.message_button')}</Button></a>
+                    <a href='mailto:brenda.reyes@igeco.mx'>brenda.reyes@igeco.mx</a>
+                    <a href='mailto:brenda.reyes@igeco.mx'><Button variant="success" size="sm"> {t('footer.message_button')}</Button></a>
+                </Col>
+              </Row>
+              <Row className='mb-5'>
+                <Col xs={4} md={12} lg={3}>
+                  <Image src="/janai-medina.webp" roundedCircle width='85' />
+                </Col>
+                <Col xs={8} md={12} lg={8}>
+                  <strong>Janai Medina</strong><br />
+                    {t('footer.sales_executive')}<br />
+                    <a href='mailto:janai.medina@igeco.mx'>janai.medina@igeco.mx</a>
+                    <a href='mailto:janai.medina@igeco.mx'><Button variant="success" size="sm"> {t('footer.message_button')}</Button></a>
                 </Col>
               </Row>
             </Col>
