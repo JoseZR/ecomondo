@@ -18,6 +18,7 @@ import {
 import { GalleryYear } from "../GalleryPage/GalleryYear";
 import { gallery2024 } from "../GalleryPage/constans_gallery";
 import { Rates } from "../Rates/Rates";
+import { PersonContact } from "../Contact/PersonContact";
 
 export function HomeNew() {
   const { t, i18n } = useTranslation();
@@ -395,7 +396,10 @@ export function HomeNew() {
         </div>
       </Container>
 
+      {/* PRECIOS */}
       <Rates />
+
+      <PersonContact />
 
       {/* LOGOS DE EXPOSITORES */}
       <Container className="pt-5 pb-5">
@@ -511,6 +515,7 @@ export function HomeNew() {
           ))}
         </Marquee>
       </Container>
+
       {/* ALIADOS ESTRATÉGICOS y MEDIA PARTNERS */}
       <section className="">
         <Container className="">
@@ -1018,7 +1023,6 @@ export function HomeNew() {
           </Marquee>
         </Container>
       </section>
-
       <Container className="galleryPage">
         <h1 className="gallery-title pt-5">
           {t("menu.media_hub_1")} Ecomondo 2024

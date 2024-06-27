@@ -8,7 +8,7 @@ export function Rates() {
   const [preciosEco, setPreciosEco] = useState(rates_eco.rates)
 
   return (
-    <Container>
+    <Container className='mb-4'>
       <h2
         className='fw-bold fs-2 pb-4 home-text-color text-uppercase'
         style={{ color: '#288705' }}

@@ -22,7 +22,7 @@
     color: #288705;      
   }
   .background-contact{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/background_contact.webp');
+    background-image: linear-gradient(to right top, #037314, #078621, #09992f, #07ae3d, #00c24b);
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
