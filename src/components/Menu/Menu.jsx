@@ -202,13 +202,13 @@ export function Menu() {
                   renderMenuOnMount
                   disabled
                 >
-                  <NavDropdown.Item
+                  {/* <NavDropdown.Item
                     as={Link}
                     to='/program'
                     onClick={handleClose}
                   >
                     {t('menu.conferences_1')}
-                  </NavDropdown.Item>
+                  </NavDropdown.Item> */}
                   <NavDropdown.Item
                     as={Link}
                     to='/scientific-committee'
