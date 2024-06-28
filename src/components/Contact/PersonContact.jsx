@@ -42,7 +42,7 @@ export function PersonContact() {
                   loading='lazy'
                   className='rounded-circle'
                 />
-                <p className='fw-bold fs-5'>Laura Amaro<br />{t("footer.sales_executive")}</p>
+                <p className='fw-bold fs-5'>Laura Amaro<br />{t("footer.project_manager")}</p>
                 <a href='mailto:laura.amaro@igeco.mx' className='text-white fw-bold'> laura.amaro@igeco.mx</a><br /><br />
                 <a href='mailto:laura.amaro@igeco.mx'><Button variant="outline-light" size="lg"> {t('footer.message_button')}</Button></a>
               </Col>
