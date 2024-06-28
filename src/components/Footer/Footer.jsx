@@ -99,7 +99,7 @@ export function Footer() {
                 </Col>
                 <Col xs={8} md={12} lg={8}>
                   <strong>Laura Amaro</strong><br />
-                  {t("footer.sales_executive")}<br />
+                  {t("footer.project_manager")}<br />
                   <a href='mailto:laura.amaro@igeco.mx'>laura.amaro@igeco.mx</a>
                   <a href='mailto:laura.amaro@igeco.mx' ><Button variant="success" size="sm"> {t('footer.message_button')}</Button></a>
                 </Col>
