@@ -130,13 +130,13 @@ export function Menu() {
                   >
                     {t('menu.exhibitors_4')}
                   </NavDropdown.Item>
-                  <NavDropdown.Item
+                  {/* <NavDropdown.Item
                     href='/files/Contrato-Patrocinios-ECO-1n.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
                     {t('menu.exhibitors_5')}
-                  </NavDropdown.Item>
+                  </NavDropdown.Item> */}
                   <NavDropdown.Item
                     as={Link}
                     to='/participate'
@@ -151,7 +151,7 @@ export function Menu() {
                   >
                     toolkit
                   </NavDropdown.Item>
-                  <NavDropdown.Item
+                  {/* <NavDropdown.Item
                     href={
                       i18n.language === 'es'
                         ? '/files/MANUAL_DEL_EXPOSITOR_ECO_230314.pdf'
@@ -161,21 +161,21 @@ export function Menu() {
                     onClick={handleClose}
                   >
                     {t('menu.exhibitors_8')}
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
+                  </NavDropdown.Item> */}
+                  {/* <NavDropdown.Item
                     as={Link}
                     to='/hotels'
                     onClick={handleClose}
                   >
                     {t('home.hotels')}
-                  </NavDropdown.Item>
+                  </NavDropdown.Item> */}
                 </NavDropdown>
                 <NavDropdown
                   title={t('menu.visitors')}
                   renderMenuOnMount
                   disabled
                 >
-                  <NavDropdown.Item
+                  {/* <NavDropdown.Item
                     as={Link}
                     to='/why-visit'
                     onClick={handleClose}
@@ -188,7 +188,7 @@ export function Menu() {
                     onClick={handleClose}
                   >
                     {t('home.hotels')}
-                  </NavDropdown.Item>
+                  </NavDropdown.Item> */}
                   <NavDropdown.Item
                     href='/files/LETTER-TEMPLATE-2024-ECO.pdf'
                     target='_blank'
