@@ -92,33 +92,7 @@ export function HomeNew() {
               </p>
               <br />
             </Col>
-            {/* <Col md={6} className="my-auto">
-                            {i18n.language === "es" ? (
-                                <video
-                                    className="w-100"
-                                    controls
-                                    src="/Ecomondo_2024_ESV1.mp4"
-                                    poster="/posterVideoEco2023.webp"
-                                    loading="lazy"
-                                    autoPlay
-                                    muted
-                                    playsInline
-                                    loop
-                                />
-                            ) : (
-                                <video
-                                    className="w-100"
-                                    controls
-                                    src="/Ecomondo_2024_ENV1.mp4"
-                                    poster="/posterVideoEco2023.webp"
-                                    loading="lazy"
-                                    autoPlay
-                                    muted
-                                    playsInline
-                                    loop
-                                />
-                            )}
-                        </Col> */}
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ijct9R6jcsg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </Row>
         </article>
       </Container>
