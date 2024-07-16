@@ -101,8 +101,8 @@ export function Menu() {
                   <NavDropdown.Item
                     href={
                       i18n.language === 'es'
-                        ? '/files/ECO-2025-FS-V6-ESP_compressed.pdf'
-                        : '/files/Factsheet_Ecomondo_Mexico_2024_ENG_180624.pdf'
+                        ? '/files/ECO_2025_FS_ESP_V3_16-07-2024.pdf'
+                        : '/files/ECO_2025_FS_ENG_V3_16-07-2025.pdf'
                     }
                     target='_blank'
                     onClick={handleClose}
@@ -117,7 +117,7 @@ export function Menu() {
                     {t('menu.sponsorships')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href='/files/ECOMONDO_floorplan_2025_150724.pdf'
+                    href='/files/ECO_2025_v6_floorPlant_16_07-2024.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
