@@ -134,7 +134,7 @@ export function Footer() {
           <p className='mt-5'>
             <strong>{t('footer.foreign_contact')}</strong>
           </p>
-          <Row>
+          <Row className='justify-content-md-center'>
             <Col md>
               <p>
                 <strong>GERMANY</strong>
@@ -151,7 +151,7 @@ export function Footer() {
                   www.iegexpo.it/de
                 </a>
               </p>
-              <p>
+              {/* <p>
                 <strong>FRANCE, BELGIUM</strong>
                 <br />
                 <i>Promo Intex </i>
@@ -165,7 +165,7 @@ export function Footer() {
                 <a href='https://www.promo-intex.com' target='_blank'>
                   www.promo-intex.com
                 </a>
-              </p>
+              </p> */}
             </Col>
             <Col md>
               <p>
@@ -183,22 +183,9 @@ export function Footer() {
                   www.alseabusinessmedia.co.uk
                 </a>
               </p>
-              <p>
-                <strong>CHINA</strong>
-                <br />
-                <i>IEG CHINA</i>
-                <br />
-                <strong>Sky Hong</strong>
-                <br />
-                <a href='mailto:sky.hong@iegchina.com'>sky.hong@iegchina.com</a>
-                <br />
-                <a href='https://www.iegexpo.it/it/worldwide' target='_blank'>
-                  www.iegexpo.it/it/worldwide
-                </a>
-              </p>
             </Col>
             <Col md>
-              <p>
+              {/* <p>
                 <strong>USA & CANADA</strong>
                 <br />
                 <i>Atlas Marketing International</i>
@@ -212,7 +199,7 @@ export function Footer() {
                 <a href='https://www.atlas.marketing' target='_blank'>
                   www.atlas.marketing
                 </a>
-              </p>
+              </p> */}
               <p>
                 <strong>SPAGNA & PORTOGALLO</strong>
                 <br />
@@ -226,6 +213,21 @@ export function Footer() {
                 <br />
                 <a href='https://www.proalatam.com' target='_blank'>
                   www.proalatam.com
+                </a>
+              </p>
+            </Col>
+            <Col>
+            <p>
+                <strong>CHINA</strong>
+                <br />
+                <i>IEG CHINA</i>
+                <br />
+                <strong>Sky Hong</strong>
+                <br />
+                <a href='mailto:sky.hong@iegchina.com'>sky.hong@iegchina.com</a>
+                <br />
+                <a href='https://www.iegexpo.it/it/worldwide' target='_blank'>
+                  www.iegexpo.it/it/worldwide
                 </a>
               </p>
             </Col>
