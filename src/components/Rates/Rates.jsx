@@ -26,7 +26,7 @@ export function Rates() {
                   {i18n.language === 'en' ? preEco.title.en : preEco.title.es}
                 </Card.Title>
                 <Card.Text className='text-start'>
-                  <p className='fs-5 pb-3'>
+                  {/* <p className='fs-5 pb-3'>
                     {' '}
                     {i18n.language === 'en'
                       ? preEco.early_price_title.en
@@ -42,7 +42,7 @@ export function Rates() {
                     {i18n.language === 'en'
                       ? preEco.deadline.en
                       : preEco.deadline.es}
-                  </p>
+                  </p> */}
                   <p className='text-start fs-5'>
                     {' '}
                     {i18n.language === 'en'
