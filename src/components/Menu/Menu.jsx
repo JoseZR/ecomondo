@@ -100,9 +100,9 @@ export function Menu() {
                 >
                   <NavDropdown.Item
                     href={
-                      i18n.language === 'es'
-                        ? '/files/ECO_2025_FS_ESP_V3_16-07-2024.pdf'
-                        : '/files/ECO_2025_FS_ENG_V3_16-07-2025.pdf'
+                      i18n.language === "es"
+                        ? "/files/ECO_FS_ESP_25_02_08_25.pdf"
+                        : "/files/ECO_FS_ENG_25_02_08_25.pdf"
                     }
                     target='_blank'
                     onClick={handleClose}
@@ -124,7 +124,7 @@ export function Menu() {
                     {t('menu.exhibitors_3')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href='/files/ECOMONDO_2025_SpaceAgreement_ED_180624.pdf'
+                    href='/files/ECO_2025_SpaceAgreement ED_02_08_25.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
