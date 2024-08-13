@@ -113,7 +113,7 @@ export function HomeNew() {
             <div className="btn-item"> {t("menu.exhibitors_2")} </div>
           </a>
           <a
-            href="/files/ecomondo_floorplan_2025_01_08_24.pdf"
+            href="/files/ecomondo_floorplan_2025_12_08_24.pdf"
             target="_blank"
             className="text-decoration-none"
           >
