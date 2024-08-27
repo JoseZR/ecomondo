@@ -110,7 +110,11 @@ export function Menu() {
                     {t('menu.exhibitors_2')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href='/files/PATROCINIOS_ECOMONDO_2025_190624.pdf'
+                    href={
+                      i18n.language === "es"
+                        ? "/files/PATROCINIOS_ECOMONDO_2025_190624.pdf"
+                        : "/files/SPONSORSHIPS ECOMONDO_en_2025.pdf"
+                    }
                     target='_blank'
                     onClick={handleClose}
                   >
