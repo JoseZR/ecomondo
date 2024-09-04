@@ -30,8 +30,9 @@ function App() {
       {/* <ModalBanner/> */}{/* Esta es ventana emergente */}
       <ScrollToTop />
       <Menu />
+      {/* Este es el botón de WhatsApp */}
       <div className='whatssap-button'>
-        <a href='https://wa.me/14791484295' target='_blank' rel='noreferrer'>
+        <a href='https://wa.me/5578618912 ' target='_blank' rel='noreferrer'>
           <svg
             role='img'
             viewBox='0 0 24 24'

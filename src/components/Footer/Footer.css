@@ -14,9 +14,10 @@
 
 .footer-socialmedia {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 20px;
+    align-items: start;
+    padding: 10px auto;
 }
 
 footer a {
@@ -39,4 +40,11 @@ footer a:hover {
 }
 .language-option-footer svg{
     fill: black;
+}
+
+.container-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }

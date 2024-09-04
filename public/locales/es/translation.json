@@ -30,7 +30,7 @@
         "media_hub": "Media hub",
         "media_hub_1": "Galeria",
         "banner": "¡Regístrate gratis!",
-        "sponsorships":"Patrocinios",
+        "sponsorships":"Quiero ser patrocinador",
         "directory":"Directorio de Expositores 2024"
    },
    "home" :{
@@ -197,7 +197,9 @@
             "sponsorships_des":"CONVIÉRTETE EN PATROCINADOR Y OBTÉN BENEFICIOS EXCLUSIVOS. ¡ÚNETE A NOSOTROS Y DESTACA ENTRE LOS LÍDERES DE LA INDUSTRIA!",
             "btn-sponsorships":"Quiero ser patrocinador",
             "btn_moreInformation":"Ver más información",
-            "new-eco-date": "5-7 marzo, 2025"
+            "new-eco-date": "5-7 marzo, 2025",
+            "des-sponsor":"Aproveche esta plataforma de alto perfil para posicionar su marca, conectar con clientes potenciales y demostrar su liderazgo en en soluciones tecnológicas ambientales.",
+            "btn-more":"Saber más"
    },
    "aboutUs" :{
       "description": "La industria, en la búsqueda del desarrollo sostenible hacia un futuro más verde, se ha orientado hacia impulsar una valorización y gestión eficiente de recursos, conduciendo a las empresas a aumentar su productividad y rentabilidad.<br /><br />La Cuarta Revolución Industrial marca un cambio significativo, donde la sostenibilidad y la economía circular dejan de ser simples modelos económicos para transformarse en parámetros esenciales de productividad, eficiencia y rentabilidad; en este escenario, el cambio hacia un futuro sostenible requiere de responsabilidad compartida y de la colaboración de todos los actores del ecosistema empresarial.<br /><br />Ante la demanda creciente por que las empresas demuestren un compromiso real con la sostenibilidad y la acción climática, el mercado mexicano y de América Latina emerge como un terreno fértil lleno de oportunidades para avanzar hacia un futuro más verde.<br /><br />ECOMONDO MÉXICO llega desde Rimini, Italia, como la plataforma ideal para analizar las oportunidades de negocio al ofrecer el espacio ideal diversos a la colaboración entre los principales exponentes de soluciones tecnológicas ambientales y los actores clave de la industria a nivel global.<br /><br />Nuestra exhibición es la única feria en la región dedicada a impulsar el desarrollo sostenible y el cuidado de los recursos naturales que cuenta con el respaldo de dos de las compañías líderes en la organización de exposiciones y conferencias: Italian Exhibition Group y Deutsche Messe.<br /><br />Durante tres días de exhibición, reunimos las innovaciones tecnológicas ecológicas, así como los conocimientos más especializados en <strong>Manejo de residuos, Bioenergía, Ciudades Sustentables, Cuidado y manejo del agua</strong>, lo que le permitirán acelerar sus oportunidades de negocio, tomar la delantera en un entorno cada vez más complejo, y expandir sus alianzas estratégicas que le permitirán participar en los negocios verdes del presente y del futuro.",
@@ -406,9 +408,9 @@
    "footer": {
       "contact_us" : "Contáctenos",
       "foreign_contact": "Contactos extranjeros",
-      "project_manager" : "Directora de proyecto",
+      "project_manager" : "Gerente de proyecto",
       "sales_manager" : "Gerente de ventas",
-      "sales_executive" : "Ejecutivo de ventas",
+      "sales_executive" : "Especialista de Ventas",
       "privacy_policy": "Aviso de privacidad",
       "title":"Suscríbete a nuestro boletín",
       "contact": "Contacto",

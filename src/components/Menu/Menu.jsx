@@ -100,9 +100,9 @@ export function Menu() {
                 >
                   <NavDropdown.Item
                     href={
-                      i18n.language === 'es'
-                        ? '/files/ECO-2025-FS-V6-ESP_compressed.pdf'
-                        : '/files/Factsheet_Ecomondo_Mexico_2024_ENG_180624.pdf'
+                      i18n.language === "es"
+                        ? "/files/ECO_FS_ESP_25_02_08_25.pdf"
+                        : "/files/ECO_FS_ENG_25_02_08_25.pdf"
                     }
                     target='_blank'
                     onClick={handleClose}
@@ -111,9 +111,9 @@ export function Menu() {
                   </NavDropdown.Item>
                   <NavDropdown.Item
                     href={
-                      i18n.language === 'es'
-                        ? '/files/patrocionios_es_200324.pdf'
-                        : '/files/sponsorships_en_200324.pdf'
+                      i18n.language === "es"
+                        ? "/files/PATROCINIOS_ECOMONDO_2025_190624.pdf"
+                        : "/files/SPONSORSHIPS ECOMONDO_en_2025.pdf"
                     }
                     target='_blank'
                     onClick={handleClose}
@@ -121,26 +121,26 @@ export function Menu() {
                     {t('menu.sponsorships')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href='/files/ECOMONDO_floorplan_2025_v7_16_05_2024.pdf'
+                    href='/files/ecomondo_floorplan_2025_12_08_24.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
                     {t('menu.exhibitors_3')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href='/files/ECOMONDO_2025_SpaceAgreement_ED_180624.pdf'
+                    href='/files/ECO_2025_SpaceAgreement ED_02_08_25.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
                     {t('menu.exhibitors_4')}
                   </NavDropdown.Item>
-                  <NavDropdown.Item
+                  {/* <NavDropdown.Item
                     href='/files/Contrato-Patrocinios-ECO-1n.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
                     {t('menu.exhibitors_5')}
-                  </NavDropdown.Item>
+                  </NavDropdown.Item> */}
                   <NavDropdown.Item
                     as={Link}
                     to='/participate'
@@ -155,7 +155,7 @@ export function Menu() {
                   >
                     toolkit
                   </NavDropdown.Item>
-                  <NavDropdown.Item
+                  {/* <NavDropdown.Item
                     href={
                       i18n.language === 'es'
                         ? '/files/MANUAL_DEL_EXPOSITOR_ECO_230314.pdf'
@@ -165,21 +165,21 @@ export function Menu() {
                     onClick={handleClose}
                   >
                     {t('menu.exhibitors_8')}
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
+                  </NavDropdown.Item> */}
+                  {/* <NavDropdown.Item
                     as={Link}
                     to='/hotels'
                     onClick={handleClose}
                   >
                     {t('home.hotels')}
-                  </NavDropdown.Item>
+                  </NavDropdown.Item> */}
                 </NavDropdown>
                 <NavDropdown
                   title={t('menu.visitors')}
                   renderMenuOnMount
                   disabled
                 >
-                  <NavDropdown.Item
+                  {/* <NavDropdown.Item
                     as={Link}
                     to='/why-visit'
                     onClick={handleClose}
@@ -192,7 +192,7 @@ export function Menu() {
                     onClick={handleClose}
                   >
                     {t('home.hotels')}
-                  </NavDropdown.Item>
+                  </NavDropdown.Item> */}
                   <NavDropdown.Item
                     href='/files/LETTER-TEMPLATE-2024-ECO.pdf'
                     target='_blank'
@@ -206,13 +206,13 @@ export function Menu() {
                   renderMenuOnMount
                   disabled
                 >
-                  <NavDropdown.Item
+                  {/* <NavDropdown.Item
                     as={Link}
                     to='/program'
                     onClick={handleClose}
                   >
                     {t('menu.conferences_1')}
-                  </NavDropdown.Item>
+                  </NavDropdown.Item> */}
                   <NavDropdown.Item
                     as={Link}
                     to='/scientific-committee'

@@ -74,7 +74,7 @@ const Subscribe = () => {
   return (
     <Row>
       <Col className='mx-auto'>
-        <p className='fw-bold fs-6'>{t('footer.title')}</p>
+        <p className='fw-bold fs-5 fw-bold up mb-3 text-uppercase'>{t('footer.title')}</p>
         <Form id='form-newsletter' onSubmit={handleSubmit}>
           <Form.Group className='mb-3' controlId='formBasicPassword'>
             <Form.Label>{t('footer.name')}</Form.Label>
