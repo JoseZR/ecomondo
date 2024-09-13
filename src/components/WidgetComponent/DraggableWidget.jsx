@@ -17,7 +17,7 @@ const DraggableWidget = () => {
                 </a>
             </div>
             <div className="icon-wrapper">
-                <a href='https://wa.me/5578618912?text=Hola%2C%20estoy%20interesado%20en%20participar%20en%20Ecomondo%202024.' target='_blank' rel='noreferrer'>
+                <a href='https://wa.me/5578618912?text=Hola%2C%20estoy%20interesado%20en%20participar%20en%20Ecomondo%202025.' target='_blank' rel='noreferrer'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 256 258">
                         <defs>
                             <linearGradient id="IconifyId191ecf1f1423e23942" x1="50%" x2="50%" y1="100%" y2="0%">
