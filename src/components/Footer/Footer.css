@@ -48,3 +48,18 @@ footer a:hover {
     justify-content: center;
     align-items: center;
 }
+
+.txt-title-footer{
+    font-size: 20px;
+}
+
+
+.contactos-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}

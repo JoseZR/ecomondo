@@ -32,8 +32,8 @@ export function Footer() {
         <Container>
           <Row className='mt-5'>
             <Col md>
-               {/* Redes Sociales */}
-               <p className='fs-5 fw-bold'>{t("home.social_networks.title")}</p>
+              {/* Redes Sociales */}
+              <p className='fs-5 fw-bold'>{t("home.social_networks.title")}</p>
               <div className='footer-socialmedia mb-5'>
                 <a
                   href='https://www.facebook.com/EcomondoMexico'
@@ -49,7 +49,7 @@ export function Footer() {
                     <title>Facebook</title>
                     <path d='M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z' />
                   </svg>
-                  EcomondoMexico 
+                  EcomondoMexico
                 </a>
                 <a
                   href='https://www.linkedin.com/company/ecomondo-m%C3%A9xico/'
@@ -134,10 +134,10 @@ export function Footer() {
           <p className='mt-5'>
             <strong>{t('footer.foreign_contact')}</strong>
           </p>
-          <Row className='justify-content-md-center'>
+          <Row className='contactos-info'>
             <Col md>
               <p>
-                <strong>GERMANY</strong>
+                <strong className='txt-title-footer'>GERMANY</strong>
                 <br />
                 <i>ITALIAN EXHIBITION GROUP Deutschland GmbH</i>
                 <br />
@@ -169,19 +169,15 @@ export function Footer() {
             </Col>
             <Col md>
               <p>
-                <strong>UK, IRELAND</strong>
+                <strong className='txt-title-footer'>UK, IRELAND</strong>
                 <br />
                 <i>Alsea Business Media</i>
                 <br />
-                <strong>Tony Lambert</strong>
+                <strong>David Aitken</strong>
                 <br />
-                <a href='mailto:tonylambert@alseabusinessmedia.co.uk'>
-                  tonylambert@alseabusinessmedia.co.uk
-                </a>
+                <a href='mailto:david@alseabusinessmedia.co.uk'>david@alseabusinessmedia.co.uk</a>
                 <br />
-                <a href='https://www.alseabusinessmedia.co.uk' target='_blank'>
-                  www.alseabusinessmedia.co.uk
-                </a>
+                <a href='https://www.alseabusinessmedia.co.uk/' target='_blank'>www.alseabusinessmedia.co.uk</a>
               </p>
             </Col>
             <Col md>
@@ -201,24 +197,36 @@ export function Footer() {
                 </a>
               </p> */}
               <p>
-                <strong>SPAGNA & PORTOGALLO</strong>
+                <strong className='txt-title-footer'>SPAGNA & PORTOGALLO</strong>
+                <br />
+                <i>Iberian Trade Fairs SL</i>
+                <br />
+                <strong>Jaime de la Figuera</strong>
+                <br />
+                <a href='mailto:Jaime.delafiguera@iberiantradefairs.com'>Jaime.delafiguera@iberiantradefairs.com</a>
+                <br />
+                <a href='https://www.iberiantradefairs.com/' target='_blank'>www.iberiantradefairs.com</a>
+              </p>
+            </Col>
+          </Row>
+
+          <Row className='contactos-info justify-content-md-center'>
+            <Col>
+              <p>
+                <strong className='txt-title-footer'>LATINOAMÉRICA</strong>
                 <br />
                 <i>Proa Latam</i>
                 <br />
                 <strong>Antonino Di Marco</strong>
                 <br />
-                <a href='mailto:adimarco@proalatam.com'>
-                  adimarco@proalatam.com
-                </a>
+                <a href='mailto:adimarco@proalatam.com'>adimarco@proalatam.com</a>
                 <br />
-                <a href='https://www.proalatam.com' target='_blank'>
-                  www.proalatam.com
-                </a>
+                <a href='https://proalatam.com/' target='_blank'>www.proalatam.com</a>
               </p>
             </Col>
             <Col>
-            <p>
-                <strong>CHINA</strong>
+              <p>
+                <strong className='txt-title-footer'>CHINA</strong>
                 <br />
                 <i>IEG CHINA</i>
                 <br />
@@ -232,6 +240,7 @@ export function Footer() {
               </p>
             </Col>
           </Row>
+
           <div className='mt-5 footer-language d-flex'>
             <a href='https://igeco.mx' target='_blank'>
               <strong>Italian German Exhibition Company</strong>
