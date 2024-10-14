@@ -498,7 +498,34 @@
       "description":"Le ofrecemos...",
       "item01":"Una presentación conjunta presentación a precios preferenciales",
       "item02":"Servicios adicionales como salón catering, organización completa, evento de matchmaking, servicios de marketing."
-   }
+   },
+   "information-center":{
+      "title":"Centro de información",
+      "item01":"Superficie de presentación aprox. 2m²",
+      "item02":"Espacio publicitario en la pared",
+      "item03":"1 mesa alta",
+      "item04":"1 silla",
+      "item05":"1 estante para folletos",
+      "item06":"Iluminación de la zona"
+   },
+   "stand-space":{
+      "title":"Espacio para stand",
+      "item01":"Espacio para stand con construcción de stand",
+      "item02":"Mostrador de información",
+      "item03":"1 mesa",
+      "item04":"4 sillas",
+      "item05":"1 taburete de bar",
+      "item06":"Iluminación general",
+      "item07":"1 toma de corriente",
+      "item08":"Papelera",
+      "item09":"Limpieza diaria"
+   },
+   "participation-fee":{
+      "element1":"Cuota de participación espacio del stand <br />340 EUR / m² (IVA incl.)",
+      "element2":"Cuota de participación centro de información <br /> 900 EUR",
+      "deadline":"🗓️ Fecha límite de inscripción: <br /> 18 de diciembre de 2024"
+   } ,
+   "contact-us":"Contáctenos"
 }
 
 }

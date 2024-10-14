@@ -16,6 +16,12 @@
     color: rgb(3, 110, 12);
 }
 
+.title-deadline{
+    font-size: 40px;
+    color: rgb(210, 8, 8);
+    font-weight: bold;
+}
+
 .sub-text{color: white;}
 
 .text-desc{
@@ -52,6 +58,9 @@
     align-items: center;
 }
 
+.size-img-information{
+    height: 400px;
+}
 
 
 

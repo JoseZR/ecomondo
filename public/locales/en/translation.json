@@ -499,7 +499,33 @@
       "description":"We offer...",
       "item01":"A highly attractive joint presentation at preferential prices",
       "item02":"Additional Services such as lounge, catering, full organization, matchmaking event, marketing services."
-   }
-   
+   },
+   "information-center":{
+      "title":"Information Center",
+      "item01":"Presentation area approx. 2m²",
+      "item02":"Wall advertising space",
+      "item03":"1 high table",
+      "item04":"1 chair",
+      "item05":"1 brochure rack",
+      "item06":" Illumination of the area"
+   },
+   "stand-space":{
+      "title":"Stand Space",
+      "item01":"Stand space with stand construction",
+      "item02":"Info counter",
+      "item03":"1 table",
+      "item04":"4 chairs",
+      "item05":"1 bar stool",
+      "item06":"General lighting",
+      "item07":"1 Power socket",
+      "item08":"Wastepaper basket",
+      "item09":"Daily cleaning"
+   },
+   "participation-fee":{
+      "element1 ":"Participation Fee stand space <br />340 EUR / m² (incl. VAT)",
+      "element2":"Participation Fee information center <br / 900 EUR",
+      "deadline":"Registration deadline : 18th December 2024"
+   },
+    "contact-us":"Contact us now:"
 }
 }
