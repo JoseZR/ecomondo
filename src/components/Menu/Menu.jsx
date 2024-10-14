@@ -110,6 +110,13 @@ export function Menu() {
                     {t('menu.exhibitors_2')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
+                    as={Link}
+                    to='/german-pavilion'
+                    onClick={handleClose}
+                  >
+                    { t ('menu.german-pavilion') }
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
                     href={
                       i18n.language === "es"
                         ? "/files/PATROCINIOS_ECOMONDO_2025_190624.pdf"

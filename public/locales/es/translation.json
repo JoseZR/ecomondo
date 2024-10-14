@@ -31,7 +31,8 @@
         "media_hub_1": "Galeria",
         "banner": "¡Regístrate gratis!",
         "sponsorships":"Quiero ser patrocinador",
-        "directory":"Directorio de Expositores 2024"
+        "directory":"Directorio de Expositores 2024",
+        "german-pavilion" : "Pabellón de Alemania"
    },
    "home" :{
         "slogan": "La feria de tecnología ambiental y economía circular.",
@@ -487,6 +488,17 @@
    "position1":"Directora Global de Exposiciones Green & Technology IEG",
    "position2":"Directora de Desarrollo de Negocio Internacional",
    "position3":"Director Internacional de Proyectos"
+},
+"german-pavilion":{
+   "title" : "PABELLÓN ALEMÁN",
+   "date" : "5 - 7 marzo 2025 | Guadalajara, México",
+   "description1" : "Juntos somos fuertes <br /> ¡Forme parte del Pabellón Alemán en ECOMONDO 2025!",
+   "partnership":{
+      "title":"¿Quiere ganar nuevos clientes?",
+      "description":"Le ofrecemos...",
+      "item01":"Una presentación conjunta presentación a precios preferenciales",
+      "item02":"Servicios adicionales como salón catering, organización completa, evento de matchmaking, servicios de marketing."
+   }
 }
 
 }

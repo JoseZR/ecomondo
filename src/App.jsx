@@ -19,6 +19,7 @@ import { ScientificComittee } from './components/ScientificComittee/ScientificCo
 import ScrollToTop from './components/ScrollToTop'
 import { HomeNew } from './components/HomeNew/HomeNew'
 import DraggableWidget from './components/WidgetComponent/DraggableWidget'
+import { GermanPavilion } from './components/GermanPavilion/GermanPavilion'
 
 function App() {
   const location = useLocation()
@@ -59,6 +60,7 @@ function App() {
         <Route path='scientific-committee' element={<ScientificComittee />} />
         <Route path='hotels' element={<Hotels />} />
         <Route path='homeNew' element={<HomeNew />} />
+        <Route path='german-pavilion' element={<GermanPavilion />} />
       </Routes>
       <Footer />
     </>

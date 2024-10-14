@@ -31,7 +31,8 @@
         "media_hub_1": "Gallery",
         "banner": "Online free registration!",
         "sponsorships":"I want to become a sponsor",
-        "directory":"Exhibitor Directory 2024"
+        "directory":"Exhibitor Directory 2024",
+        "german-pavilion" : "German Pavilion"
    },
    "home" :{   
          "slogan": "The environmental technology and circular economy fair.",
@@ -488,5 +489,17 @@
      "position1":"Global Exhibition Director Green & Technology IEG",
      "position2":"International Business Development Manager",
      "position3":"International Project Manager"
-  }
+  },
+  "german-pavilion":{
+   "title":"GERMAN PAVILION",
+   "date" : "5 – 7 March 2025 | Guadalajara, Mexico",
+   "description1" : "Strong together <br /> Become part of the German Pavilion at ECOMONDO 2025!",
+   "partnership":{
+      "title":"Do you want to win new customers?",
+      "description":"We offer...",
+      "item01":"A highly attractive joint presentation at preferential prices",
+      "item02":"Additional Services such as lounge, catering, full organization, matchmaking event, marketing services."
+   }
+   
+}
 }

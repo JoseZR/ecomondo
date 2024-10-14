@@ -1,0 +1,71 @@
+.bg-pavilion{
+    background-image: linear-gradient(to right top, #024d1d, #005d1f, #006e1f, #007f1d, #009018, #009115, #009211, #00930c, #00830e, #00740e, #00650e, #00560d);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-germanPavilion1{
+    font-size: 50px;
+    color: white;
+}
+
+.title-germanPavilion2{
+    font-size: 40px;
+    color: rgb(3, 110, 12);
+}
+
+.sub-text{color: white;}
+
+.text-desc{
+    font-size: 25px;
+    font-style: italic;
+    columns: white;
+}
+
+.liner{border: #ffffff 2px solid;}
+
+.bg-prices{
+    background-color: #e9fbe6;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.packages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.package-item{
+    height: 200px;
+    width: 350px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    .packages{
+        flex-direction: column;
+    }   
+}
+
+@media (max-width: 576px) {
+
+    
+}
+
+
