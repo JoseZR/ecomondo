@@ -65,9 +65,29 @@
 
 .container-contact{ width: 300px; }
 
+.btn-contact{
+    background-color: #ffffff;
+    color: rgb(11, 67, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%;
+    margin-top: 10px;
+
+}
+
+.btn-contact:hover{
+    background-color: #2452f9;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%;
+    margin-top: 10px;
+}
+
 
 /* Media Queries */
-
 @media (max-width: 768px) {
     .packages{
         flex-direction: column;

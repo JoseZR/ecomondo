@@ -68,13 +68,60 @@ export function GermanPavilion() {
                         <p>
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.6 14.522c-2.395 2.52-8.504-3.534-6.1-6.064c1.468-1.545-.19-3.31-1.108-4.609c-1.723-2.435-5.504.927-5.39 3.066c.363 6.746 7.66 14.74 14.726 14.042c2.21-.218 4.75-4.21 2.214-5.669c-1.267-.73-3.008-2.17-4.342-.767" /></svg> Tel. (+49) 511 89-31418</p>
                         <p>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="#ffffff" d="M1 3h22v18H1zm2 2v1.83l9 4.55l9-4.55V5zm18 4.07l-9 4.55l-9-4.55V19h18z" /></svg> sandra.mathews@messe.de</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="#ffffff" d="M1 3h22v18H1zm2 2v1.83l9 4.55l9-4.55V5zm18 4.07l-9 4.55l-9-4.55V19h18z" /></svg> sandra.mathews@messe.de
+                        </p>
+                        <a
+                                href="mailto:sandra.mathews@messe.de"
+                                target="_blank"
+                                className="text-decoration-none packages"
+                                rel="noreferrer"
+                            >
+                                <div className="btn-contact">
+                                    {t("footer.message_button")}
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="20"
+                                        height="20"
+                                        viewBox="0 0 15 15"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            fillRule="evenodd"
+                                            d="M2.146 11.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 1 0-.708.708L5.793 7.5zm6 0a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 1 0-.708.708L11.793 7.5z"
+                                            clipRule="evenodd"
+                                        />
+                                    </svg>
+                                </div>
+                            </a>
                     </div>
                     <div className='container-contact'>
                         <p className='fw-bold'> Stefanie Surmann </p>
                         <p> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.6 14.522c-2.395 2.52-8.504-3.534-6.1-6.064c1.468-1.545-.19-3.31-1.108-4.609c-1.723-2.435-5.504.927-5.39 3.066c.363 6.746 7.66 14.74 14.726 14.042c2.21-.218 4.75-4.21 2.214-5.669c-1.267-.73-3.008-2.17-4.342-.767" /></svg>Tel. (+49) 511 89-31103 </p>
                         <p> 
-                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="#ffffff" d="M1 3h22v18H1zm2 2v1.83l9 4.55l9-4.55V5zm18 4.07l-9 4.55l-9-4.55V19h18z" /></svg> Stefanie.surmann@messe.de </p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="#ffffff" d="M1 3h22v18H1zm2 2v1.83l9 4.55l9-4.55V5zm18 4.07l-9 4.55l-9-4.55V19h18z" /></svg> Stefanie.surmann@messe.de</p>
+                            <a
+                                href="mailto:Stefanie.surmann@messe.de"
+                                target="_blank"
+                                className="text-decoration-none packages"
+                                rel="noreferrer"
+                            >
+                                <div className="btn-contact">
+                                    {t("footer.message_button")}
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="20"
+                                        height="20"
+                                        viewBox="0 0 15 15"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            fillRule="evenodd"
+                                            d="M2.146 11.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 1 0-.708.708L5.793 7.5zm6 0a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 1 0-.708.708L11.793 7.5z"
+                                            clipRule="evenodd"
+                                        />
+                                    </svg>
+                                </div>
+                            </a>
                     </div>
                 </div>
             </div>
