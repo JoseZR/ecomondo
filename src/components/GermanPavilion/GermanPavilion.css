@@ -92,6 +92,12 @@
     .packages{
         flex-direction: column;
     }   
+
+    .title-germanPavilion2{
+        font-size:25px;
+        font-weight: 500;
+        color: rgb(3, 110, 12);
+    }
 }
 
 @media (max-width: 576px) {
