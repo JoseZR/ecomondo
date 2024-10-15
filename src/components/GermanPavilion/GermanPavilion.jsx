@@ -56,7 +56,7 @@ export function GermanPavilion() {
                 </div>
             </div>
             <div>
-                <p className='title-germanPavilion2' dangerouslySetInnerHTML={{ __html: t("german-pavilion.participation-fee.element1") }} />
+                <p className='title-germanPavilion2' dangerouslySetInnerHTML={{ __html: t("german-pavilion.participation-fee.element1") }} /><br />
                 <p className='title-germanPavilion2' dangerouslySetInnerHTML={{ __html: t("german-pavilion.participation-fee.element2") }} />
                 <p className='title-deadline' dangerouslySetInnerHTML={{ __html: t("german-pavilion.participation-fee.deadline") }} />
             </div>
