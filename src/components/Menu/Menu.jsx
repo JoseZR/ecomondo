@@ -110,8 +110,8 @@ export function Menu() {
                     {t('menu.exhibitors_2')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    as={Link}
-                    to='/german-pavilion'
+                    href='/files/Factsheet_German_Pavilion_Englisch_.pdf'
+                    target='_blank'
                     onClick={handleClose}
                   >
                     { t ('menu.german-pavilion') }
