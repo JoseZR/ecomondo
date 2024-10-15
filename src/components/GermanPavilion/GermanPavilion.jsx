@@ -10,8 +10,8 @@ export function GermanPavilion() {
                     <p className='fw-bold pt-5 title-germanPavilion1'>{t("german-pavilion.title")}</p>
                     <hr className='liner' />
                     <p className='fs-2 fw-bolder'>ECOMONDO</p>
-                    <p className=''> {t("german-pavilion.date")}</p><br />
-                    <p className='text-desc' dangerouslySetInnerHTML={{ __html: t("german-pavilion.description1") }} />
+                    <p className='fs-4'> {t("german-pavilion.date")}</p><br />
+                    <p className='text-desc fw-bold' dangerouslySetInnerHTML={{ __html: t("german-pavilion.description1") }} />
                 </div>
             </div>
             <div className='bg-prices'>
