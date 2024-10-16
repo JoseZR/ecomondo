@@ -1,0 +1,75 @@
+.grid-logos {
+    display: grid;
+    gap: 16px; /* Espacio entre los elementos */
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas por defecto */
+  }
+  
+  @media (min-width: 640px) {
+    .grid-logos {
+      grid-template-columns: repeat(3, 1fr); /* 3 columnas en pantallas pequeñas */
+    }
+
+    .grid-logos img {
+        max-height: 50px; /* Control de altura máxima */
+      }
+  }
+  
+  @media (min-width: 768px) {
+    .grid-logos {
+      grid-template-columns: repeat(4, 1fr); /* 4 columnas en pantallas medianas */
+    }
+
+    
+    .grid-logos img {
+        max-height: auto; /* Control de altura máxima */
+      }
+  }
+  
+  @media (min-width: 1024px) {
+    .grid-logos {
+      grid-template-columns: repeat(6, 1fr); /* 6 columnas en pantallas grandes */
+    }
+  }
+  
+  .grid-logos img {
+    max-height: 80px; /* Control de altura máxima */
+    width: auto; /* Mantiene la proporción del logo */
+    display: block;
+    margin: auto;
+  }
+  
+  .grid-logos div {
+    padding: 16px; /* Espaciado interno */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .container-logos{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */ 
+  }
+  
+
+  .container-logos {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+          /* Ocupe toda la altura de la pantalla */
+  }
+
+  .grid-logos {
+    display: grid;
+    gap: 16px; /* Espacio entre los elementos */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Cuadrícula flexible */
+    width: 100%;
+    max-width: 1200px; /* Controla el ancho máximo */
+  }
+  
+  .img-size {
+    max-height: 100px; /* Limita la altura de las imágenes */
+    width: auto;
+    display: block;
+  }

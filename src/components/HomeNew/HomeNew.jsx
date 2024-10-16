@@ -5,6 +5,7 @@ import "./HomeNew.css";
 import { useTranslation } from "react-i18next";
 import Marquee from "react-fast-marquee";
 import { Bullets } from "../Home/Bullets";
+import { exhibitors } from '../../logos';
 
 import {
   exhibitors1,
@@ -19,6 +20,7 @@ import { GalleryYear } from "../GalleryPage/GalleryYear";
 import { gallery2024 } from "../GalleryPage/constans_gallery";
 import { Rates } from "../Rates/Rates";
 import { PersonContact } from "../Contact/PersonContact";
+import { LogoGrid } from "../LogoGrid/LogoGrid";
 
 export function HomeNew() {
   const { t, i18n } = useTranslation();
@@ -92,7 +94,7 @@ export function HomeNew() {
               </p>
               <br />
             </Col>
-            <iframe width="560" height="315" src= { i18n.language === "es"  ? "https://www.youtube.com/embed/ijct9R6jcsg?autoplay=1&mute=1&loop=1&playlist=ijct9R6jcsg" : "https://www.youtube.com/embed/di7A6WcuEwQ?autoplay=1&mute=1&loop=1&playlist=di7A6WcuEwQ"}   frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src={i18n.language === "es" ? "https://www.youtube.com/embed/ijct9R6jcsg?autoplay=1&mute=1&loop=1&playlist=ijct9R6jcsg" : "https://www.youtube.com/embed/di7A6WcuEwQ?autoplay=1&mute=1&loop=1&playlist=di7A6WcuEwQ"} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </Row>
         </article>
       </Container>
@@ -171,7 +173,7 @@ export function HomeNew() {
             </a>
           </Col>
         </Row>
-        <p
+        {/* <p
           className="fw-bold mt-5 fs-3 home-text-color text-uppercase"
           style={{ color: "#288705" }}
         >
@@ -202,7 +204,7 @@ export function HomeNew() {
               />
             </a>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
 
       <Container fluid className="p-0 m-0">
@@ -376,7 +378,7 @@ export function HomeNew() {
       <PersonContact />
 
       {/* LOGOS DE EXPOSITORES */}
-      <Container className="pt-5 pb-5">
+      {/* <Container className="pt-5 pb-5">
         <p className="fw-bold fs-2 text-center" style={{ color: "#288705" }}>
           {t("home.exhibitors")} 2024
         </p>
@@ -419,8 +421,8 @@ export function HomeNew() {
             </div>
           ))}
         </Marquee>
-      </Container>
-      <Container className="py-5">
+      </Container> */}
+      {/* <Container className="py-5">
         <p
           className="fw-bold fs-2 text-center text-uppercase"
           style={{ color: "#288705" }}
@@ -454,8 +456,8 @@ export function HomeNew() {
             </div>
           ))}
         </Marquee>
-      </Container>
-      <Container className="py-5">
+      </Container> */}
+      {/* <Container className="py-5">
         <p
           className="fw-bold fs-2 text-center text-uppercase"
           style={{ color: "#288705" }}
@@ -488,7 +490,12 @@ export function HomeNew() {
             </div>
           ))}
         </Marquee>
-      </Container>
+      </Container> */}
+
+      <div className="py-5">
+        <p className="fw-bold fs-2 text-center py-3" style={{ color: "#288705" }}>{t("home.confirmed-exhibitors")}</p>
+        <LogoGrid logos={exhibitors} />
+      </div>
 
       {/* ALIADOS ESTRATÉGICOS y MEDIA PARTNERS */}
       <section className="">
