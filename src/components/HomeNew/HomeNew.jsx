@@ -493,7 +493,7 @@ export function HomeNew() {
       </Container> */}
 
       <div className="py-5">
-        <p className="fw-bold fs-2 text-center py-3" style={{ color: "#288705" }}>{t("home.confirmed-exhibitors")}</p>
+        <p className="fw-bold fs-2 text-center py-3" style={{ color: "#288705" }}>{t("home.confirmed-exhibitors")} 2025</p>
         <LogoGrid logos={exhibitors} />
       </div>
 
