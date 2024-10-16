@@ -48,15 +48,15 @@ export function PersonContact() {
               </Col>
               <Col md className='text-center pt-3'>
                 <img
-                  src='/janai-medina.webp'
-                  alt='Sandra Elias'
+                  src='/rafael_ramirez.webp'
+                  alt='Rafaél Ramírez'
                   height={150}
                   loading='lazy'
                   className='rounded-circle'
                 />
-                <p className='fw-bold fs-5'>Janai Medina<br />{t("footer.sales_executive")}</p>
-                <a href='mailto:janai.medina@igeco.mx' className='text-white fw-bold'>janai.medina@igeco.mx</a><br /><br />
-                <a href='mailto:janai.medina@igeco.mx'><Button variant="outline-light" size="lg"> {t('footer.message_button')}</Button></a>
+                <p className='fw-bold fs-5'>Rafaél Ramírez<br />{t("footer.sales_executive")}</p>
+                <a href='mailto:rafael.ramirez@igeco.mx' className='text-white fw-bold'>rafael.ramirez@igeco.mx</a><br /><br />
+                <a href='mailto:rafael.ramirez@igeco.mx'><Button variant="outline-light" size="lg"> {t('footer.message_button')}</Button></a>
               </Col>
             </Row>
             {/* <Row className='gap-6 mt-5 justify-content-md-center'><Col sm={12} md={4} lg={4} xl={4} xx={4} className='text-center pt-3'>
