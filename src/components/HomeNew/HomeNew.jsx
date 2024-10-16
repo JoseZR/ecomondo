@@ -500,8 +500,8 @@ export function HomeNew() {
       </div>
 
       {/* ALIADOS ESTRATÉGICOS 2025 */}
-      <div className="py-5">
-        <p className="fw-bold fs-2 text-center py-3" style={{ color: "#288705" }}>{t("home.strategies_allies")} 2025</p>
+      <div className="">
+        <p className="fw-bold fs-2 text-center" style={{ color: "#288705" }}>{t("home.strategies_allies")} 2025</p>
         <LogoGrid logos={strategicAllies} />
       </div>
 
@@ -713,7 +713,7 @@ export function HomeNew() {
             </div>
           </Marquee> */}
           <p
-            className="fw-bold fs-2 text-center mt-5 pt-5"
+            className="fw-bold fs-2 text-center pt-5"
             style={{ color: "#288705" }}
           >
             MEDIA PARTNERS 2024
