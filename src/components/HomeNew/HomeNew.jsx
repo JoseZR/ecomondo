@@ -502,7 +502,8 @@ export function HomeNew() {
       {/* ALIADOS ESTRATÉGICOS 2025 */}
       <div className="">
         <p className="fw-bold fs-2 text-center" style={{ color: "#288705" }}>{t("home.strategies_allies")} 2025</p>
-        <LogoGrid logos={strategicAllies} />
+        {/* <LogoGrid logos={strategicAllies} /> */}
+        <img src="/strategicAllies/onudi_v2.webp" alt="" className="onudi-size"/>
       </div>
 
       {/* ALIADOS ESTRATÉGICOS y MEDIA PARTNERS */}
