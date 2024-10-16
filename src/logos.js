@@ -8,7 +8,7 @@ const exhibitors = [
     ]
 
 const strategicAllies = [
-    { link: '', src: '/strategicAllies/onudi.webp', alt: 'aliado estratégico' },
+    { link: '', src: '/strategicAllies/onudi_v2.webp', alt: 'onudi' }   
     ]
 
 export { exhibitors, strategicAllies }
