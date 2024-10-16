@@ -62,14 +62,13 @@
 
   .grid-logos {
     display: grid;
-    gap: 16px; /* Espacio entre los elementos */
+    gap: 8px; /* Espacio entre los elementos */
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Cuadrícula flexible */
     width: 100%;
     max-width: 1200px; /* Controla el ancho máximo */
   }
-  
-  .img-size {
-    max-height: 100px; /* Limita la altura de las imágenes */
-    width: auto;
-    display: block;
+
+  .mg-size{
+    width: 400px;
   }
+  

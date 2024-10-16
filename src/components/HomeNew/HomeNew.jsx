@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 import Marquee from "react-fast-marquee";
 import { Bullets } from "../Home/Bullets";
 import { exhibitors } from '../../logos';
+import { strategicAllies } from '../../logos';
 
 import {
   exhibitors1,
@@ -492,15 +493,22 @@ export function HomeNew() {
         </Marquee>
       </Container> */}
 
+       {/* EXPOSITORES 2025 */}
       <div className="py-5">
         <p className="fw-bold fs-2 text-center py-3" style={{ color: "#288705" }}>{t("home.confirmed-exhibitors")} 2025</p>
         <LogoGrid logos={exhibitors} />
       </div>
 
+      {/* ALIADOS ESTRATÉGICOS 2025 */}
+      <div className="py-5">
+        <p className="fw-bold fs-2 text-center py-3" style={{ color: "#288705" }}>{t("home.strategies_allies")} 2025</p>
+        <LogoGrid logos={strategicAllies} />
+      </div>
+
       {/* ALIADOS ESTRATÉGICOS y MEDIA PARTNERS */}
-      <section className="">
-        <Container className="">
-          <p className="fw-bold fs-2 text-center" style={{ color: "#288705" }}>
+      <section>
+        <Container>
+          {/* <p className="fw-bold fs-2 text-center" style={{ color: "#288705" }}>
             {t("home.strategies_allies")} 2024
           </p>
           <Marquee gradient direction="letf">
@@ -563,7 +571,7 @@ export function HomeNew() {
                 />
               </a>
             </div>
-            {/* <div className='exibitorSlider text-center h-100'>
+            <div className='exibitorSlider text-center h-100'>
               <a
                 href='https://www.giz.de/en/worldwide/33041.html'
                 target='_blank'
@@ -577,7 +585,7 @@ export function HomeNew() {
                   alt='giz'
                 />
               </a>
-            </div> */}
+            </div>
             <div className="exibitorSlider text-center h-100">
               <a
                 href="https://ambcittadelmessico.esteri.it/it/"
@@ -673,7 +681,7 @@ export function HomeNew() {
                 />
               </a>
             </div>
-            {/* <div className='exibitorSlider text-center h-100'>
+            <div className='exibitorSlider text-center h-100'>
               <a href='' target='_blank' rel='noreferrer'>
                 <img
                   src='/logos/kas.webp'
@@ -682,7 +690,7 @@ export function HomeNew() {
                   alt='kas'
                 />
               </a>
-            </div> */}
+            </div>
             <div className="exibitorSlider text-center h-100">
               <a href="" target="_blank" rel="noreferrer">
                 <img
@@ -703,7 +711,7 @@ export function HomeNew() {
                 />
               </a>
             </div>
-          </Marquee>
+          </Marquee> */}
           <p
             className="fw-bold fs-2 text-center mt-5 pt-5"
             style={{ color: "#288705" }}
@@ -1004,6 +1012,7 @@ export function HomeNew() {
           </Marquee>
         </Container>
       </section>
+
       <Container className="galleryPage">
         <h1 className="gallery-title pt-5">
           {t("menu.media_hub_1")} Ecomondo 2024
