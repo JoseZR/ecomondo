@@ -54,7 +54,7 @@ export function PersonContact() {
                   loading='lazy'
                   className='rounded-circle'
                 />
-                <p className='fw-bold fs-5'>Rafaél Ramírez<br />{t("footer.sales_executive")}</p>
+                <p className='fw-bold fs-5'>Rafael Ramírez<br />{t("footer.sales_executive")}</p>
                 <a href='mailto:rafael.ramirez@igeco.mx' className='text-white fw-bold'>rafael.ramirez@igeco.mx</a><br /><br />
                 <a href='mailto:rafael.ramirez@igeco.mx'><Button variant="outline-light" size="lg"> {t('footer.message_button')}</Button></a>
               </Col>

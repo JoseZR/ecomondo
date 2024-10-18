@@ -120,7 +120,7 @@ export function Footer() {
                   <Image src="/rafael_ramirez.webp" roundedCircle width='85' />
                 </Col>
                 <Col xs={8} md={12} lg={8}>
-                  <strong>Rafaél Ramírez</strong><br />
+                  <strong>Rafael Ramírez</strong><br />
                   {t('footer.sales_executive')}<br />
                   <a href='mailto:rafael.ramirez@igeco.mx'>rafael.ramirez@igeco.mx</a>
                   <a href='mailto:rafael.ramirez@igeco.mx'><Button variant="success" size="sm"> {t('footer.message_button')}</Button></a>
